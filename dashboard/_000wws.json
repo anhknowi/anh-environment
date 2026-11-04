@@ -15,6 +15,22 @@
       "sizeY": 14,
       "sizeYOriginal": 0,
       "width": 0
+    },
+    {
+      "chartUrl": "${ref:widget:zm12gH}",
+      "col": 1,
+      "dashboardIdentifier": "_000wws",
+      "grain": 1,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 15,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 12,
+      "sizeY": 12,
+      "sizeYOriginal": 0,
+      "width": 0
     }
   ],
   "dashboards": [
