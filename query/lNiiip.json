@@ -33,6 +33,7 @@
           "replaceAll": true
         },
         "queryStr": "select *",
+        "tableName": "${ref:dataset:Voo3dE}",
         "triggered": false
       },
       "op": 6,

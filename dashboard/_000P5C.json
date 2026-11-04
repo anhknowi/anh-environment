@@ -1,0 +1,70 @@
+{
+  "dashboards": [
+    {
+      "dashAccessLevel": 0,
+      "displayOrder": 0,
+      "filterSettings": null,
+      "identifier": "_000P5C",
+      "jsonConfig": {
+        "excludeExpandedGridFromPdfExport": false,
+        "excludeGridWidgetsFromPdfExport": false,
+        "filters": [
+          {
+            "enabled": true,
+            "fieldName": "campaign_name",
+            "fieldType": "java.lang.String",
+            "hitList": 0,
+            "operator": "Not Equals",
+            "plainControlType": "multiple",
+            "transientFilter": false,
+            "type": "java.lang.String",
+            "values": [],
+            "visible": true
+          },
+          {
+            "enabled": true,
+            "fieldName": "bounced",
+            "fieldType": "java.lang.Integer",
+            "operator": "Equals",
+            "plainControlType": "multiple",
+            "transientFilter": false,
+            "type": "java.lang.Integer",
+            "values": [],
+            "visible": true
+          }
+        ],
+        "view": {
+          "actions": true,
+          "backgroundColor": "#F0F1F2",
+          "border": true,
+          "dashFiltersPinToTop": false,
+          "dashFreeWidget": false,
+          "dashGrouping": false,
+          "dashLoadUponPrompt": false,
+          "dashTheme": "light",
+          "dashTitle": true,
+          "drag": true,
+          "enableDashFilterIcon": true,
+          "enableHeaders": true,
+          "enablePdfExport": true,
+          "enablePptExport": true,
+          "enablePresenter": true,
+          "filter": true,
+          "instantSightsIcon": true,
+          "resize": true,
+          "setting": true,
+          "title": true,
+          "widgetSpacing": 5
+        }
+      },
+      "locked": 0,
+      "name": "Copy Of B1",
+      "screenAdjust": 1,
+      "screenHeight": 975,
+      "screenWidth": 1620,
+      "type": 1,
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

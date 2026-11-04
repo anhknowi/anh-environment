@@ -3,7 +3,7 @@
     {
       "acl": null,
       "connectSchema": false,
-      "connectorId": 562,
+      "connectorId": 1,
       "datasource": "mysql",
       "directQueryOnly": false,
       "inUse": true,

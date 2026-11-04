@@ -34,6 +34,7 @@
           "replaceAll": true
         },
         "queryStr": "select *",
+        "tableName": "${ref:dataset:Kj21bi}",
         "triggered": false
       },
       "op": 1,

@@ -41,11 +41,12 @@
           "replaceAll": true
         },
         "queryStr": "select date_format(date, \"EEE MMM-dd\")",
+        "tableName": "${ref:dataset:VWQcJi}",
         "triggerOnAny": false,
         "triggered": true,
         "visual": false
       },
-      "op": 4,
+      "op": 6,
       "scheduled": 0,
       "storeConfig": null,
       "storeDatasourceId": 0,

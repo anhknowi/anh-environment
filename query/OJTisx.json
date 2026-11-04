@@ -53,10 +53,12 @@
             },
             "joinType": "RIGHT OUTER JOIN",
             "queryStr": "select *\nlimit 10000",
+            "tableName": "${ref:dataset:qAR6l6}",
             "visual": true
           }
         ],
         "queryStr": "select sum('Sum of clicks') as 'total clicks', customer, 1 as 'top_five'\ngroup by customer\norder by 'total clicks' desc\nlimit 5",
+        "tableName": "${ref:dataset:qAR6l6}",
         "triggered": false,
         "visual": false
       },

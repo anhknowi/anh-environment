@@ -41,6 +41,7 @@
           "replaceAll": true
         },
         "queryStr": "select Week+90000000000000 as Week, Date+90000000000000 as Date, *",
+        "tableName": "${ref:dataset:tSr1Ux}",
         "triggered": false,
         "visual": false
       },

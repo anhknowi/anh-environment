@@ -33,6 +33,7 @@
           "replaceAll": true
         },
         "queryStr": "select *",
+        "tableName": "${ref:dataset:tSr1Ux}",
         "triggered": false
       },
       "op": 1,

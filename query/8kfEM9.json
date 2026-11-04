@@ -42,6 +42,7 @@
           "replaceAll": true
         },
         "queryStr": "select Borough as 'ABC (XYZ)',\n cuisine as 'NNN (AAA)'\nlimit 10000",
+        "tableName": "${ref:dataset:4xis8p}",
         "triggered": false
       },
       "op": 2,

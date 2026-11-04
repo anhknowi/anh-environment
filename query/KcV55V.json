@@ -41,6 +41,7 @@
           "replaceAll": true
         },
         "queryStr": "select week as IndexWeek\ngroup by week\norder by IndexWeek",
+        "tableName": "${ref:dataset:RpokKv}",
         "triggered": false
       },
       "op": 1,
