@@ -1,0 +1,250 @@
+{
+  "chartAssociations": [
+    {
+      "chartUrl": "RMY4xz",
+      "jsonConfig": [
+        {
+          "id": "${ref:widget:sXoiia}",
+          "type": "widget"
+        }
+      ]
+    }
+  ],
+  "chartProperties": [
+    {
+      "chartUrl": "RMY4xz",
+      "dashboardIdentifier": null,
+      "property": "chart.column.ignore",
+      "value": ""
+    },
+    {
+      "chartUrl": "RMY4xz",
+      "dashboardIdentifier": null,
+      "property": "chart.dataset.limit",
+      "value": "10"
+    },
+    {
+      "chartUrl": "RMY4xz",
+      "dashboardIdentifier": null,
+      "property": "chart.display.theme",
+      "value": ""
+    },
+    {
+      "chartUrl": "RMY4xz",
+      "dashboardIdentifier": null,
+      "property": "chart.legend.column",
+      "value": ""
+    },
+    {
+      "chartUrl": "RMY4xz",
+      "dashboardIdentifier": null,
+      "property": "chart.primary.ylabel",
+      "value": ""
+    },
+    {
+      "chartUrl": "RMY4xz",
+      "dashboardIdentifier": null,
+      "property": "chart.secondary.type",
+      "value": ""
+    },
+    {
+      "chartUrl": "RMY4xz",
+      "dashboardIdentifier": null,
+      "property": "chart.secondary.y",
+      "value": ""
+    },
+    {
+      "chartUrl": "RMY4xz",
+      "dashboardIdentifier": null,
+      "property": "chart.secondary.ylabel",
+      "value": ""
+    },
+    {
+      "chartUrl": "RMY4xz",
+      "dashboardIdentifier": null,
+      "property": "chart.secondary.zIndex",
+      "value": ""
+    },
+    {
+      "chartUrl": "RMY4xz",
+      "dashboardIdentifier": null,
+      "property": "chart.series.data",
+      "value": ""
+    },
+    {
+      "chartUrl": "RMY4xz",
+      "dashboardIdentifier": null,
+      "property": "chart.series.type",
+      "value": ""
+    },
+    {
+      "chartUrl": "RMY4xz",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "datagrid"
+    },
+    {
+      "chartUrl": "RMY4xz",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.column",
+      "value": ""
+    },
+    {
+      "chartUrl": "RMY4xz",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.order",
+      "value": ""
+    },
+    {
+      "chartUrl": "RMY4xz",
+      "dashboardIdentifier": null,
+      "property": "chart.yAxis.max",
+      "value": ""
+    },
+    {
+      "chartUrl": "RMY4xz",
+      "dashboardIdentifier": null,
+      "property": "chart.yAxis.tickInterval",
+      "value": ""
+    },
+    {
+      "chartUrl": "RMY4xz",
+      "dashboardIdentifier": null,
+      "property": "chartColor",
+      "value": ""
+    },
+    {
+      "chartUrl": "RMY4xz",
+      "dashboardIdentifier": null,
+      "property": "container.name",
+      "value": "Chart"
+    },
+    {
+      "chartUrl": "RMY4xz",
+      "dashboardIdentifier": null,
+      "property": "custom.field",
+      "value": ""
+    },
+    {
+      "chartUrl": "RMY4xz",
+      "dashboardIdentifier": null,
+      "property": "decimal.places",
+      "value": ""
+    },
+    {
+      "chartUrl": "RMY4xz",
+      "dashboardIdentifier": null,
+      "property": "evenbg.color",
+      "value": ""
+    },
+    {
+      "chartUrl": "RMY4xz",
+      "dashboardIdentifier": null,
+      "property": "font.color",
+      "value": ""
+    },
+    {
+      "chartUrl": "RMY4xz",
+      "dashboardIdentifier": null,
+      "property": "font.header.color",
+      "value": ""
+    },
+    {
+      "chartUrl": "RMY4xz",
+      "dashboardIdentifier": null,
+      "property": "grid.aggregation",
+      "value": ""
+    },
+    {
+      "chartUrl": "RMY4xz",
+      "dashboardIdentifier": null,
+      "property": "grid.collapsible",
+      "value": "false"
+    },
+    {
+      "chartUrl": "RMY4xz",
+      "dashboardIdentifier": null,
+      "property": "grid.grouping",
+      "value": ""
+    },
+    {
+      "chartUrl": "RMY4xz",
+      "dashboardIdentifier": null,
+      "property": "headerbg.color",
+      "value": ""
+    },
+    {
+      "chartUrl": "RMY4xz",
+      "dashboardIdentifier": null,
+      "property": "oddbg.color",
+      "value": ""
+    },
+    {
+      "chartUrl": "RMY4xz",
+      "dashboardIdentifier": null,
+      "property": "widget.footnote",
+      "value": ""
+    }
+  ],
+  "chartQueries": [
+    {
+      "chartUrl": "RMY4xz",
+      "queryStr": "select * limit 10"
+    }
+  ],
+  "charts": [
+    {
+      "access": 1,
+      "category": null,
+      "chartName": "Copy of sendingactivity",
+      "datasetId": "${ref:dataset:AUj5f6}",
+      "description": "",
+      "drilldown": 1,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": 0,
+      "query": 1,
+      "type": 2,
+      "url": "RMY4xz",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": "select 'message_type', 'Customer', 'Opened', 'Spam'",
+      "chartUrl": "RMY4xz",
+      "jsonConfig": {
+        "limit": 0,
+        "metrics": [
+          {
+            "customized": false,
+            "fieldName": "message_type",
+            "fieldType": "java.lang.String",
+            "label": "message_type"
+          },
+          {
+            "customized": false,
+            "fieldName": "Customer",
+            "fieldType": "java.lang.String",
+            "label": "Customer"
+          },
+          {
+            "customized": false,
+            "fieldName": "Opened",
+            "fieldType": "java.lang.Double",
+            "label": "Opened"
+          },
+          {
+            "customized": false,
+            "fieldName": "Spam",
+            "fieldType": "java.lang.Double",
+            "label": "Spam"
+          }
+        ]
+      },
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

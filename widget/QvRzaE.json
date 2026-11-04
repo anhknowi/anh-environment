@@ -1,0 +1,104 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "QvRzaE",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "datagrid2"
+    },
+    {
+      "chartUrl": "QvRzaE",
+      "dashboardIdentifier": null,
+      "property": "grid.column.cli:ID-CIE NEW.widthPerc",
+      "value": "0.5"
+    },
+    {
+      "chartUrl": "QvRzaE",
+      "dashboardIdentifier": null,
+      "property": "grid.column.cli:ID-CIE.widthPerc",
+      "value": "0.5"
+    },
+    {
+      "chartUrl": "QvRzaE",
+      "dashboardIdentifier": null,
+      "property": "grid.columnWidths",
+      "value": "[]"
+    },
+    {
+      "chartUrl": "QvRzaE",
+      "dashboardIdentifier": null,
+      "property": "grid.sort.columnName",
+      "value": "cli:ID-CIE"
+    },
+    {
+      "chartUrl": "QvRzaE",
+      "dashboardIdentifier": null,
+      "property": "grid.sort.type",
+      "value": "asc"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "AFFDAFASDF",
+      "datasetId": "${ref:dataset:QvRzaE}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": {
+        "fields": [
+          {
+            "fieldName": "cli:ID-CIE",
+            "fieldType": "java.lang.String"
+          },
+          {
+            "fieldName": "cli:ID-CIE NEW",
+            "fieldType": "java.lang.Integer"
+          }
+        ]
+      },
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 21,
+      "url": "QvRzaE",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": [
+        "select concat(\"\", cli:ID-CIE) as 'cli:ID-CIE NEW',",
+        "  'cli:ID-CIE'"
+      ],
+      "chartUrl": "QvRzaE",
+      "jsonConfig": [
+        {
+          "dataFieldNames": [
+            "sent",
+            "cli:ID-CIE"
+          ],
+          "discoveryForSuggestions": false,
+          "limit": 0,
+          "metrics": [
+            {
+              "customized": true,
+              "fieldName": "concat(\"\", cli:ID-CIE)",
+              "fieldType": "java.lang.String",
+              "label": "cli:ID-CIE NEW"
+            },
+            {
+              "customized": false,
+              "fieldName": "cli:ID-CIE",
+              "fieldType": "java.lang.String",
+              "label": "cli:ID-CIE"
+            }
+          ]
+        }
+      ],
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

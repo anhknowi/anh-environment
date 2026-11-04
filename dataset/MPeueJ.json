@@ -1,0 +1,23 @@
+{
+  "datasets": [
+    {
+      "agenticDefault": false,
+      "bypassOverrideLimit": false,
+      "dataExpirationDate": null,
+      "datasetName": "Test 1",
+      "identifier": "MPeueJ",
+      "injectStreamTime": true,
+      "metaHash": 0,
+      "metadataConfig": "{\"fieldNames\":[\"sent\",\"message_type\",\"customer\",\"date\",\"week\",\"opened\",\"spam\",\"bounced\",\"delivered\",\"clicks\",\"conversions\",\"campaign_name\",\"_stream_time\"],\"dataTypes\":{\"sent\":\"java.lang.Integer\",\"message_type\":\"java.lang.String\",\"customer\":\"java.lang.String\",\"date\":\"java.util.Date\",\"week\":\"java.util.Date\",\"opened\":\"java.lang.Integer\",\"spam\":\"java.lang.Integer\",\"bounced\":\"java.lang.Integer\",\"delivered\":\"java.lang.Integer\",\"clicks\":\"java.lang.Integer\",\"conversions\":\"java.lang.Integer\",\"campaign_name\":\"java.lang.String\"}}",
+      "mongoConnectUri": "provisioned",
+      "nlpBotEnabled": true,
+      "nlpConfig": null,
+      "nlpEnabled": false,
+      "nlpIndexInterval": 360,
+      "refreshMeta": false,
+      "synonymHash": 31,
+      "timeZone": null
+    }
+  ],
+  "format": 1
+}

@@ -1,0 +1,60 @@
+{
+  "dashboards": [
+    {
+      "dashAccessLevel": 1,
+      "displayOrder": 0,
+      "filterSettings": null,
+      "identifier": "_000GS9",
+      "jsonConfig": {
+        "excludeGridWidgetsFromPdfExport": false,
+        "filters": [
+          {
+            "enabled": true,
+            "fieldName": "customer",
+            "fieldType": "java.lang.String",
+            "operator": "Equals",
+            "transientFilter": false,
+            "type": "java.lang.String",
+            "values": [
+              "EU Atlantic"
+            ],
+            "visible": true
+          },
+          {
+            "enabled": true,
+            "fieldName": "assembly_location",
+            "fieldType": "java.lang.String",
+            "operator": "Equals",
+            "transientFilter": false,
+            "type": "java.lang.String",
+            "values": [],
+            "visible": true
+          }
+        ],
+        "view": {
+          "actions": true,
+          "backgroundColor": "",
+          "border": true,
+          "dashTitle": true,
+          "drag": true,
+          "enableDashFilterIcon": true,
+          "enableHeaders": true,
+          "enablePdfExport": true,
+          "filter": true,
+          "resize": true,
+          "setting": true,
+          "title": true,
+          "widgetSpacing": 5
+        }
+      },
+      "locked": 0,
+      "name": "Parent",
+      "screenAdjust": 0,
+      "screenHeight": 928,
+      "screenWidth": 2766,
+      "type": 1,
+      "urlShareWhitelistDomain": "24.130.59.194"
+    }
+  ],
+  "format": 1
+}

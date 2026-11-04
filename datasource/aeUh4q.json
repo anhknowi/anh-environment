@@ -1,0 +1,30 @@
+{
+  "datasources": [
+    {
+      "acl": null,
+      "connectSchema": false,
+      "connectorId": 2479,
+      "datasource": "mongo",
+      "directQueryOnly": false,
+      "inUse": true,
+      "jsonConfig": {
+        "datasource": "mongo",
+        "dbName": "cloud9demo",
+        "dbProperties": "${secret:datasource:aeUh4q:dbProperties}",
+        "host": "cluster0-shard-00-00-ud60n.mongodb.net:27017,cluster0-shard-00-01-ud60n.mongodb.net:27017,cluster0-shard-00-02-ud60n.mongodb.net",
+        "name": "Mongo Database GF Agent",
+        "password": "${secret:datasource:aeUh4q:password}",
+        "privateConnector": "2479",
+        "proxy": false,
+        "userId": "cloud9"
+      },
+      "name": "Mongo Database GF Agent",
+      "op": 1,
+      "proxy": false,
+      "strId": "aeUh4q",
+      "tunnel": false,
+      "writable": false
+    }
+  ],
+  "format": 1
+}

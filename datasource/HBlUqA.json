@@ -1,0 +1,27 @@
+{
+  "datasources": [
+    {
+      "acl": null,
+      "connectSchema": false,
+      "connectorId": 1,
+      "datasource": "bigquery",
+      "directQueryOnly": false,
+      "inUse": true,
+      "jsonConfig": {
+        "authRefreshToken": "${secret:datasource:HBlUqA:authRefreshToken}",
+        "authToken": "${secret:datasource:HBlUqA:authToken}",
+        "authVersion": "1",
+        "datasource": "bigquery",
+        "name": "Google BigQuery 2433243",
+        "projectId": "cloud9charts.com:tokyo-dream-537"
+      },
+      "name": "Google BigQuery 2433243",
+      "op": 1,
+      "proxy": false,
+      "strId": "HBlUqA",
+      "tunnel": false,
+      "writable": false
+    }
+  ],
+  "format": 1
+}

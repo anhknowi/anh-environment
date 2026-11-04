@@ -1,0 +1,92 @@
+{
+  "discoveryConfigs": [
+    {
+      "c9Query": "",
+      "chartUrl": "",
+      "jsonConfig": [],
+      "queryIdentifier": "7UpY7h",
+      "queryStrId": "OTmNXD"
+    }
+  ],
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:B0HQ4V}",
+      "description": "",
+      "direct": true,
+      "directPush": true,
+      "entityName": "sendingraw asdfsdfsda",
+      "identifier": "7UpY7h",
+      "inUse": true,
+      "jsonConfig": {
+        "c9QLFilter": "select customer as customer group by customer;\nselect ARRAY(customer) as CUSTOMERS;\nselect CONCAT('\"', ARRAY_TO_STRING(CUSTOMERS,'\",\"'), '\"') as CUSTOMERS",
+        "datasetId": 121073,
+        "datasourceId": "${ref:datasource:B0HQ4V}",
+        "direct": true,
+        "discovery": {
+          "filters": [
+            {
+              "field": {
+                "customized": false,
+                "fieldName": "message_type",
+                "fieldType": "java.lang.String",
+                "fullFieldName": "message_type",
+                "label": "message_type"
+              },
+              "label": "message_type In $c9_MESSAGE_TYPES$",
+              "operator": "IN",
+              "operatorStr": "in",
+              "or": false,
+              "value": "$c9_MESSAGE_TYPES$"
+            }
+          ],
+          "limit": 10000,
+          "tableName": "sendingActivity"
+        },
+        "entityName": "sendingraw asdfsdfsda",
+        "joinQueries": [
+          {
+            "datasourceId": "${ref:datasource:B0HQ4V}",
+            "discovery": {
+              "filters": [
+                {
+                  "field": {
+                    "customized": false,
+                    "fieldName": "customer",
+                    "fieldType": "java.lang.String",
+                    "fullFieldName": "customer",
+                    "label": "customer"
+                  },
+                  "label": "customer In $c9_CUSTS$",
+                  "operator": "IN",
+                  "operatorStr": "in",
+                  "or": false,
+                  "value": "$c9_CUSTS$"
+                }
+              ],
+              "limit": 10000,
+              "tableName": "sendingActivity"
+            },
+            "joinKeys": {
+              "CUSTOMERS": "%CUSTOMERS%"
+            },
+            "joinType": "LOOP JOIN",
+            "queryStr": "db['sendingActivity'].find(\n  {\n  \"customer\" : {\n    \"$in\" : [ %CUSTOMERS% ]\n  }\n}\n).limit(10000)"
+          }
+        ],
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "queryStr": "db['sendingActivity'].find(\n  {\n  \"message_type\" : {\n    \"$in\" : [ $c9_MESSAGE_TYPES$(\"Marketing\")$[MESSAGE_TYPES]${list|\"|,}$ ]\n  }\n}\n).limit(10000)",
+        "triggered": false
+      },
+      "op": 2,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "OTmNXD",
+      "triggerDatasetId": 0
+    }
+  ]
+}

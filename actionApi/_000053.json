@@ -1,0 +1,19 @@
+{
+  "actionApis": [
+    {
+      "actionType": "SLACK",
+      "identifier": "_000053",
+      "jsonConfig": {
+        "attachDataset": true,
+        "attachResultsAfterCloud9ql": false,
+        "channels": "[{\"id\":\"CK31HQJF3\",\"name\":\"knowi-slack-test\",\"privateChannel\":false}]",
+        "classVersion": 1,
+        "eachRowOfDataAsMessage": true,
+        "message": "DDA Test",
+        "name": "DDA Test",
+        "teamId": "T7C7KMCG2"
+      }
+    }
+  ],
+  "format": 1
+}

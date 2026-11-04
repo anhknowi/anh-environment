@@ -1,0 +1,48 @@
+{
+  "discoveryConfigs": [
+    {
+      "c9Query": "",
+      "chartUrl": "",
+      "jsonConfig": [],
+      "queryIdentifier": "zm12gH",
+      "queryStrId": "D5fQIK"
+    }
+  ],
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:B0HQ4V}",
+      "description": null,
+      "direct": false,
+      "directPush": true,
+      "entityName": "Test Realtime Alert",
+      "identifier": "zm12gH",
+      "inUse": true,
+      "jsonConfig": {
+        "datasourceId": "${ref:datasource:B0HQ4V}",
+        "direct": false,
+        "discovery": {
+          "limit": 1,
+          "tableName": "sendingActivity"
+        },
+        "entityName": "Test Realtime Alert",
+        "frequency": "1",
+        "frequencyType": "days",
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "queryStr": "db['sendingActivity'].find().limit(1)",
+        "startTime": "03/17/2023 20:08+00:00",
+        "triggered": false,
+        "visual": true
+      },
+      "op": 6,
+      "scheduled": 1,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "D5fQIK",
+      "triggerDatasetId": 0
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "yRXpMU",
+      "dashboardIdentifier": null,
+      "property": "chart.column.ignore",
+      "value": ""
+    },
+    {
+      "chartUrl": "yRXpMU",
+      "dashboardIdentifier": null,
+      "property": "chart.dataset.limit",
+      "value": ""
+    },
+    {
+      "chartUrl": "yRXpMU",
+      "dashboardIdentifier": null,
+      "property": "chart.display.theme",
+      "value": ""
+    },
+    {
+      "chartUrl": "yRXpMU",
+      "dashboardIdentifier": null,
+      "property": "chart.legend.column",
+      "value": ""
+    },
+    {
+      "chartUrl": "yRXpMU",
+      "dashboardIdentifier": null,
+      "property": "chart.primary.ylabel",
+      "value": ""
+    },
+    {
+      "chartUrl": "yRXpMU",
+      "dashboardIdentifier": null,
+      "property": "chart.secondary.type",
+      "value": ""
+    },
+    {
+      "chartUrl": "yRXpMU",
+      "dashboardIdentifier": null,
+      "property": "chart.secondary.y",
+      "value": ""
+    },
+    {
+      "chartUrl": "yRXpMU",
+      "dashboardIdentifier": null,
+      "property": "chart.secondary.ylabel",
+      "value": ""
+    },
+    {
+      "chartUrl": "yRXpMU",
+      "dashboardIdentifier": null,
+      "property": "chart.secondary.zIndex",
+      "value": "false"
+    },
+    {
+      "chartUrl": "yRXpMU",
+      "dashboardIdentifier": null,
+      "property": "chart.series.data",
+      "value": ""
+    },
+    {
+      "chartUrl": "yRXpMU",
+      "dashboardIdentifier": null,
+      "property": "chart.series.type",
+      "value": "time"
+    },
+    {
+      "chartUrl": "yRXpMU",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "scatter"
+    },
+    {
+      "chartUrl": "yRXpMU",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.column",
+      "value": ""
+    },
+    {
+      "chartUrl": "yRXpMU",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.order",
+      "value": "1"
+    },
+    {
+      "chartUrl": "yRXpMU",
+      "dashboardIdentifier": null,
+      "property": "chart.yAxis.max",
+      "value": ""
+    },
+    {
+      "chartUrl": "yRXpMU",
+      "dashboardIdentifier": null,
+      "property": "chart.yAxis.tickInterval",
+      "value": ""
+    },
+    {
+      "chartUrl": "yRXpMU",
+      "dashboardIdentifier": null,
+      "property": "chartColor",
+      "value": ""
+    },
+    {
+      "chartUrl": "yRXpMU",
+      "dashboardIdentifier": null,
+      "property": "custom.field",
+      "value": ""
+    },
+    {
+      "chartUrl": "yRXpMU",
+      "dashboardIdentifier": null,
+      "property": "widget.footnote",
+      "value": ""
+    }
+  ],
+  "charts": [
+    {
+      "access": 1,
+      "category": "All",
+      "chartName": "C9 Lockheed",
+      "datasetId": "${ref:dataset:yRXpMU}",
+      "description": "",
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 1,
+      "url": "yRXpMU",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": "",
+      "chartUrl": "yRXpMU",
+      "jsonConfig": {
+        "limit": 0
+      },
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

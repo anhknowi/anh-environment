@@ -1,0 +1,40 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "l9Qnis",
+      "dashboardIdentifier": null,
+      "property": "chart.legend.column",
+      "value": "csn"
+    },
+    {
+      "chartUrl": "l9Qnis",
+      "dashboardIdentifier": null,
+      "property": "chart.series.data",
+      "value": "task_id"
+    },
+    {
+      "chartUrl": "l9Qnis",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "pie"
+    }
+  ],
+  "charts": [
+    {
+      "access": 1,
+      "category": null,
+      "chartName": "KnowiRaw",
+      "datasetId": "${ref:dataset:l9Qnis}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": 0,
+      "query": 0,
+      "type": 1,
+      "url": "l9Qnis",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

@@ -1,0 +1,263 @@
+{
+  "chartAssociations": [
+    {
+      "chartUrl": "1HkMUi",
+      "jsonConfig": [
+        {
+          "filters": [
+            {
+              "childField": "lastAccessTime",
+              "parentField": "Month of lastAccessTime"
+            }
+          ],
+          "id": 106208,
+          "passingFilters": false,
+          "type": "dashboard_connected"
+        }
+      ]
+    }
+  ],
+  "chartProperties": [
+    {
+      "chartUrl": "1HkMUi",
+      "dashboardIdentifier": null,
+      "property": "chart.column.ignore",
+      "value": ""
+    },
+    {
+      "chartUrl": "1HkMUi",
+      "dashboardIdentifier": null,
+      "property": "chart.dataset.limit",
+      "value": ""
+    },
+    {
+      "chartUrl": "1HkMUi",
+      "dashboardIdentifier": null,
+      "property": "chart.display.theme",
+      "value": ""
+    },
+    {
+      "chartUrl": "1HkMUi",
+      "dashboardIdentifier": null,
+      "property": "chart.legend.column",
+      "value": ""
+    },
+    {
+      "chartUrl": "1HkMUi",
+      "dashboardIdentifier": null,
+      "property": "chart.primary.ylabel",
+      "value": ""
+    },
+    {
+      "chartUrl": "1HkMUi",
+      "dashboardIdentifier": null,
+      "property": "chart.secondary.type",
+      "value": ""
+    },
+    {
+      "chartUrl": "1HkMUi",
+      "dashboardIdentifier": null,
+      "property": "chart.secondary.y",
+      "value": ""
+    },
+    {
+      "chartUrl": "1HkMUi",
+      "dashboardIdentifier": null,
+      "property": "chart.secondary.ylabel",
+      "value": ""
+    },
+    {
+      "chartUrl": "1HkMUi",
+      "dashboardIdentifier": null,
+      "property": "chart.secondary.zIndex",
+      "value": ""
+    },
+    {
+      "chartUrl": "1HkMUi",
+      "dashboardIdentifier": null,
+      "property": "chart.series.data",
+      "value": ""
+    },
+    {
+      "chartUrl": "1HkMUi",
+      "dashboardIdentifier": null,
+      "property": "chart.series.type",
+      "value": ""
+    },
+    {
+      "chartUrl": "1HkMUi",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "datagrid"
+    },
+    {
+      "chartUrl": "1HkMUi",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.column",
+      "value": ""
+    },
+    {
+      "chartUrl": "1HkMUi",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.order",
+      "value": ""
+    },
+    {
+      "chartUrl": "1HkMUi",
+      "dashboardIdentifier": null,
+      "property": "chart.yAxis.max",
+      "value": ""
+    },
+    {
+      "chartUrl": "1HkMUi",
+      "dashboardIdentifier": null,
+      "property": "chart.yAxis.tickInterval",
+      "value": ""
+    },
+    {
+      "chartUrl": "1HkMUi",
+      "dashboardIdentifier": null,
+      "property": "chartColor",
+      "value": ""
+    },
+    {
+      "chartUrl": "1HkMUi",
+      "dashboardIdentifier": null,
+      "property": "custom.field",
+      "value": ""
+    },
+    {
+      "chartUrl": "1HkMUi",
+      "dashboardIdentifier": null,
+      "property": "decimal.places",
+      "value": ""
+    },
+    {
+      "chartUrl": "1HkMUi",
+      "dashboardIdentifier": null,
+      "property": "evenbg.color",
+      "value": ""
+    },
+    {
+      "chartUrl": "1HkMUi",
+      "dashboardIdentifier": null,
+      "property": "font.color",
+      "value": ""
+    },
+    {
+      "chartUrl": "1HkMUi",
+      "dashboardIdentifier": null,
+      "property": "font.header.color",
+      "value": ""
+    },
+    {
+      "chartUrl": "1HkMUi",
+      "dashboardIdentifier": null,
+      "property": "grid.aggregation",
+      "value": ""
+    },
+    {
+      "chartUrl": "1HkMUi",
+      "dashboardIdentifier": null,
+      "property": "grid.collapsible",
+      "value": "false"
+    },
+    {
+      "chartUrl": "1HkMUi",
+      "dashboardIdentifier": null,
+      "property": "grid.grouping",
+      "value": ""
+    },
+    {
+      "chartUrl": "1HkMUi",
+      "dashboardIdentifier": null,
+      "property": "headerbg.color",
+      "value": ""
+    },
+    {
+      "chartUrl": "1HkMUi",
+      "dashboardIdentifier": null,
+      "property": "minColWidth",
+      "value": ""
+    },
+    {
+      "chartUrl": "1HkMUi",
+      "dashboardIdentifier": null,
+      "property": "oddbg.color",
+      "value": ""
+    },
+    {
+      "chartUrl": "1HkMUi",
+      "dashboardIdentifier": null,
+      "property": "widget.footnote",
+      "value": ""
+    }
+  ],
+  "chartQueries": [
+    {
+      "chartUrl": "1HkMUi",
+      "queryStr": "select * order by deviceId"
+    }
+  ],
+  "charts": [
+    {
+      "access": 1,
+      "category": "All",
+      "chartName": "AAA",
+      "datasetId": "${ref:dataset:1HkMUi}",
+      "description": "",
+      "drilldown": 1,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": -1,
+      "query": 1,
+      "type": 2,
+      "url": "1HkMUi",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": [
+        "select MONTH('lastAccessTime') as 'Month of lastAccessTime',",
+        "  'page'",
+        "group by MONTH('lastAccessTime')"
+      ],
+      "chartUrl": "1HkMUi",
+      "jsonConfig": [
+        {
+          "dimensions": [
+            {
+              "customized": false,
+              "fieldName": "lastAccessTime",
+              "fieldType": "java.util.Date",
+              "label": "Month of lastAccessTime",
+              "operation": "MONTH",
+              "operationStr": "month"
+            }
+          ],
+          "limit": 0,
+          "metrics": [
+            {
+              "customized": false,
+              "fieldName": "lastAccessTime",
+              "fieldType": "java.util.Date",
+              "label": "Month of lastAccessTime",
+              "operation": "MONTH",
+              "operationStr": "month"
+            },
+            {
+              "customized": false,
+              "fieldName": "page",
+              "fieldType": "java.lang.String",
+              "label": "page"
+            }
+          ]
+        }
+      ],
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

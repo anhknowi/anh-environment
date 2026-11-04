@@ -1,0 +1,106 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "UVyvv3",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "datagrid2"
+    },
+    {
+      "chartUrl": "UVyvv3",
+      "dashboardIdentifier": null,
+      "property": "formatOptions",
+      "value": "{}"
+    },
+    {
+      "chartUrl": "UVyvv3",
+      "dashboardIdentifier": null,
+      "property": "grid.column.bounced.widthPerc",
+      "value": "131"
+    },
+    {
+      "chartUrl": "UVyvv3",
+      "dashboardIdentifier": null,
+      "property": "grid.column.campaign_name.widthPerc",
+      "value": "137"
+    },
+    {
+      "chartUrl": "UVyvv3",
+      "dashboardIdentifier": null,
+      "property": "grid.column.clicks.widthPerc",
+      "value": "137"
+    },
+    {
+      "chartUrl": "UVyvv3",
+      "dashboardIdentifier": null,
+      "property": "grid.column.conversions.widthPerc",
+      "value": "137"
+    },
+    {
+      "chartUrl": "UVyvv3",
+      "dashboardIdentifier": null,
+      "property": "grid.column.customer.widthPerc",
+      "value": "137"
+    },
+    {
+      "chartUrl": "UVyvv3",
+      "dashboardIdentifier": null,
+      "property": "grid.column.date.widthPerc",
+      "value": "389"
+    },
+    {
+      "chartUrl": "UVyvv3",
+      "dashboardIdentifier": null,
+      "property": "grid.column.delivered.widthPerc",
+      "value": "135"
+    },
+    {
+      "chartUrl": "UVyvv3",
+      "dashboardIdentifier": null,
+      "property": "grid.column.message_type.widthPerc",
+      "value": "137"
+    },
+    {
+      "chartUrl": "UVyvv3",
+      "dashboardIdentifier": null,
+      "property": "grid.column.opened.widthPerc",
+      "value": "50"
+    },
+    {
+      "chartUrl": "UVyvv3",
+      "dashboardIdentifier": null,
+      "property": "grid.column.sent.widthPerc",
+      "value": "137"
+    },
+    {
+      "chartUrl": "UVyvv3",
+      "dashboardIdentifier": null,
+      "property": "grid.column.spam.widthPerc",
+      "value": "59"
+    },
+    {
+      "chartUrl": "UVyvv3",
+      "dashboardIdentifier": null,
+      "property": "grid.column.week.widthPerc",
+      "value": "50"
+    }
+  ],
+  "charts": [
+    {
+      "access": 1,
+      "category": null,
+      "chartName": "No Filter Test ID",
+      "datasetId": "${ref:dataset:UVyvv3}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 21,
+      "url": "UVyvv3",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

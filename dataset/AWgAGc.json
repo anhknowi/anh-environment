@@ -1,0 +1,23 @@
+{
+  "datasets": [
+    {
+      "agenticDefault": false,
+      "bypassOverrideLimit": false,
+      "dataExpirationDate": null,
+      "datasetName": "c9exportData.csv",
+      "identifier": "AWgAGc",
+      "injectStreamTime": true,
+      "metaHash": 0,
+      "metadataConfig": "{\"fields\":[{\"fieldName\":\"Company Name\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"contact\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"Contact Info\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"Dormancy\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"Last Event Date\",\"fieldType\":\"java.util.Date\"},{\"fieldName\":\"Location\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"order_no\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"rs_idx\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"share_data\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"?TagID\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"title\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"trip_no\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"use_return_date\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"_stream_time\",\"fieldType\":\"java.util.Date\"}]}",
+      "mongoConnectUri": "provisioned",
+      "nlpBotEnabled": true,
+      "nlpConfig": null,
+      "nlpEnabled": false,
+      "nlpIndexInterval": 360,
+      "refreshMeta": false,
+      "synonymHash": 31,
+      "timeZone": null
+    }
+  ],
+  "format": 1
+}

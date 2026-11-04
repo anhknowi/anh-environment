@@ -1,0 +1,76 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "yl2U1V",
+      "dashboardIdentifier": null,
+      "property": "chart.series.type",
+      "value": "time"
+    },
+    {
+      "chartUrl": "yl2U1V",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "datagrid"
+    },
+    {
+      "chartUrl": "yl2U1V",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.column",
+      "value": "Date"
+    },
+    {
+      "chartUrl": "yl2U1V",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.order",
+      "value": "1"
+    }
+  ],
+  "charts": [
+    {
+      "access": 1,
+      "category": null,
+      "chartName": "Test Shit",
+      "datasetId": "${ref:dataset:yl2U1V}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": 0,
+      "query": 0,
+      "type": 2,
+      "url": "yl2U1V",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": [
+        "select *",
+        "where 'Customer' = \"Target\""
+      ],
+      "chartUrl": "yl2U1V",
+      "jsonConfig": [
+        {
+          "filters": [
+            {
+              "field": {
+                "customized": false,
+                "fieldName": "Customer",
+                "fieldType": "java.lang.String",
+                "label": "Customer"
+              },
+              "operator": "EQUALS",
+              "operatorStr": "=",
+              "or": false,
+              "value": "Target"
+            }
+          ],
+          "limit": 0
+        }
+      ],
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

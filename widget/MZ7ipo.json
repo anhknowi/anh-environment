@@ -1,0 +1,139 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "MZ7ipo",
+      "dashboardIdentifier": null,
+      "property": "chart.column.ignore",
+      "value": ""
+    },
+    {
+      "chartUrl": "MZ7ipo",
+      "dashboardIdentifier": null,
+      "property": "chart.dataset.limit",
+      "value": ""
+    },
+    {
+      "chartUrl": "MZ7ipo",
+      "dashboardIdentifier": null,
+      "property": "chart.series.data",
+      "value": ""
+    },
+    {
+      "chartUrl": "MZ7ipo",
+      "dashboardIdentifier": null,
+      "property": "chart.series.type",
+      "value": ""
+    },
+    {
+      "chartUrl": "MZ7ipo",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "datagrid"
+    },
+    {
+      "chartUrl": "MZ7ipo",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.column",
+      "value": ""
+    },
+    {
+      "chartUrl": "MZ7ipo",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.order",
+      "value": ""
+    },
+    {
+      "chartUrl": "MZ7ipo",
+      "dashboardIdentifier": null,
+      "property": "decimal.places",
+      "value": ""
+    },
+    {
+      "chartUrl": "MZ7ipo",
+      "dashboardIdentifier": null,
+      "property": "evenbg.color",
+      "value": ""
+    },
+    {
+      "chartUrl": "MZ7ipo",
+      "dashboardIdentifier": null,
+      "property": "font.color",
+      "value": ""
+    },
+    {
+      "chartUrl": "MZ7ipo",
+      "dashboardIdentifier": null,
+      "property": "font.header.color",
+      "value": ""
+    },
+    {
+      "chartUrl": "MZ7ipo",
+      "dashboardIdentifier": null,
+      "property": "grid.aggregation",
+      "value": ""
+    },
+    {
+      "chartUrl": "MZ7ipo",
+      "dashboardIdentifier": null,
+      "property": "grid.collapsible",
+      "value": "false"
+    },
+    {
+      "chartUrl": "MZ7ipo",
+      "dashboardIdentifier": null,
+      "property": "grid.grouping",
+      "value": ""
+    },
+    {
+      "chartUrl": "MZ7ipo",
+      "dashboardIdentifier": null,
+      "property": "headerbg.color",
+      "value": ""
+    },
+    {
+      "chartUrl": "MZ7ipo",
+      "dashboardIdentifier": null,
+      "property": "minColWidth",
+      "value": ""
+    },
+    {
+      "chartUrl": "MZ7ipo",
+      "dashboardIdentifier": null,
+      "property": "oddbg.color",
+      "value": ""
+    },
+    {
+      "chartUrl": "MZ7ipo",
+      "dashboardIdentifier": null,
+      "property": "widget.footnote",
+      "value": ""
+    }
+  ],
+  "chartQueries": [
+    {
+      "chartUrl": "MZ7ipo",
+      "queryStr": [
+        "select page as console,hits as version,count(*) as count",
+        "group by page,hits"
+      ]
+    }
+  ],
+  "charts": [
+    {
+      "access": 1,
+      "category": "All",
+      "chartName": "TestHitList",
+      "datasetId": "${ref:dataset:MZ7ipo}",
+      "description": "",
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": -1,
+      "query": 1,
+      "type": 2,
+      "url": "MZ7ipo",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

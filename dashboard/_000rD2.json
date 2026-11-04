@@ -1,0 +1,36 @@
+{
+  "dashboards": [
+    {
+      "dashAccessLevel": 1,
+      "displayOrder": 0,
+      "filterSettings": null,
+      "identifier": "_000rD2",
+      "jsonConfig": {
+        "excludeGridWidgetsFromPdfExport": false,
+        "view": {
+          "actions": true,
+          "backgroundColor": "",
+          "border": true,
+          "dashTitle": true,
+          "drag": true,
+          "enableDashFilterIcon": true,
+          "enableHeaders": true,
+          "enablePdfExport": true,
+          "filter": true,
+          "resize": true,
+          "setting": true,
+          "title": true,
+          "widgetSpacing": 5
+        }
+      },
+      "locked": 0,
+      "name": "ANH",
+      "screenAdjust": 0,
+      "screenHeight": 730,
+      "screenWidth": 1301,
+      "type": 1,
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

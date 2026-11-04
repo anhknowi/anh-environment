@@ -1,0 +1,25 @@
+{
+  "datasources": [
+    {
+      "acl": null,
+      "connectSchema": false,
+      "connectorId": 1,
+      "datasource": "phoenix",
+      "directQueryOnly": false,
+      "inUse": true,
+      "jsonConfig": {
+        "datasource": "phoenix",
+        "host": "phoenix.knowi.com",
+        "name": "HBase with Phoenix !!!!!",
+        "port": "2181"
+      },
+      "name": "HBase with Phoenix !!!!!",
+      "op": 1,
+      "proxy": false,
+      "strId": "yLwHIA",
+      "tunnel": false,
+      "writable": false
+    }
+  ],
+  "format": 1
+}

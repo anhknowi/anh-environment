@@ -1,0 +1,34 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "zm12gH",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "text"
+    },
+    {
+      "chartUrl": "zm12gH",
+      "dashboardIdentifier": null,
+      "property": "scale",
+      "value": "true"
+    }
+  ],
+  "charts": [
+    {
+      "access": 1,
+      "category": null,
+      "chartName": "Test Realtime Alert",
+      "datasetId": "${ref:dataset:zm12gH}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 4,
+      "url": "zm12gH",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

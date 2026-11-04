@@ -1,0 +1,71 @@
+{
+  "dataConfigs": [
+    {
+      "datasetIdentifier": "${ref:dataset:qAR6l6}",
+      "queryIdentifier": "6bmBwI",
+      "queryStrId": "OJTisx"
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": "",
+      "chartUrl": "",
+      "jsonConfig": [],
+      "queryIdentifier": "6bmBwI",
+      "queryStrId": "OJTisx"
+    }
+  ],
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:OTS6vw}",
+      "description": "",
+      "direct": true,
+      "directPush": true,
+      "entityName": "Test Mongo Derived",
+      "identifier": "6bmBwI",
+      "inUse": true,
+      "jsonConfig": {
+        "c9ExportDataset": "${ref:dataset:qAR6l6}",
+        "c9ExportEntityName": "Test Mongo",
+        "c9ExportIdentifier": "qAR6l6",
+        "datasourceId": "${ref:datasource:OTS6vw}",
+        "direct": true,
+        "discovery": {
+          "limit": 10000,
+          "tableName": "${ref:dataset:qAR6l6}"
+        },
+        "entityName": "Test Mongo Derived",
+        "joinC9QLFilter": "select *,case when top_five='1' then customer else 'Other' end as sourceNode",
+        "joinQueries": [
+          {
+            "c9ExportDataset": "${ref:dataset:qAR6l6}",
+            "c9ExportEntityName": "Test Mongo",
+            "c9ExportIdentifier": "qAR6l6",
+            "datasourceId": "${ref:datasource:OTS6vw}",
+            "discovery": {
+              "limit": 10000,
+              "tableName": "${ref:dataset:qAR6l6}"
+            },
+            "joinKeys": {
+              "customer": "customer"
+            },
+            "joinType": "RIGHT OUTER JOIN",
+            "queryStr": "select *\nlimit 10000",
+            "visual": true
+          }
+        ],
+        "queryStr": "select sum('Sum of clicks') as 'total clicks', customer, 1 as 'top_five'\ngroup by customer\norder by 'total clicks' desc\nlimit 5",
+        "triggered": false,
+        "visual": false
+      },
+      "op": 2,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "OJTisx",
+      "triggerDatasetId": 0
+    }
+  ]
+}

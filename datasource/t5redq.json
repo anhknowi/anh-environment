@@ -1,0 +1,27 @@
+{
+  "datasources": [
+    {
+      "acl": null,
+      "connectSchema": false,
+      "connectorId": 1,
+      "datasource": "ga",
+      "directQueryOnly": false,
+      "inUse": true,
+      "jsonConfig": {
+        "authRefreshToken": "${secret:datasource:t5redq:authRefreshToken}",
+        "authToken": "${secret:datasource:t5redq:authToken}",
+        "authVersion": "1",
+        "datasource": "ga",
+        "gaProfileID": "66265881",
+        "name": "Google Analytics"
+      },
+      "name": "Google Analytics",
+      "op": 2,
+      "proxy": false,
+      "strId": "t5redq",
+      "tunnel": false,
+      "writable": false
+    }
+  ],
+  "format": 1
+}

@@ -1,0 +1,46 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "RI7O9F",
+      "dashboardIdentifier": null,
+      "property": "chart.series.type",
+      "value": "time"
+    },
+    {
+      "chartUrl": "RI7O9F",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "area"
+    },
+    {
+      "chartUrl": "RI7O9F",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.column",
+      "value": "Date"
+    },
+    {
+      "chartUrl": "RI7O9F",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.order",
+      "value": "1"
+    }
+  ],
+  "charts": [
+    {
+      "access": 1,
+      "category": null,
+      "chartName": "TEST BOTTOM",
+      "datasetId": "${ref:dataset:RI7O9F}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": 0,
+      "query": 0,
+      "type": 1,
+      "url": "RI7O9F",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

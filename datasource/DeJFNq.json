@@ -1,0 +1,26 @@
+{
+  "datasources": [
+    {
+      "acl": null,
+      "connectSchema": false,
+      "connectorId": 1,
+      "datasource": "sheets",
+      "directQueryOnly": false,
+      "inUse": true,
+      "jsonConfig": {
+        "authRefreshToken": "${secret:datasource:DeJFNq:authRefreshToken}",
+        "authToken": "${secret:datasource:DeJFNq:authToken}",
+        "authVersion": "1",
+        "datasource": "sheets",
+        "name": "My Google Sheet"
+      },
+      "name": "My Google Sheet",
+      "op": 1,
+      "proxy": false,
+      "strId": "DeJFNq",
+      "tunnel": false,
+      "writable": false
+    }
+  ],
+  "format": 1
+}

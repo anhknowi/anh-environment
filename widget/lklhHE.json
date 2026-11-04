@@ -1,0 +1,130 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "lklhHE",
+      "dashboardIdentifier": null,
+      "property": "chart.column.ignore",
+      "value": ""
+    },
+    {
+      "chartUrl": "lklhHE",
+      "dashboardIdentifier": null,
+      "property": "chart.dataset.limit",
+      "value": ""
+    },
+    {
+      "chartUrl": "lklhHE",
+      "dashboardIdentifier": null,
+      "property": "chart.series.data",
+      "value": ""
+    },
+    {
+      "chartUrl": "lklhHE",
+      "dashboardIdentifier": null,
+      "property": "chart.series.type",
+      "value": ""
+    },
+    {
+      "chartUrl": "lklhHE",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "datagrid"
+    },
+    {
+      "chartUrl": "lklhHE",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.column",
+      "value": ""
+    },
+    {
+      "chartUrl": "lklhHE",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.order",
+      "value": ""
+    },
+    {
+      "chartUrl": "lklhHE",
+      "dashboardIdentifier": null,
+      "property": "decimal.places",
+      "value": ""
+    },
+    {
+      "chartUrl": "lklhHE",
+      "dashboardIdentifier": null,
+      "property": "evenbg.color",
+      "value": ""
+    },
+    {
+      "chartUrl": "lklhHE",
+      "dashboardIdentifier": null,
+      "property": "font.color",
+      "value": ""
+    },
+    {
+      "chartUrl": "lklhHE",
+      "dashboardIdentifier": null,
+      "property": "font.header.color",
+      "value": ""
+    },
+    {
+      "chartUrl": "lklhHE",
+      "dashboardIdentifier": null,
+      "property": "grid.aggregation",
+      "value": ""
+    },
+    {
+      "chartUrl": "lklhHE",
+      "dashboardIdentifier": null,
+      "property": "grid.collapsible",
+      "value": "false"
+    },
+    {
+      "chartUrl": "lklhHE",
+      "dashboardIdentifier": null,
+      "property": "grid.grouping",
+      "value": ""
+    },
+    {
+      "chartUrl": "lklhHE",
+      "dashboardIdentifier": null,
+      "property": "headerbg.color",
+      "value": ""
+    },
+    {
+      "chartUrl": "lklhHE",
+      "dashboardIdentifier": null,
+      "property": "minColWidth",
+      "value": ""
+    },
+    {
+      "chartUrl": "lklhHE",
+      "dashboardIdentifier": null,
+      "property": "oddbg.color",
+      "value": ""
+    },
+    {
+      "chartUrl": "lklhHE",
+      "dashboardIdentifier": null,
+      "property": "widget.footnote",
+      "value": ""
+    }
+  ],
+  "charts": [
+    {
+      "access": 1,
+      "category": "All",
+      "chartName": "Copy of Anh Anh",
+      "datasetId": "${ref:dataset:sXoiia}",
+      "description": "",
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 2,
+      "url": "lklhHE",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

@@ -1,0 +1,274 @@
+{
+  "chartAssociations": [
+    {
+      "chartUrl": "AUj5f6",
+      "jsonConfig": [
+        {
+          "filters": [
+            {
+              "childField": "message_type",
+              "parentField": "message_type"
+            }
+          ],
+          "id": "${ref:widget:66EX4S}",
+          "passingFilters": false,
+          "type": "widget"
+        }
+      ]
+    }
+  ],
+  "chartProperties": [
+    {
+      "chartUrl": "AUj5f6",
+      "dashboardIdentifier": null,
+      "property": "chart.column.ignore",
+      "value": ""
+    },
+    {
+      "chartUrl": "AUj5f6",
+      "dashboardIdentifier": null,
+      "property": "chart.dataset.limit",
+      "value": "10"
+    },
+    {
+      "chartUrl": "AUj5f6",
+      "dashboardIdentifier": null,
+      "property": "chart.display.theme",
+      "value": ""
+    },
+    {
+      "chartUrl": "AUj5f6",
+      "dashboardIdentifier": null,
+      "property": "chart.legend.column",
+      "value": ""
+    },
+    {
+      "chartUrl": "AUj5f6",
+      "dashboardIdentifier": null,
+      "property": "chart.primary.ylabel",
+      "value": ""
+    },
+    {
+      "chartUrl": "AUj5f6",
+      "dashboardIdentifier": null,
+      "property": "chart.secondary.type",
+      "value": ""
+    },
+    {
+      "chartUrl": "AUj5f6",
+      "dashboardIdentifier": null,
+      "property": "chart.secondary.y",
+      "value": ""
+    },
+    {
+      "chartUrl": "AUj5f6",
+      "dashboardIdentifier": null,
+      "property": "chart.secondary.ylabel",
+      "value": ""
+    },
+    {
+      "chartUrl": "AUj5f6",
+      "dashboardIdentifier": null,
+      "property": "chart.secondary.zIndex",
+      "value": ""
+    },
+    {
+      "chartUrl": "AUj5f6",
+      "dashboardIdentifier": null,
+      "property": "chart.series.data",
+      "value": ""
+    },
+    {
+      "chartUrl": "AUj5f6",
+      "dashboardIdentifier": null,
+      "property": "chart.series.type",
+      "value": ""
+    },
+    {
+      "chartUrl": "AUj5f6",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "datagrid"
+    },
+    {
+      "chartUrl": "AUj5f6",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.column",
+      "value": ""
+    },
+    {
+      "chartUrl": "AUj5f6",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.order",
+      "value": ""
+    },
+    {
+      "chartUrl": "AUj5f6",
+      "dashboardIdentifier": null,
+      "property": "chart.yAxis.max",
+      "value": ""
+    },
+    {
+      "chartUrl": "AUj5f6",
+      "dashboardIdentifier": null,
+      "property": "chart.yAxis.tickInterval",
+      "value": ""
+    },
+    {
+      "chartUrl": "AUj5f6",
+      "dashboardIdentifier": null,
+      "property": "chartColor",
+      "value": ""
+    },
+    {
+      "chartUrl": "AUj5f6",
+      "dashboardIdentifier": null,
+      "property": "container.name",
+      "value": "Chart"
+    },
+    {
+      "chartUrl": "AUj5f6",
+      "dashboardIdentifier": null,
+      "property": "custom.field",
+      "value": ""
+    },
+    {
+      "chartUrl": "AUj5f6",
+      "dashboardIdentifier": null,
+      "property": "decimal.places",
+      "value": ""
+    },
+    {
+      "chartUrl": "AUj5f6",
+      "dashboardIdentifier": null,
+      "property": "evenbg.color",
+      "value": ""
+    },
+    {
+      "chartUrl": "AUj5f6",
+      "dashboardIdentifier": null,
+      "property": "font.color",
+      "value": ""
+    },
+    {
+      "chartUrl": "AUj5f6",
+      "dashboardIdentifier": null,
+      "property": "font.header.color",
+      "value": ""
+    },
+    {
+      "chartUrl": "AUj5f6",
+      "dashboardIdentifier": null,
+      "property": "grid.aggregation",
+      "value": ""
+    },
+    {
+      "chartUrl": "AUj5f6",
+      "dashboardIdentifier": null,
+      "property": "grid.collapsible",
+      "value": "false"
+    },
+    {
+      "chartUrl": "AUj5f6",
+      "dashboardIdentifier": null,
+      "property": "grid.grouping",
+      "value": ""
+    },
+    {
+      "chartUrl": "AUj5f6",
+      "dashboardIdentifier": null,
+      "property": "headerbg.color",
+      "value": ""
+    },
+    {
+      "chartUrl": "AUj5f6",
+      "dashboardIdentifier": null,
+      "property": "minColWidth",
+      "value": ""
+    },
+    {
+      "chartUrl": "AUj5f6",
+      "dashboardIdentifier": null,
+      "property": "oddbg.color",
+      "value": ""
+    },
+    {
+      "chartUrl": "AUj5f6",
+      "dashboardIdentifier": null,
+      "property": "widget.footnote",
+      "value": ""
+    }
+  ],
+  "chartQueries": [
+    {
+      "chartUrl": "AUj5f6",
+      "queryStr": "select * limit 10"
+    }
+  ],
+  "charts": [
+    {
+      "access": 1,
+      "category": "All",
+      "chartName": "sendingactivity",
+      "datasetId": "${ref:dataset:AUj5f6}",
+      "description": "",
+      "drilldown": 1,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": -1,
+      "query": 1,
+      "type": 2,
+      "url": "AUj5f6",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": [
+        "select 'message_type', 'Customer', 'Opened', 'Spam',",
+        "  'Date'"
+      ],
+      "chartUrl": "AUj5f6",
+      "jsonConfig": [
+        {
+          "limit": 0,
+          "metrics": [
+            {
+              "customized": false,
+              "fieldName": "message_type",
+              "fieldType": "java.lang.String",
+              "label": "message_type"
+            },
+            {
+              "customized": false,
+              "fieldName": "Customer",
+              "fieldType": "java.lang.String",
+              "label": "Customer"
+            },
+            {
+              "customized": false,
+              "fieldName": "Opened",
+              "fieldType": "java.lang.Double",
+              "label": "Opened"
+            },
+            {
+              "customized": false,
+              "fieldName": "Spam",
+              "fieldType": "java.lang.Double",
+              "label": "Spam"
+            },
+            {
+              "customized": false,
+              "fieldName": "Date",
+              "fieldType": "java.util.Date",
+              "label": "Date"
+            }
+          ]
+        }
+      ],
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

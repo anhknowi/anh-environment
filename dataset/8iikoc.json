@@ -1,0 +1,23 @@
+{
+  "datasets": [
+    {
+      "agenticDefault": false,
+      "bypassOverrideLimit": false,
+      "dataExpirationDate": null,
+      "datasetName": "Test Status",
+      "identifier": "8iikoc",
+      "injectStreamTime": true,
+      "metaHash": 0,
+      "metadataConfig": "{\"fieldNames\":[\"id\",\"deviceId\",\"hits\",\"lastAccessTime\",\"page\"],\"dataTypes\":{\"id\":\"java.lang.String\",\"deviceId\":\"java.lang.String\",\"hits\":\"java.lang.Integer\",\"lastAccessTime\":\"java.util.Date\",\"page\":\"java.lang.String\"}}",
+      "mongoConnectUri": "provisioned",
+      "nlpBotEnabled": true,
+      "nlpConfig": null,
+      "nlpEnabled": false,
+      "nlpIndexInterval": 360,
+      "refreshMeta": false,
+      "synonymHash": 31,
+      "timeZone": null
+    }
+  ],
+  "format": 1
+}

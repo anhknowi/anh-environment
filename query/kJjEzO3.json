@@ -1,0 +1,32 @@
+{
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:WSTfpd}",
+      "description": null,
+      "direct": false,
+      "directPush": true,
+      "entityName": "SOP-MDX-0455_Molecular_Diagnostics_PCR.pdf",
+      "identifier": "MuLIXH2",
+      "inUse": true,
+      "jsonConfig": {
+        "datasourceId": "${ref:datasource:WSTfpd}",
+        "direct": false,
+        "entityName": "SOP-MDX-0455_Molecular_Diagnostics_PCR.pdf",
+        "identifier": "MuLIXH2",
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "triggered": false,
+        "uploadedFileName": "SOP-MDX-0455_Molecular_Diagnostics_PCR.pdf"
+      },
+      "op": 1,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "kJjEzO3",
+      "triggerDatasetId": 0
+    }
+  ]
+}

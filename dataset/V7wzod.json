@@ -1,0 +1,23 @@
+{
+  "datasets": [
+    {
+      "agenticDefault": false,
+      "bypassOverrideLimit": false,
+      "dataExpirationDate": null,
+      "datasetName": "TestMY",
+      "identifier": "V7wzod",
+      "injectStreamTime": false,
+      "metaHash": 0,
+      "metadataConfig": "{\"displayTypes\":{\"sell_price_USD\":\"java.text.NumberFormat\"},\"fields\":[{\"fieldName\":\"assembly_location\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"assembly_type\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"customer\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"order_#\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"sell_price_USD\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"status\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"unit_id_#\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"unit_name\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"_stream_time\",\"fieldType\":\"java.util.Date\"}]}",
+      "mongoConnectUri": "provisioned",
+      "nlpBotEnabled": true,
+      "nlpConfig": null,
+      "nlpEnabled": false,
+      "nlpIndexInterval": 360,
+      "refreshMeta": false,
+      "synonymHash": 31,
+      "timeZone": null
+    }
+  ],
+  "format": 1
+}

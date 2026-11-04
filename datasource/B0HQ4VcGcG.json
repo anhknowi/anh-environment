@@ -1,0 +1,32 @@
+{
+  "datasources": [
+    {
+      "acl": null,
+      "connectSchema": false,
+      "connectorId": 1,
+      "datasource": "mongo",
+      "directQueryOnly": false,
+      "inUse": true,
+      "jsonConfig": {
+        "datasource": "mongo",
+        "dbName": "cloud9demo",
+        "dbProperties": "${secret:datasource:B0HQ4VcGcG:dbProperties}",
+        "enableQueryAgent": true,
+        "host": "cluster0-shard-00-00-ud60n.mongodb.net:27017,cluster0-shard-00-01-ud60n.mongodb.net:27017,cluster0-shard-00-02-ud60n.mongodb.net",
+        "legacyVersionSupport": false,
+        "name": "Mongo Database 1",
+        "password": "${secret:datasource:B0HQ4VcGcG:password}",
+        "proxy": false,
+        "userId": "cloud9",
+        "writable": false
+      },
+      "name": "Mongo Database 1",
+      "op": 2,
+      "proxy": false,
+      "strId": "B0HQ4VcGcG",
+      "tunnel": false,
+      "writable": false
+    }
+  ],
+  "format": 1
+}

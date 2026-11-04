@@ -1,0 +1,46 @@
+{
+  "dataConfigs": [
+    {
+      "datasetIdentifier": "${ref:dataset:tSr1Ux}",
+      "queryIdentifier": "tSr1Ux",
+      "queryStrId": "5qTVOv"
+    }
+  ],
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:OTS6vw}",
+      "description": null,
+      "direct": false,
+      "directPush": true,
+      "entityName": "demo-data.csv",
+      "identifier": "tSr1Ux",
+      "inUse": true,
+      "jsonConfig": {
+        "c9ExportDataset": "${ref:dataset:tSr1Ux}",
+        "c9ExportEntityName": "demo-data.csv",
+        "c9ExportIdentifier": "tSr1Ux",
+        "datasourceId": "${ref:datasource:OTS6vw}",
+        "direct": false,
+        "discovery": {
+          "limit": 10000,
+          "tableName": "${ref:dataset:tSr1Ux}"
+        },
+        "entityName": "demo-data.csv",
+        "identifier": "tSr1Ux",
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "queryStr": "select *",
+        "triggered": false
+      },
+      "op": 1,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "5qTVOv",
+      "triggerDatasetId": 0
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "wmTyDR",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "datagrid2"
+    },
+    {
+      "chartUrl": "wmTyDR",
+      "dashboardIdentifier": null,
+      "property": "formatOptions",
+      "value": "{}"
+    }
+  ],
+  "charts": [
+    {
+      "access": 1,
+      "category": null,
+      "chartName": "Test",
+      "datasetId": "${ref:dataset:wmTyDR}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 21,
+      "url": "wmTyDR",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

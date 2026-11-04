@@ -1,0 +1,130 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "vf6Mou",
+      "dashboardIdentifier": null,
+      "property": "bg.color",
+      "value": ""
+    },
+    {
+      "chartUrl": "vf6Mou",
+      "dashboardIdentifier": null,
+      "property": "chart.column.ignore",
+      "value": ""
+    },
+    {
+      "chartUrl": "vf6Mou",
+      "dashboardIdentifier": null,
+      "property": "chart.dataset.limit",
+      "value": ""
+    },
+    {
+      "chartUrl": "vf6Mou",
+      "dashboardIdentifier": null,
+      "property": "chart.legend.column",
+      "value": ""
+    },
+    {
+      "chartUrl": "vf6Mou",
+      "dashboardIdentifier": null,
+      "property": "chart.series.data",
+      "value": ""
+    },
+    {
+      "chartUrl": "vf6Mou",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "textBase"
+    },
+    {
+      "chartUrl": "vf6Mou",
+      "dashboardIdentifier": null,
+      "property": "decimal.places",
+      "value": ""
+    },
+    {
+      "chartUrl": "vf6Mou",
+      "dashboardIdentifier": null,
+      "property": "evenbg.color",
+      "value": ""
+    },
+    {
+      "chartUrl": "vf6Mou",
+      "dashboardIdentifier": null,
+      "property": "font.color",
+      "value": ""
+    },
+    {
+      "chartUrl": "vf6Mou",
+      "dashboardIdentifier": null,
+      "property": "font.header.color",
+      "value": ""
+    },
+    {
+      "chartUrl": "vf6Mou",
+      "dashboardIdentifier": null,
+      "property": "grid.aggregation",
+      "value": ""
+    },
+    {
+      "chartUrl": "vf6Mou",
+      "dashboardIdentifier": null,
+      "property": "grid.collapsible",
+      "value": ""
+    },
+    {
+      "chartUrl": "vf6Mou",
+      "dashboardIdentifier": null,
+      "property": "grid.grouping",
+      "value": ""
+    },
+    {
+      "chartUrl": "vf6Mou",
+      "dashboardIdentifier": null,
+      "property": "headerbg.color",
+      "value": ""
+    },
+    {
+      "chartUrl": "vf6Mou",
+      "dashboardIdentifier": null,
+      "property": "minColWidth",
+      "value": ""
+    },
+    {
+      "chartUrl": "vf6Mou",
+      "dashboardIdentifier": null,
+      "property": "oddbg.color",
+      "value": ""
+    },
+    {
+      "chartUrl": "vf6Mou",
+      "dashboardIdentifier": null,
+      "property": "text.widget",
+      "value": "\n    <h1>TEST</h1>"
+    },
+    {
+      "chartUrl": "vf6Mou",
+      "dashboardIdentifier": null,
+      "property": "widget.footnote",
+      "value": ""
+    }
+  ],
+  "charts": [
+    {
+      "access": 1,
+      "category": "All",
+      "chartName": "TEST SORT",
+      "datasetId": "${ref:dataset:vf6Mou}",
+      "description": "",
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 2,
+      "url": "vf6Mou",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

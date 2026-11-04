@@ -1,0 +1,23 @@
+{
+  "datasets": [
+    {
+      "agenticDefault": false,
+      "bypassOverrideLimit": false,
+      "dataExpirationDate": null,
+      "datasetName": "Curexa - Rx Info (VRN).xlsx",
+      "identifier": "x5Kl9I",
+      "injectStreamTime": false,
+      "metaHash": 0,
+      "metadataConfig": "{\"fields\":[{\"fieldName\":\"Allergies_ Include all, separate by a comma_\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"Days Supply\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"First Name (Legal)\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"Last Name (Legal)\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"Medication Name\",\"fieldType\":\"java.lang.Double\"},{\"fieldName\":\"Other Medications_ Include all, separate by a comma_\",\"fieldType\":\"java.lang.Double\"},{\"fieldName\":\"Patient Email\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"Quantity\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"Sig\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"Timestamp\",\"fieldType\":\"java.util.Date\"},{\"fieldName\":\"_stream_time\",\"fieldType\":\"java.util.Date\"}]}",
+      "mongoConnectUri": "provisioned",
+      "nlpBotEnabled": true,
+      "nlpConfig": null,
+      "nlpEnabled": false,
+      "nlpIndexInterval": 360,
+      "refreshMeta": false,
+      "synonymHash": 31,
+      "timeZone": null
+    }
+  ],
+  "format": 1
+}

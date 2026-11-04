@@ -1,0 +1,46 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "RHhlox",
+      "dashboardIdentifier": null,
+      "property": "chart.series.type",
+      "value": "time"
+    },
+    {
+      "chartUrl": "RHhlox",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "area"
+    },
+    {
+      "chartUrl": "RHhlox",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.column",
+      "value": "Date"
+    },
+    {
+      "chartUrl": "RHhlox",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.order",
+      "value": "1"
+    }
+  ],
+  "charts": [
+    {
+      "access": 1,
+      "category": null,
+      "chartName": "MMMMMM",
+      "datasetId": "${ref:dataset:RHhlox}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": 0,
+      "query": 0,
+      "type": 1,
+      "url": "RHhlox",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

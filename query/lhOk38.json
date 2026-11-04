@@ -1,0 +1,37 @@
+{
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:SbIqNZ}",
+      "description": "",
+      "direct": false,
+      "directPush": true,
+      "entityName": "afsdfadsasdf",
+      "identifier": "3eBoxb",
+      "inUse": true,
+      "jsonConfig": {
+        "datasourceId": "${ref:datasource:SbIqNZ}",
+        "direct": false,
+        "discovery": {
+          "discoveryForSuggestions": false,
+          "limit": 10000
+        },
+        "entityName": "afsdfadsasdf",
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "queryStr": "select \"{1}{2}{3}{4}\"\nfrom customer",
+        "startTime": "undefined undefined",
+        "triggered": false,
+        "visual": false
+      },
+      "op": 4,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "lhOk38",
+      "triggerDatasetId": 0
+    }
+  ]
+}

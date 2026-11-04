@@ -1,0 +1,58 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "4JisgC",
+      "dashboardIdentifier": null,
+      "property": "chart.dataset.limit",
+      "value": "10000"
+    },
+    {
+      "chartUrl": "4JisgC",
+      "dashboardIdentifier": null,
+      "property": "chart.display.theme",
+      "value": "dark"
+    },
+    {
+      "chartUrl": "4JisgC",
+      "dashboardIdentifier": null,
+      "property": "chart.legend.column",
+      "value": "_id"
+    },
+    {
+      "chartUrl": "4JisgC",
+      "dashboardIdentifier": null,
+      "property": "chart.series.data",
+      "value": "count"
+    },
+    {
+      "chartUrl": "4JisgC",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "pie"
+    },
+    {
+      "chartUrl": "4JisgC",
+      "dashboardIdentifier": null,
+      "property": "container.name",
+      "value": "Chart"
+    }
+  ],
+  "charts": [
+    {
+      "access": 1,
+      "category": null,
+      "chartName": "Test Copying Direct",
+      "datasetId": "${ref:dataset:4JisgC}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": 0,
+      "query": 0,
+      "type": 1,
+      "url": "4JisgC",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

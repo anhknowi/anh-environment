@@ -1,0 +1,46 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "AQBGip",
+      "dashboardIdentifier": null,
+      "property": "chart.series.type",
+      "value": "time"
+    },
+    {
+      "chartUrl": "AQBGip",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "area"
+    },
+    {
+      "chartUrl": "AQBGip",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.column",
+      "value": "Date"
+    },
+    {
+      "chartUrl": "AQBGip",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.order",
+      "value": "1"
+    }
+  ],
+  "charts": [
+    {
+      "access": 1,
+      "category": null,
+      "chartName": "XXXXXXX",
+      "datasetId": "${ref:dataset:AQBGip}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": 0,
+      "query": 0,
+      "type": 1,
+      "url": "AQBGip",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

@@ -1,0 +1,115 @@
+{
+  "chartAssociations": [
+    {
+      "chartUrl": "8U2h6O",
+      "jsonConfig": [
+        {
+          "id": "${ref:dashboard:_000O0B}",
+          "passingDrilldownFilters": false,
+          "passingFilters": false,
+          "type": "dashboard"
+        }
+      ]
+    }
+  ],
+  "chartProperties": [
+    {
+      "chartUrl": "8U2h6O",
+      "dashboardIdentifier": null,
+      "property": "chart.quickpickers",
+      "value": "0"
+    },
+    {
+      "chartUrl": "8U2h6O",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "datagrid2"
+    },
+    {
+      "chartUrl": "8U2h6O",
+      "dashboardIdentifier": null,
+      "property": "grid.aggregation.header",
+      "value": "false"
+    },
+    {
+      "chartUrl": "8U2h6O",
+      "dashboardIdentifier": null,
+      "property": "grid.collapsible",
+      "value": "false"
+    },
+    {
+      "chartUrl": "8U2h6O",
+      "dashboardIdentifier": null,
+      "property": "grid.column.BILL_AMT.widthPerc",
+      "value": "0.5"
+    },
+    {
+      "chartUrl": "8U2h6O",
+      "dashboardIdentifier": null,
+      "property": "grid.column._stream_time.widthPerc",
+      "value": "0.5"
+    },
+    {
+      "chartUrl": "8U2h6O",
+      "dashboardIdentifier": null,
+      "property": "grid.columnWidths",
+      "value": "[]"
+    },
+    {
+      "chartUrl": "8U2h6O",
+      "dashboardIdentifier": null,
+      "property": "grid.hideGroupingColumn",
+      "value": "false"
+    },
+    {
+      "chartUrl": "8U2h6O",
+      "dashboardIdentifier": null,
+      "property": "grid.resetColumnWidth",
+      "value": "false"
+    },
+    {
+      "chartUrl": "8U2h6O",
+      "dashboardIdentifier": null,
+      "property": "scale",
+      "value": "false"
+    }
+  ],
+  "charts": [
+    {
+      "access": 1,
+      "category": null,
+      "chartName": "Dashboard Drilldown",
+      "datasetId": "${ref:dataset:8U2h6O}",
+      "description": "",
+      "drilldown": 1,
+      "filterSettings": null,
+      "jsonConfig": {
+        "fields": [
+          {
+            "fieldName": "_stream_time",
+            "fieldType": "java.util.Date"
+          },
+          {
+            "fieldName": "BILL_AMT",
+            "fieldType": "java.lang.Double"
+          }
+        ]
+      },
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 21,
+      "url": "8U2h6O",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": "",
+      "chartUrl": "8U2h6O",
+      "jsonConfig": [],
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

@@ -1,0 +1,28 @@
+{
+  "datasources": [
+    {
+      "acl": null,
+      "connectSchema": false,
+      "connectorId": 1,
+      "datasource": "athena",
+      "directQueryOnly": false,
+      "inUse": true,
+      "jsonConfig": {
+        "bucket": "s3://datatesting/athena/",
+        "datasource": "athena",
+        "dbName": "knowi",
+        "name": "Amazon Athena 101",
+        "password": "${secret:datasource:ztpisU:password}",
+        "region": "us-east-1",
+        "userId": "AKIAWLLXV75H64YUBT44"
+      },
+      "name": "Amazon Athena 101",
+      "op": 1,
+      "proxy": false,
+      "strId": "ztpisU",
+      "tunnel": false,
+      "writable": false
+    }
+  ],
+  "format": 1
+}

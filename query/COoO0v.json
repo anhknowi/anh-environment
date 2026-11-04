@@ -1,0 +1,64 @@
+{
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:B0HQ4VcGcG}",
+      "description": "",
+      "direct": false,
+      "directPush": true,
+      "entityName": "GGG",
+      "identifier": "VXSjIG",
+      "inUse": true,
+      "jsonConfig": {
+        "c9QLFilter": "select *",
+        "datasourceId": "${ref:datasource:B0HQ4VcGcG}",
+        "direct": false,
+        "discovery": {
+          "discoveryForSuggestions": false,
+          "limit": 1,
+          "tableName": "pageviews"
+        },
+        "entityName": "GGG",
+        "joinC9QLFilter": "select * where a = b",
+        "joinQueries": [
+          {
+            "c9QLFilter": "select *",
+            "datasourceId": "${ref:datasource:B0HQ4VcGcG}",
+            "discovery": {
+              "discoveryForSuggestions": false,
+              "limit": 10000,
+              "tableName": "sendingActivity"
+            },
+            "queryStr": "db['sendingActivity'].find().limit(10000)",
+            "visual": true
+          },
+          {
+            "c9QLFilter": "select *",
+            "datasourceId": "${ref:datasource:B0HQ4VcGcG}",
+            "discovery": {
+              "discoveryForSuggestions": false,
+              "limit": 10000,
+              "tableName": "pageviews"
+            },
+            "queryStr": "db['pageviews'].find().limit(10000)",
+            "visual": true
+          }
+        ],
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "queryStr": "db['pageviews'].find().limit(1)",
+        "startTime": "undefined undefined",
+        "triggered": false,
+        "visual": true
+      },
+      "op": 2,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "COoO0v",
+      "triggerDatasetId": 0
+    }
+  ]
+}

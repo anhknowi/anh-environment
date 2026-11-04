@@ -1,0 +1,52 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "gj6lxe",
+      "dashboardIdentifier": null,
+      "property": "chart.series.data",
+      "value": "hits"
+    },
+    {
+      "chartUrl": "gj6lxe",
+      "dashboardIdentifier": null,
+      "property": "chart.series.type",
+      "value": "time"
+    },
+    {
+      "chartUrl": "gj6lxe",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "area"
+    },
+    {
+      "chartUrl": "gj6lxe",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.column",
+      "value": "lastAccessTime"
+    },
+    {
+      "chartUrl": "gj6lxe",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.order",
+      "value": "1"
+    }
+  ],
+  "charts": [
+    {
+      "access": 1,
+      "category": null,
+      "chartName": "dataset_54201_6501525149250643075.csv",
+      "datasetId": "${ref:dataset:RDMLip}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": 0,
+      "query": 0,
+      "type": 1,
+      "url": "gj6lxe",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

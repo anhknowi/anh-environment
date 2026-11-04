@@ -1,0 +1,46 @@
+{
+  "dataConfigs": [
+    {
+      "datasetIdentifier": "${ref:dataset:Jmwip0L}",
+      "queryIdentifier": "Jmwip0L",
+      "queryStrId": "hbSdDlA"
+    }
+  ],
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:OTS6vw}",
+      "description": null,
+      "direct": false,
+      "directPush": true,
+      "entityName": "window_repro_410k.csv",
+      "identifier": "Jmwip0L",
+      "inUse": true,
+      "jsonConfig": {
+        "c9ExportDataset": "${ref:dataset:Jmwip0L}",
+        "c9ExportEntityName": "window_repro_410k.csv",
+        "c9ExportIdentifier": "Jmwip0L",
+        "datasourceId": "${ref:datasource:OTS6vw}",
+        "direct": false,
+        "discovery": {
+          "limit": 10000,
+          "tableName": "${ref:dataset:Jmwip0L}"
+        },
+        "entityName": "window_repro_410k.csv",
+        "identifier": "Jmwip0L",
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "queryStr": "select *",
+        "triggered": false
+      },
+      "op": 1,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "hbSdDlA",
+      "triggerDatasetId": 0
+    }
+  ]
+}

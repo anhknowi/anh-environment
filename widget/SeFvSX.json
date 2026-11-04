@@ -1,0 +1,195 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "SeFvSX",
+      "dashboardIdentifier": null,
+      "property": "chart.column.ignore",
+      "value": ""
+    },
+    {
+      "chartUrl": "SeFvSX",
+      "dashboardIdentifier": null,
+      "property": "chart.dataset.limit",
+      "value": "10000"
+    },
+    {
+      "chartUrl": "SeFvSX",
+      "dashboardIdentifier": null,
+      "property": "chart.display.theme",
+      "value": ""
+    },
+    {
+      "chartUrl": "SeFvSX",
+      "dashboardIdentifier": null,
+      "property": "chart.legend.column",
+      "value": ""
+    },
+    {
+      "chartUrl": "SeFvSX",
+      "dashboardIdentifier": null,
+      "property": "chart.primary.ylabel",
+      "value": ""
+    },
+    {
+      "chartUrl": "SeFvSX",
+      "dashboardIdentifier": null,
+      "property": "chart.secondary.type",
+      "value": ""
+    },
+    {
+      "chartUrl": "SeFvSX",
+      "dashboardIdentifier": null,
+      "property": "chart.secondary.y",
+      "value": ""
+    },
+    {
+      "chartUrl": "SeFvSX",
+      "dashboardIdentifier": null,
+      "property": "chart.secondary.ylabel",
+      "value": ""
+    },
+    {
+      "chartUrl": "SeFvSX",
+      "dashboardIdentifier": null,
+      "property": "chart.secondary.zIndex",
+      "value": ""
+    },
+    {
+      "chartUrl": "SeFvSX",
+      "dashboardIdentifier": null,
+      "property": "chart.series.data",
+      "value": ""
+    },
+    {
+      "chartUrl": "SeFvSX",
+      "dashboardIdentifier": null,
+      "property": "chart.series.type",
+      "value": ""
+    },
+    {
+      "chartUrl": "SeFvSX",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "datagrid"
+    },
+    {
+      "chartUrl": "SeFvSX",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.column",
+      "value": ""
+    },
+    {
+      "chartUrl": "SeFvSX",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.order",
+      "value": ""
+    },
+    {
+      "chartUrl": "SeFvSX",
+      "dashboardIdentifier": null,
+      "property": "chart.yAxis.max",
+      "value": ""
+    },
+    {
+      "chartUrl": "SeFvSX",
+      "dashboardIdentifier": null,
+      "property": "chart.yAxis.tickInterval",
+      "value": ""
+    },
+    {
+      "chartUrl": "SeFvSX",
+      "dashboardIdentifier": null,
+      "property": "container.name",
+      "value": "Chart"
+    },
+    {
+      "chartUrl": "SeFvSX",
+      "dashboardIdentifier": null,
+      "property": "custom.field",
+      "value": ""
+    },
+    {
+      "chartUrl": "SeFvSX",
+      "dashboardIdentifier": null,
+      "property": "evenbg.color",
+      "value": ""
+    },
+    {
+      "chartUrl": "SeFvSX",
+      "dashboardIdentifier": null,
+      "property": "font.color",
+      "value": ""
+    },
+    {
+      "chartUrl": "SeFvSX",
+      "dashboardIdentifier": null,
+      "property": "font.header.color",
+      "value": ""
+    },
+    {
+      "chartUrl": "SeFvSX",
+      "dashboardIdentifier": null,
+      "property": "grid.aggregation",
+      "value": ""
+    },
+    {
+      "chartUrl": "SeFvSX",
+      "dashboardIdentifier": null,
+      "property": "grid.collapsible",
+      "value": "false"
+    },
+    {
+      "chartUrl": "SeFvSX",
+      "dashboardIdentifier": null,
+      "property": "grid.grouping",
+      "value": ""
+    },
+    {
+      "chartUrl": "SeFvSX",
+      "dashboardIdentifier": null,
+      "property": "headerbg.color",
+      "value": ""
+    },
+    {
+      "chartUrl": "SeFvSX",
+      "dashboardIdentifier": null,
+      "property": "oddbg.color",
+      "value": ""
+    },
+    {
+      "chartUrl": "SeFvSX",
+      "dashboardIdentifier": null,
+      "property": "widget.footnote",
+      "value": ""
+    }
+  ],
+  "charts": [
+    {
+      "access": 1,
+      "category": "All",
+      "chartName": "ZZZ ANH",
+      "datasetId": "${ref:dataset:SeFvSX}",
+      "description": "",
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 2,
+      "url": "SeFvSX",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": "",
+      "chartUrl": "SeFvSX",
+      "jsonConfig": {
+        "limit": 0
+      },
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

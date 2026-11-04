@@ -1,0 +1,23 @@
+{
+  "datasets": [
+    {
+      "agenticDefault": false,
+      "bypassOverrideLimit": false,
+      "dataExpirationDate": null,
+      "datasetName": "restaurants.csv",
+      "identifier": "4xis8p",
+      "injectStreamTime": false,
+      "metaHash": -693391869,
+      "metadataConfig": "{\"fields\":[{\"fieldName\":\"_stream_time\",\"fieldType\":\"java.util.Date\"},{\"fieldName\":\"address_coord_[*]\",\"fieldType\":\"java.util.List\"},{\"fieldName\":\"Borough\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"cuisine\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"latitude\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"longitude\",\"fieldType\":\"java.lang.Double\"},{\"fieldName\":\"name\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"price\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"rating\",\"fieldType\":\"java.lang.Integer\"}]}",
+      "mongoConnectUri": "provisioned",
+      "nlpBotEnabled": true,
+      "nlpConfig": null,
+      "nlpEnabled": false,
+      "nlpIndexInterval": 360,
+      "refreshMeta": false,
+      "synonymHash": 31,
+      "timeZone": null
+    }
+  ],
+  "format": 1
+}

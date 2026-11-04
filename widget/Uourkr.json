@@ -1,0 +1,46 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "Uourkr",
+      "dashboardIdentifier": null,
+      "property": "chart.series.type",
+      "value": "time"
+    },
+    {
+      "chartUrl": "Uourkr",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "datagrid"
+    },
+    {
+      "chartUrl": "Uourkr",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.column",
+      "value": "date"
+    },
+    {
+      "chartUrl": "Uourkr",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.order",
+      "value": "1"
+    }
+  ],
+  "charts": [
+    {
+      "access": 1,
+      "category": null,
+      "chartName": "anh.csv",
+      "datasetId": "${ref:dataset:Y2xdvj}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": 0,
+      "query": 0,
+      "type": 2,
+      "url": "Uourkr",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

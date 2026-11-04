@@ -1,0 +1,148 @@
+{
+  "chartAssociations": [
+    {
+      "chartUrl": "bIgDEa",
+      "jsonConfig": [
+        {
+          "field": "customer_name",
+          "filters": [
+            {
+              "childField": "customer",
+              "parentField": "customer_name"
+            }
+          ],
+          "id": 125020,
+          "passingDrilldownFilters": false,
+          "passingFilters": false,
+          "type": "dashboard_connected"
+        }
+      ]
+    }
+  ],
+  "chartProperties": [
+    {
+      "chartUrl": "bIgDEa",
+      "dashboardIdentifier": null,
+      "property": "chart.quickpickers",
+      "value": "0"
+    },
+    {
+      "chartUrl": "bIgDEa",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "datagrid2"
+    },
+    {
+      "chartUrl": "bIgDEa",
+      "dashboardIdentifier": null,
+      "property": "grid.aggregation.header",
+      "value": "false"
+    },
+    {
+      "chartUrl": "bIgDEa",
+      "dashboardIdentifier": null,
+      "property": "grid.collapsible",
+      "value": "false"
+    },
+    {
+      "chartUrl": "bIgDEa",
+      "dashboardIdentifier": null,
+      "property": "grid.column.customer_name.widthPerc",
+      "value": "1"
+    },
+    {
+      "chartUrl": "bIgDEa",
+      "dashboardIdentifier": null,
+      "property": "grid.columnLines",
+      "value": "false"
+    },
+    {
+      "chartUrl": "bIgDEa",
+      "dashboardIdentifier": null,
+      "property": "grid.columnWidths",
+      "value": "[]"
+    },
+    {
+      "chartUrl": "bIgDEa",
+      "dashboardIdentifier": null,
+      "property": "grid.disableClickToSort",
+      "value": "false"
+    },
+    {
+      "chartUrl": "bIgDEa",
+      "dashboardIdentifier": null,
+      "property": "grid.hideGroupingColumn",
+      "value": "false"
+    },
+    {
+      "chartUrl": "bIgDEa",
+      "dashboardIdentifier": null,
+      "property": "grid.resetColumnWidth",
+      "value": "false"
+    },
+    {
+      "chartUrl": "bIgDEa",
+      "dashboardIdentifier": null,
+      "property": "grid2.merge_cells",
+      "value": "false"
+    },
+    {
+      "chartUrl": "bIgDEa",
+      "dashboardIdentifier": null,
+      "property": "repeatableWidget.height",
+      "value": "12"
+    },
+    {
+      "chartUrl": "bIgDEa",
+      "dashboardIdentifier": null,
+      "property": "repeatableWidget.showRepeatingPanel",
+      "value": "false"
+    },
+    {
+      "chartUrl": "bIgDEa",
+      "dashboardIdentifier": null,
+      "property": "repeatableWidget.width",
+      "value": "12"
+    },
+    {
+      "chartUrl": "bIgDEa",
+      "dashboardIdentifier": null,
+      "property": "scale",
+      "value": "false"
+    }
+  ],
+  "charts": [
+    {
+      "access": 1,
+      "category": null,
+      "chartName": "Index",
+      "datasetId": "${ref:dataset:bIgDEa}",
+      "description": "",
+      "drilldown": 1,
+      "filterSettings": null,
+      "jsonConfig": {
+        "fields": [
+          {
+            "fieldName": "customer_name",
+            "fieldType": "java.lang.String"
+          }
+        ]
+      },
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 21,
+      "url": "bIgDEa",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": "",
+      "chartUrl": "bIgDEa",
+      "jsonConfig": [],
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

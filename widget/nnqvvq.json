@@ -1,0 +1,302 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "nnqvvq",
+      "dashboardIdentifier": null,
+      "property": "chart.firstRow",
+      "value": "[\"588405bd74dda0402b533a82\",{\"zipcode\":\"10065\",\"coord\":[-73.96926909999999,40.7685235],\"building\":\"1\",\"street\":\"East   66 Street\"},\"Manhattan\",\"American\",[{\"date\":\"Tue May 06 17:00:00 PDT 2014\",\"score\":3,\"grade\":\"A\"},{\"date\":\"Thu May 02 17:00:00 PDT 2013\",\"score\":4,\"grade\":\"A\"},{\"date\":\"Sun Apr 29 17:00:00 PDT 2012\",\"score\":6,\"grade\":\"A\"},{\"date\":\"Mon Dec 26 16:00:00 PST 2011\",\"score\":0,\"grade\":\"A\"}],\"1 East 66Th Street Kitchen\",\"40359480\"]"
+    },
+    {
+      "chartUrl": "nnqvvq",
+      "dashboardIdentifier": null,
+      "property": "chart.quickpickers",
+      "value": "0"
+    },
+    {
+      "chartUrl": "nnqvvq",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "datagrid2"
+    },
+    {
+      "chartUrl": "nnqvvq",
+      "dashboardIdentifier": null,
+      "property": "chart.wBorderVisibility",
+      "value": "inherit_from_dash"
+    },
+    {
+      "chartUrl": "nnqvvq",
+      "dashboardIdentifier": null,
+      "property": "chart.wTitleVisibility",
+      "value": "inherit_from_dash"
+    },
+    {
+      "chartUrl": "nnqvvq",
+      "dashboardIdentifier": null,
+      "property": "grid.aggregation.header",
+      "value": "false"
+    },
+    {
+      "chartUrl": "nnqvvq",
+      "dashboardIdentifier": null,
+      "property": "grid.collapsible",
+      "value": "false"
+    },
+    {
+      "chartUrl": "nnqvvq",
+      "dashboardIdentifier": null,
+      "property": "grid.column.address.widthPerc",
+      "value": "0.14285714285714288"
+    },
+    {
+      "chartUrl": "nnqvvq",
+      "dashboardIdentifier": null,
+      "property": "grid.column.borough.widthPerc",
+      "value": "0.14285714285714288"
+    },
+    {
+      "chartUrl": "nnqvvq",
+      "dashboardIdentifier": null,
+      "property": "grid.column.cuisine.widthPerc",
+      "value": "0.14285714285714288"
+    },
+    {
+      "chartUrl": "nnqvvq",
+      "dashboardIdentifier": null,
+      "property": "grid.column.grades.widthPerc",
+      "value": "0.14285714285714288"
+    },
+    {
+      "chartUrl": "nnqvvq",
+      "dashboardIdentifier": null,
+      "property": "grid.column.id .widthPerc",
+      "value": "0.14285714285714288"
+    },
+    {
+      "chartUrl": "nnqvvq",
+      "dashboardIdentifier": null,
+      "property": "grid.column.name.widthPerc",
+      "value": "0.14285714285714288"
+    },
+    {
+      "chartUrl": "nnqvvq",
+      "dashboardIdentifier": null,
+      "property": "grid.column.restaurant_id.widthPerc",
+      "value": "0.14285714285714288"
+    },
+    {
+      "chartUrl": "nnqvvq",
+      "dashboardIdentifier": null,
+      "property": "grid.columnLines",
+      "value": "false"
+    },
+    {
+      "chartUrl": "nnqvvq",
+      "dashboardIdentifier": null,
+      "property": "grid.columnWidths",
+      "value": "[0.14285714285714288,0.14285714285714288,0.14285714285714288,0.14285714285714288,0.14285714285714288,0.14285714285714288,0.14285714285714288]"
+    },
+    {
+      "chartUrl": "nnqvvq",
+      "dashboardIdentifier": null,
+      "property": "grid.disableClickToSort",
+      "value": "false"
+    },
+    {
+      "chartUrl": "nnqvvq",
+      "dashboardIdentifier": null,
+      "property": "grid.hideGroupingColumn",
+      "value": "false"
+    },
+    {
+      "chartUrl": "nnqvvq",
+      "dashboardIdentifier": null,
+      "property": "grid.resetColumnWidth",
+      "value": "false"
+    },
+    {
+      "chartUrl": "nnqvvq",
+      "dashboardIdentifier": null,
+      "property": "grid2.default.cellWrap",
+      "value": "false"
+    },
+    {
+      "chartUrl": "nnqvvq",
+      "dashboardIdentifier": null,
+      "property": "grid2.default.headerWrap",
+      "value": "false"
+    },
+    {
+      "chartUrl": "nnqvvq",
+      "dashboardIdentifier": null,
+      "property": "grid2.merge_cells",
+      "value": "false"
+    },
+    {
+      "chartUrl": "nnqvvq",
+      "dashboardIdentifier": null,
+      "property": "grid2.pagination.computeTotalCount",
+      "value": "true"
+    },
+    {
+      "chartUrl": "nnqvvq",
+      "dashboardIdentifier": null,
+      "property": "grid2.pagination.navigationMode",
+      "value": "paged"
+    },
+    {
+      "chartUrl": "nnqvvq",
+      "dashboardIdentifier": null,
+      "property": "grid2.pagination.rowsPerPage",
+      "value": "100"
+    },
+    {
+      "chartUrl": "nnqvvq",
+      "dashboardIdentifier": null,
+      "property": "loadUponPrompt",
+      "value": "false"
+    },
+    {
+      "chartUrl": "nnqvvq",
+      "dashboardIdentifier": null,
+      "property": "repeatableWidget.showRepeatingPanel",
+      "value": "false"
+    },
+    {
+      "chartUrl": "nnqvvq",
+      "dashboardIdentifier": null,
+      "property": "scale",
+      "value": "false"
+    },
+    {
+      "chartUrl": "nnqvvq",
+      "dashboardIdentifier": null,
+      "property": "widgetCache.enabled",
+      "value": "true"
+    },
+    {
+      "chartUrl": "nnqvvq",
+      "dashboardIdentifier": null,
+      "property": "widgetDisplayOptions",
+      "value": "w-export-to-excel:true,highchart-context-menu:true"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "afsdfdsfds",
+      "datasetId": "${ref:dataset:nnqvvq}",
+      "description": "",
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": {
+        "fields": [
+          {
+            "fieldName": "address",
+            "fieldType": "java.util.Map",
+            "nestedFields": [
+              {
+                "fieldName": "building",
+                "fieldType": "java.lang.String",
+                "ntz": false
+              },
+              {
+                "fieldName": "coord",
+                "fieldType": "java.util.List",
+                "nestedFields": [
+                  {
+                    "fieldName": "[*]",
+                    "fieldType": "java.lang.Double",
+                    "ntz": false
+                  }
+                ],
+                "ntz": false
+              },
+              {
+                "fieldName": "street",
+                "fieldType": "java.lang.String",
+                "ntz": false
+              },
+              {
+                "fieldName": "zipcode",
+                "fieldType": "java.lang.String",
+                "ntz": false
+              }
+            ],
+            "ntz": false
+          },
+          {
+            "fieldName": "borough",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "cuisine",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "grades",
+            "fieldType": "java.util.List",
+            "nestedFields": [
+              {
+                "fieldName": "[*]",
+                "fieldType": "java.util.Map",
+                "nestedFields": [
+                  {
+                    "fieldName": "date",
+                    "fieldType": "java.util.Date",
+                    "ntz": false
+                  },
+                  {
+                    "fieldName": "grade",
+                    "fieldType": "java.lang.String",
+                    "ntz": false
+                  },
+                  {
+                    "fieldName": "score",
+                    "fieldType": "java.lang.Integer",
+                    "ntz": false
+                  }
+                ],
+                "ntz": false
+              }
+            ],
+            "ntz": false
+          },
+          {
+            "fieldName": "id",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "name",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "restaurant_id",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          }
+        ]
+      },
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 21,
+      "url": "nnqvvq",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": "",
+      "chartUrl": "nnqvvq",
+      "jsonConfig": [],
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

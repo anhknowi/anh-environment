@@ -1,0 +1,72 @@
+{
+  "discoveryConfigs": [
+    {
+      "c9Query": "select 'entity_name', 'identifier'",
+      "chartUrl": "",
+      "jsonConfig": [
+        {
+          "dataFieldNames": [
+            "id",
+            "entity_name",
+            "datasource_id",
+            "user_id",
+            "identifier",
+            "str_id",
+            "json_config"
+          ],
+          "discoveryForSuggestions": false,
+          "limit": 0,
+          "metrics": [
+            {
+              "customized": false,
+              "fieldName": "entity_name",
+              "fieldType": "java.lang.String",
+              "label": "entity_name"
+            },
+            {
+              "customized": false,
+              "fieldName": "identifier",
+              "fieldType": "java.lang.String",
+              "label": "identifier"
+            }
+          ]
+        }
+      ],
+      "queryIdentifier": "QnwojT",
+      "queryStrId": "hvxuNi"
+    }
+  ],
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:EX7dlt}",
+      "description": "",
+      "direct": false,
+      "directPush": true,
+      "entityName": "Sheet Query",
+      "identifier": "QnwojT",
+      "inUse": true,
+      "jsonConfig": {
+        "c9QLFilter": "select *",
+        "datasourceId": "${ref:datasource:EX7dlt}",
+        "direct": false,
+        "entityName": "Sheet Query",
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "sheetId": "1po-LXVrhVACHAjIrPart62v7gmkIc2W81ML9dd9k57I",
+        "sheetName": "c9adhoc_Query4ResultSet",
+        "startTime": "undefined undefined",
+        "triggered": false,
+        "visual": false
+      },
+      "op": 4,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "hvxuNi",
+      "triggerDatasetId": 0
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "datasets": [
+    {
+      "agenticDefault": false,
+      "bypassOverrideLimit": false,
+      "dataExpirationDate": null,
+      "datasetName": "TEST ANH 1",
+      "identifier": "ns371n",
+      "injectStreamTime": true,
+      "metaHash": 0,
+      "metadataConfig": "{\"indexes\":[\"customer\"],\"displayTypes\":{\"country\":\"java.lang.String\",\"street\":\"java.lang.String\",\"currency\":\"java.lang.String\",\"id\":\"java.lang.Integer\",\"state\":\"java.lang.String\",\"customer\":\"java.lang.String\"},\"fields\":[{\"fieldName\":\"country\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"currency\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"customer\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"id\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"state\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"street\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"TEST\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"_stream_time\",\"fieldType\":\"java.util.Date\"}]}",
+      "mongoConnectUri": "provisioned",
+      "nlpBotEnabled": true,
+      "nlpConfig": null,
+      "nlpEnabled": false,
+      "nlpIndexInterval": 360,
+      "refreshMeta": false,
+      "synonymHash": 31,
+      "timeZone": null
+    }
+  ],
+  "format": 1
+}

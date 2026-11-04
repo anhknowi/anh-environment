@@ -1,0 +1,28 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "pl4r2b",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "datagrid"
+    }
+  ],
+  "charts": [
+    {
+      "access": 1,
+      "category": null,
+      "chartName": "TEST M/S 001",
+      "datasetId": "${ref:dataset:pl4r2b}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": 0,
+      "query": 0,
+      "type": 2,
+      "url": "pl4r2b",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

@@ -1,0 +1,23 @@
+{
+  "datasets": [
+    {
+      "agenticDefault": false,
+      "bypassOverrideLimit": false,
+      "dataExpirationDate": null,
+      "datasetName": "TEST SLOW",
+      "identifier": "1Nx9HA",
+      "injectStreamTime": true,
+      "metaHash": 0,
+      "metadataConfig": "{\"fieldNames\":[\"id\",\"ANON_MBR_ID\",\"MBR_AGE\",\"SEX_CD\",\"SRC_CUST_ANON_ID\",\"SRC_ASO_IND\",\"MAJOR_LOB_CD\",\"fin_prod_cd\",\"FIN_SUB_CD\",\"SOLD_LEDGER_NBR\",\"DOCUMENT_KEY\",\"ndc_anon_id\",\"PAY_DAY_SUPPLY_CNT\",\"BILL_AMT\",\"MBR_RESPONS_AMT\",\"NET_PAID_AMT\",\"SERVICE_DATE\",\"PROCESS_DATE\",\"REVERSAL_IND\",\"PHAR_NABP_ANON_ID\",\"PHAR_PAR_IND\",\"PHYS_NPI_ANON_ID\",\"service_month\",\"service_year\",\"MAIL_ORDER_IND\",\"COB_IND\",\"COMPOUND_IND\",\"DRUG_COV_STATUS_CD\",\"FORMULARY_IND\",\"GENERIC_AVAIL_CD\",\"PAYABLE_QTY\",\"DAW_CD\",\"REFILL_CD\",\"REFILL_NBR\",\"CICS_STAT_CD\",\"PCS_CLAIM_TYPE_CD\",\"GENERIC_IND\",\"DEA_SCH_IND\",\"BRAND_NAME\",\"GENERIC_NAME\",\"HUM_DRUG_CLASS_DESC\",\"GCN_ID\",\"GPI_DRUG_CLASS_DESC\",\"GPI_DRUG_CLASS_ID\",\"OTC_IND\",\"PHARM_DESC1\",\"PHARM_DESC2\",\"PHARM_ANON_ID\",\"CMPND_PHAR_IND\",\"LTC_PHAR_IND\",\"MAIL_ORDER_PHAR_IND\",\"SPCL_PHAR_IND\",\"PRESCRIBER_ANON_ID\",\"month_number\",\"Month\",\"MBR_PRESCRIBER_DISTANCE\",\"MBR_PHARMACY_DISTANCE\",\"PRESCRIBER_PHARMACY_DISTANCE\",\"DISP_CLASS_CD\",\"type\",\"MAINT_DRUG_IND\"],\"dataTypes\":{\"id\":\"java.lang.Integer\",\"ANON_MBR_ID\":\"java.lang.String\",\"MBR_AGE\":\"java.lang.Integer\",\"SEX_CD\":\"java.lang.String\",\"SRC_CUST_ANON_ID\":\"java.lang.String\",\"SRC_ASO_IND\":\"java.lang.String\",\"MAJOR_LOB_CD\":\"java.lang.String\",\"fin_prod_cd\":\"java.lang.String\",\"FIN_SUB_CD\":\"java.lang.String\",\"SOLD_LEDGER_NBR\":\"java.lang.Integer\",\"DOCUMENT_KEY\":\"java.lang.String\",\"ndc_anon_id\":\"java.lang.String\",\"PAY_DAY_SUPPLY_CNT\":\"java.lang.Integer\",\"BILL_AMT\":\"java.lang.Double\",\"MBR_RESPONS_AMT\":\"java.lang.Double\",\"NET_PAID_AMT\":\"java.lang.Double\",\"SERVICE_DATE\":\"java.util.Date\",\"PROCESS_DATE\":\"java.util.Date\",\"REVERSAL_IND\":\"java.lang.String\",\"PHAR_NABP_ANON_ID\":\"java.lang.String\",\"PHAR_PAR_IND\":\"java.lang.String\",\"PHYS_NPI_ANON_ID\":\"java.lang.String\",\"service_month\":\"java.util.Date\",\"service_year\":\"java.lang.Integer\",\"MAIL_ORDER_IND\":\"java.lang.String\",\"COB_IND\":\"java.lang.String\",\"COMPOUND_IND\":\"java.lang.String\",\"DRUG_COV_STATUS_CD\":\"java.lang.String\",\"FORMULARY_IND\":\"java.lang.String\",\"GENERIC_AVAIL_CD\":\"java.lang.String\",\"PAYABLE_QTY\":\"java.lang.Integer\",\"DAW_CD\":\"java.lang.Integer\",\"REFILL_CD\":\"java.lang.Integer\",\"REFILL_NBR\":\"java.lang.Integer\",\"CICS_STAT_CD\":\"java.lang.String\",\"PCS_CLAIM_TYPE_CD\":\"java.lang.String\",\"GENERIC_IND\":\"java.lang.String\",\"DEA_SCH_IND\":\"java.lang.Integer\",\"BRAND_NAME\":\"java.lang.String\",\"GENERIC_NAME\":\"java.lang.String\",\"HUM_DRUG_CLASS_DESC\":\"java.lang.String\",\"GCN_ID\":\"java.lang.Integer\",\"GPI_DRUG_CLASS_DESC\":\"java.lang.String\",\"GPI_DRUG_CLASS_ID\":\"java.lang.Integer\",\"OTC_IND\":\"java.lang.String\",\"PHARM_DESC1\":\"java.lang.String\",\"PHARM_DESC2\":\"java.lang.String\",\"PHARM_ANON_ID\":\"java.lang.String\",\"CMPND_PHAR_IND\":\"java.lang.String\",\"LTC_PHAR_IND\":\"java.lang.String\",\"MAIL_ORDER_PHAR_IND\":\"java.lang.String\",\"SPCL_PHAR_IND\":\"java.lang.String\",\"PRESCRIBER_ANON_ID\":\"java.lang.String\",\"month_number\":\"java.lang.Integer\",\"Month\":\"java.lang.String\",\"MBR_PRESCRIBER_DISTANCE\":\"java.lang.Double\",\"MBR_PHARMACY_DISTANCE\":\"java.lang.Double\",\"PRESCRIBER_PHARMACY_DISTANCE\":\"java.lang.Double\",\"DISP_CLASS_CD\":\"java.lang.Integer\",\"type\":\"java.lang.String\",\"MAINT_DRUG_IND\":\"java.lang.String\"},\"macros\":[]}",
+      "mongoConnectUri": "provisioned",
+      "nlpBotEnabled": true,
+      "nlpConfig": null,
+      "nlpEnabled": false,
+      "nlpIndexInterval": 360,
+      "refreshMeta": false,
+      "synonymHash": 31,
+      "timeZone": null
+    }
+  ],
+  "format": 1
+}

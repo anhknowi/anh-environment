@@ -1,0 +1,64 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "zQmbFk",
+      "dashboardIdentifier": null,
+      "property": "chart.dataset.limit",
+      "value": "10000"
+    },
+    {
+      "chartUrl": "zQmbFk",
+      "dashboardIdentifier": null,
+      "property": "chart.display.theme",
+      "value": "dark"
+    },
+    {
+      "chartUrl": "zQmbFk",
+      "dashboardIdentifier": null,
+      "property": "chart.series.type",
+      "value": "time"
+    },
+    {
+      "chartUrl": "zQmbFk",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "area"
+    },
+    {
+      "chartUrl": "zQmbFk",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.column",
+      "value": "Week"
+    },
+    {
+      "chartUrl": "zQmbFk",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.order",
+      "value": "1"
+    },
+    {
+      "chartUrl": "zQmbFk",
+      "dashboardIdentifier": null,
+      "property": "container.name",
+      "value": "Chart"
+    }
+  ],
+  "charts": [
+    {
+      "access": 1,
+      "category": null,
+      "chartName": "Test unql clone",
+      "datasetId": "${ref:dataset:zQmbFk}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": 0,
+      "query": 0,
+      "type": 1,
+      "url": "zQmbFk",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

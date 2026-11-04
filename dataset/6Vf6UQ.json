@@ -1,0 +1,23 @@
+{
+  "datasets": [
+    {
+      "agenticDefault": false,
+      "bypassOverrideLimit": false,
+      "dataExpirationDate": null,
+      "datasetName": "KnowiRaw",
+      "identifier": "6Vf6UQ",
+      "injectStreamTime": true,
+      "metaHash": 0,
+      "metadataConfig": "{\"fields\":[{\"fieldName\":\"csn\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"name\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"task_id\",\"fieldType\":\"java.lang.Integer\"}]}",
+      "mongoConnectUri": "provisioned",
+      "nlpBotEnabled": true,
+      "nlpConfig": null,
+      "nlpEnabled": false,
+      "nlpIndexInterval": 360,
+      "refreshMeta": false,
+      "synonymHash": 31,
+      "timeZone": null
+    }
+  ],
+  "format": 1
+}

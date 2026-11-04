@@ -1,0 +1,23 @@
+{
+  "datasets": [
+    {
+      "agenticDefault": false,
+      "bypassOverrideLimit": false,
+      "dataExpirationDate": null,
+      "datasetName": "Test Athena 2",
+      "identifier": "lw7iir",
+      "injectStreamTime": false,
+      "metaHash": 1543146572,
+      "metadataConfig": "{\"fields\":[{\"fieldName\":\"browser\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"browserversion\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"bytes\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"date\",\"fieldType\":\"java.util.Date\"},{\"fieldName\":\"host\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"location\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"method\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"os\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"referrer\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"requestip\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"status\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"time\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"uri\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"_stream_time\",\"fieldType\":\"java.util.Date\"}]}",
+      "mongoConnectUri": "provisioned",
+      "nlpBotEnabled": true,
+      "nlpConfig": null,
+      "nlpEnabled": false,
+      "nlpIndexInterval": 360,
+      "refreshMeta": false,
+      "synonymHash": 31,
+      "timeZone": null
+    }
+  ],
+  "format": 1
+}

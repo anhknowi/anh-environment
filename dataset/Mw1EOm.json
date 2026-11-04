@@ -1,0 +1,23 @@
+{
+  "datasets": [
+    {
+      "agenticDefault": false,
+      "bypassOverrideLimit": false,
+      "dataExpirationDate": null,
+      "datasetName": "Infosys Query",
+      "identifier": "Mw1EOm",
+      "injectStreamTime": false,
+      "metaHash": 597287423,
+      "metadataConfig": "{\"macroFields\":[{\"fieldName\":\"My Date\",\"fieldType\":\"java.util.Date\"}],\"fields\":[{\"fieldName\":\"dataset_name\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"last_mod_date\",\"fieldType\":\"java.util.Date\"}]}",
+      "mongoConnectUri": "c9Query/${ref:query:xdto9s}",
+      "nlpBotEnabled": true,
+      "nlpConfig": null,
+      "nlpEnabled": false,
+      "nlpIndexInterval": 360,
+      "refreshMeta": false,
+      "synonymHash": 31,
+      "timeZone": null
+    }
+  ],
+  "format": 1
+}

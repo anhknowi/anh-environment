@@ -1,0 +1,46 @@
+{
+  "dataConfigs": [
+    {
+      "datasetIdentifier": "${ref:dataset:AlaX5jB}",
+      "queryIdentifier": "AlaX5jB",
+      "queryStrId": "BDct6s3"
+    }
+  ],
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:OTS6vw}",
+      "description": null,
+      "direct": false,
+      "directPush": true,
+      "entityName": "Sales Data",
+      "identifier": "AlaX5jB",
+      "inUse": true,
+      "jsonConfig": {
+        "c9ExportDataset": "${ref:dataset:AlaX5jB}",
+        "c9ExportEntityName": "Sales Data",
+        "c9ExportIdentifier": "AlaX5jB",
+        "datasourceId": "${ref:datasource:OTS6vw}",
+        "direct": false,
+        "discovery": {
+          "limit": 10000,
+          "tableName": "${ref:dataset:AlaX5jB}"
+        },
+        "entityName": "Sales Data",
+        "identifier": "AlaX5jB",
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "queryStr": "select *",
+        "triggered": false
+      },
+      "op": 1,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "BDct6s3",
+      "triggerDatasetId": 0
+    }
+  ]
+}

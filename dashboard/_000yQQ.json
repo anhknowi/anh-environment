@@ -1,0 +1,53 @@
+{
+  "dashboardCharts": [
+    {
+      "chartUrl": "${ref:widget:KvsyH4}",
+      "col": 13,
+      "dashboardIdentifier": "_000yQQ",
+      "grain": 1,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 1,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 12,
+      "sizeY": 12,
+      "sizeYOriginal": 0,
+      "width": 0
+    },
+    {
+      "chartUrl": "${ref:widget:RmSTaj}",
+      "col": 1,
+      "dashboardIdentifier": "_000yQQ",
+      "grain": 1,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 1,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 12,
+      "sizeY": 12,
+      "sizeYOriginal": 0,
+      "width": 0
+    }
+  ],
+  "dashboards": [
+    {
+      "dashAccessLevel": 1,
+      "displayOrder": 1,
+      "filterSettings": null,
+      "identifier": "_000yQQ",
+      "jsonConfig": null,
+      "locked": 0,
+      "name": "Lockheed Dashboard",
+      "screenAdjust": 1,
+      "screenHeight": 953,
+      "screenWidth": 1879,
+      "type": 1,
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

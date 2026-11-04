@@ -1,0 +1,166 @@
+{
+  "chartAssociations": [
+    {
+      "chartUrl": "qCJg2M",
+      "jsonConfig": [
+        {
+          "id": "${ref:widget:Oqgroz}",
+          "passingFilters": false,
+          "type": "widget"
+        }
+      ]
+    }
+  ],
+  "chartProperties": [
+    {
+      "chartUrl": "qCJg2M",
+      "dashboardIdentifier": null,
+      "property": "chart.column.ignore",
+      "value": ""
+    },
+    {
+      "chartUrl": "qCJg2M",
+      "dashboardIdentifier": null,
+      "property": "chart.dataset.limit",
+      "value": "100"
+    },
+    {
+      "chartUrl": "qCJg2M",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "datagrid2"
+    },
+    {
+      "chartUrl": "qCJg2M",
+      "dashboardIdentifier": null,
+      "property": "clickEvent",
+      "value": ""
+    },
+    {
+      "chartUrl": "qCJg2M",
+      "dashboardIdentifier": null,
+      "property": "columnFilters",
+      "value": "{}"
+    },
+    {
+      "chartUrl": "qCJg2M",
+      "dashboardIdentifier": null,
+      "property": "evenbg.color",
+      "value": ""
+    },
+    {
+      "chartUrl": "qCJg2M",
+      "dashboardIdentifier": null,
+      "property": "font.color",
+      "value": ""
+    },
+    {
+      "chartUrl": "qCJg2M",
+      "dashboardIdentifier": null,
+      "property": "font.header.color",
+      "value": ""
+    },
+    {
+      "chartUrl": "qCJg2M",
+      "dashboardIdentifier": null,
+      "property": "formatOptions",
+      "value": "{\"Campaign\":[{\"mode\":\"html\"}]}"
+    },
+    {
+      "chartUrl": "qCJg2M",
+      "dashboardIdentifier": null,
+      "property": "grid.aggregation",
+      "value": ""
+    },
+    {
+      "chartUrl": "qCJg2M",
+      "dashboardIdentifier": null,
+      "property": "grid.cells.padding",
+      "value": ""
+    },
+    {
+      "chartUrl": "qCJg2M",
+      "dashboardIdentifier": null,
+      "property": "grid.collapsible",
+      "value": "false"
+    },
+    {
+      "chartUrl": "qCJg2M",
+      "dashboardIdentifier": null,
+      "property": "grid.column.ordering",
+      "value": ""
+    },
+    {
+      "chartUrl": "qCJg2M",
+      "dashboardIdentifier": null,
+      "property": "grid.grouping",
+      "value": ""
+    },
+    {
+      "chartUrl": "qCJg2M",
+      "dashboardIdentifier": null,
+      "property": "grid.lineThickness",
+      "value": ""
+    },
+    {
+      "chartUrl": "qCJg2M",
+      "dashboardIdentifier": null,
+      "property": "grid.resetColumnWidth",
+      "value": "false"
+    },
+    {
+      "chartUrl": "qCJg2M",
+      "dashboardIdentifier": null,
+      "property": "grid.row.height",
+      "value": ""
+    },
+    {
+      "chartUrl": "qCJg2M",
+      "dashboardIdentifier": null,
+      "property": "grid.sort.type",
+      "value": "asc"
+    },
+    {
+      "chartUrl": "qCJg2M",
+      "dashboardIdentifier": null,
+      "property": "headerbg.color",
+      "value": ""
+    },
+    {
+      "chartUrl": "qCJg2M",
+      "dashboardIdentifier": null,
+      "property": "minColWidth",
+      "value": ""
+    },
+    {
+      "chartUrl": "qCJg2M",
+      "dashboardIdentifier": null,
+      "property": "oddbg.color",
+      "value": ""
+    },
+    {
+      "chartUrl": "qCJg2M",
+      "dashboardIdentifier": null,
+      "property": "widget.footnote",
+      "value": ""
+    }
+  ],
+  "charts": [
+    {
+      "access": 1,
+      "category": null,
+      "chartName": "Copy of Copy of TEST CHART 1",
+      "datasetId": "${ref:dataset:isXdj8}",
+      "description": "",
+      "drilldown": 1,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": 0,
+      "query": 0,
+      "type": 21,
+      "url": "qCJg2M",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

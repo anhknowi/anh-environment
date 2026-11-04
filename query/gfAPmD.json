@@ -1,0 +1,49 @@
+{
+  "discoveryConfigs": [
+    {
+      "c9Query": "",
+      "chartUrl": "",
+      "jsonConfig": [],
+      "queryIdentifier": "W6wgvp",
+      "queryStrId": "gfAPmD"
+    }
+  ],
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:B0HQ4VcGcG}",
+      "description": "",
+      "direct": false,
+      "directPush": true,
+      "entityName": "Test Redshift",
+      "identifier": "W6wgvp",
+      "inUse": true,
+      "jsonConfig": {
+        "datasourceId": "${ref:datasource:B0HQ4VcGcG}",
+        "direct": false,
+        "discovery": {
+          "limit": 1,
+          "tableName": "sendingActivity"
+        },
+        "entityName": "Test Redshift",
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "queryStr": "db['sendingActivity'].find().limit(1)",
+        "storeConfig": "{\"table\":\"test_redshift\"}",
+        "storeDatasourceId": 11904,
+        "triggered": false,
+        "visual": true
+      },
+      "op": 4,
+      "scheduled": 0,
+      "storeConfig": {
+        "table": "test_redshift"
+      },
+      "storeDatasourceId": "${ref:datasource:iiPisg}",
+      "strId": "gfAPmD",
+      "triggerDatasetId": 0
+    }
+  ]
+}

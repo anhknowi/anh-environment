@@ -1,0 +1,35 @@
+{
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:9z7waK}",
+      "description": null,
+      "direct": false,
+      "directPush": true,
+      "entityName": "Copy of TestMY",
+      "identifier": "2gw5nE",
+      "inUse": true,
+      "jsonConfig": {
+        "datasourceId": "${ref:datasource:9z7waK}",
+        "direct": false,
+        "discovery": {
+          "limit": 10000,
+          "tableName": "customer_data"
+        },
+        "entityName": "Copy of TestMY",
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "queryStr": "select *\nfrom customer_data\nlimit 10000",
+        "triggered": false
+      },
+      "op": 4,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "kwwSSR",
+      "triggerDatasetId": 0
+    }
+  ]
+}

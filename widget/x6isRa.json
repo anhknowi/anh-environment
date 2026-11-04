@@ -1,0 +1,40 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "x6isRa",
+      "dashboardIdentifier": null,
+      "property": "chart.series.data",
+      "value": "amount"
+    },
+    {
+      "chartUrl": "x6isRa",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "column"
+    },
+    {
+      "chartUrl": "x6isRa",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.column",
+      "value": "this_year_payment"
+    }
+  ],
+  "charts": [
+    {
+      "access": 1,
+      "category": null,
+      "chartName": "Lorraine Payment",
+      "datasetId": "${ref:dataset:x6isRa}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": 0,
+      "query": 0,
+      "type": 1,
+      "url": "x6isRa",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

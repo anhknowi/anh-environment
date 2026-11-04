@@ -1,0 +1,33 @@
+{
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:B0HQ4V}",
+      "description": null,
+      "direct": true,
+      "directPush": true,
+      "entityName": "Page test",
+      "identifier": "8NPNpQ",
+      "inUse": true,
+      "jsonConfig": {
+        "datasourceId": "${ref:datasource:B0HQ4V}",
+        "direct": true,
+        "discovery": {
+          "limit": 10000,
+          "tableName": "pagehits"
+        },
+        "entityName": "Page test",
+        "queryStr": "db['pagehits'].find().limit(10000)",
+        "triggered": false,
+        "visual": true
+      },
+      "op": 1,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "cOhb1G",
+      "triggerDatasetId": 0
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "discoveryConfigs": [
+    {
+      "c9Query": "",
+      "chartUrl": "",
+      "jsonConfig": [],
+      "queryIdentifier": "bIgDEa",
+      "queryStrId": "CpbHge"
+    }
+  ],
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:B0HQ4VcGcG}",
+      "description": null,
+      "direct": true,
+      "directPush": true,
+      "entityName": "Index",
+      "identifier": "bIgDEa",
+      "inUse": true,
+      "jsonConfig": {
+        "datasourceId": "${ref:datasource:B0HQ4VcGcG}",
+        "direct": true,
+        "discovery": {
+          "dimensions": [
+            {
+              "customized": false,
+              "fieldName": "customer",
+              "fieldType": "java.lang.String",
+              "fullFieldName": "customer",
+              "label": "customer"
+            }
+          ],
+          "discoveryForSuggestions": false,
+          "limit": 10000,
+          "metrics": [
+            {
+              "customized": false,
+              "fieldName": "customer",
+              "fieldType": "java.lang.String",
+              "fullFieldName": "customer",
+              "label": "customer_name"
+            }
+          ],
+          "tableName": "sendingActivity"
+        },
+        "entityName": "Index",
+        "queryStr": "db['sendingActivity'].aggregate([ {\n  \"$group\" : {\n    \"customer_name\" : {\n      \"$first\" : \"$customer\"\n    },\n    \"_id\" : {\n      \"customer\" : \"$customer\"\n    }\n  }\n}, {\n  \"$project\" : {\n    \"customer_name\" : 1,\n    \"_id\" : 0\n  }\n}, {\n  \"$limit\" : 10000\n} ])",
+        "triggered": false,
+        "visual": true
+      },
+      "op": 1,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "CpbHge",
+      "triggerDatasetId": 0
+    }
+  ]
+}

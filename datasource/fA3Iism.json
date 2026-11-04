@@ -1,0 +1,26 @@
+{
+  "datasources": [
+    {
+      "acl": null,
+      "connectSchema": false,
+      "connectorId": 1,
+      "datasource": "sheets",
+      "directQueryOnly": false,
+      "inUse": true,
+      "jsonConfig": {
+        "authRefreshToken": "${secret:datasource:fA3Iism:authRefreshToken}",
+        "authToken": "${secret:datasource:fA3Iism:authToken}",
+        "authVersion": "1",
+        "datasource": "sheets",
+        "name": "Google Sheet"
+      },
+      "name": "Google Sheet",
+      "op": 1,
+      "proxy": false,
+      "strId": "fA3Iism",
+      "tunnel": false,
+      "writable": false
+    }
+  ],
+  "format": 1
+}

@@ -1,0 +1,44 @@
+{
+  "discoveryConfigs": [
+    {
+      "c9Query": "",
+      "chartUrl": "",
+      "jsonConfig": [],
+      "queryIdentifier": "FTA1SF",
+      "queryStrId": "XStWip"
+    }
+  ],
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:vUDg5S}",
+      "description": null,
+      "direct": false,
+      "directPush": true,
+      "entityName": "Test Couch",
+      "identifier": "FTA1SF",
+      "inUse": true,
+      "jsonConfig": {
+        "datasourceId": "${ref:datasource:vUDg5S}",
+        "direct": false,
+        "discovery": {
+          "limit": 10000,
+          "tableName": "beer-sample"
+        },
+        "entityName": "Test Couch",
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "queryStr": "select `beer-sample`.*\nfrom `beer-sample`\nlimit 10000",
+        "triggered": false
+      },
+      "op": 4,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "XStWip",
+      "triggerDatasetId": 0
+    }
+  ]
+}

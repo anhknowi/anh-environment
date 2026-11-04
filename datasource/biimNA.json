@@ -1,0 +1,29 @@
+{
+  "datasources": [
+    {
+      "acl": null,
+      "connectSchema": false,
+      "connectorId": 1,
+      "datasource": "couchbase",
+      "directQueryOnly": false,
+      "inUse": true,
+      "jsonConfig": {
+        "datasource": "couchbase",
+        "dataverse": "Default",
+        "dbName": "beer-sample",
+        "host": "54.146.191.109",
+        "name": "Couchbase Database 121",
+        "password": "${secret:datasource:biimNA:password}",
+        "proxy": false,
+        "userId": "Administrator"
+      },
+      "name": "Couchbase Database 121",
+      "op": 2,
+      "proxy": false,
+      "strId": "biimNA",
+      "tunnel": false,
+      "writable": false
+    }
+  ],
+  "format": 1
+}

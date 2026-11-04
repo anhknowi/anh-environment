@@ -1,0 +1,93 @@
+{
+  "chartAssociations": [
+    {
+      "chartUrl": "ZJ3sip",
+      "jsonConfig": [
+        {
+          "id": "${ref:widget:Oqgroz}",
+          "passingFilters": false,
+          "type": "widget"
+        }
+      ]
+    }
+  ],
+  "chartProperties": [
+    {
+      "chartUrl": "ZJ3sip",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "datagrid2"
+    },
+    {
+      "chartUrl": "ZJ3sip",
+      "dashboardIdentifier": null,
+      "property": "columnFilters",
+      "value": "{}"
+    },
+    {
+      "chartUrl": "ZJ3sip",
+      "dashboardIdentifier": null,
+      "property": "formatOptions",
+      "value": "{\"Campaign\":[{\"mode\":\"html\"}]}"
+    },
+    {
+      "chartUrl": "ZJ3sip",
+      "dashboardIdentifier": null,
+      "property": "grid.collapsible",
+      "value": "false"
+    },
+    {
+      "chartUrl": "ZJ3sip",
+      "dashboardIdentifier": null,
+      "property": "grid.resetColumnWidth",
+      "value": "false"
+    },
+    {
+      "chartUrl": "ZJ3sip",
+      "dashboardIdentifier": null,
+      "property": "grid.sort.type",
+      "value": "asc"
+    }
+  ],
+  "charts": [
+    {
+      "access": 1,
+      "category": "All",
+      "chartName": "Copy of TEST CHART 1",
+      "datasetId": "${ref:dataset:isXdj8}",
+      "description": "",
+      "drilldown": 1,
+      "filterSettings": null,
+      "jsonConfig": {
+        "filters": [
+          {
+            "fieldName": "hits",
+            "fieldType": "java.lang.Integer",
+            "operator": "Greater than",
+            "transientFilter": false,
+            "type": "java.lang.Integer",
+            "values": [
+              "1"
+            ],
+            "visible": false
+          }
+        ]
+      },
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 21,
+      "url": "ZJ3sip",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": "",
+      "chartUrl": "ZJ3sip",
+      "jsonConfig": [],
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

@@ -1,0 +1,69 @@
+{
+  "discoveryConfigs": [
+    {
+      "c9Query": "",
+      "chartUrl": "",
+      "jsonConfig": [],
+      "queryIdentifier": "qAR6l6",
+      "queryStrId": "Ziif3g"
+    }
+  ],
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:B0HQ4V}",
+      "description": "",
+      "direct": true,
+      "directPush": true,
+      "entityName": "Test Mongo",
+      "identifier": "qAR6l6",
+      "inUse": true,
+      "jsonConfig": {
+        "datasourceId": "${ref:datasource:B0HQ4V}",
+        "direct": true,
+        "discovery": {
+          "dimensions": [
+            {
+              "customized": false,
+              "fieldName": "customer",
+              "fieldType": "java.lang.String",
+              "fullFieldName": "customer",
+              "label": "customer"
+            }
+          ],
+          "limit": 0,
+          "metrics": [
+            {
+              "customized": false,
+              "fieldName": "customer",
+              "fieldType": "java.lang.String",
+              "fullFieldName": "customer",
+              "label": "customer"
+            },
+            {
+              "customized": false,
+              "fieldName": "clicks",
+              "fieldType": "java.lang.Integer",
+              "fullFieldName": "clicks",
+              "label": "Sum of clicks",
+              "operation": "SUM",
+              "operationStr": "sum"
+            }
+          ],
+          "tableName": "sendingActivity"
+        },
+        "entityName": "Test Mongo",
+        "queryStr": "db['sendingActivity'].aggregate([ {\n  \"$group\" : {\n    \"Sum of clicks\" : {\n      \"$sum\" : \"$clicks\"\n    },\n    \"_id\" : {\n      \"customer\" : \"$customer\"\n    }\n  }\n}, {\n  \"$project\" : {\n    \"customer\" : \"$_id.customer\",\n    \"Sum of clicks\" : 1,\n    \"_id\" : 0\n  }\n} ])",
+        "triggered": false,
+        "visual": true
+      },
+      "op": 2,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "Ziif3g",
+      "triggerDatasetId": 0
+    }
+  ]
+}

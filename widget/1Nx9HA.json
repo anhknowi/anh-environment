@@ -1,0 +1,142 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "1Nx9HA",
+      "dashboardIdentifier": null,
+      "property": "chart.column.ignore",
+      "value": ""
+    },
+    {
+      "chartUrl": "1Nx9HA",
+      "dashboardIdentifier": null,
+      "property": "chart.dataset.limit",
+      "value": "10000"
+    },
+    {
+      "chartUrl": "1Nx9HA",
+      "dashboardIdentifier": null,
+      "property": "chart.display.theme",
+      "value": ""
+    },
+    {
+      "chartUrl": "1Nx9HA",
+      "dashboardIdentifier": null,
+      "property": "chart.series.type",
+      "value": ""
+    },
+    {
+      "chartUrl": "1Nx9HA",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "datagrid"
+    },
+    {
+      "chartUrl": "1Nx9HA",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.column",
+      "value": ""
+    },
+    {
+      "chartUrl": "1Nx9HA",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.order",
+      "value": ""
+    },
+    {
+      "chartUrl": "1Nx9HA",
+      "dashboardIdentifier": null,
+      "property": "container.name",
+      "value": "Chart"
+    },
+    {
+      "chartUrl": "1Nx9HA",
+      "dashboardIdentifier": null,
+      "property": "evenbg.color",
+      "value": ""
+    },
+    {
+      "chartUrl": "1Nx9HA",
+      "dashboardIdentifier": null,
+      "property": "font.color",
+      "value": ""
+    },
+    {
+      "chartUrl": "1Nx9HA",
+      "dashboardIdentifier": null,
+      "property": "font.header.color",
+      "value": ""
+    },
+    {
+      "chartUrl": "1Nx9HA",
+      "dashboardIdentifier": null,
+      "property": "grid.aggregation",
+      "value": ""
+    },
+    {
+      "chartUrl": "1Nx9HA",
+      "dashboardIdentifier": null,
+      "property": "grid.collapsible",
+      "value": "false"
+    },
+    {
+      "chartUrl": "1Nx9HA",
+      "dashboardIdentifier": null,
+      "property": "grid.grouping",
+      "value": ""
+    },
+    {
+      "chartUrl": "1Nx9HA",
+      "dashboardIdentifier": null,
+      "property": "headerbg.color",
+      "value": ""
+    },
+    {
+      "chartUrl": "1Nx9HA",
+      "dashboardIdentifier": null,
+      "property": "oddbg.color",
+      "value": ""
+    },
+    {
+      "chartUrl": "1Nx9HA",
+      "dashboardIdentifier": null,
+      "property": "widget.footnote",
+      "value": ""
+    }
+  ],
+  "chartQueries": [
+    {
+      "chartUrl": "1Nx9HA",
+      "queryStr": "select * limit 3"
+    }
+  ],
+  "charts": [
+    {
+      "access": 1,
+      "category": "All",
+      "chartName": "TEST SLOW",
+      "datasetId": "${ref:dataset:1Nx9HA}",
+      "description": "",
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": {
+        "filters": [
+          {
+            "fieldName": "BILL_AMT",
+            "locked": false,
+            "operator": "Greater than",
+            "type": "java.lang.Double",
+            "values": [
+              "1"
+            ]
+          }
+        ]
+      },
+      "liveRefresh": -1,
+      "query": 1,
+      "type": 2,
+      "url": "1Nx9HA",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

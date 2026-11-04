@@ -1,0 +1,52 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "wYFOg5",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "datagrid2"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "Copy of Sales Performance",
+      "datasetId": "${ref:dataset:oc1lBs}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": {
+        "fields": [
+          {
+            "fieldName": "Month",
+            "fieldType": "java.util.Date"
+          },
+          {
+            "fieldName": "Name",
+            "fieldType": "java.lang.String"
+          },
+          {
+            "fieldName": "Sales",
+            "fieldType": "java.lang.Double"
+          }
+        ]
+      },
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 21,
+      "url": "wYFOg5",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": "",
+      "chartUrl": "wYFOg5",
+      "jsonConfig": [],
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

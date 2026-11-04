@@ -1,0 +1,23 @@
+{
+  "datasets": [
+    {
+      "agenticDefault": false,
+      "bypassOverrideLimit": false,
+      "dataExpirationDate": null,
+      "datasetName": "c91.csv",
+      "identifier": "Ah5PU0",
+      "injectStreamTime": true,
+      "metaHash": 0,
+      "metadataConfig": "{\"fields\":[{\"fieldName\":\"?c\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"_stream_time\"}]}",
+      "mongoConnectUri": "provisioned",
+      "nlpBotEnabled": true,
+      "nlpConfig": null,
+      "nlpEnabled": false,
+      "nlpIndexInterval": 360,
+      "refreshMeta": false,
+      "synonymHash": 31,
+      "timeZone": null
+    }
+  ],
+  "format": 1
+}

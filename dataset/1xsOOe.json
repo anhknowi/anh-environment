@@ -1,0 +1,23 @@
+{
+  "datasets": [
+    {
+      "agenticDefault": false,
+      "bypassOverrideLimit": false,
+      "dataExpirationDate": null,
+      "datasetName": "Anh New Activities",
+      "identifier": "1xsOOe",
+      "injectStreamTime": false,
+      "metaHash": 0,
+      "metadataConfig": "{\"fields\":[{\"fieldName\":\"Campaign Name\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"Message Type\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"Purchase Amount\",\"fieldType\":\"java.lang.Integer\"}]}",
+      "mongoConnectUri": "provisioned",
+      "nlpBotEnabled": true,
+      "nlpConfig": null,
+      "nlpEnabled": false,
+      "nlpIndexInterval": 360,
+      "refreshMeta": false,
+      "synonymHash": 31,
+      "timeZone": null
+    }
+  ],
+  "format": 1
+}

@@ -1,0 +1,55 @@
+{
+  "dataConfigs": [
+    {
+      "datasetIdentifier": "${ref:dataset:tSr1Ux}",
+      "queryIdentifier": "TbjXgN",
+      "queryStrId": "AYQfrK"
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": "",
+      "chartUrl": "",
+      "jsonConfig": [],
+      "queryIdentifier": "TbjXgN",
+      "queryStrId": "AYQfrK"
+    }
+  ],
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:OTS6vw}",
+      "description": null,
+      "direct": false,
+      "directPush": true,
+      "entityName": "To Export",
+      "identifier": "TbjXgN",
+      "inUse": true,
+      "jsonConfig": {
+        "c9ExportDataset": "${ref:dataset:tSr1Ux}",
+        "c9ExportEntityName": "demo-data.csv",
+        "c9ExportIdentifier": "tSr1Ux",
+        "datasourceId": "${ref:datasource:OTS6vw}",
+        "direct": false,
+        "discovery": {
+          "limit": 10000,
+          "tableName": "${ref:dataset:tSr1Ux}"
+        },
+        "entityName": "To Export",
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "queryStr": "select Week+90000000000000 as Week, Date+90000000000000 as Date, *",
+        "triggered": false,
+        "visual": false
+      },
+      "op": 4,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "AYQfrK",
+      "triggerDatasetId": 0
+    }
+  ]
+}

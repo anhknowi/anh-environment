@@ -1,0 +1,20 @@
+{
+  "actionApis": [
+    {
+      "actionType": "SLACK",
+      "identifier": "_0000hJ",
+      "jsonConfig": {
+        "additionalFilterCloud9ql": "select *",
+        "attachDataset": true,
+        "attachResultsAfterCloud9ql": true,
+        "channels": "[{\"id\":\"CK31HQJF3\",\"name\":\"knowi-slack-test\",\"privateChannel\":false}]",
+        "classVersion": 1,
+        "eachRowOfDataAsMessage": true,
+        "message": "",
+        "name": "Test Checked",
+        "teamId": "T7C7KMCG2"
+      }
+    }
+  ],
+  "format": 1
+}

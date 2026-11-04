@@ -1,0 +1,29 @@
+{
+  "datasources": [
+    {
+      "acl": null,
+      "connectSchema": false,
+      "connectorId": 562,
+      "datasource": "postgresql",
+      "directQueryOnly": false,
+      "inUse": true,
+      "jsonConfig": {
+        "datasource": "postgresql",
+        "dbName": "cloud9demo",
+        "host": "demo.knowi.com",
+        "name": "PostgreSQL Database   AAA",
+        "password": "${secret:datasource:UZOBAl:password}",
+        "port": "5432",
+        "privateConnector": "562",
+        "userId": "demo"
+      },
+      "name": "PostgreSQL Database   AAA",
+      "op": 2,
+      "proxy": false,
+      "strId": "UZOBAl",
+      "tunnel": false,
+      "writable": false
+    }
+  ],
+  "format": 1
+}

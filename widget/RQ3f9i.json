@@ -1,0 +1,256 @@
+{
+  "chartAssociations": [
+    {
+      "chartUrl": "RQ3f9i",
+      "jsonConfig": [
+        {
+          "id": "${ref:widget:isvL0u}",
+          "passingFilters": false,
+          "type": "widget"
+        }
+      ]
+    }
+  ],
+  "chartProperties": [
+    {
+      "chartUrl": "RQ3f9i",
+      "dashboardIdentifier": null,
+      "property": "chart.column.ignore",
+      "value": ""
+    },
+    {
+      "chartUrl": "RQ3f9i",
+      "dashboardIdentifier": null,
+      "property": "chart.dataset.limit",
+      "value": ""
+    },
+    {
+      "chartUrl": "RQ3f9i",
+      "dashboardIdentifier": null,
+      "property": "chart.display.theme",
+      "value": ""
+    },
+    {
+      "chartUrl": "RQ3f9i",
+      "dashboardIdentifier": null,
+      "property": "chart.legend.column",
+      "value": ""
+    },
+    {
+      "chartUrl": "RQ3f9i",
+      "dashboardIdentifier": null,
+      "property": "chart.primary.ylabel",
+      "value": ""
+    },
+    {
+      "chartUrl": "RQ3f9i",
+      "dashboardIdentifier": null,
+      "property": "chart.secondary.sync",
+      "value": ""
+    },
+    {
+      "chartUrl": "RQ3f9i",
+      "dashboardIdentifier": null,
+      "property": "chart.secondary.type",
+      "value": ""
+    },
+    {
+      "chartUrl": "RQ3f9i",
+      "dashboardIdentifier": null,
+      "property": "chart.secondary.y",
+      "value": ""
+    },
+    {
+      "chartUrl": "RQ3f9i",
+      "dashboardIdentifier": null,
+      "property": "chart.secondary.ylabel",
+      "value": ""
+    },
+    {
+      "chartUrl": "RQ3f9i",
+      "dashboardIdentifier": null,
+      "property": "chart.secondary.zIndex",
+      "value": ""
+    },
+    {
+      "chartUrl": "RQ3f9i",
+      "dashboardIdentifier": null,
+      "property": "chart.series.data",
+      "value": ""
+    },
+    {
+      "chartUrl": "RQ3f9i",
+      "dashboardIdentifier": null,
+      "property": "chart.series.type",
+      "value": ""
+    },
+    {
+      "chartUrl": "RQ3f9i",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "datagrid"
+    },
+    {
+      "chartUrl": "RQ3f9i",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.column",
+      "value": ""
+    },
+    {
+      "chartUrl": "RQ3f9i",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.order",
+      "value": ""
+    },
+    {
+      "chartUrl": "RQ3f9i",
+      "dashboardIdentifier": null,
+      "property": "chart.yAxis.max",
+      "value": ""
+    },
+    {
+      "chartUrl": "RQ3f9i",
+      "dashboardIdentifier": null,
+      "property": "chart.yAxis.tickInterval",
+      "value": ""
+    },
+    {
+      "chartUrl": "RQ3f9i",
+      "dashboardIdentifier": null,
+      "property": "chartColor",
+      "value": ""
+    },
+    {
+      "chartUrl": "RQ3f9i",
+      "dashboardIdentifier": null,
+      "property": "clickEvent",
+      "value": ""
+    },
+    {
+      "chartUrl": "RQ3f9i",
+      "dashboardIdentifier": null,
+      "property": "custom.field",
+      "value": ""
+    },
+    {
+      "chartUrl": "RQ3f9i",
+      "dashboardIdentifier": null,
+      "property": "evenbg.color",
+      "value": ""
+    },
+    {
+      "chartUrl": "RQ3f9i",
+      "dashboardIdentifier": null,
+      "property": "font.color",
+      "value": ""
+    },
+    {
+      "chartUrl": "RQ3f9i",
+      "dashboardIdentifier": null,
+      "property": "font.header.color",
+      "value": ""
+    },
+    {
+      "chartUrl": "RQ3f9i",
+      "dashboardIdentifier": null,
+      "property": "formatOptions",
+      "value": ""
+    },
+    {
+      "chartUrl": "RQ3f9i",
+      "dashboardIdentifier": null,
+      "property": "grid.aggregation",
+      "value": ""
+    },
+    {
+      "chartUrl": "RQ3f9i",
+      "dashboardIdentifier": null,
+      "property": "grid.cells.padding",
+      "value": ""
+    },
+    {
+      "chartUrl": "RQ3f9i",
+      "dashboardIdentifier": null,
+      "property": "grid.collapsible",
+      "value": "false"
+    },
+    {
+      "chartUrl": "RQ3f9i",
+      "dashboardIdentifier": null,
+      "property": "grid.grouping",
+      "value": ""
+    },
+    {
+      "chartUrl": "RQ3f9i",
+      "dashboardIdentifier": null,
+      "property": "grid.lineThickness",
+      "value": ""
+    },
+    {
+      "chartUrl": "RQ3f9i",
+      "dashboardIdentifier": null,
+      "property": "grid.resetColumnWidth",
+      "value": "false"
+    },
+    {
+      "chartUrl": "RQ3f9i",
+      "dashboardIdentifier": null,
+      "property": "headerbg.color",
+      "value": ""
+    },
+    {
+      "chartUrl": "RQ3f9i",
+      "dashboardIdentifier": null,
+      "property": "minColWidth",
+      "value": ""
+    },
+    {
+      "chartUrl": "RQ3f9i",
+      "dashboardIdentifier": null,
+      "property": "oddbg.color",
+      "value": ""
+    },
+    {
+      "chartUrl": "RQ3f9i",
+      "dashboardIdentifier": null,
+      "property": "pivot.fitWidgetWidth",
+      "value": ""
+    },
+    {
+      "chartUrl": "RQ3f9i",
+      "dashboardIdentifier": null,
+      "property": "pivot.footer",
+      "value": ""
+    },
+    {
+      "chartUrl": "RQ3f9i",
+      "dashboardIdentifier": null,
+      "property": "pivot.totalColumn",
+      "value": ""
+    },
+    {
+      "chartUrl": "RQ3f9i",
+      "dashboardIdentifier": null,
+      "property": "widget.footnote",
+      "value": ""
+    }
+  ],
+  "charts": [
+    {
+      "access": 1,
+      "category": "All",
+      "chartName": "Test Perf",
+      "datasetId": "${ref:dataset:RQ3f9i}",
+      "description": "",
+      "drilldown": 1,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 2,
+      "url": "RQ3f9i",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

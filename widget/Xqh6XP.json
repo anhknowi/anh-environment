@@ -1,0 +1,88 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "Xqh6XP",
+      "dashboardIdentifier": null,
+      "property": "chart.column.ignore",
+      "value": ""
+    },
+    {
+      "chartUrl": "Xqh6XP",
+      "dashboardIdentifier": null,
+      "property": "chart.dataset.limit",
+      "value": ""
+    },
+    {
+      "chartUrl": "Xqh6XP",
+      "dashboardIdentifier": null,
+      "property": "chart.display.theme",
+      "value": ""
+    },
+    {
+      "chartUrl": "Xqh6XP",
+      "dashboardIdentifier": null,
+      "property": "chart.legend.column",
+      "value": ""
+    },
+    {
+      "chartUrl": "Xqh6XP",
+      "dashboardIdentifier": null,
+      "property": "chart.percent",
+      "value": "false"
+    },
+    {
+      "chartUrl": "Xqh6XP",
+      "dashboardIdentifier": null,
+      "property": "chart.primary.ylabel",
+      "value": "\"address_building\""
+    },
+    {
+      "chartUrl": "Xqh6XP",
+      "dashboardIdentifier": null,
+      "property": "chart.series.data",
+      "value": "\"address_building\""
+    },
+    {
+      "chartUrl": "Xqh6XP",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "pie"
+    },
+    {
+      "chartUrl": "Xqh6XP",
+      "dashboardIdentifier": null,
+      "property": "chartColor",
+      "value": ""
+    },
+    {
+      "chartUrl": "Xqh6XP",
+      "dashboardIdentifier": null,
+      "property": "custom.field",
+      "value": ""
+    },
+    {
+      "chartUrl": "Xqh6XP",
+      "dashboardIdentifier": null,
+      "property": "widget.footnote",
+      "value": ""
+    }
+  ],
+  "charts": [
+    {
+      "access": 1,
+      "category": "All",
+      "chartName": "NESTED",
+      "datasetId": "${ref:dataset:Xqh6XP}",
+      "description": "",
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 1,
+      "url": "Xqh6XP",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

@@ -1,0 +1,250 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "Kj21bi",
+      "dashboardIdentifier": null,
+      "property": "chart.legend.column",
+      "value": "Customer"
+    },
+    {
+      "chartUrl": "Kj21bi",
+      "dashboardIdentifier": null,
+      "property": "chart.series.type",
+      "value": "time"
+    },
+    {
+      "chartUrl": "Kj21bi",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "datagrid2"
+    },
+    {
+      "chartUrl": "Kj21bi",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.column",
+      "value": "Date"
+    },
+    {
+      "chartUrl": "Kj21bi",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.order",
+      "value": "1"
+    },
+    {
+      "chartUrl": "Kj21bi",
+      "dashboardIdentifier": null,
+      "property": "grid.column.CPC.widthPerc",
+      "value": "0.09999999999999999"
+    },
+    {
+      "chartUrl": "Kj21bi",
+      "dashboardIdentifier": null,
+      "property": "grid.column.Click.widthPerc",
+      "value": "0.09999999999999999"
+    },
+    {
+      "chartUrl": "Kj21bi",
+      "dashboardIdentifier": null,
+      "property": "grid.column.ClickPerc.widthPerc",
+      "value": "0.03198976327575176"
+    },
+    {
+      "chartUrl": "Kj21bi",
+      "dashboardIdentifier": null,
+      "property": "grid.column.Date.widthPerc",
+      "value": "0.09999999999999999"
+    },
+    {
+      "chartUrl": "Kj21bi",
+      "dashboardIdentifier": null,
+      "property": "grid.column.DiffPerc.widthPerc",
+      "value": "0.09999999999999999"
+    },
+    {
+      "chartUrl": "Kj21bi",
+      "dashboardIdentifier": null,
+      "property": "grid.column.Name.widthPerc",
+      "value": "0.2221497102020145"
+    },
+    {
+      "chartUrl": "Kj21bi",
+      "dashboardIdentifier": null,
+      "property": "grid.column.PreClick.widthPerc",
+      "value": "0.09999999999999999"
+    },
+    {
+      "chartUrl": "Kj21bi",
+      "dashboardIdentifier": null,
+      "property": "grid.column.PreSpend.widthPerc",
+      "value": "0.09999999999999999"
+    },
+    {
+      "chartUrl": "Kj21bi",
+      "dashboardIdentifier": null,
+      "property": "grid.column.Spend.widthPerc",
+      "value": "0.10520532099479468"
+    },
+    {
+      "chartUrl": "Kj21bi",
+      "dashboardIdentifier": null,
+      "property": "grid.column.SpendPerc.widthPerc",
+      "value": "0.07952655150351887"
+    },
+    {
+      "chartUrl": "Kj21bi",
+      "dashboardIdentifier": null,
+      "property": "grid.column.Value.widthPerc",
+      "value": "0.7009272128749086"
+    },
+    {
+      "chartUrl": "Kj21bi",
+      "dashboardIdentifier": null,
+      "property": "grid.columnWidths",
+      "value": "[\"0.2221497102020145\",\"0.10520532099479468\",\"0.09999999999999999\",\"0.09999999999999999\",\"0.09999999999999999\",\"0.09999999999999999\",\"0.09999999999999999\",\"0.07952655150351887\",\"0.09999999999999999\",\"0.03198976327575176\"]"
+    },
+    {
+      "chartUrl": "Kj21bi",
+      "dashboardIdentifier": null,
+      "property": "grid.sort.columnName",
+      "value": "id"
+    },
+    {
+      "chartUrl": "Kj21bi",
+      "dashboardIdentifier": null,
+      "property": "grid.sort.type",
+      "value": "asc"
+    }
+  ],
+  "chartQueries": [
+    {
+      "chartUrl": "Kj21bi",
+      "queryStr": [
+        "select Date, sum(Spend) as Spend, sum(Click) as Click",
+        "group by Date;",
+        "",
+        "select *, lag(Spend, 1, 0) as PreSpend, ",
+        "  lag(Click, 1, 0) as PreClick;",
+        "",
+        "select *, Spend - PreSpend as DiffSpend,",
+        "  Click - PreClick as DiffClick,",
+        "  case ",
+        "    when Click = 0 and PreClick = 0 then 'Zero'",
+        "    when Click = 0 and PreClick != 0 then 'Stop'",
+        "    when Click != 0 and PreClick = 0 then 'Start'",
+        "    else NULL end as ClickType;",
+        "",
+        "select MAX(Spend, Click, Date) as 'Highest Spend to start seeing Click', ",
+        "  MIN(Spend, Click, Date) as 'Lowest Spend to start seeing Click'",
+        "where ClickType = \"Start\"",
+        "",
+        "APPEND",
+        "",
+        "select MAX(Spend, Click, Date) as 'Highest Spend to when stop seeing Click', ",
+        "  MIN(Spend, Click, Date) as 'Lowest Spend to when stop seeing Click'",
+        "where ClickType = \"Stop\"",
+        "",
+        "APPEND",
+        "",
+        "select MAX(Spend/Click as CPC, Spend, Click, Date) as 'Highest Spend per Click', ",
+        "  MIN(Spend/Click as CPC, Spend, Click, Date) as 'Lowest Spend per Click'",
+        "where ClickType is NULL",
+        "",
+        "APPEND (",
+        "select *, ",
+        "  DiffSpend * 100 / PreSpend as SpendPerc,",
+        "  DiffClick * 100 / PreClick as ClickPerc,",
+        "  DiffClick * 100 / PreClick - DiffSpend * 100 / PreSpend as DiffPerc ",
+        "where ClickType is NULL;",
+        "",
+        "select MAX(DiffPerc, Spend, PreSpend, SpendPerc,",
+        "    Click, PreClick, ClickPerc, Date) as 'Most gain on Click when increase Spend',",
+        "  MIN(DiffPerc, Spend, PreSpend, SpendPerc, ",
+        "    Click, PreClick, ClickPerc, Date) as 'Least gain on Click when increase Spend'",
+        "where DiffSpend > 0",
+        "",
+        ")",
+        "",
+        "APPEND (",
+        "select *, ",
+        "  DiffSpend * 100 / PreSpend as SpendPerc,",
+        "  DiffClick * 100 / PreClick as ClickPerc,",
+        "  DiffClick * 100 / PreClick - DiffSpend * 100 / PreSpend as DiffPerc ",
+        "where ClickType is NULL;",
+        "",
+        "select MIN(DiffPerc, Spend, PreSpend, SpendPerc,",
+        "    Click, PreClick, ClickPerc, Date) as 'Most lost on Click when decrease Spend',",
+        "  MIN(DiffPerc, Spend, PreSpend, SpendPerc, ",
+        "    Click, PreClick, ClickPerc, Date) as 'Least lost on Click when decrease Spend'",
+        "where DiffSpend < 0",
+        ")",
+        "",
+        ";",
+        "",
+        "reverse_transpose(Name, Value, *);",
+        "",
+        "expand(value)"
+      ]
+    }
+  ],
+  "charts": [
+    {
+      "access": 1,
+      "category": null,
+      "chartName": "Test NLG",
+      "datasetId": "${ref:dataset:Kj21bi}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": {
+        "fields": [
+          {
+            "fieldName": "Click",
+            "fieldType": "java.lang.Integer"
+          },
+          {
+            "fieldName": "ClickPerc",
+            "fieldType": "java.lang.Double"
+          },
+          {
+            "fieldName": "CPC",
+            "fieldType": "java.lang.Double"
+          },
+          {
+            "fieldName": "Date",
+            "fieldType": "java.util.Date"
+          },
+          {
+            "fieldName": "DiffPerc",
+            "fieldType": "java.lang.Double"
+          },
+          {
+            "fieldName": "Name",
+            "fieldType": "java.lang.String"
+          },
+          {
+            "fieldName": "PreClick",
+            "fieldType": "java.lang.Integer"
+          },
+          {
+            "fieldName": "PreSpend",
+            "fieldType": "java.lang.Integer"
+          },
+          {
+            "fieldName": "Spend",
+            "fieldType": "java.lang.Integer"
+          },
+          {
+            "fieldName": "SpendPerc",
+            "fieldType": "java.lang.Double"
+          }
+        ]
+      },
+      "liveRefresh": -1,
+      "query": 1,
+      "type": 21,
+      "url": "Kj21bi",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

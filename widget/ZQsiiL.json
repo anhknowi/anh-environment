@@ -1,0 +1,40 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "ZQsiiL",
+      "dashboardIdentifier": null,
+      "property": "chart.series.data",
+      "value": "Flight Number"
+    },
+    {
+      "chartUrl": "ZQsiiL",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "area"
+    },
+    {
+      "chartUrl": "ZQsiiL",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.column",
+      "value": "Scoot Market"
+    }
+  ],
+  "charts": [
+    {
+      "access": 1,
+      "category": null,
+      "chartName": "Scoot Markets and Regions (16OCT).csv",
+      "datasetId": "${ref:dataset:zvKBL9}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": 0,
+      "query": 0,
+      "type": 1,
+      "url": "ZQsiiL",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

@@ -1,0 +1,26 @@
+{
+  "datasources": [
+    {
+      "acl": null,
+      "connectSchema": false,
+      "connectorId": 1,
+      "datasource": "influxdb",
+      "directQueryOnly": false,
+      "inUse": true,
+      "jsonConfig": {
+        "datasource": "influxdb",
+        "dbName": "jay_tmp",
+        "host": "https://us-east-1-1.aws.cloud2.influxdata.com",
+        "name": "InfluxDB",
+        "password": "${secret:datasource:7PL9An:password}"
+      },
+      "name": "InfluxDB",
+      "op": 2,
+      "proxy": false,
+      "strId": "7PL9An",
+      "tunnel": false,
+      "writable": false
+    }
+  ],
+  "format": 1
+}

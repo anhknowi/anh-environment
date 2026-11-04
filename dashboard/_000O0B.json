@@ -1,0 +1,60 @@
+{
+  "dashboardCharts": [
+    {
+      "chartUrl": "${ref:widget:VWQcJi}",
+      "col": 1,
+      "dashboardIdentifier": "_000O0B",
+      "grain": 1,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 1,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 24,
+      "sizeY": 15,
+      "sizeYOriginal": 0,
+      "width": 0
+    }
+  ],
+  "dashboards": [
+    {
+      "dashAccessLevel": 1,
+      "displayOrder": 0,
+      "filterSettings": null,
+      "identifier": "_000O0B",
+      "jsonConfig": {
+        "excludeExpandedGridFromPdfExport": false,
+        "excludeGridWidgetsFromPdfExport": false,
+        "view": {
+          "actions": true,
+          "backgroundColor": "#F0F1F2",
+          "border": true,
+          "dashFiltersPinToTop": false,
+          "dashFreeWidget": false,
+          "dashTitle": true,
+          "drag": true,
+          "enableDashFilterIcon": true,
+          "enableHeaders": true,
+          "enablePdfExport": true,
+          "enablePptExport": true,
+          "enablePresenter": true,
+          "filter": true,
+          "instantSightsIcon": true,
+          "resize": true,
+          "setting": true,
+          "title": true,
+          "widgetSpacing": 5
+        }
+      },
+      "locked": 0,
+      "name": "Dashboard 2",
+      "screenAdjust": 0,
+      "screenHeight": 844,
+      "screenWidth": 1792,
+      "type": 1,
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

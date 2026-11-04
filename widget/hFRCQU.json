@@ -1,0 +1,127 @@
+{
+  "chartAssociations": [
+    {
+      "chartUrl": "hFRCQU",
+      "jsonConfig": [
+        {
+          "field": "sourceNode",
+          "filters": [
+            {
+              "childField": "sourceNode",
+              "parentField": "sourceNode"
+            }
+          ],
+          "id": "${ref:widget:6bmBwI}",
+          "passingFilters": false,
+          "type": "widget"
+        }
+      ]
+    }
+  ],
+  "chartProperties": [
+    {
+      "chartUrl": "hFRCQU",
+      "dashboardIdentifier": null,
+      "property": "chart.labelValue",
+      "value": "false"
+    },
+    {
+      "chartUrl": "hFRCQU",
+      "dashboardIdentifier": null,
+      "property": "chart.legend.column",
+      "value": "sourceNode"
+    },
+    {
+      "chartUrl": "hFRCQU",
+      "dashboardIdentifier": null,
+      "property": "chart.percent",
+      "value": "false"
+    },
+    {
+      "chartUrl": "hFRCQU",
+      "dashboardIdentifier": null,
+      "property": "chart.primary.ylabel",
+      "value": "Sum of clicks"
+    },
+    {
+      "chartUrl": "hFRCQU",
+      "dashboardIdentifier": null,
+      "property": "chart.quickpickers",
+      "value": "0"
+    },
+    {
+      "chartUrl": "hFRCQU",
+      "dashboardIdentifier": null,
+      "property": "chart.series.data",
+      "value": "Sum of clicks"
+    },
+    {
+      "chartUrl": "hFRCQU",
+      "dashboardIdentifier": null,
+      "property": "chart.totalLabel",
+      "value": "false"
+    },
+    {
+      "chartUrl": "hFRCQU",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "pie"
+    },
+    {
+      "chartUrl": "hFRCQU",
+      "dashboardIdentifier": null,
+      "property": "chartColor",
+      "value": "#89D4F5:Costco:Costco:Costco:Costco,#BCD759:Facebook:Facebook:Facebook:Facebook,#FFBF00:LinkedIn:LinkedIn:LinkedIn:LinkedIn,#9961A7:Macy's:Overstock:Overstock:Other,#4891EA:Netflix:Target:Target:Other,#EE965B:Overstock:Overstock,#F284D1:Target:Target,#6FDBCB:Wells Fargo:Other,#2D71C4:eHarmony:Other,#EF5A5A,#609C29,#C69B06,#8A2299,#996D6C,#2F2F6C,#1C6C61"
+    }
+  ],
+  "charts": [
+    {
+      "access": 1,
+      "category": null,
+      "chartName": "Copy of Test Mongo Derived",
+      "datasetId": "${ref:dataset:6bmBwI}",
+      "description": "",
+      "drilldown": 1,
+      "filterSettings": null,
+      "jsonConfig": {
+        "fields": [
+          {
+            "fieldName": "customer",
+            "fieldType": "java.lang.String"
+          },
+          {
+            "fieldName": "sourceNode",
+            "fieldType": "java.lang.String"
+          },
+          {
+            "fieldName": "Sum of clicks",
+            "fieldType": "java.lang.Integer"
+          },
+          {
+            "fieldName": "top_five",
+            "fieldType": "java.lang.Integer"
+          },
+          {
+            "fieldName": "total clicks",
+            "fieldType": "java.lang.Double"
+          }
+        ]
+      },
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 1,
+      "url": "hFRCQU",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": "",
+      "chartUrl": "hFRCQU",
+      "jsonConfig": [],
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

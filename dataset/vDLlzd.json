@@ -1,0 +1,23 @@
+{
+  "datasets": [
+    {
+      "agenticDefault": false,
+      "bypassOverrideLimit": false,
+      "dataExpirationDate": null,
+      "datasetName": "Test Oracle",
+      "identifier": "vDLlzd",
+      "injectStreamTime": true,
+      "metaHash": 0,
+      "metadataConfig": "{\"fieldNames\":[\"id_0\",\"ID\",\"LIMIT_BAL\",\"SEX\",\"EDUCATION\",\"MARRIAGE\",\"AGE\",\"PAY_0\",\"PAY_2\",\"PAY_3\",\"PAY_4\",\"PAY_5\",\"PAY_6\",\"BILL_AMT1\",\"BILL_AMT2\",\"BILL_AMT3\",\"BILL_AMT4\",\"BILL_AMT5\",\"BILL_AMT6\",\"PAY_AMT1\",\"PAY_AMT2\",\"PAY_AMT3\",\"PAY_AMT4\",\"PAY_AMT5\",\"PAY_AMT6\",\"default payment next month\",\"_stream_time\"],\"dataTypes\":{\"id_0\":\"java.lang.String\",\"ID\":\"java.lang.Integer\",\"LIMIT_BAL\":\"java.lang.Integer\",\"SEX\":\"java.lang.Integer\",\"EDUCATION\":\"java.lang.Integer\",\"MARRIAGE\":\"java.lang.Integer\",\"AGE\":\"java.lang.Integer\",\"PAY_0\":\"java.lang.Integer\",\"PAY_2\":\"java.lang.Integer\",\"PAY_3\":\"java.lang.Integer\",\"PAY_4\":\"java.lang.Integer\",\"PAY_5\":\"java.lang.Integer\",\"PAY_6\":\"java.lang.Integer\",\"BILL_AMT1\":\"java.lang.Integer\",\"BILL_AMT2\":\"java.lang.Integer\",\"BILL_AMT3\":\"java.lang.Integer\",\"BILL_AMT4\":\"java.lang.Integer\",\"BILL_AMT5\":\"java.lang.Integer\",\"BILL_AMT6\":\"java.lang.Integer\",\"PAY_AMT1\":\"java.lang.Integer\",\"PAY_AMT2\":\"java.lang.Integer\",\"PAY_AMT3\":\"java.lang.Integer\",\"PAY_AMT4\":\"java.lang.Integer\",\"PAY_AMT5\":\"java.lang.Integer\",\"PAY_AMT6\":\"java.lang.Integer\",\"default payment next month\":\"java.lang.Integer\"}}",
+      "mongoConnectUri": "provisioned",
+      "nlpBotEnabled": true,
+      "nlpConfig": null,
+      "nlpEnabled": false,
+      "nlpIndexInterval": 360,
+      "refreshMeta": false,
+      "synonymHash": 31,
+      "timeZone": null
+    }
+  ],
+  "format": 1
+}

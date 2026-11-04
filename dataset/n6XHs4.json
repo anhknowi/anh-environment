@@ -1,0 +1,23 @@
+{
+  "datasets": [
+    {
+      "agenticDefault": false,
+      "bypassOverrideLimit": false,
+      "dataExpirationDate": null,
+      "datasetName": "Anh Test MySQL",
+      "identifier": "n6XHs4",
+      "injectStreamTime": true,
+      "metaHash": 0,
+      "metadataConfig": "{\"fields\":[{\"fieldName\":\"country\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"csn\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"currency\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"customer\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"id\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"state\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"street\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"_stream_time\",\"fieldType\":\"java.util.Date\"}]}",
+      "mongoConnectUri": "provisioned",
+      "nlpBotEnabled": true,
+      "nlpConfig": null,
+      "nlpEnabled": false,
+      "nlpIndexInterval": 360,
+      "refreshMeta": false,
+      "synonymHash": 31,
+      "timeZone": null
+    }
+  ],
+  "format": 1
+}

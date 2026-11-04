@@ -1,0 +1,288 @@
+{
+  "chartAssociations": [
+    {
+      "chartUrl": "KvsyH4",
+      "jsonConfig": [
+        {
+          "id": "${ref:dashboard:_000yQQ}",
+          "passingFilters": true,
+          "type": "dashboard"
+        }
+      ]
+    }
+  ],
+  "chartProperties": [
+    {
+      "chartUrl": "KvsyH4",
+      "dashboardIdentifier": null,
+      "property": "bg.color",
+      "value": ""
+    },
+    {
+      "chartUrl": "KvsyH4",
+      "dashboardIdentifier": null,
+      "property": "chart.column.ignore",
+      "value": ""
+    },
+    {
+      "chartUrl": "KvsyH4",
+      "dashboardIdentifier": null,
+      "property": "chart.dataset.limit",
+      "value": ""
+    },
+    {
+      "chartUrl": "KvsyH4",
+      "dashboardIdentifier": null,
+      "property": "chart.display.theme",
+      "value": ""
+    },
+    {
+      "chartUrl": "KvsyH4",
+      "dashboardIdentifier": null,
+      "property": "chart.legend.column",
+      "value": ""
+    },
+    {
+      "chartUrl": "KvsyH4",
+      "dashboardIdentifier": null,
+      "property": "chart.percent",
+      "value": ""
+    },
+    {
+      "chartUrl": "KvsyH4",
+      "dashboardIdentifier": null,
+      "property": "chart.primary.ylabel",
+      "value": ""
+    },
+    {
+      "chartUrl": "KvsyH4",
+      "dashboardIdentifier": null,
+      "property": "chart.secondary.type",
+      "value": ""
+    },
+    {
+      "chartUrl": "KvsyH4",
+      "dashboardIdentifier": null,
+      "property": "chart.secondary.y",
+      "value": ""
+    },
+    {
+      "chartUrl": "KvsyH4",
+      "dashboardIdentifier": null,
+      "property": "chart.secondary.ylabel",
+      "value": ""
+    },
+    {
+      "chartUrl": "KvsyH4",
+      "dashboardIdentifier": null,
+      "property": "chart.secondary.zIndex",
+      "value": ""
+    },
+    {
+      "chartUrl": "KvsyH4",
+      "dashboardIdentifier": null,
+      "property": "chart.series.data",
+      "value": ""
+    },
+    {
+      "chartUrl": "KvsyH4",
+      "dashboardIdentifier": null,
+      "property": "chart.series.type",
+      "value": ""
+    },
+    {
+      "chartUrl": "KvsyH4",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "datagrid"
+    },
+    {
+      "chartUrl": "KvsyH4",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.column",
+      "value": ""
+    },
+    {
+      "chartUrl": "KvsyH4",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.order",
+      "value": ""
+    },
+    {
+      "chartUrl": "KvsyH4",
+      "dashboardIdentifier": null,
+      "property": "chart.yAxis.max",
+      "value": ""
+    },
+    {
+      "chartUrl": "KvsyH4",
+      "dashboardIdentifier": null,
+      "property": "chart.yAxis.tickInterval",
+      "value": ""
+    },
+    {
+      "chartUrl": "KvsyH4",
+      "dashboardIdentifier": null,
+      "property": "chartColor",
+      "value": ""
+    },
+    {
+      "chartUrl": "KvsyH4",
+      "dashboardIdentifier": null,
+      "property": "custom.field",
+      "value": ""
+    },
+    {
+      "chartUrl": "KvsyH4",
+      "dashboardIdentifier": null,
+      "property": "decimal.places",
+      "value": ""
+    },
+    {
+      "chartUrl": "KvsyH4",
+      "dashboardIdentifier": null,
+      "property": "evenbg.color",
+      "value": ""
+    },
+    {
+      "chartUrl": "KvsyH4",
+      "dashboardIdentifier": null,
+      "property": "font.color",
+      "value": ""
+    },
+    {
+      "chartUrl": "KvsyH4",
+      "dashboardIdentifier": null,
+      "property": "font.header.color",
+      "value": ""
+    },
+    {
+      "chartUrl": "KvsyH4",
+      "dashboardIdentifier": null,
+      "property": "grid.aggregation",
+      "value": ""
+    },
+    {
+      "chartUrl": "KvsyH4",
+      "dashboardIdentifier": null,
+      "property": "grid.cells.padding",
+      "value": ""
+    },
+    {
+      "chartUrl": "KvsyH4",
+      "dashboardIdentifier": null,
+      "property": "grid.collapsible",
+      "value": "false"
+    },
+    {
+      "chartUrl": "KvsyH4",
+      "dashboardIdentifier": null,
+      "property": "grid.grouping",
+      "value": ""
+    },
+    {
+      "chartUrl": "KvsyH4",
+      "dashboardIdentifier": null,
+      "property": "grid.lineThickness",
+      "value": ""
+    },
+    {
+      "chartUrl": "KvsyH4",
+      "dashboardIdentifier": null,
+      "property": "headerbg.color",
+      "value": ""
+    },
+    {
+      "chartUrl": "KvsyH4",
+      "dashboardIdentifier": null,
+      "property": "minColWidth",
+      "value": ""
+    },
+    {
+      "chartUrl": "KvsyH4",
+      "dashboardIdentifier": null,
+      "property": "oddbg.color",
+      "value": ""
+    },
+    {
+      "chartUrl": "KvsyH4",
+      "dashboardIdentifier": null,
+      "property": "text.widget",
+      "value": ""
+    },
+    {
+      "chartUrl": "KvsyH4",
+      "dashboardIdentifier": null,
+      "property": "widget.footnote",
+      "value": ""
+    }
+  ],
+  "charts": [
+    {
+      "access": 1,
+      "category": "All",
+      "chartName": "Lorraine Query",
+      "datasetId": "${ref:dataset:KvsyH4}",
+      "description": "",
+      "drilldown": 1,
+      "filterSettings": null,
+      "jsonConfig": {
+        "filters": [
+          {
+            "fieldName": "MT_LABEL",
+            "fieldType": "java.lang.String",
+            "operator": "Equals",
+            "type": "java.lang.String",
+            "values": [
+              "Marketing"
+            ]
+          }
+        ]
+      },
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 2,
+      "url": "KvsyH4",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": [
+        "select 'customer', 'sent'",
+        "group by 'customer'"
+      ],
+      "chartUrl": "KvsyH4",
+      "jsonConfig": [
+        {
+          "dimensions": [
+            {
+              "customized": false,
+              "fieldName": "customer",
+              "fieldType": "java.lang.String",
+              "label": "customer"
+            }
+          ],
+          "limit": 0,
+          "metrics": [
+            {
+              "customized": false,
+              "fieldName": "customer",
+              "fieldType": "java.lang.String",
+              "label": "customer"
+            },
+            {
+              "customized": false,
+              "fieldName": "sent",
+              "fieldType": "java.lang.Integer",
+              "label": "sent"
+            }
+          ]
+        }
+      ],
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

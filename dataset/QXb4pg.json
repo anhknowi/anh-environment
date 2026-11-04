@@ -1,0 +1,23 @@
+{
+  "datasets": [
+    {
+      "agenticDefault": false,
+      "bypassOverrideLimit": false,
+      "dataExpirationDate": null,
+      "datasetName": "TEST M/S 003",
+      "identifier": "QXb4pg",
+      "injectStreamTime": true,
+      "metaHash": 0,
+      "metadataConfig": "{\"fieldNames\":[\"id\",\"sports_statistics\",\"source\",\"sourceFile\",\"_stream_time\"],\"dataTypes\":{\"id\":\"java.lang.String\",\"sports_statistics\":\"java.util.Map\",\"source\":\"java.lang.String\",\"sourceFile\":\"java.lang.String\"}}",
+      "mongoConnectUri": "provisioned",
+      "nlpBotEnabled": true,
+      "nlpConfig": null,
+      "nlpEnabled": false,
+      "nlpIndexInterval": 360,
+      "refreshMeta": false,
+      "synonymHash": 31,
+      "timeZone": null
+    }
+  ],
+  "format": 1
+}

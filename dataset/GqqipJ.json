@@ -1,0 +1,23 @@
+{
+  "datasets": [
+    {
+      "agenticDefault": false,
+      "bypassOverrideLimit": false,
+      "dataExpirationDate": null,
+      "datasetName": "Test HHH",
+      "identifier": "GqqipJ",
+      "injectStreamTime": false,
+      "metaHash": 86723626,
+      "metadataConfig": "{\"displayTypes\":{\"sent\":\"java.text.NumberFormat\"},\"fields\":[{\"fieldName\":\"bounced\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"clicks\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"conversions\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"customer\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"date\",\"fieldType\":\"java.util.Date\"},{\"fieldName\":\"delivered\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"id\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"message_type\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"opened\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"sent\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"spam\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"week\",\"fieldType\":\"java.util.Date\"},{\"fieldName\":\"_stream_time\",\"fieldType\":\"java.util.Date\"}]}",
+      "mongoConnectUri": "provisioned",
+      "nlpBotEnabled": true,
+      "nlpConfig": null,
+      "nlpEnabled": true,
+      "nlpIndexInterval": 360,
+      "refreshMeta": false,
+      "synonymHash": 1066115584,
+      "timeZone": null
+    }
+  ],
+  "format": 1
+}

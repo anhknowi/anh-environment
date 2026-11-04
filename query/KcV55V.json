@@ -1,0 +1,54 @@
+{
+  "dataConfigs": [
+    {
+      "datasetIdentifier": "${ref:dataset:RpokKv}",
+      "queryIdentifier": "tkG6Nc",
+      "queryStrId": "KcV55V"
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": "",
+      "chartUrl": "",
+      "jsonConfig": [],
+      "queryIdentifier": "tkG6Nc",
+      "queryStrId": "KcV55V"
+    }
+  ],
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:OTS6vw}",
+      "description": null,
+      "direct": true,
+      "directPush": true,
+      "entityName": "Index",
+      "identifier": "tkG6Nc",
+      "inUse": true,
+      "jsonConfig": {
+        "c9ExportDataset": "${ref:dataset:RpokKv}",
+        "c9ExportEntityName": "Widget",
+        "c9ExportIdentifier": "RpokKv",
+        "datasourceId": "${ref:datasource:OTS6vw}",
+        "direct": true,
+        "discovery": {
+          "limit": 10000,
+          "tableName": "${ref:dataset:RpokKv}"
+        },
+        "entityName": "Index",
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "queryStr": "select week as IndexWeek\ngroup by week\norder by IndexWeek",
+        "triggered": false
+      },
+      "op": 1,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "KcV55V",
+      "triggerDatasetId": 0
+    }
+  ]
+}

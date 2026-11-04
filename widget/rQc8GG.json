@@ -1,0 +1,276 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "rQc8GG",
+      "dashboardIdentifier": null,
+      "property": "chart.column.ignore",
+      "value": ""
+    },
+    {
+      "chartUrl": "rQc8GG",
+      "dashboardIdentifier": null,
+      "property": "chart.dataset.limit",
+      "value": ""
+    },
+    {
+      "chartUrl": "rQc8GG",
+      "dashboardIdentifier": null,
+      "property": "chart.display.theme",
+      "value": ""
+    },
+    {
+      "chartUrl": "rQc8GG",
+      "dashboardIdentifier": null,
+      "property": "chart.legend.column",
+      "value": ""
+    },
+    {
+      "chartUrl": "rQc8GG",
+      "dashboardIdentifier": null,
+      "property": "chart.primary.ylabel",
+      "value": ""
+    },
+    {
+      "chartUrl": "rQc8GG",
+      "dashboardIdentifier": null,
+      "property": "chart.secondary.type",
+      "value": ""
+    },
+    {
+      "chartUrl": "rQc8GG",
+      "dashboardIdentifier": null,
+      "property": "chart.secondary.y",
+      "value": ""
+    },
+    {
+      "chartUrl": "rQc8GG",
+      "dashboardIdentifier": null,
+      "property": "chart.secondary.ylabel",
+      "value": ""
+    },
+    {
+      "chartUrl": "rQc8GG",
+      "dashboardIdentifier": null,
+      "property": "chart.secondary.zIndex",
+      "value": "false"
+    },
+    {
+      "chartUrl": "rQc8GG",
+      "dashboardIdentifier": null,
+      "property": "chart.series.data",
+      "value": ""
+    },
+    {
+      "chartUrl": "rQc8GG",
+      "dashboardIdentifier": null,
+      "property": "chart.series.type",
+      "value": "time"
+    },
+    {
+      "chartUrl": "rQc8GG",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "area"
+    },
+    {
+      "chartUrl": "rQc8GG",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.column",
+      "value": "date"
+    },
+    {
+      "chartUrl": "rQc8GG",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.order",
+      "value": "1"
+    },
+    {
+      "chartUrl": "rQc8GG",
+      "dashboardIdentifier": null,
+      "property": "chart.yAxis.max",
+      "value": ""
+    },
+    {
+      "chartUrl": "rQc8GG",
+      "dashboardIdentifier": null,
+      "property": "chart.yAxis.tickInterval",
+      "value": ""
+    },
+    {
+      "chartUrl": "rQc8GG",
+      "dashboardIdentifier": null,
+      "property": "chartColor",
+      "value": ""
+    },
+    {
+      "chartUrl": "rQc8GG",
+      "dashboardIdentifier": null,
+      "property": "custom.field",
+      "value": ""
+    },
+    {
+      "chartUrl": "rQc8GG",
+      "dashboardIdentifier": null,
+      "property": "evenbg.color",
+      "value": ""
+    },
+    {
+      "chartUrl": "rQc8GG",
+      "dashboardIdentifier": null,
+      "property": "font.color",
+      "value": ""
+    },
+    {
+      "chartUrl": "rQc8GG",
+      "dashboardIdentifier": null,
+      "property": "font.header.color",
+      "value": ""
+    },
+    {
+      "chartUrl": "rQc8GG",
+      "dashboardIdentifier": null,
+      "property": "grid.aggregation",
+      "value": ""
+    },
+    {
+      "chartUrl": "rQc8GG",
+      "dashboardIdentifier": null,
+      "property": "grid.cells.padding",
+      "value": ""
+    },
+    {
+      "chartUrl": "rQc8GG",
+      "dashboardIdentifier": null,
+      "property": "grid.collapsible",
+      "value": ""
+    },
+    {
+      "chartUrl": "rQc8GG",
+      "dashboardIdentifier": null,
+      "property": "grid.grouping",
+      "value": ""
+    },
+    {
+      "chartUrl": "rQc8GG",
+      "dashboardIdentifier": null,
+      "property": "grid.lineThickness",
+      "value": ""
+    },
+    {
+      "chartUrl": "rQc8GG",
+      "dashboardIdentifier": null,
+      "property": "grid.resetColumnWidth",
+      "value": ""
+    },
+    {
+      "chartUrl": "rQc8GG",
+      "dashboardIdentifier": null,
+      "property": "headerbg.color",
+      "value": ""
+    },
+    {
+      "chartUrl": "rQc8GG",
+      "dashboardIdentifier": null,
+      "property": "minColWidth",
+      "value": ""
+    },
+    {
+      "chartUrl": "rQc8GG",
+      "dashboardIdentifier": null,
+      "property": "oddbg.color",
+      "value": ""
+    },
+    {
+      "chartUrl": "rQc8GG",
+      "dashboardIdentifier": null,
+      "property": "widget.footnote",
+      "value": ""
+    }
+  ],
+  "charts": [
+    {
+      "access": 1,
+      "category": "All",
+      "chartName": "BBBBB",
+      "datasetId": "${ref:dataset:rQc8GG}",
+      "description": "",
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 1,
+      "url": "rQc8GG",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": [
+        "select 'date', SUM('sent') as 'Sum of sent',",
+        "  'message_type'",
+        "where 'message_type' = \"Transactional\"",
+        "group by 'date', 'message_type'"
+      ],
+      "chartUrl": "rQc8GG",
+      "jsonConfig": [
+        {
+          "dimensions": [
+            {
+              "customized": false,
+              "fieldName": "date",
+              "fieldType": "java.util.Date",
+              "label": "date"
+            },
+            {
+              "customized": false,
+              "fieldName": "message_type",
+              "fieldType": "java.lang.String",
+              "label": "message_type"
+            }
+          ],
+          "filters": [
+            {
+              "field": {
+                "customized": false,
+                "fieldName": "message_type",
+                "fieldType": "java.lang.String",
+                "label": "message_type"
+              },
+              "operator": "EQUALS",
+              "operatorStr": "=",
+              "or": false,
+              "value": "Transactional"
+            }
+          ],
+          "limit": 0,
+          "metrics": [
+            {
+              "customized": false,
+              "fieldName": "date",
+              "fieldType": "java.util.Date",
+              "label": "date"
+            },
+            {
+              "customized": false,
+              "fieldName": "sent",
+              "fieldType": "java.lang.Integer",
+              "label": "Sum of sent",
+              "operation": "SUM",
+              "operationStr": "sum"
+            },
+            {
+              "customized": false,
+              "fieldName": "message_type",
+              "fieldType": "java.lang.String",
+              "label": "message_type"
+            }
+          ]
+        }
+      ],
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

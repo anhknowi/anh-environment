@@ -1,0 +1,41 @@
+{
+  "datasources": [
+    {
+      "acl": null,
+      "connectSchema": false,
+      "connectorId": 562,
+      "datasource": "restapi",
+      "directQueryOnly": false,
+      "inUse": true,
+      "jsonConfig": {
+        "authRefreshToken": "${secret:datasource:eoIIm8:authRefreshToken}",
+        "authToken": "${secret:datasource:eoIIm8:authToken}",
+        "authType": "oauth",
+        "authURL": "${secret:datasource:eoIIm8:authURL}",
+        "callbackURL": "https://www.knowi.com/service/oauth/redirect",
+        "clientId": "8a511caa-6602-4338-8cd0-1fa6a0d849bb",
+        "clientSecret": "${secret:datasource:eoIIm8:clientSecret}",
+        "datasource": "restapi",
+        "name": "MY REST API",
+        "privateConnector": "562",
+        "proxy": true,
+        "refreshTokenHeader": "${secret:datasource:eoIIm8:refreshTokenHeader}",
+        "refreshTokenPayload": "${secret:datasource:eoIIm8:refreshTokenPayload}",
+        "refreshTokenURL": "${secret:datasource:eoIIm8:refreshTokenURL}",
+        "refreshType": "LongLivedRefreshToken",
+        "scope": "contacts content reports social automation business-intelligence oauth tickets crm.objects.marketing_events.read crm.schemas.custom.read crm.objects.custom.read settings.users.read",
+        "tokenHeader": "${secret:datasource:eoIIm8:tokenHeader}",
+        "tokenPayload": "${secret:datasource:eoIIm8:tokenPayload}",
+        "tokenURL": "${secret:datasource:eoIIm8:tokenURL}",
+        "url": "${secret:datasource:eoIIm8:url}"
+      },
+      "name": "MY REST API",
+      "op": 2,
+      "proxy": true,
+      "strId": "eoIIm8",
+      "tunnel": false,
+      "writable": false
+    }
+  ],
+  "format": 1
+}

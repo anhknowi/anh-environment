@@ -1,0 +1,23 @@
+{
+  "datasets": [
+    {
+      "agenticDefault": false,
+      "bypassOverrideLimit": false,
+      "dataExpirationDate": null,
+      "datasetName": "Infosys Date Range",
+      "identifier": "wiiFhZ",
+      "injectStreamTime": false,
+      "metaHash": 376649226,
+      "metadataConfig": "{\"fields\":[{\"fieldName\":\"Label\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"Range\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"Value\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"_stream_time\",\"fieldType\":\"java.util.Date\"}]}",
+      "mongoConnectUri": "provisioned",
+      "nlpBotEnabled": true,
+      "nlpConfig": null,
+      "nlpEnabled": false,
+      "nlpIndexInterval": 360,
+      "refreshMeta": false,
+      "synonymHash": 31,
+      "timeZone": null
+    }
+  ],
+  "format": 1
+}

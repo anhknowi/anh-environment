@@ -1,0 +1,49 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "V7wzod",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "datagrid2"
+    },
+    {
+      "chartUrl": "V7wzod",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.column",
+      "value": "unit_name"
+    },
+    {
+      "chartUrl": "V7wzod",
+      "dashboardIdentifier": null,
+      "property": "formatOptions",
+      "value": "{}"
+    }
+  ],
+  "chartQueries": [
+    {
+      "chartUrl": "V7wzod",
+      "queryStr": [
+        "select sum(order_#) as ORDER, customer",
+        "group by customer"
+      ]
+    }
+  ],
+  "charts": [
+    {
+      "access": 1,
+      "category": null,
+      "chartName": "TestMY",
+      "datasetId": "${ref:dataset:V7wzod}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": -1,
+      "query": 1,
+      "type": 21,
+      "url": "V7wzod",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

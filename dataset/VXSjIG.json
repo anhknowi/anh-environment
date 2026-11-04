@@ -1,0 +1,23 @@
+{
+  "datasets": [
+    {
+      "agenticDefault": false,
+      "bypassOverrideLimit": false,
+      "dataExpirationDate": null,
+      "datasetName": "GGG",
+      "identifier": "VXSjIG",
+      "injectStreamTime": false,
+      "metaHash": 1419241069,
+      "metadataConfig": "{\"fields\":[{\"fieldName\":\"channelName\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"count\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"deviceId\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"id\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"_stream_time\",\"fieldType\":\"java.util.Date\"}]}",
+      "mongoConnectUri": "provisioned",
+      "nlpBotEnabled": true,
+      "nlpConfig": null,
+      "nlpEnabled": true,
+      "nlpIndexInterval": 360,
+      "refreshMeta": false,
+      "synonymHash": 0,
+      "timeZone": null
+    }
+  ],
+  "format": 1
+}

@@ -1,0 +1,23 @@
+{
+  "datasets": [
+    {
+      "agenticDefault": false,
+      "bypassOverrideLimit": false,
+      "dataExpirationDate": null,
+      "datasetName": "afssdfsadfsdf sdfsdf",
+      "identifier": "G4XJO3",
+      "injectStreamTime": false,
+      "metaHash": -1513116301,
+      "metadataConfig": "{\"fields\":[{\"fieldName\":\"ABC (XYZ)\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"NNN (AAA)\",\"fieldType\":\"java.lang.String\"}]}",
+      "mongoConnectUri": "c9Query/${ref:query:8kfEM9}",
+      "nlpBotEnabled": true,
+      "nlpConfig": null,
+      "nlpEnabled": false,
+      "nlpIndexInterval": 360,
+      "refreshMeta": false,
+      "synonymHash": 31,
+      "timeZone": null
+    }
+  ],
+  "format": 1
+}

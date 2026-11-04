@@ -1,0 +1,23 @@
+{
+  "datasets": [
+    {
+      "agenticDefault": false,
+      "bypassOverrideLimit": false,
+      "dataExpirationDate": null,
+      "datasetName": "dataset_54201_6501525149250643075.csv",
+      "identifier": "RDMLip",
+      "injectStreamTime": true,
+      "metaHash": 0,
+      "metadataConfig": "{\"fieldNames\":[\"deviceId\",\"hits\",\"lastAccessTime\",\"page\"],\"dataTypes\":{\"deviceId\":\"java.lang.String\",\"hits\":\"java.lang.Integer\",\"lastAccessTime\":\"java.util.Date\",\"page\":\"java.lang.String\"}}",
+      "mongoConnectUri": "provisioned",
+      "nlpBotEnabled": true,
+      "nlpConfig": null,
+      "nlpEnabled": false,
+      "nlpIndexInterval": 360,
+      "refreshMeta": false,
+      "synonymHash": 31,
+      "timeZone": null
+    }
+  ],
+  "format": 1
+}

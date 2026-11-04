@@ -1,0 +1,52 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "Mnl3Me",
+      "dashboardIdentifier": null,
+      "property": "chart.legend.column",
+      "value": "Ex-Dividend"
+    },
+    {
+      "chartUrl": "Mnl3Me",
+      "dashboardIdentifier": null,
+      "property": "chart.series.type",
+      "value": "time"
+    },
+    {
+      "chartUrl": "Mnl3Me",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "area"
+    },
+    {
+      "chartUrl": "Mnl3Me",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.column",
+      "value": "Date"
+    },
+    {
+      "chartUrl": "Mnl3Me",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.order",
+      "value": "1"
+    }
+  ],
+  "charts": [
+    {
+      "access": 1,
+      "category": null,
+      "chartName": "Apple_Stock.csv.xlsx",
+      "datasetId": "${ref:dataset:Rpnx2l}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": 0,
+      "query": 0,
+      "type": 1,
+      "url": "Mnl3Me",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

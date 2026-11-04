@@ -1,0 +1,37 @@
+{
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:B0HQ4V}",
+      "description": null,
+      "direct": false,
+      "directPush": true,
+      "entityName": "Copy of Test Mongo",
+      "identifier": "FipG9l",
+      "inUse": true,
+      "jsonConfig": {
+        "c9QLFilter": "select *, \"lkajsflkj afdslkjasd lkjsdafl alkfjas lfkjlsakfj lakjdf lkasjflkasdjflk asflksjadfl jaslfkj sdf afjklksaj aslfkj asdlfkjsa f\" as A, 1 as B;\nselect transpose(A,B)",
+        "datasourceId": "${ref:datasource:B0HQ4V}",
+        "direct": false,
+        "discovery": {
+          "limit": 10000,
+          "tableName": "sendingActivity"
+        },
+        "entityName": "Copy of Test Mongo",
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "queryStr": "db['sendingActivity'].find().limit(100)",
+        "triggered": false,
+        "visual": false
+      },
+      "op": 4,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "g23szk",
+      "triggerDatasetId": 0
+    }
+  ]
+}

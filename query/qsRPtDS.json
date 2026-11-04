@@ -1,0 +1,32 @@
+{
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:WSTfpd}",
+      "description": null,
+      "direct": false,
+      "directPush": true,
+      "entityName": "06_Knowi_Enterprise_Agreement_Pinnacle_Retail_Brands.pdf",
+      "identifier": "X0PGOk4",
+      "inUse": true,
+      "jsonConfig": {
+        "datasourceId": "${ref:datasource:WSTfpd}",
+        "direct": false,
+        "entityName": "06_Knowi_Enterprise_Agreement_Pinnacle_Retail_Brands.pdf",
+        "identifier": "X0PGOk4",
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "triggered": false,
+        "uploadedFileName": "06_Knowi_Enterprise_Agreement_Pinnacle_Retail_Brands.pdf"
+      },
+      "op": 1,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "qsRPtDS",
+      "triggerDatasetId": 0
+    }
+  ]
+}

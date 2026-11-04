@@ -1,0 +1,20 @@
+{
+  "datasources": [
+    {
+      "acl": null,
+      "connectSchema": false,
+      "connectorId": 1,
+      "datasource": "uploaddoc",
+      "directQueryOnly": false,
+      "inUse": true,
+      "jsonConfig": "${secret:datasource:WSTfpd:jsonConfig}",
+      "name": "Knowi File Uploads Warehouse",
+      "op": 1,
+      "proxy": false,
+      "strId": "WSTfpd",
+      "tunnel": false,
+      "writable": false
+    }
+  ],
+  "format": 1
+}

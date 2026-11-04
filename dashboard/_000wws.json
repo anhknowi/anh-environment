@@ -1,0 +1,83 @@
+{
+  "dashboardCharts": [
+    {
+      "chartUrl": "${ref:widget:AlaX5jB}",
+      "col": 1,
+      "dashboardIdentifier": "_000wws",
+      "grain": 1,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 1,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 24,
+      "sizeY": 14,
+      "sizeYOriginal": 0,
+      "width": 0
+    }
+  ],
+  "dashboards": [
+    {
+      "dashAccessLevel": 1,
+      "displayOrder": 0,
+      "filterSettings": "{\"state\":\"enable\",\"fields\":false,\"cascadingSuggestions\":\"disable\",\"filteringResult\":true}",
+      "identifier": "_000wws",
+      "jsonConfig": {
+        "excludeExpandedGridFromPdfExport": false,
+        "excludeGridWidgetsFromPdfExport": false,
+        "filters": [
+          {
+            "dateLimit": "",
+            "dateLimitOptions": "",
+            "dynamic": false,
+            "enabled": true,
+            "fieldName": "customer",
+            "fieldType": "java.lang.String",
+            "inclusiveTime": false,
+            "operator": "Equals",
+            "plainControlType": "multiple",
+            "transientFilter": false,
+            "type": "java.lang.String",
+            "values": [
+              "Costco"
+            ],
+            "visible": true
+          }
+        ],
+        "view": {
+          "actions": true,
+          "backgroundColor": "",
+          "border": true,
+          "dashFiltersPinToTop": false,
+          "dashFreeWidget": false,
+          "dashGrain": 1,
+          "dashGrouping": false,
+          "dashLoadUponPrompt": false,
+          "dashTheme": "light",
+          "dashTitle": true,
+          "drag": true,
+          "enableDashFilterIcon": true,
+          "enableHeaders": true,
+          "enablePdfExport": true,
+          "enablePptExport": true,
+          "enablePresenter": true,
+          "filter": true,
+          "instantSightsIcon": true,
+          "resize": true,
+          "setting": true,
+          "title": true,
+          "widgetSpacing": 5
+        }
+      },
+      "locked": 0,
+      "name": "FROM PRODUCTION",
+      "screenAdjust": 0,
+      "screenHeight": 951,
+      "screenWidth": 1365,
+      "type": 1,
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

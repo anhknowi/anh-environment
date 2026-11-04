@@ -1,0 +1,32 @@
+{
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:WSTfpd}",
+      "description": null,
+      "direct": false,
+      "directPush": true,
+      "entityName": "05_Knowi_Enterprise_Agreement_BlueRidge_Insurance_Mutual.pdf",
+      "identifier": "ipDvtE2",
+      "inUse": true,
+      "jsonConfig": {
+        "datasourceId": "${ref:datasource:WSTfpd}",
+        "direct": false,
+        "entityName": "05_Knowi_Enterprise_Agreement_BlueRidge_Insurance_Mutual.pdf",
+        "identifier": "ipDvtE2",
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "triggered": false,
+        "uploadedFileName": "05_Knowi_Enterprise_Agreement_BlueRidge_Insurance_Mutual.pdf"
+      },
+      "op": 1,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "TeOegEX",
+      "triggerDatasetId": 0
+    }
+  ]
+}

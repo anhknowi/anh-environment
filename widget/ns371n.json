@@ -1,0 +1,76 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "ns371n",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "datagrid2"
+    },
+    {
+      "chartUrl": "ns371n",
+      "dashboardIdentifier": null,
+      "property": "grid.collapsible",
+      "value": "false"
+    },
+    {
+      "chartUrl": "ns371n",
+      "dashboardIdentifier": null,
+      "property": "grid.column._stream_time.widthPerc",
+      "value": "170"
+    },
+    {
+      "chartUrl": "ns371n",
+      "dashboardIdentifier": null,
+      "property": "grid.column.country.widthPerc",
+      "value": "111"
+    },
+    {
+      "chartUrl": "ns371n",
+      "dashboardIdentifier": null,
+      "property": "grid.column.currency.widthPerc",
+      "value": "111"
+    },
+    {
+      "chartUrl": "ns371n",
+      "dashboardIdentifier": null,
+      "property": "grid.column.customer.widthPerc",
+      "value": "111"
+    },
+    {
+      "chartUrl": "ns371n",
+      "dashboardIdentifier": null,
+      "property": "grid.column.state.widthPerc",
+      "value": "111"
+    },
+    {
+      "chartUrl": "ns371n",
+      "dashboardIdentifier": null,
+      "property": "grid.column.street.widthPerc",
+      "value": "111"
+    },
+    {
+      "chartUrl": "ns371n",
+      "dashboardIdentifier": null,
+      "property": "grid.resetColumnWidth",
+      "value": "false"
+    }
+  ],
+  "charts": [
+    {
+      "access": 1,
+      "category": "All",
+      "chartName": "TEST ANH 1",
+      "datasetId": "${ref:dataset:ns371n}",
+      "description": "",
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 21,
+      "url": "ns371n",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

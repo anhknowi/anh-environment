@@ -1,0 +1,32 @@
+{
+  "datasources": [
+    {
+      "acl": null,
+      "connectSchema": true,
+      "connectorId": 1,
+      "datasource": "snowflake",
+      "directQueryOnly": false,
+      "inUse": true,
+      "jsonConfig": {
+        "connectSchema": true,
+        "datasource": "snowflake",
+        "dbName": "KNOWI_VIP",
+        "forceTimeZone": false,
+        "host": "pib33015.us-east-1.snowflakecomputing.com",
+        "name": "Snowflake Database  3",
+        "password": "${secret:datasource:fsSKui:password}",
+        "schema": "C_10016180_PIB33015",
+        "userId": "shaun",
+        "warehouse": "KNOWI_VIP_WH",
+        "writable": true
+      },
+      "name": "Snowflake Database  3",
+      "op": 2,
+      "proxy": false,
+      "strId": "fsSKui",
+      "tunnel": false,
+      "writable": true
+    }
+  ],
+  "format": 1
+}

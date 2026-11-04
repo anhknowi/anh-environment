@@ -1,0 +1,52 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "Qt9WUp",
+      "dashboardIdentifier": null,
+      "property": "chart.legend.column",
+      "value": "id"
+    },
+    {
+      "chartUrl": "Qt9WUp",
+      "dashboardIdentifier": null,
+      "property": "chart.percent",
+      "value": "false"
+    },
+    {
+      "chartUrl": "Qt9WUp",
+      "dashboardIdentifier": null,
+      "property": "chart.totalLabel",
+      "value": "false"
+    },
+    {
+      "chartUrl": "Qt9WUp",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "pie"
+    },
+    {
+      "chartUrl": "Qt9WUp",
+      "dashboardIdentifier": null,
+      "property": "pivot.structure",
+      "value": "{\"rows\":[\"bounced\",\"campaign_name\"],\"columns\":[\"opened\",\"sent\"],\"values\":[{\"name\":\"opened\",\"text\":\"opened\",\"id\":1536220147880,\"operation\":[\"sum\"]},{\"name\":\"sent\",\"text\":\"sent\",\"id\":1536220147875,\"operation\":[\"sum\"]}],\"filters\":[],\"columnSort\":{\"$default\":{\"dir\":\"asc\",\"_dir\":1},\"date\":{\"dir\":\"asc\"},\"week\":{\"dir\":\"asc\"}}}"
+    }
+  ],
+  "charts": [
+    {
+      "access": 1,
+      "category": "All",
+      "chartName": "ANHTEST",
+      "datasetId": "${ref:dataset:ripp7m}",
+      "description": "",
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 1,
+      "url": "Qt9WUp",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

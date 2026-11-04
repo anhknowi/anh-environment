@@ -1,0 +1,28 @@
+{
+  "filterSets": [
+    {
+      "color": "#8ec8dc",
+      "filters": [
+        {
+          "dateLimit": "",
+          "dynamic": false,
+          "enabled": true,
+          "fieldName": "customer",
+          "fieldType": "java.lang.String",
+          "inclusiveTime": false,
+          "operator": "Equals",
+          "plainControlType": "multiple",
+          "transientFilter": false,
+          "type": "java.lang.String",
+          "values": [
+            "adfsaasfsadfsdfa"
+          ],
+          "visible": true
+        }
+      ],
+      "identifier": "_0000ax",
+      "name": "TEST"
+    }
+  ],
+  "format": 1
+}

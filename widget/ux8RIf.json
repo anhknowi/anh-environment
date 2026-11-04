@@ -1,0 +1,123 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "ux8RIf",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "datagrid2"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "orderswithitemclass.csv",
+      "datasetId": "${ref:dataset:ux8RIf}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": {
+        "fields": [
+          {
+            "fieldName": "custbody_ba_delivery_date",
+            "fieldType": "java.util.Date"
+          },
+          {
+            "fieldName": "customer",
+            "fieldType": "java.lang.String"
+          },
+          {
+            "fieldName": "id",
+            "fieldType": "java.lang.String"
+          },
+          {
+            "fieldName": "item",
+            "fieldType": "java.lang.String"
+          },
+          {
+            "fieldName": "iteminternalid",
+            "fieldType": "java.lang.Integer"
+          },
+          {
+            "fieldName": "lastmodifieddate",
+            "fieldType": "java.util.Date"
+          },
+          {
+            "fieldName": "lineamount",
+            "fieldType": "java.lang.Double"
+          },
+          {
+            "fieldName": "location",
+            "fieldType": "java.lang.String"
+          },
+          {
+            "fieldName": "mainline",
+            "fieldType": "java.lang.String"
+          },
+          {
+            "fieldName": "number",
+            "fieldType": "java.lang.Integer"
+          },
+          {
+            "fieldName": "po",
+            "fieldType": "java.lang.String"
+          },
+          {
+            "fieldName": "sales_rep",
+            "fieldType": "java.lang.String"
+          },
+          {
+            "fieldName": "shipdate",
+            "fieldType": "java.util.Date"
+          },
+          {
+            "fieldName": "taxline",
+            "fieldType": "java.lang.String"
+          },
+          {
+            "fieldName": "trandate",
+            "fieldType": "java.util.Date"
+          },
+          {
+            "fieldName": "tranid",
+            "fieldType": "java.lang.String"
+          },
+          {
+            "fieldName": "transaction_id",
+            "fieldType": "java.lang.Integer"
+          },
+          {
+            "fieldName": "transactionamount",
+            "fieldType": "java.lang.Double"
+          },
+          {
+            "fieldName": "transactionestgrossprofit",
+            "fieldType": "java.lang.Double"
+          },
+          {
+            "fieldName": "transactionline_id",
+            "fieldType": "java.lang.Integer"
+          },
+          {
+            "fieldName": "transactionnumber",
+            "fieldType": "java.lang.String"
+          },
+          {
+            "fieldName": "type",
+            "fieldType": "java.lang.String"
+          },
+          {
+            "fieldName": "uniquekey",
+            "fieldType": "java.lang.Integer"
+          }
+        ]
+      },
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 21,
+      "url": "ux8RIf",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

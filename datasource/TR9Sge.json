@@ -1,0 +1,29 @@
+{
+  "datasources": [
+    {
+      "acl": null,
+      "connectSchema": false,
+      "connectorId": 562,
+      "datasource": "postgresql",
+      "directQueryOnly": false,
+      "inUse": true,
+      "jsonConfig": {
+        "datasource": "postgresql",
+        "dbName": "cloud9demo",
+        "host": "demo.knowi.com",
+        "name": "PostgreSQL Database",
+        "password": "${secret:datasource:TR9Sge:password}",
+        "port": "5432",
+        "privateConnector": "562",
+        "userId": "demo"
+      },
+      "name": "PostgreSQL Database",
+      "op": 1,
+      "proxy": false,
+      "strId": "TR9Sge",
+      "tunnel": false,
+      "writable": false
+    }
+  ],
+  "format": 1
+}

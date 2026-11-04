@@ -1,0 +1,38 @@
+{
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:v1mfql}",
+      "description": null,
+      "direct": true,
+      "directPush": true,
+      "entityName": "TEST ANH 1",
+      "identifier": "asxVis",
+      "inUse": true,
+      "jsonConfig": {
+        "c9QLFilter": "select *",
+        "datasourceId": "${ref:datasource:v1mfql}",
+        "direct": true,
+        "discovery": {
+          "dbName": "sending_activity",
+          "discoveryForSuggestions": false,
+          "limit": 10000,
+          "tableName": "sending_activity"
+        },
+        "entityName": "TEST ANH 1",
+        "indexes": "sending_activity",
+        "queryStr": "{\n  \"size\" : 10000\n}",
+        "startTime": "undefined undefined",
+        "triggered": false,
+        "visual": true
+      },
+      "op": 1,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "XD53vH",
+      "triggerDatasetId": 0
+    }
+  ]
+}

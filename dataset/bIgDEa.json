@@ -1,0 +1,23 @@
+{
+  "datasets": [
+    {
+      "agenticDefault": false,
+      "bypassOverrideLimit": false,
+      "dataExpirationDate": null,
+      "datasetName": "Index",
+      "identifier": "bIgDEa",
+      "injectStreamTime": false,
+      "metaHash": -837480746,
+      "metadataConfig": "{\"fields\":[{\"fieldName\":\"customer_name\",\"fieldType\":\"java.lang.String\"}]}",
+      "mongoConnectUri": "c9Query/${ref:query:CpbHge}",
+      "nlpBotEnabled": true,
+      "nlpConfig": null,
+      "nlpEnabled": true,
+      "nlpIndexInterval": 360,
+      "refreshMeta": false,
+      "synonymHash": 31,
+      "timeZone": null
+    }
+  ],
+  "format": 1
+}

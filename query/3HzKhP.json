@@ -1,0 +1,56 @@
+{
+  "dataConfigs": [
+    {
+      "datasetIdentifier": "${ref:dataset:VWQcJi}",
+      "queryIdentifier": "M23iso",
+      "queryStrId": "3HzKhP"
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": "",
+      "chartUrl": "",
+      "jsonConfig": [],
+      "queryIdentifier": "M23iso",
+      "queryStrId": "3HzKhP"
+    }
+  ],
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:OTS6vw}",
+      "description": "",
+      "direct": false,
+      "directPush": true,
+      "entityName": "asfassdf",
+      "identifier": "M23iso",
+      "inUse": true,
+      "jsonConfig": {
+        "c9ExportDataset": "${ref:dataset:VWQcJi}",
+        "c9ExportEntityName": "Activity Direct",
+        "c9ExportIdentifier": "VWQcJi",
+        "datasourceId": "${ref:datasource:OTS6vw}",
+        "direct": false,
+        "discovery": {
+          "limit": 10000,
+          "tableName": "${ref:dataset:VWQcJi}"
+        },
+        "entityName": "asfassdf",
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "queryStr": "select date_format(date, \"EEE MMM-dd\")",
+        "triggerOnAny": false,
+        "triggered": true,
+        "visual": false
+      },
+      "op": 4,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "3HzKhP",
+      "triggerDatasetId": "${ref:dataset:VWQcJi}"
+    }
+  ]
+}

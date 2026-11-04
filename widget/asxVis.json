@@ -1,0 +1,319 @@
+{
+  "chartAssociations": [
+    {
+      "chartUrl": "asxVis",
+      "jsonConfig": [
+        {
+          "filters": [
+            {
+              "childField": "campaign_name",
+              "parentField": "campaign_name"
+            }
+          ],
+          "id": "${ref:dashboard:_000wws}",
+          "passingDrilldownFilters": false,
+          "passingFilters": false,
+          "type": "dashboard"
+        }
+      ]
+    }
+  ],
+  "chartProperties": [
+    {
+      "chartUrl": "asxVis",
+      "dashboardIdentifier": null,
+      "property": "chart.alignTicks",
+      "value": "true"
+    },
+    {
+      "chartUrl": "asxVis",
+      "dashboardIdentifier": null,
+      "property": "chart.dataset.limit",
+      "value": "10"
+    },
+    {
+      "chartUrl": "asxVis",
+      "dashboardIdentifier": null,
+      "property": "chart.firstRow",
+      "value": "[67180,784686,\"Marketing\",\"LinkedIn\",\"Sun Apr 06 17:00:00 PDT 2014\",\"Tue Apr 08 07:39:00 PDT 2014\",119524,1257,29428,710909,29721,5861,\"30% off Limited Sale\",\"QiF2H4MBze8xVJd0FMTJ\"]"
+    },
+    {
+      "chartUrl": "asxVis",
+      "dashboardIdentifier": null,
+      "property": "chart.legend.column",
+      "value": "\"message_type\",\"customer\""
+    },
+    {
+      "chartUrl": "asxVis",
+      "dashboardIdentifier": null,
+      "property": "chart.primary.ylabel",
+      "value": "sent"
+    },
+    {
+      "chartUrl": "asxVis",
+      "dashboardIdentifier": null,
+      "property": "chart.quickpickers",
+      "value": "0"
+    },
+    {
+      "chartUrl": "asxVis",
+      "dashboardIdentifier": null,
+      "property": "chart.secondary.sync",
+      "value": "false"
+    },
+    {
+      "chartUrl": "asxVis",
+      "dashboardIdentifier": null,
+      "property": "chart.secondary.zIndex",
+      "value": "false"
+    },
+    {
+      "chartUrl": "asxVis",
+      "dashboardIdentifier": null,
+      "property": "chart.series.data",
+      "value": "sent"
+    },
+    {
+      "chartUrl": "asxVis",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "scatter"
+    },
+    {
+      "chartUrl": "asxVis",
+      "dashboardIdentifier": null,
+      "property": "chart.useLocalTime",
+      "value": "false"
+    },
+    {
+      "chartUrl": "asxVis",
+      "dashboardIdentifier": null,
+      "property": "chart.wBorderVisibility",
+      "value": "inherit_from_dash"
+    },
+    {
+      "chartUrl": "asxVis",
+      "dashboardIdentifier": null,
+      "property": "chart.wTitleVisibility",
+      "value": "inherit_from_dash"
+    },
+    {
+      "chartUrl": "asxVis",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.column",
+      "value": "campaign_name"
+    },
+    {
+      "chartUrl": "asxVis",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.order",
+      "value": "1"
+    },
+    {
+      "chartUrl": "asxVis",
+      "dashboardIdentifier": null,
+      "property": "chart.xaxis.scroll",
+      "value": "false"
+    },
+    {
+      "chartUrl": "asxVis",
+      "dashboardIdentifier": null,
+      "property": "grid.column.bounced.widthPerc",
+      "value": "0.10638297872340426"
+    },
+    {
+      "chartUrl": "asxVis",
+      "dashboardIdentifier": null,
+      "property": "grid.column.campaign_name.widthPerc",
+      "value": "0.10638297872340426"
+    },
+    {
+      "chartUrl": "asxVis",
+      "dashboardIdentifier": null,
+      "property": "grid.column.clicks.widthPerc",
+      "value": "0.10638297872340426"
+    },
+    {
+      "chartUrl": "asxVis",
+      "dashboardIdentifier": null,
+      "property": "grid.column.conversions.widthPerc",
+      "value": "0.10638297872340426"
+    },
+    {
+      "chartUrl": "asxVis",
+      "dashboardIdentifier": null,
+      "property": "grid.column.customer.widthPerc",
+      "value": "0.10638297872340426"
+    },
+    {
+      "chartUrl": "asxVis",
+      "dashboardIdentifier": null,
+      "property": "grid.column.date.widthPerc",
+      "value": "0.10638297872340426"
+    },
+    {
+      "chartUrl": "asxVis",
+      "dashboardIdentifier": null,
+      "property": "grid.column.delivered.widthPerc",
+      "value": "0.10638297872340426"
+    },
+    {
+      "chartUrl": "asxVis",
+      "dashboardIdentifier": null,
+      "property": "grid.column.es_id.widthPerc",
+      "value": "0.10638297872340426"
+    },
+    {
+      "chartUrl": "asxVis",
+      "dashboardIdentifier": null,
+      "property": "grid.column.id .widthPerc",
+      "value": "0.10638297872340426"
+    },
+    {
+      "chartUrl": "asxVis",
+      "dashboardIdentifier": null,
+      "property": "grid.column.message_type.widthPerc",
+      "value": "0.10638297872340426"
+    },
+    {
+      "chartUrl": "asxVis",
+      "dashboardIdentifier": null,
+      "property": "grid.column.opened.widthPerc",
+      "value": "0.10638297872340426"
+    },
+    {
+      "chartUrl": "asxVis",
+      "dashboardIdentifier": null,
+      "property": "grid.column.sent.widthPerc",
+      "value": "0.10638297872340426"
+    },
+    {
+      "chartUrl": "asxVis",
+      "dashboardIdentifier": null,
+      "property": "grid.column.spam.widthPerc",
+      "value": "0.10638297872340426"
+    },
+    {
+      "chartUrl": "asxVis",
+      "dashboardIdentifier": null,
+      "property": "grid.column.week.widthPerc",
+      "value": "0.10638297872340426"
+    },
+    {
+      "chartUrl": "asxVis",
+      "dashboardIdentifier": null,
+      "property": "grid.columnWidths",
+      "value": "[]"
+    },
+    {
+      "chartUrl": "asxVis",
+      "dashboardIdentifier": null,
+      "property": "legendAlias",
+      "value": "{}"
+    },
+    {
+      "chartUrl": "asxVis",
+      "dashboardIdentifier": null,
+      "property": "pivot.structure",
+      "value": "{\"rows\":[\"campaign_name\"],\"columns\":[\"customer\"],\"values\":[{\"name\":\"clicks\",\"text\":\"clicks\",\"id\":1752273822956,\"operation\":[\"sum\"]}],\"filters\":[]}"
+    },
+    {
+      "chartUrl": "asxVis",
+      "dashboardIdentifier": null,
+      "property": "repeatableWidget.showRepeatingPanel",
+      "value": "false"
+    },
+    {
+      "chartUrl": "asxVis",
+      "dashboardIdentifier": null,
+      "property": "widgetDisplayOptions",
+      "value": "w-export-to-excel:true,highchart-context-menu:true"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "TEST ANH 1",
+      "datasetId": "${ref:dataset:asxVis}",
+      "description": "",
+      "drilldown": 1,
+      "filterSettings": null,
+      "jsonConfig": {
+        "fields": [
+          {
+            "fieldName": "bounced",
+            "fieldType": "java.lang.Double"
+          },
+          {
+            "fieldName": "campaign_name",
+            "fieldType": "java.lang.String"
+          },
+          {
+            "fieldName": "clicks",
+            "fieldType": "java.lang.Double"
+          },
+          {
+            "fieldName": "conversions",
+            "fieldType": "java.lang.Double"
+          },
+          {
+            "fieldName": "customer",
+            "fieldType": "java.lang.String"
+          },
+          {
+            "fieldName": "date",
+            "fieldType": "java.util.Date"
+          },
+          {
+            "fieldName": "delivered",
+            "fieldType": "java.lang.Double"
+          },
+          {
+            "fieldName": "es_id",
+            "fieldType": "java.lang.String"
+          },
+          {
+            "fieldName": "id",
+            "fieldType": "java.lang.Double"
+          },
+          {
+            "fieldName": "message_type",
+            "fieldType": "java.lang.String"
+          },
+          {
+            "fieldName": "opened",
+            "fieldType": "java.lang.Double"
+          },
+          {
+            "fieldName": "sent",
+            "fieldType": "java.lang.Double"
+          },
+          {
+            "fieldName": "spam",
+            "fieldType": "java.lang.Double"
+          },
+          {
+            "fieldName": "week",
+            "fieldType": "java.util.Date"
+          }
+        ]
+      },
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 1,
+      "url": "asxVis",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": "",
+      "chartUrl": "asxVis",
+      "jsonConfig": [],
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

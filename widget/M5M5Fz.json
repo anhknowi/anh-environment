@@ -1,0 +1,34 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "M5M5Fz",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "text"
+    },
+    {
+      "chartUrl": "M5M5Fz",
+      "dashboardIdentifier": null,
+      "property": "scale",
+      "value": "true"
+    }
+  ],
+  "charts": [
+    {
+      "access": 1,
+      "category": null,
+      "chartName": "Test Script",
+      "datasetId": "${ref:dataset:M5M5Fz}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 4,
+      "url": "M5M5Fz",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

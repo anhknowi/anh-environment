@@ -1,0 +1,193 @@
+{
+  "chartAssociations": [
+    {
+      "chartUrl": "Urcqwn",
+      "jsonConfig": [
+        {
+          "filters": [
+            {
+              "childField": "customer",
+              "parentField": "customer"
+            }
+          ],
+          "id": "${ref:dashboard:_000yQR}",
+          "passingFilters": false,
+          "type": "dashboard"
+        }
+      ]
+    }
+  ],
+  "chartProperties": [
+    {
+      "chartUrl": "Urcqwn",
+      "dashboardIdentifier": null,
+      "property": "chart.column.ignore",
+      "value": ""
+    },
+    {
+      "chartUrl": "Urcqwn",
+      "dashboardIdentifier": null,
+      "property": "chart.dataset.limit",
+      "value": ""
+    },
+    {
+      "chartUrl": "Urcqwn",
+      "dashboardIdentifier": null,
+      "property": "chart.display.theme",
+      "value": ""
+    },
+    {
+      "chartUrl": "Urcqwn",
+      "dashboardIdentifier": null,
+      "property": "chart.legend.column",
+      "value": ""
+    },
+    {
+      "chartUrl": "Urcqwn",
+      "dashboardIdentifier": null,
+      "property": "chart.primary.ylabel",
+      "value": "Sum of sent"
+    },
+    {
+      "chartUrl": "Urcqwn",
+      "dashboardIdentifier": null,
+      "property": "chart.secondary.stacking",
+      "value": ""
+    },
+    {
+      "chartUrl": "Urcqwn",
+      "dashboardIdentifier": null,
+      "property": "chart.secondary.type",
+      "value": ""
+    },
+    {
+      "chartUrl": "Urcqwn",
+      "dashboardIdentifier": null,
+      "property": "chart.secondary.y",
+      "value": ""
+    },
+    {
+      "chartUrl": "Urcqwn",
+      "dashboardIdentifier": null,
+      "property": "chart.secondary.ylabel",
+      "value": ""
+    },
+    {
+      "chartUrl": "Urcqwn",
+      "dashboardIdentifier": null,
+      "property": "chart.secondary.zIndex",
+      "value": "false"
+    },
+    {
+      "chartUrl": "Urcqwn",
+      "dashboardIdentifier": null,
+      "property": "chart.series.data",
+      "value": "Sum of sent"
+    },
+    {
+      "chartUrl": "Urcqwn",
+      "dashboardIdentifier": null,
+      "property": "chart.series.type",
+      "value": ""
+    },
+    {
+      "chartUrl": "Urcqwn",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "stacked column"
+    },
+    {
+      "chartUrl": "Urcqwn",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.column",
+      "value": "customer"
+    },
+    {
+      "chartUrl": "Urcqwn",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.order",
+      "value": "1"
+    },
+    {
+      "chartUrl": "Urcqwn",
+      "dashboardIdentifier": null,
+      "property": "chart.yAxis.max",
+      "value": ""
+    },
+    {
+      "chartUrl": "Urcqwn",
+      "dashboardIdentifier": null,
+      "property": "chart.yAxis.tickInterval",
+      "value": ""
+    },
+    {
+      "chartUrl": "Urcqwn",
+      "dashboardIdentifier": null,
+      "property": "chartColor",
+      "value": ""
+    },
+    {
+      "chartUrl": "Urcqwn",
+      "dashboardIdentifier": null,
+      "property": "custom.field",
+      "value": ""
+    },
+    {
+      "chartUrl": "Urcqwn",
+      "dashboardIdentifier": null,
+      "property": "widget.footnote",
+      "value": ""
+    }
+  ],
+  "charts": [
+    {
+      "access": 1,
+      "category": "All",
+      "chartName": "TEST 10000",
+      "datasetId": "${ref:dataset:Urcqwn}",
+      "description": "",
+      "drilldown": 1,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 1,
+      "url": "Urcqwn",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": "select 'message_type', 'Sum of sent', 'customer'",
+      "chartUrl": "Urcqwn",
+      "jsonConfig": [
+        {
+          "limit": 0,
+          "metrics": [
+            {
+              "customized": false,
+              "fieldName": "message_type",
+              "fieldType": "java.lang.String",
+              "label": "message_type"
+            },
+            {
+              "customized": false,
+              "fieldName": "Sum of sent",
+              "fieldType": "java.lang.Integer",
+              "label": "Sum of sent"
+            },
+            {
+              "customized": false,
+              "fieldName": "customer",
+              "fieldType": "java.lang.String",
+              "label": "customer"
+            }
+          ]
+        }
+      ],
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

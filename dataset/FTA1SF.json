@@ -1,0 +1,23 @@
+{
+  "datasets": [
+    {
+      "agenticDefault": false,
+      "bypassOverrideLimit": false,
+      "dataExpirationDate": null,
+      "datasetName": "Test Couch",
+      "identifier": "FTA1SF",
+      "injectStreamTime": false,
+      "metaHash": 0,
+      "metadataConfig": "{\"fields\":[{\"fieldName\":\"abv\",\"fieldType\":\"java.lang.Double\"},{\"fieldName\":\"address\",\"fieldType\":\"java.util.List\",\"nestedFields\":[{\"fieldName\":\"[*]\",\"fieldType\":\"java.lang.String\"}]},{\"fieldName\":\"brewery_id\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"category\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"city\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"code\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"country\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"description\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"geo\",\"fieldType\":\"java.util.Map\",\"nestedFields\":[{\"fieldName\":\"accuracy\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"lat\",\"fieldType\":\"java.lang.Double\"},{\"fieldName\":\"lon\",\"fieldType\":\"java.lang.Double\"}]},{\"fieldName\":\"ibu\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"name\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"phone\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"srm\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"state\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"style\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"type\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"upc\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"updated\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"website\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"_stream_time\",\"fieldType\":\"java.util.Date\"}]}",
+      "mongoConnectUri": "provisioned",
+      "nlpBotEnabled": true,
+      "nlpConfig": null,
+      "nlpEnabled": false,
+      "nlpIndexInterval": 360,
+      "refreshMeta": false,
+      "synonymHash": 31,
+      "timeZone": null
+    }
+  ],
+  "format": 1
+}

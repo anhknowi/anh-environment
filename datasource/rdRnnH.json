@@ -1,0 +1,30 @@
+{
+  "datasources": [
+    {
+      "acl": null,
+      "connectSchema": false,
+      "connectorId": 562,
+      "datasource": "mysql",
+      "directQueryOnly": false,
+      "inUse": true,
+      "jsonConfig": {
+        "connectSchema": false,
+        "datasource": "mysql",
+        "dbName": "cloud9demo",
+        "host": "54.173.108.89",
+        "name": "MySQL Database Ulad",
+        "password": "${secret:datasource:rdRnnH:password}",
+        "port": "3306",
+        "privateConnector": "562",
+        "userId": "c9MySQLD3mo"
+      },
+      "name": "MySQL Database Ulad",
+      "op": 1,
+      "proxy": false,
+      "strId": "rdRnnH",
+      "tunnel": false,
+      "writable": false
+    }
+  ],
+  "format": 1
+}

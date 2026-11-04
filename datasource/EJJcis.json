@@ -1,0 +1,26 @@
+{
+  "datasources": [
+    {
+      "acl": null,
+      "connectSchema": false,
+      "connectorId": 1,
+      "datasource": "cloudwatch",
+      "directQueryOnly": false,
+      "inUse": true,
+      "jsonConfig": {
+        "datasource": "cloudwatch",
+        "name": "Amazon Cloud Watch",
+        "password": "${secret:datasource:EJJcis:password}",
+        "region": "us-east-1",
+        "userId": "AKIAILAAF4IUMPTCG4QA"
+      },
+      "name": "Amazon Cloud Watch",
+      "op": 2,
+      "proxy": false,
+      "strId": "EJJcis",
+      "tunnel": false,
+      "writable": false
+    }
+  ],
+  "format": 1
+}

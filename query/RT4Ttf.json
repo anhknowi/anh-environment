@@ -1,0 +1,47 @@
+{
+  "dataConfigs": [
+    {
+      "datasetIdentifier": "${ref:dataset:Kj21bi}",
+      "queryIdentifier": "Kj21bi",
+      "queryStrId": "RT4Ttf"
+    }
+  ],
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:OTS6vw}",
+      "description": null,
+      "direct": false,
+      "directPush": true,
+      "entityName": "Test NLG",
+      "identifier": "Kj21bi",
+      "inUse": true,
+      "jsonConfig": {
+        "c9ExportDataset": "${ref:dataset:Kj21bi}",
+        "c9ExportEntityName": "Test NLG",
+        "c9ExportIdentifier": "Kj21bi",
+        "datasourceId": "${ref:datasource:OTS6vw}",
+        "direct": false,
+        "discovery": {
+          "discoveryForSuggestions": false,
+          "limit": 10000,
+          "tableName": "${ref:dataset:Kj21bi}"
+        },
+        "entityName": "Test NLG",
+        "identifier": "Kj21bi",
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "queryStr": "select *",
+        "triggered": false
+      },
+      "op": 1,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "RT4Ttf",
+      "triggerDatasetId": 0
+    }
+  ]
+}

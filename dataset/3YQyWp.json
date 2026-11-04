@@ -1,0 +1,23 @@
+{
+  "datasets": [
+    {
+      "agenticDefault": false,
+      "bypassOverrideLimit": false,
+      "dataExpirationDate": null,
+      "datasetName": "TestOrder",
+      "identifier": "3YQyWp",
+      "injectStreamTime": true,
+      "metaHash": 0,
+      "metadataConfig": "{\"fieldNames\":[\"sent\",\"customer\",\"_stream_time\"],\"dataTypes\":{\"sent\":\"java.lang.String\",\"customer\":\"java.lang.String\"},\"displayTypes\":{\"sent\":\"java.lang.String\",\"customer\":\"java.lang.String\"},\"indexes\":[]}",
+      "mongoConnectUri": "provisioned",
+      "nlpBotEnabled": true,
+      "nlpConfig": null,
+      "nlpEnabled": false,
+      "nlpIndexInterval": 360,
+      "refreshMeta": false,
+      "synonymHash": 31,
+      "timeZone": null
+    }
+  ],
+  "format": 1
+}

@@ -1,0 +1,27 @@
+{
+  "datasources": [
+    {
+      "acl": null,
+      "connectSchema": false,
+      "connectorId": 1,
+      "datasource": "bigquery",
+      "directQueryOnly": false,
+      "inUse": true,
+      "jsonConfig": {
+        "authRefreshToken": "${secret:datasource:ZbwcKB:authRefreshToken}",
+        "authToken": "${secret:datasource:ZbwcKB:authToken}",
+        "authVersion": "1",
+        "datasource": "bigquery",
+        "name": "Google BigQuery",
+        "projectId": "anhvoproject"
+      },
+      "name": "Google BigQuery",
+      "op": 1,
+      "proxy": false,
+      "strId": "ZbwcKB",
+      "tunnel": false,
+      "writable": false
+    }
+  ],
+  "format": 1
+}

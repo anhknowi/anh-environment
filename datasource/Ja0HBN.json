@@ -1,0 +1,32 @@
+{
+  "datasources": [
+    {
+      "acl": null,
+      "connectSchema": false,
+      "connectorId": 1,
+      "datasource": "snowflake",
+      "directQueryOnly": false,
+      "inUse": true,
+      "jsonConfig": {
+        "connectSchema": false,
+        "datasource": "snowflake",
+        "dbName": "SNOWFLAKE_SAMPLE_DATA",
+        "forceTimeZone": false,
+        "host": "ytkykzy-tkb49093.snowflakecomputing.com",
+        "name": "Snowflake Database 121",
+        "password": "${secret:datasource:Ja0HBN:password}",
+        "schema": "TPCDS_SF100TCL",
+        "userId": "knowi",
+        "warehouse": "COMPUTE_WH",
+        "writable": false
+      },
+      "name": "Snowflake Database 121",
+      "op": 1,
+      "proxy": false,
+      "strId": "Ja0HBN",
+      "tunnel": false,
+      "writable": false
+    }
+  ],
+  "format": 1
+}

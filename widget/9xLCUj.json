@@ -1,0 +1,46 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "9xLCUj",
+      "dashboardIdentifier": null,
+      "property": "chart.series.type",
+      "value": "time"
+    },
+    {
+      "chartUrl": "9xLCUj",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "area"
+    },
+    {
+      "chartUrl": "9xLCUj",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.column",
+      "value": "SERVICE_DATE"
+    },
+    {
+      "chartUrl": "9xLCUj",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.order",
+      "value": "1"
+    }
+  ],
+  "charts": [
+    {
+      "access": 1,
+      "category": null,
+      "chartName": "TTT1",
+      "datasetId": "${ref:dataset:9xLCUj}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": 0,
+      "query": 0,
+      "type": 1,
+      "url": "9xLCUj",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

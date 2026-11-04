@@ -1,0 +1,82 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "hKSVPL",
+      "dashboardIdentifier": null,
+      "property": "chart.percent",
+      "value": "false"
+    },
+    {
+      "chartUrl": "hKSVPL",
+      "dashboardIdentifier": null,
+      "property": "chart.secondary.zIndex",
+      "value": "false"
+    },
+    {
+      "chartUrl": "hKSVPL",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "datagrid"
+    },
+    {
+      "chartUrl": "hKSVPL",
+      "dashboardIdentifier": null,
+      "property": "font.size",
+      "value": "14"
+    },
+    {
+      "chartUrl": "hKSVPL",
+      "dashboardIdentifier": null,
+      "property": "formatOptions",
+      "value": "{}"
+    },
+    {
+      "chartUrl": "hKSVPL",
+      "dashboardIdentifier": null,
+      "property": "grid.collapsible",
+      "value": "false"
+    },
+    {
+      "chartUrl": "hKSVPL",
+      "dashboardIdentifier": null,
+      "property": "grid.resetColumnWidth",
+      "value": "false"
+    },
+    {
+      "chartUrl": "hKSVPL",
+      "dashboardIdentifier": null,
+      "property": "grid.sort.columnName",
+      "value": "Date"
+    },
+    {
+      "chartUrl": "hKSVPL",
+      "dashboardIdentifier": null,
+      "property": "grid.sort.type",
+      "value": "asc"
+    }
+  ],
+  "chartQueries": [
+    {
+      "chartUrl": "hKSVPL",
+      "queryStr": "select Date, date_format(Date, MM/dd/yyyy) as New Date"
+    }
+  ],
+  "charts": [
+    {
+      "access": 1,
+      "category": "All",
+      "chartName": "AAAA",
+      "datasetId": "${ref:dataset:hKSVPL}",
+      "description": "",
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": -1,
+      "query": 1,
+      "type": 2,
+      "url": "hKSVPL",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

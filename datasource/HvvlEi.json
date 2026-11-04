@@ -1,0 +1,27 @@
+{
+  "datasources": [
+    {
+      "acl": null,
+      "connectSchema": false,
+      "connectorId": 1,
+      "datasource": "ga",
+      "directQueryOnly": false,
+      "inUse": true,
+      "jsonConfig": {
+        "authRefreshToken": "${secret:datasource:HvvlEi:authRefreshToken}",
+        "authToken": "${secret:datasource:HvvlEi:authToken}",
+        "authVersion": "1",
+        "datasource": "ga",
+        "gaProfileID": "66265881",
+        "name": "Google Analytics NEW"
+      },
+      "name": "Google Analytics NEW",
+      "op": 1,
+      "proxy": false,
+      "strId": "HvvlEi",
+      "tunnel": false,
+      "writable": false
+    }
+  ],
+  "format": 1
+}

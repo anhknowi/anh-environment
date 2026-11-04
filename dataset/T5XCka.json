@@ -1,0 +1,23 @@
+{
+  "datasets": [
+    {
+      "agenticDefault": false,
+      "bypassOverrideLimit": false,
+      "dataExpirationDate": null,
+      "datasetName": "sdfafsd",
+      "identifier": "T5XCka",
+      "injectStreamTime": false,
+      "metaHash": 0,
+      "metadataConfig": "{\"fields\":[{\"fieldName\":\"bounced\",\"fieldType\":\"java.lang.Long\"},{\"fieldName\":\"campaign_name\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"clicks\",\"fieldType\":\"java.lang.Long\"},{\"fieldName\":\"conversions\",\"fieldType\":\"java.lang.Long\"},{\"fieldName\":\"customer\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"date\",\"fieldType\":\"java.lang.Long\"},{\"fieldName\":\"delivered\",\"fieldType\":\"java.lang.Long\"},{\"fieldName\":\"did\",\"fieldType\":\"java.lang.Long\"},{\"fieldName\":\"message_type\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"opened\",\"fieldType\":\"java.lang.Long\"},{\"fieldName\":\"sent\",\"fieldType\":\"java.lang.Long\"},{\"fieldName\":\"spam\",\"fieldType\":\"java.lang.Long\"},{\"fieldName\":\"week\",\"fieldType\":\"java.lang.Long\"}],\"nlp\":{\"enabled\":false}}",
+      "mongoConnectUri": "provisioned",
+      "nlpBotEnabled": true,
+      "nlpConfig": null,
+      "nlpEnabled": false,
+      "nlpIndexInterval": 360,
+      "refreshMeta": false,
+      "synonymHash": 31,
+      "timeZone": null
+    }
+  ],
+  "format": 1
+}

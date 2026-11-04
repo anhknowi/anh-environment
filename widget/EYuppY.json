@@ -1,0 +1,52 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "EYuppY",
+      "dashboardIdentifier": null,
+      "property": "chart.series.data",
+      "value": "count"
+    },
+    {
+      "chartUrl": "EYuppY",
+      "dashboardIdentifier": null,
+      "property": "chart.series.type",
+      "value": "time"
+    },
+    {
+      "chartUrl": "EYuppY",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "area"
+    },
+    {
+      "chartUrl": "EYuppY",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.column",
+      "value": "lastAccessTime"
+    },
+    {
+      "chartUrl": "EYuppY",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.order",
+      "value": "1"
+    }
+  ],
+  "charts": [
+    {
+      "access": 1,
+      "category": null,
+      "chartName": "Join Lockheed",
+      "datasetId": "${ref:dataset:EYuppY}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": 0,
+      "query": 0,
+      "type": 1,
+      "url": "EYuppY",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

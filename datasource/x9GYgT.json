@@ -1,0 +1,28 @@
+{
+  "datasources": [
+    {
+      "acl": null,
+      "connectSchema": false,
+      "connectorId": 1,
+      "datasource": "bigquery",
+      "directQueryOnly": false,
+      "inUse": true,
+      "jsonConfig": {
+        "authRefreshToken": "${secret:datasource:x9GYgT:authRefreshToken}",
+        "authToken": "${secret:datasource:x9GYgT:authToken}",
+        "authType": "oauth",
+        "authVersion": "1",
+        "datasource": "bigquery",
+        "name": "Google BigQuery NEW",
+        "projectId": "anhvoproject"
+      },
+      "name": "Google BigQuery NEW",
+      "op": 2,
+      "proxy": false,
+      "strId": "x9GYgT",
+      "tunnel": false,
+      "writable": false
+    }
+  ],
+  "format": 1
+}

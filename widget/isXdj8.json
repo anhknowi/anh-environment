@@ -1,0 +1,99 @@
+{
+  "chartAssociations": [
+    {
+      "chartUrl": "isXdj8",
+      "jsonConfig": [
+        {
+          "id": "${ref:widget:ZJ3sip}",
+          "passingFilters": false,
+          "type": "widget"
+        }
+      ]
+    }
+  ],
+  "chartProperties": [
+    {
+      "chartUrl": "isXdj8",
+      "dashboardIdentifier": null,
+      "property": "chart.dataset.limit",
+      "value": "100"
+    },
+    {
+      "chartUrl": "isXdj8",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "datagrid2"
+    },
+    {
+      "chartUrl": "isXdj8",
+      "dashboardIdentifier": null,
+      "property": "grid.collapsible",
+      "value": "false"
+    },
+    {
+      "chartUrl": "isXdj8",
+      "dashboardIdentifier": null,
+      "property": "grid.resetColumnWidth",
+      "value": "false"
+    },
+    {
+      "chartUrl": "isXdj8",
+      "dashboardIdentifier": null,
+      "property": "grid.sort.columnName",
+      "value": "delivered"
+    },
+    {
+      "chartUrl": "isXdj8",
+      "dashboardIdentifier": null,
+      "property": "grid.sort.type",
+      "value": "asc"
+    }
+  ],
+  "charts": [
+    {
+      "access": 1,
+      "category": "All",
+      "chartName": "TEST CHART",
+      "datasetId": "${ref:dataset:isXdj8}",
+      "description": "",
+      "drilldown": 1,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 21,
+      "url": "isXdj8",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": [
+        "select *",
+        "where 'customer' is not null"
+      ],
+      "chartUrl": "isXdj8",
+      "jsonConfig": [
+        {
+          "filters": [
+            {
+              "field": {
+                "customized": false,
+                "fieldName": "customer",
+                "fieldType": "java.lang.String",
+                "label": "customer"
+              },
+              "operator": "IS_NOT_NULL",
+              "operatorStr": "is not null",
+              "or": false
+            }
+          ],
+          "limit": 0
+        }
+      ],
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

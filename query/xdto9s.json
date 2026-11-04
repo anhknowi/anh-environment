@@ -1,0 +1,44 @@
+{
+  "discoveryConfigs": [
+    {
+      "c9Query": "",
+      "chartUrl": "",
+      "jsonConfig": [],
+      "queryIdentifier": "Mw1EOm",
+      "queryStrId": "xdto9s"
+    }
+  ],
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:v1nG1z}",
+      "description": null,
+      "direct": true,
+      "directPush": true,
+      "entityName": "Infosys Query",
+      "identifier": "Mw1EOm",
+      "inUse": true,
+      "jsonConfig": {
+        "datasourceId": "${ref:datasource:v1nG1z}",
+        "direct": true,
+        "discovery": {
+          "limit": 10000,
+          "tableName": [
+            "dataset"
+          ]
+        },
+        "entityName": "Infosys Query",
+        "queryStr": "select dataset_name, last_mod_date\nfrom dataset\nwhere last_mod_date >= '$c9_MYDATE$(2021-01-01)$[My Date]${date|yyyy-MM-dd|from}$'\n  and last_mod_date < '$c9_MYDATE$(2021-01-30)$[My Date]${date|yyyy-MM-dd|to}$'\nlimit 10",
+        "triggered": false,
+        "visual": false
+      },
+      "op": 1,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "xdto9s",
+      "triggerDatasetId": 0
+    }
+  ]
+}

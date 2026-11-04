@@ -1,0 +1,29 @@
+{
+  "datasources": [
+    {
+      "acl": null,
+      "connectSchema": false,
+      "connectorId": 1,
+      "datasource": "mysql",
+      "directQueryOnly": false,
+      "inUse": true,
+      "jsonConfig": {
+        "connectSchema": false,
+        "datasource": "mysql",
+        "dbName": "cloud9",
+        "host": "34.206.150.55",
+        "name": "MySQL Database Test",
+        "password": "${secret:datasource:v1nG1z:password}",
+        "port": "3306",
+        "userId": "cloud9"
+      },
+      "name": "MySQL Database Test",
+      "op": 1,
+      "proxy": false,
+      "strId": "v1nG1z",
+      "tunnel": false,
+      "writable": false
+    }
+  ],
+  "format": 1
+}

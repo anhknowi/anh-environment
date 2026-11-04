@@ -1,0 +1,45 @@
+{
+  "discoveryConfigs": [
+    {
+      "c9Query": "",
+      "chartUrl": "",
+      "jsonConfig": [],
+      "queryIdentifier": "oc1lBs",
+      "queryStrId": "VHxGPy"
+    }
+  ],
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:fsSKui}",
+      "description": null,
+      "direct": false,
+      "directPush": true,
+      "entityName": "Sales Performance",
+      "identifier": "oc1lBs",
+      "inUse": true,
+      "jsonConfig": {
+        "datasourceId": "${ref:datasource:fsSKui}",
+        "direct": false,
+        "discovery": {
+          "discoveryForSuggestions": false,
+          "limit": 10000
+        },
+        "entityName": "Sales Performance",
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "queryStr": "SELECT\n  sp.SALES_PERSON_NAME as \"Name\",\n  SUM(i.PRODUCT_SALES) as \"Sales\",\n  DATE_TRUNC('MONTH', i.INVOICE_DATE) as \"Month\"\nFROM\n  INVOICE_MEASURE i\n  JOIN SALES_PERSON_DIMENSION sp ON i.SALES_PERSON_CODE = sp.SALES_PERSON_CODE\nGROUP BY\n  sp.SALES_PERSON_NAME,\n  DATE_TRUNC('MONTH', i.INVOICE_DATE)\norder by \"Month\" desc, \"Sales\" desc ",
+        "triggered": false,
+        "visual": false
+      },
+      "op": 6,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "VHxGPy",
+      "triggerDatasetId": 0
+    }
+  ]
+}

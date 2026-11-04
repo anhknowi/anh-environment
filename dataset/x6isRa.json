@@ -1,0 +1,23 @@
+{
+  "datasets": [
+    {
+      "agenticDefault": false,
+      "bypassOverrideLimit": false,
+      "dataExpirationDate": null,
+      "datasetName": "Lorraine Payment",
+      "identifier": "x6isRa",
+      "injectStreamTime": true,
+      "metaHash": 0,
+      "metadataConfig": "{\"fieldNames\":[\"amount\",\"this_year_payment\",\"next_year_payment\",\"_stream_time\"],\"dataTypes\":{\"amount\":\"java.lang.Integer\",\"this_year_payment\":\"java.lang.String\",\"next_year_payment\":\"java.lang.String\"}}",
+      "mongoConnectUri": "provisioned",
+      "nlpBotEnabled": true,
+      "nlpConfig": null,
+      "nlpEnabled": false,
+      "nlpIndexInterval": 360,
+      "refreshMeta": false,
+      "synonymHash": 31,
+      "timeZone": null
+    }
+  ],
+  "format": 1
+}

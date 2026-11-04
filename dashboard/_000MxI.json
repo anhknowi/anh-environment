@@ -1,0 +1,114 @@
+{
+  "dashboardCharts": [
+    {
+      "chartUrl": "${ref:widget:6bmBwI}",
+      "col": 1,
+      "dashboardIdentifier": "_000MxI",
+      "grain": 1,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 1,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 24,
+      "sizeY": 9,
+      "sizeYOriginal": 0,
+      "width": 0
+    },
+    {
+      "chartUrl": "${ref:widget:FipG9l}",
+      "col": 1,
+      "dashboardIdentifier": "_000MxI",
+      "grain": 1,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 10,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 18,
+      "sizeY": 12,
+      "sizeYOriginal": 0,
+      "width": 0
+    },
+    {
+      "chartUrl": "${ref:widget:hFRCQU}",
+      "col": 13,
+      "dashboardIdentifier": "_000MxI",
+      "grain": 1,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 22,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 12,
+      "sizeY": 12,
+      "sizeYOriginal": 0,
+      "width": 0
+    }
+  ],
+  "dashboards": [
+    {
+      "dashAccessLevel": 0,
+      "displayOrder": 0,
+      "filterSettings": null,
+      "identifier": "_000MxI",
+      "jsonConfig": {
+        "excludeExpandedGridFromPdfExport": false,
+        "excludeGridWidgetsFromPdfExport": false,
+        "filters": [
+          {
+            "controlType": "picker",
+            "dashboardDisplayValues": [
+              "01/01/2015"
+            ],
+            "enabled": true,
+            "fieldName": "AAAA",
+            "fieldType": "java.util.Date",
+            "operator": "Equals",
+            "transientFilter": false,
+            "type": "java.util.Date",
+            "values": [
+              "01/01/2015"
+            ],
+            "visible": true
+          }
+        ],
+        "footer": "<b>footer1</b>",
+        "view": {
+          "actions": true,
+          "backgroundColor": "",
+          "border": true,
+          "dashFiltersPinToTop": false,
+          "dashFreeWidget": false,
+          "dashGrouping": false,
+          "dashLoadUponPrompt": false,
+          "dashTheme": "dark",
+          "dashTitle": true,
+          "drag": true,
+          "enableDashFilterIcon": true,
+          "enableHeaders": true,
+          "enablePdfExport": true,
+          "enablePptExport": true,
+          "enablePresenter": true,
+          "filter": true,
+          "instantSightsIcon": true,
+          "resize": true,
+          "setting": true,
+          "title": true,
+          "widgetSpacing": 2
+        }
+      },
+      "locked": 0,
+      "name": "Copy Of Ralf 1",
+      "screenAdjust": 0,
+      "screenHeight": 950,
+      "screenWidth": 1821,
+      "type": 1,
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

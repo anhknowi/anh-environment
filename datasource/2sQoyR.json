@@ -1,0 +1,30 @@
+{
+  "datasources": [
+    {
+      "acl": null,
+      "connectSchema": false,
+      "connectorId": 562,
+      "datasource": "mongo",
+      "directQueryOnly": false,
+      "inUse": true,
+      "jsonConfig": {
+        "datasource": "mongo",
+        "dbName": "cloud9demo",
+        "dbProperties": "${secret:datasource:2sQoyR:dbProperties}",
+        "host": "cluster0-shard-00-00-ud60n.mongodb.net:27017,cluster0-shard-00-01-ud60n.mongodb.net:27017,cluster0-shard-00-02-ud60n.mongodb.net",
+        "name": "AAA Mongo Database",
+        "password": "${secret:datasource:2sQoyR:password}",
+        "privateConnector": "562",
+        "proxy": false,
+        "userId": "cloud9"
+      },
+      "name": "AAA Mongo Database",
+      "op": 1,
+      "proxy": false,
+      "strId": "2sQoyR",
+      "tunnel": false,
+      "writable": false
+    }
+  ],
+  "format": 1
+}

@@ -1,0 +1,30 @@
+{
+  "datasources": [
+    {
+      "acl": null,
+      "connectSchema": false,
+      "connectorId": 1,
+      "datasource": "sqlserver",
+      "directQueryOnly": false,
+      "inUse": true,
+      "jsonConfig": {
+        "connectSchema": false,
+        "datasource": "sqlserver",
+        "dbName": "knowi",
+        "host": "sqlserver-demo.ccsixtg95k9d.us-east-1.rds.amazonaws.com",
+        "name": "SQLServer Database ANH",
+        "password": "${secret:datasource:ipUJq2:password}",
+        "port": "1433",
+        "proxy": false,
+        "userId": "cloud9demo"
+      },
+      "name": "SQLServer Database ANH",
+      "op": 1,
+      "proxy": false,
+      "strId": "ipUJq2",
+      "tunnel": false,
+      "writable": false
+    }
+  ],
+  "format": 1
+}

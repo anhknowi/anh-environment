@@ -1,0 +1,101 @@
+{
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:1m0pip}",
+      "description": null,
+      "direct": false,
+      "directPush": true,
+      "entityName": "afsddffdsfdsa",
+      "identifier": "BWPps2",
+      "inUse": true,
+      "jsonConfig": {
+        "c9QLFilter": "select 'borough', 'count_score' as 'Count of score',\n  'doc_count'",
+        "datasourceId": "${ref:datasource:1m0pip}",
+        "direct": false,
+        "discovery": {
+          "dimensions": [
+            {
+              "customized": false,
+              "fieldName": "borough",
+              "fieldType": "java.lang.String",
+              "label": "borough",
+              "properties": {
+                "keyword": true
+              }
+            }
+          ],
+          "filters": [
+            {
+              "field": {
+                "customized": false,
+                "fieldName": "borough",
+                "fieldType": "java.lang.String",
+                "label": "borough",
+                "properties": {
+                  "keyword": true
+                }
+              },
+              "label": "borough Equals Bronx",
+              "operator": "EQUALS",
+              "operatorStr": "=",
+              "or": false,
+              "value": "Bronx"
+            }
+          ],
+          "limit": 10000,
+          "metrics": [
+            {
+              "customized": false,
+              "fieldName": "borough",
+              "fieldType": "java.lang.String",
+              "label": "borough",
+              "properties": {
+                "keyword": true
+              }
+            },
+            {
+              "customized": false,
+              "fieldName": "score",
+              "fieldPath": "grades",
+              "fieldType": "java.lang.Long",
+              "label": "Count of score",
+              "operation": "COUNT",
+              "operationStr": "count"
+            }
+          ],
+          "sort": [
+            {
+              "field": {
+                "customized": false,
+                "fieldName": "borough",
+                "fieldType": "java.lang.String",
+                "label": "borough",
+                "properties": {
+                  "keyword": true
+                }
+              },
+              "operation": "ASC",
+              "operationStr": null
+            }
+          ],
+          "tableName": "restaurant"
+        },
+        "entityName": "afsddffdsfdsa",
+        "indexes": "restaurant",
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "queryStr": "{\n  \"query\" : {\n    \"match_phrase\" : {\n      \"borough\" : \"Bronx\"\n    }\n  },\n  \"aggs\" : {\n    \"borough\" : {\n      \"terms\" : {\n        \"field\" : \"borough.keyword\",\n        \"size\" : 10000,\n        \"order\" : {\n          \"_term\" : \"asc\"\n        }\n      },\n      \"aggs\" : {\n        \"count_score\" : {\n          \"cardinality\" : {\n            \"field\" : \"grades.score\"\n          }\n        }\n      }\n    }\n  }\n}",
+        "triggered": false
+      },
+      "op": 5,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "P1Hg7h",
+      "triggerDatasetId": 0
+    }
+  ]
+}

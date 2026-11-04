@@ -1,0 +1,45 @@
+{
+  "discoveryConfigs": [
+    {
+      "c9Query": "",
+      "chartUrl": "",
+      "jsonConfig": [],
+      "queryIdentifier": "wmTyDR",
+      "queryStrId": "qW2Uyi"
+    }
+  ],
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:B0HQ4V}",
+      "description": "",
+      "direct": true,
+      "directPush": true,
+      "entityName": "Test",
+      "identifier": "wmTyDR",
+      "inUse": true,
+      "jsonConfig": {
+        "c9QLFilter": "select 1408555555500 as phone",
+        "datasourceId": "${ref:datasource:B0HQ4V}",
+        "direct": true,
+        "discovery": {
+          "limit": 10000,
+          "tableName": "sendingActivity"
+        },
+        "entityName": "Test",
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "queryStr": "db['sendingActivity'].find().limit(10)",
+        "triggered": false
+      },
+      "op": 2,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "qW2Uyi",
+      "triggerDatasetId": 0
+    }
+  ]
+}

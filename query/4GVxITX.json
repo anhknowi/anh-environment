@@ -1,0 +1,44 @@
+{
+  "discoveryConfigs": [
+    {
+      "c9Query": "",
+      "chartUrl": "",
+      "jsonConfig": [],
+      "queryIdentifier": "uyjqtoN",
+      "queryStrId": "4GVxITX"
+    }
+  ],
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:B0HQ4VcGcG}",
+      "description": "",
+      "direct": true,
+      "directPush": true,
+      "entityName": "Test Report Filters",
+      "identifier": "uyjqtoN",
+      "inUse": true,
+      "jsonConfig": {
+        "c9QLFilter": "select *",
+        "datasourceId": "${ref:datasource:B0HQ4VcGcG}",
+        "direct": true,
+        "discovery": {
+          "limit": 0,
+          "tableName": "sendingActivity"
+        },
+        "entityName": "Test Report Filters",
+        "queryStr": "db['sendingActivity'].find()",
+        "triggerOnAny": false,
+        "triggered": false,
+        "visual": true
+      },
+      "op": 2,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "4GVxITX",
+      "triggerDatasetId": 0
+    }
+  ]
+}

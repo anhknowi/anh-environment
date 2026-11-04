@@ -1,0 +1,51 @@
+{
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:gAEutZ}",
+      "description": null,
+      "direct": false,
+      "directPush": true,
+      "entityName": "afssfdfa",
+      "identifier": "WoP3Qf",
+      "inUse": true,
+      "jsonConfig": {
+        "dataExplorerCss": {
+          "collapse": false,
+          "width": ""
+        },
+        "datasourceId": "${ref:datasource:gAEutZ}",
+        "direct": false,
+        "discovery": {
+          "limit": 10000
+        },
+        "entityName": "afssfdfa",
+        "joinQueries": [
+          {
+            "dataExplorerCss": {
+              "collapse": false,
+              "width": ""
+            },
+            "datasourceId": "${ref:datasource:2sQoyR}",
+            "discovery": {
+              "limit": 10000
+            },
+            "visual": true
+          }
+        ],
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "triggered": false,
+        "visual": true
+      },
+      "op": 5,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "w8bF6I",
+      "triggerDatasetId": 0
+    }
+  ]
+}

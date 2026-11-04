@@ -1,0 +1,199 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "ipCXUz",
+      "dashboardIdentifier": null,
+      "property": "chart.alignTicks",
+      "value": "true"
+    },
+    {
+      "chartUrl": "ipCXUz",
+      "dashboardIdentifier": null,
+      "property": "chart.legend.column",
+      "value": "customer"
+    },
+    {
+      "chartUrl": "ipCXUz",
+      "dashboardIdentifier": null,
+      "property": "chart.percent",
+      "value": "false"
+    },
+    {
+      "chartUrl": "ipCXUz",
+      "dashboardIdentifier": null,
+      "property": "chart.percentView",
+      "value": "false"
+    },
+    {
+      "chartUrl": "ipCXUz",
+      "dashboardIdentifier": null,
+      "property": "chart.primary.ylabel",
+      "value": "sent"
+    },
+    {
+      "chartUrl": "ipCXUz",
+      "dashboardIdentifier": null,
+      "property": "chart.quickpickers",
+      "value": "0"
+    },
+    {
+      "chartUrl": "ipCXUz",
+      "dashboardIdentifier": null,
+      "property": "chart.secondary.sync",
+      "value": "false"
+    },
+    {
+      "chartUrl": "ipCXUz",
+      "dashboardIdentifier": null,
+      "property": "chart.secondary.zIndex",
+      "value": "false"
+    },
+    {
+      "chartUrl": "ipCXUz",
+      "dashboardIdentifier": null,
+      "property": "chart.series.data",
+      "value": "sent"
+    },
+    {
+      "chartUrl": "ipCXUz",
+      "dashboardIdentifier": null,
+      "property": "chart.series.type",
+      "value": "time"
+    },
+    {
+      "chartUrl": "ipCXUz",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "stacked column"
+    },
+    {
+      "chartUrl": "ipCXUz",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.column",
+      "value": "date"
+    },
+    {
+      "chartUrl": "ipCXUz",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.order",
+      "value": "1"
+    },
+    {
+      "chartUrl": "ipCXUz",
+      "dashboardIdentifier": null,
+      "property": "chartColor",
+      "value": "#89D4F5:556a882c97a0b51431b796f4:Marketing:sent:Facebook,#BCD759:556a882c97a0b51431b796a1:Marketing:Macy's,#FFBF00:eHarmony,#9961A7:Wells Fargo,#4891EA:Netflix,#EE965B:Costco,#F284D1:Target,#6FDBCB:LinkedIn,#2D71C4:Overstock,#EF5A5A,#609C29,#C69B06,#8A2299,#996D6C,#2F2F6C,#1C6C61"
+    },
+    {
+      "chartUrl": "ipCXUz",
+      "dashboardIdentifier": null,
+      "property": "grid.column.bounced.widthPerc",
+      "value": "104"
+    },
+    {
+      "chartUrl": "ipCXUz",
+      "dashboardIdentifier": null,
+      "property": "grid.column.campaign_name.widthPerc",
+      "value": "50"
+    },
+    {
+      "chartUrl": "ipCXUz",
+      "dashboardIdentifier": null,
+      "property": "grid.column.clicks.widthPerc",
+      "value": "103"
+    },
+    {
+      "chartUrl": "ipCXUz",
+      "dashboardIdentifier": null,
+      "property": "grid.column.conversions.widthPerc",
+      "value": "50"
+    },
+    {
+      "chartUrl": "ipCXUz",
+      "dashboardIdentifier": null,
+      "property": "grid.column.customer.widthPerc",
+      "value": "123"
+    },
+    {
+      "chartUrl": "ipCXUz",
+      "dashboardIdentifier": null,
+      "property": "grid.column.date.widthPerc",
+      "value": "123"
+    },
+    {
+      "chartUrl": "ipCXUz",
+      "dashboardIdentifier": null,
+      "property": "grid.column.delivered.widthPerc",
+      "value": "117"
+    },
+    {
+      "chartUrl": "ipCXUz",
+      "dashboardIdentifier": null,
+      "property": "grid.column.id .widthPerc",
+      "value": "134"
+    },
+    {
+      "chartUrl": "ipCXUz",
+      "dashboardIdentifier": null,
+      "property": "grid.column.lkajsflkj afdslkjasd lkjsdafl alkfjas lfkjlsakfj lakjdf lkasjflkasdjflk asflksjadfl jaslfkj sdf afjklksaj aslfkj asdlfkjsa f.widthPerc",
+      "value": "289"
+    },
+    {
+      "chartUrl": "ipCXUz",
+      "dashboardIdentifier": null,
+      "property": "grid.column.message_type.widthPerc",
+      "value": "123"
+    },
+    {
+      "chartUrl": "ipCXUz",
+      "dashboardIdentifier": null,
+      "property": "grid.column.opened.widthPerc",
+      "value": "123"
+    },
+    {
+      "chartUrl": "ipCXUz",
+      "dashboardIdentifier": null,
+      "property": "grid.column.sent.widthPerc",
+      "value": "123"
+    },
+    {
+      "chartUrl": "ipCXUz",
+      "dashboardIdentifier": null,
+      "property": "grid.column.spam.widthPerc",
+      "value": "122"
+    },
+    {
+      "chartUrl": "ipCXUz",
+      "dashboardIdentifier": null,
+      "property": "grid.column.week.widthPerc",
+      "value": "123"
+    }
+  ],
+  "charts": [
+    {
+      "access": 1,
+      "category": null,
+      "chartName": "XXXYY",
+      "datasetId": "${ref:dataset:FipG9l}",
+      "description": "",
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 1,
+      "url": "ipCXUz",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": "",
+      "chartUrl": "ipCXUz",
+      "jsonConfig": [],
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

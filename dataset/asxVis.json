@@ -1,0 +1,23 @@
+{
+  "datasets": [
+    {
+      "agenticDefault": false,
+      "bypassOverrideLimit": false,
+      "dataExpirationDate": null,
+      "datasetName": "TEST ANH 1",
+      "identifier": "asxVis",
+      "injectStreamTime": false,
+      "metaHash": -846900379,
+      "metadataConfig": "{\"fields\":[{\"fieldName\":\"bounced\",\"fieldType\":\"java.lang.Double\"},{\"fieldName\":\"campaign_name\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"clicks\",\"fieldType\":\"java.lang.Double\"},{\"fieldName\":\"conversions\",\"fieldType\":\"java.lang.Double\"},{\"fieldName\":\"customer\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"date\",\"fieldType\":\"java.util.Date\"},{\"fieldName\":\"delivered\",\"fieldType\":\"java.lang.Double\"},{\"fieldName\":\"es_id\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"id\",\"fieldType\":\"java.lang.Double\"},{\"fieldName\":\"message_type\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"opened\",\"fieldType\":\"java.lang.Double\"},{\"fieldName\":\"sent\",\"fieldType\":\"java.lang.Double\"},{\"fieldName\":\"spam\",\"fieldType\":\"java.lang.Double\"},{\"fieldName\":\"week\",\"fieldType\":\"java.util.Date\"}]}",
+      "mongoConnectUri": "c9Query/${ref:query:XD53vH}",
+      "nlpBotEnabled": true,
+      "nlpConfig": null,
+      "nlpEnabled": true,
+      "nlpIndexInterval": 360,
+      "refreshMeta": false,
+      "synonymHash": 0,
+      "timeZone": null
+    }
+  ],
+  "format": 1
+}

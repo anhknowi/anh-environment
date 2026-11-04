@@ -1,0 +1,28 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "QXb4pg",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "datagrid"
+    }
+  ],
+  "charts": [
+    {
+      "access": 1,
+      "category": null,
+      "chartName": "TEST M/S 003",
+      "datasetId": "${ref:dataset:QXb4pg}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": 0,
+      "query": 0,
+      "type": 2,
+      "url": "QXb4pg",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

@@ -1,0 +1,23 @@
+{
+  "datasets": [
+    {
+      "agenticDefault": false,
+      "bypassOverrideLimit": false,
+      "dataExpirationDate": null,
+      "datasetName": "Test Graph",
+      "identifier": "Voo3dE",
+      "injectStreamTime": false,
+      "metaHash": -1364486616,
+      "metadataConfig": "{\"fields\":[{\"fieldName\":\"error\",\"fieldType\":\"java.lang.Boolean\"},{\"fieldName\":\"message\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"results\",\"fieldType\":\"java.util.List\",\"nestedFields\":[{\"fieldName\":\"[*]\",\"fieldType\":\"java.util.Map\",\"nestedFields\":[{\"fieldName\":\"@@edges\",\"fieldType\":\"java.util.List\",\"nestedFields\":[{\"fieldName\":\"[*]\",\"fieldType\":\"java.util.Map\",\"nestedFields\":[{\"fieldName\":\"attributes\",\"fieldType\":\"java.util.Map\",\"nestedFields\":[{\"fieldName\":\"amount\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"control_type\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"invest_year\",\"fieldType\":\"java.lang.Integer\"}]},{\"fieldName\":\"directed\",\"fieldType\":\"java.lang.Boolean\"},{\"fieldName\":\"e_type\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"from_id\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"from_type\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"to_id\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"to_type\",\"fieldType\":\"java.lang.String\"}]}]},{\"fieldName\":\"VertexResult\",\"fieldType\":\"java.util.List\",\"nestedFields\":[{\"fieldName\":\"[*]\",\"fieldType\":\"java.util.Map\",\"nestedFields\":[{\"fieldName\":\"attributes\",\"fieldType\":\"java.util.Map\",\"nestedFields\":[{\"fieldName\":\"@visited\",\"fieldType\":\"java.lang.Boolean\"},{\"fieldName\":\"gender\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"registered_capital\",\"fieldType\":\"java.lang.Integer\"}]},{\"fieldName\":\"v_id\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"v_type\",\"fieldType\":\"java.lang.String\"}]}]}]}]},{\"fieldName\":\"version\",\"fieldType\":\"java.util.Map\",\"nestedFields\":[{\"fieldName\":\"api\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"edition\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"schema\",\"fieldType\":\"java.lang.Integer\"}]},{\"fieldName\":\"_stream_time\",\"fieldType\":\"java.util.Date\"}]}",
+      "mongoConnectUri": "provisioned",
+      "nlpBotEnabled": true,
+      "nlpConfig": null,
+      "nlpEnabled": true,
+      "nlpIndexInterval": 360,
+      "refreshMeta": false,
+      "synonymHash": 31,
+      "timeZone": null
+    }
+  ],
+  "format": 1
+}

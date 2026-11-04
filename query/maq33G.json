@@ -1,0 +1,43 @@
+{
+  "discoveryConfigs": [
+    {
+      "c9Query": "",
+      "chartUrl": "",
+      "jsonConfig": [],
+      "queryIdentifier": "M5M5Fz",
+      "queryStrId": "maq33G"
+    }
+  ],
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:B0HQ4VcGcG}",
+      "description": "",
+      "direct": true,
+      "directPush": true,
+      "entityName": "Test Script",
+      "identifier": "M5M5Fz",
+      "inUse": true,
+      "jsonConfig": {
+        "c9QLFilter": "select \"<script>alert('hello')</script>\" as Name",
+        "datasourceId": "${ref:datasource:B0HQ4VcGcG}",
+        "direct": true,
+        "discovery": {
+          "limit": 1,
+          "tableName": "sendingActivity"
+        },
+        "entityName": "Test Script",
+        "queryStr": "db['sendingActivity'].find().limit(1)",
+        "triggered": false,
+        "visual": false
+      },
+      "op": 2,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "maq33G",
+      "triggerDatasetId": 0
+    }
+  ]
+}

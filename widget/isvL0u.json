@@ -1,0 +1,28 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "isvL0u",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "datagrid"
+    }
+  ],
+  "charts": [
+    {
+      "access": 1,
+      "category": null,
+      "chartName": "Debug Perf",
+      "datasetId": "${ref:dataset:isvL0u}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": 0,
+      "query": 0,
+      "type": 2,
+      "url": "isvL0u",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

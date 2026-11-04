@@ -1,0 +1,110 @@
+{
+  "datasourceSchemas": [
+    {
+      "datasourceIdentifier": "9z7waK",
+      "jsonConfig": "{\"name\":\"customer\",\"id\":\"customer\",\"fields\":[{\"fieldName\":\"id\",\"fieldType\":\"java.lang.Integer\",\"primaryKey\":true},{\"fieldName\":\"customer\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"currency\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"street\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"state\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"country\",\"fieldType\":\"java.lang.String\"}]}",
+      "tableGroup": 0,
+      "tableKey": "customer"
+    },
+    {
+      "datasourceIdentifier": "9z7waK",
+      "jsonConfig": "{\"name\":\"customer_data\",\"id\":\"customer_data\",\"fields\":[{\"fieldName\":\"order_#\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"unit_name\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"unit_id_#\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"assembly_type\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"assembly_location\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"status\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"sell_price_$\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"customer\",\"fieldType\":\"java.lang.String\"}]}",
+      "tableGroup": 0,
+      "tableKey": "customer_data"
+    },
+    {
+      "datasourceIdentifier": "9z7waK",
+      "jsonConfig": "{\"name\":\"demo_sent\",\"id\":\"demo_sent\",\"fields\":[{\"fieldName\":\"id\",\"fieldType\":\"java.lang.Integer\",\"primaryKey\":true},{\"fieldName\":\"Sent\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"message_type\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"Customer\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"Week\",\"fieldType\":\"java.util.Date\"},{\"fieldName\":\"Date\",\"fieldType\":\"java.util.Date\"},{\"fieldName\":\"Opened\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"Spam\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"Bounced\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"Delivered\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"Clicks\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"Conversions\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"Campaign_name\",\"fieldType\":\"java.lang.String\"}]}",
+      "tableGroup": 0,
+      "tableKey": "demo_sent"
+    },
+    {
+      "datasourceIdentifier": "9z7waK",
+      "jsonConfig": "{\"name\":\"demo_sent_test\",\"id\":\"demo_sent_test\",\"fields\":[{\"fieldName\":\"id\",\"fieldType\":\"java.lang.Integer\",\"primaryKey\":true},{\"fieldName\":\"Sent\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"message_type\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"Customer\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"Week\",\"fieldType\":\"java.util.Date\"},{\"fieldName\":\"Date\",\"fieldType\":\"java.util.Date\"},{\"fieldName\":\"Opened\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"Spam\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"Bounced\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"Delivered\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"Clicks\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"Conversions\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"Campaign_name\",\"fieldType\":\"java.lang.String\"}]}",
+      "tableGroup": 0,
+      "tableKey": "demo_sent_test"
+    },
+    {
+      "datasourceIdentifier": "9z7waK",
+      "jsonConfig": "{\"name\":\"empty_dataset\",\"id\":\"empty_dataset\",\"fields\":[{\"fieldName\":\"id\",\"fieldType\":\"java.lang.Integer\",\"primaryKey\":true},{\"fieldName\":\"firstname\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"lastname\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"email\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"reg_date\",\"fieldType\":\"java.util.Date\"}]}",
+      "tableGroup": 0,
+      "tableKey": "empty_dataset"
+    },
+    {
+      "datasourceIdentifier": "9z7waK",
+      "jsonConfig": "{\"name\":\"errors\",\"id\":\"errors\",\"fields\":[{\"fieldName\":\"id\",\"fieldType\":\"java.lang.Integer\",\"primaryKey\":true},{\"fieldName\":\"error_condition\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"count\",\"fieldType\":\"java.lang.Integer\"}]}",
+      "tableGroup": 0,
+      "tableKey": "errors"
+    },
+    {
+      "datasourceIdentifier": "9z7waK",
+      "jsonConfig": "{\"name\":\"instance_summary\",\"id\":\"instance_summary\",\"fields\":[{\"fieldName\":\"id\",\"fieldType\":\"java.lang.Integer\",\"primaryKey\":true},{\"fieldName\":\"live\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"busy\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"idle\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"offline\",\"fieldType\":\"java.lang.Integer\"}]}",
+      "tableGroup": 0,
+      "tableKey": "instance_summary"
+    },
+    {
+      "datasourceIdentifier": "9z7waK",
+      "jsonConfig": "{\"name\":\"job_instance\",\"id\":\"job_instance\",\"fields\":[{\"fieldName\":\"id\",\"fieldType\":\"java.lang.Integer\",\"primaryKey\":true},{\"fieldName\":\"instance_name\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"completed_jobs\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"failed_jobs\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"total_jobs\",\"fieldType\":\"java.lang.Integer\"}]}",
+      "tableGroup": 0,
+      "tableKey": "job_instance"
+    },
+    {
+      "datasourceIdentifier": "9z7waK",
+      "jsonConfig": "{\"name\":\"jobs\",\"id\":\"jobs\",\"fields\":[{\"fieldName\":\"id\",\"fieldType\":\"java.lang.Integer\",\"primaryKey\":true},{\"fieldName\":\"completed\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"failed\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"Total\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"Date\",\"fieldType\":\"java.lang.String\"}]}",
+      "tableGroup": 0,
+      "tableKey": "jobs"
+    },
+    {
+      "datasourceIdentifier": "9z7waK",
+      "jsonConfig": "{\"name\":\"pricing\",\"id\":\"pricing\",\"fields\":[{\"fieldName\":\"id\",\"fieldType\":\"java.lang.Integer\",\"primaryKey\":true},{\"fieldName\":\"price_per_hour\",\"fieldType\":\"java.lang.Double\"},{\"fieldName\":\"instance_type\",\"fieldType\":\"java.lang.String\"}]}",
+      "tableGroup": 0,
+      "tableKey": "pricing"
+    },
+    {
+      "datasourceIdentifier": "9z7waK",
+      "jsonConfig": "{\"name\":\"queue\",\"id\":\"queue\",\"fields\":[{\"fieldName\":\"id\",\"fieldType\":\"java.lang.Integer\",\"primaryKey\":true},{\"fieldName\":\"name\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"size\",\"fieldType\":\"java.lang.Integer\"}]}",
+      "tableGroup": 0,
+      "tableKey": "queue"
+    },
+    {
+      "datasourceIdentifier": "9z7waK",
+      "jsonConfig": "{\"name\":\"supply_chain\",\"id\":\"supply_chain\",\"fields\":[{\"fieldName\":\"order_#\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"assembly_location\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"last_inspection\",\"fieldType\":\"java.util.Date\"},{\"fieldName\":\"date_produced\",\"fieldType\":\"java.util.Date\"},{\"fieldName\":\"planned_ship_date\",\"fieldType\":\"java.util.Date\"},{\"fieldName\":\"date_shipped\",\"fieldType\":\"java.util.Date\"},{\"fieldName\":\"carrier\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"expected_throughput_mins\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"actual_throughput_mins\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"production_efficiency\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"downtime_mins\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"manufacturing_cost_$\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"shipment_delayed\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"days_delayed\",\"fieldType\":\"java.lang.Integer\"}]}",
+      "tableGroup": 0,
+      "tableKey": "supply_chain"
+    },
+    {
+      "datasourceIdentifier": "9z7waK",
+      "jsonConfig": "{\"name\":\"telco_customer\",\"id\":\"telco_customer\",\"fields\":[{\"fieldName\":\"id\",\"fieldType\":\"java.lang.Integer\",\"primaryKey\":true},{\"fieldName\":\"CustID\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"FirstName\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"LastName\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"Title\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"Company\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"State\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"Phone\",\"fieldType\":\"java.lang.String\"}]}",
+      "tableGroup": 0,
+      "tableKey": "telco_customer"
+    }
+  ],
+  "datasources": [
+    {
+      "acl": null,
+      "connectSchema": true,
+      "connectorId": 1,
+      "datasource": "mysql",
+      "directQueryOnly": false,
+      "inUse": true,
+      "jsonConfig": {
+        "connectSchema": true,
+        "datasource": "mysql",
+        "dbName": "cloud9demo",
+        "dbProperties": "${secret:datasource:9z7waK:dbProperties}",
+        "host": "54.173.108.89",
+        "name": "MySQL Database",
+        "password": "${secret:datasource:9z7waK:password}",
+        "port": "3306",
+        "userId": "c9MySQLD3mo"
+      },
+      "name": "MySQL Database",
+      "op": 2,
+      "proxy": false,
+      "strId": "9z7waK",
+      "tunnel": false,
+      "writable": false
+    }
+  ],
+  "format": 1
+}

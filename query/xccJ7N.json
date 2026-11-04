@@ -1,0 +1,46 @@
+{
+  "discoveryConfigs": [
+    {
+      "c9Query": "",
+      "chartUrl": "",
+      "jsonConfig": [],
+      "queryIdentifier": "RvqRr6",
+      "queryStrId": "xccJ7N"
+    }
+  ],
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:1m0pip}",
+      "description": null,
+      "direct": false,
+      "directPush": true,
+      "entityName": "Test count",
+      "identifier": "RvqRr6",
+      "inUse": true,
+      "jsonConfig": {
+        "c9QLFilter": "select count(*) as c",
+        "datasourceId": "${ref:datasource:1m0pip}",
+        "direct": false,
+        "discovery": {
+          "limit": 10000,
+          "tableName": "restaurant"
+        },
+        "entityName": "Test count",
+        "indexes": "restaurant",
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "queryStr": "{\n}",
+        "triggered": false
+      },
+      "op": 4,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "xccJ7N",
+      "triggerDatasetId": 0
+    }
+  ]
+}

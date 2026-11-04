@@ -1,0 +1,129 @@
+{
+  "dashboardCharts": [
+    {
+      "chartUrl": "${ref:widget:LgAHfu}",
+      "col": 13,
+      "dashboardIdentifier": "_000PsF",
+      "grain": 1,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 13,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 12,
+      "sizeY": 12,
+      "sizeYOriginal": 0,
+      "width": 0
+    },
+    {
+      "chartUrl": "${ref:widget:XmfWvi}",
+      "col": 1,
+      "dashboardIdentifier": "_000PsF",
+      "grain": 1,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 13,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 12,
+      "sizeY": 12,
+      "sizeYOriginal": 0,
+      "width": 0
+    },
+    {
+      "chartUrl": "${ref:widget:bIgDEa}",
+      "col": 1,
+      "dashboardIdentifier": "_000PsF",
+      "grain": 1,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 1,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 12,
+      "sizeY": 12,
+      "sizeYOriginal": 0,
+      "width": 0
+    },
+    {
+      "chartUrl": "${ref:widget:oc1lBs}",
+      "col": 13,
+      "dashboardIdentifier": "_000PsF",
+      "grain": 1,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 1,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 12,
+      "sizeY": 12,
+      "sizeYOriginal": 0,
+      "width": 0
+    }
+  ],
+  "dashboards": [
+    {
+      "dashAccessLevel": 0,
+      "displayOrder": 0,
+      "filterSettings": null,
+      "identifier": "_000PsF",
+      "jsonConfig": {
+        "excludeExpandedGridFromPdfExport": false,
+        "excludeGridWidgetsFromPdfExport": false,
+        "filters": [
+          {
+            "dashboardDisplayValues": [
+              "Costco"
+            ],
+            "enabled": true,
+            "fieldName": "customer_name",
+            "fieldType": "java.lang.String",
+            "operator": "Equals",
+            "plainControlType": "multiple",
+            "transientFilter": false,
+            "type": "java.lang.String",
+            "values": [
+              "Costco"
+            ],
+            "visible": true
+          }
+        ],
+        "view": {
+          "actions": true,
+          "backgroundColor": "",
+          "border": true,
+          "dashFiltersPinToTop": false,
+          "dashFreeWidget": false,
+          "dashGrouping": false,
+          "dashLoadUponPrompt": false,
+          "dashTheme": "light",
+          "dashTitle": true,
+          "drag": true,
+          "enableDashFilterIcon": true,
+          "enableHeaders": true,
+          "enablePdfExport": true,
+          "enablePptExport": true,
+          "enablePresenter": true,
+          "filter": true,
+          "instantSightsIcon": true,
+          "resize": true,
+          "setting": true,
+          "title": true,
+          "widgetSpacing": 5
+        }
+      },
+      "locked": 0,
+      "name": "ANH 2",
+      "screenAdjust": 0,
+      "screenHeight": 956,
+      "screenWidth": 1638,
+      "type": 1,
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

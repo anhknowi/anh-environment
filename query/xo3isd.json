@@ -1,0 +1,31 @@
+{
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:2PrAVi}",
+      "description": null,
+      "direct": false,
+      "directPush": true,
+      "entityName": "Test Phoenix",
+      "identifier": "BqtAS4",
+      "inUse": true,
+      "jsonConfig": {
+        "datasourceId": "${ref:datasource:2PrAVi}",
+        "direct": false,
+        "entityName": "Test Phoenix",
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "queryStr": "select * from SENDING_ACTIVITIES",
+        "triggered": false
+      },
+      "op": 4,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "xo3isd",
+      "triggerDatasetId": 0
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "datasources": [
+    {
+      "acl": null,
+      "connectSchema": false,
+      "connectorId": 562,
+      "datasource": "redshift",
+      "directQueryOnly": false,
+      "inUse": true,
+      "jsonConfig": {
+        "connectSchema": false,
+        "datasource": "redshift",
+        "dbName": "datatesting",
+        "host": "redshift-cluster-1.cvzwd9zgavth.us-east-1.redshift.amazonaws.com",
+        "name": "Redshift Database Private",
+        "password": "${secret:datasource:mADa85:password}",
+        "port": "5439",
+        "privateConnector": "562",
+        "userId": "cloud9",
+        "writable": true
+      },
+      "name": "Redshift Database Private",
+      "op": 2,
+      "proxy": false,
+      "strId": "mADa85",
+      "tunnel": false,
+      "writable": true
+    }
+  ],
+  "format": 1
+}

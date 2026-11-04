@@ -1,0 +1,31 @@
+{
+  "datasources": [
+    {
+      "acl": null,
+      "connectSchema": false,
+      "connectorId": 1,
+      "datasource": "postgresql",
+      "directQueryOnly": false,
+      "inUse": true,
+      "jsonConfig": {
+        "connectSchema": false,
+        "datasource": "postgresql",
+        "dbName": "postgres",
+        "host": "postgresql-demo.ccsixtg95k9d.us-east-1.rds.amazonaws.com",
+        "name": "PostgreSQL Database 12",
+        "password": "${secret:datasource:SbIqNZ:password}",
+        "port": "5432",
+        "proxy": false,
+        "userId": "cloud9demo",
+        "writable": false
+      },
+      "name": "PostgreSQL Database 12",
+      "op": 1,
+      "proxy": false,
+      "strId": "SbIqNZ",
+      "tunnel": false,
+      "writable": false
+    }
+  ],
+  "format": 1
+}

@@ -1,0 +1,57 @@
+{
+  "chartAssociations": [
+    {
+      "chartUrl": "pTXiia",
+      "jsonConfig": [
+        {
+          "id": "${ref:widget:C7sipK}",
+          "type": "widget"
+        }
+      ]
+    }
+  ],
+  "chartProperties": [
+    {
+      "chartUrl": "pTXiia",
+      "dashboardIdentifier": null,
+      "property": "chart.series.type",
+      "value": "time"
+    },
+    {
+      "chartUrl": "pTXiia",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "area"
+    },
+    {
+      "chartUrl": "pTXiia",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.column",
+      "value": "date"
+    },
+    {
+      "chartUrl": "pTXiia",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.order",
+      "value": "1"
+    }
+  ],
+  "charts": [
+    {
+      "access": 1,
+      "category": null,
+      "chartName": "Direct Lockeed",
+      "datasetId": "${ref:dataset:pTXiia}",
+      "description": null,
+      "drilldown": 1,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": 0,
+      "query": 0,
+      "type": 1,
+      "url": "pTXiia",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

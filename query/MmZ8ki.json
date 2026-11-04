@@ -1,0 +1,44 @@
+{
+  "discoveryConfigs": [
+    {
+      "c9Query": "",
+      "chartUrl": "",
+      "jsonConfig": [],
+      "queryIdentifier": "V7wzod",
+      "queryStrId": "MmZ8ki"
+    }
+  ],
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:9z7waK}",
+      "description": null,
+      "direct": false,
+      "directPush": true,
+      "entityName": "TestMY",
+      "identifier": "V7wzod",
+      "inUse": true,
+      "jsonConfig": {
+        "datasourceId": "${ref:datasource:9z7waK}",
+        "direct": false,
+        "discovery": {
+          "limit": 10000,
+          "tableName": "customer_data"
+        },
+        "entityName": "TestMY",
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "queryStr": "select *\nfrom customer_data\nlimit 10000",
+        "triggered": false
+      },
+      "op": 4,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "MmZ8ki",
+      "triggerDatasetId": 0
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "datasources": [
+    {
+      "acl": null,
+      "connectSchema": false,
+      "connectorId": 1,
+      "datasource": "bigquery",
+      "directQueryOnly": false,
+      "inUse": true,
+      "jsonConfig": {
+        "authRefreshToken": "${secret:datasource:ceuVQS:authRefreshToken}",
+        "authToken": "${secret:datasource:ceuVQS:authToken}",
+        "authVersion": "1",
+        "datasource": "bigquery",
+        "name": "Google BigQuery XXXX",
+        "projectId": "anhvoproject"
+      },
+      "name": "Google BigQuery XXXX",
+      "op": 1,
+      "proxy": false,
+      "strId": "ceuVQS",
+      "tunnel": false,
+      "writable": false
+    }
+  ],
+  "format": 1
+}

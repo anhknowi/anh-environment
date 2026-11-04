@@ -1,0 +1,39 @@
+{
+  "dashboards": [
+    {
+      "dashAccessLevel": 1,
+      "displayOrder": 3,
+      "filterSettings": "{\"state\":\"enable\",\"fields\":false,\"cascadingSuggestions\":\"disable\"}",
+      "identifier": "_000LSH",
+      "jsonConfig": {
+        "excludeExpandedGridFromPdfExport": false,
+        "excludeGridWidgetsFromPdfExport": false,
+        "footer": "<b>footer1</b>",
+        "view": {
+          "actions": true,
+          "backgroundColor": "",
+          "border": true,
+          "dashFreeWidget": false,
+          "dashTitle": true,
+          "drag": true,
+          "enableDashFilterIcon": true,
+          "enableHeaders": true,
+          "enablePdfExport": true,
+          "filter": true,
+          "resize": true,
+          "setting": true,
+          "title": true,
+          "widgetSpacing": 2
+        }
+      },
+      "locked": 0,
+      "name": "Ralf",
+      "screenAdjust": 0,
+      "screenHeight": 663,
+      "screenWidth": 1299,
+      "type": 1,
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

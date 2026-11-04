@@ -1,0 +1,46 @@
+{
+  "dataConfigs": [
+    {
+      "datasetIdentifier": "${ref:dataset:4xis8p}",
+      "queryIdentifier": "4xis8p",
+      "queryStrId": "yu6oAz"
+    }
+  ],
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:OTS6vw}",
+      "description": null,
+      "direct": false,
+      "directPush": true,
+      "entityName": "restaurants.csv",
+      "identifier": "4xis8p",
+      "inUse": true,
+      "jsonConfig": {
+        "c9ExportDataset": "${ref:dataset:4xis8p}",
+        "c9ExportEntityName": "restaurants.csv",
+        "c9ExportIdentifier": "4xis8p",
+        "datasourceId": "${ref:datasource:OTS6vw}",
+        "direct": false,
+        "discovery": {
+          "limit": 10000,
+          "tableName": "${ref:dataset:4xis8p}"
+        },
+        "entityName": "restaurants.csv",
+        "identifier": "4xis8p",
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "queryStr": "select *",
+        "triggered": false
+      },
+      "op": 1,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "yu6oAz",
+      "triggerDatasetId": 0
+    }
+  ]
+}

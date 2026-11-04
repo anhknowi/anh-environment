@@ -1,0 +1,170 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "v5lmDi",
+      "dashboardIdentifier": null,
+      "property": "chart.column.ignore",
+      "value": ""
+    },
+    {
+      "chartUrl": "v5lmDi",
+      "dashboardIdentifier": null,
+      "property": "chart.dataset.limit",
+      "value": "100"
+    },
+    {
+      "chartUrl": "v5lmDi",
+      "dashboardIdentifier": null,
+      "property": "chart.display.theme",
+      "value": ""
+    },
+    {
+      "chartUrl": "v5lmDi",
+      "dashboardIdentifier": null,
+      "property": "chart.legend.column",
+      "value": "message_type"
+    },
+    {
+      "chartUrl": "v5lmDi",
+      "dashboardIdentifier": null,
+      "property": "chart.legend.ordering",
+      "value": ""
+    },
+    {
+      "chartUrl": "v5lmDi",
+      "dashboardIdentifier": null,
+      "property": "chart.percent",
+      "value": "false"
+    },
+    {
+      "chartUrl": "v5lmDi",
+      "dashboardIdentifier": null,
+      "property": "chart.primary.ylabel",
+      "value": ""
+    },
+    {
+      "chartUrl": "v5lmDi",
+      "dashboardIdentifier": null,
+      "property": "chart.series.data",
+      "value": "Total clicks"
+    },
+    {
+      "chartUrl": "v5lmDi",
+      "dashboardIdentifier": null,
+      "property": "chart.totalLabel",
+      "value": "false"
+    },
+    {
+      "chartUrl": "v5lmDi",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "donut"
+    },
+    {
+      "chartUrl": "v5lmDi",
+      "dashboardIdentifier": null,
+      "property": "chartColor",
+      "value": ""
+    },
+    {
+      "chartUrl": "v5lmDi",
+      "dashboardIdentifier": null,
+      "property": "clickEvent",
+      "value": ""
+    },
+    {
+      "chartUrl": "v5lmDi",
+      "dashboardIdentifier": null,
+      "property": "custom.field",
+      "value": ""
+    },
+    {
+      "chartUrl": "v5lmDi",
+      "dashboardIdentifier": null,
+      "property": "grid.collapsible",
+      "value": "false"
+    },
+    {
+      "chartUrl": "v5lmDi",
+      "dashboardIdentifier": null,
+      "property": "grid.resetColumnWidth",
+      "value": "false"
+    },
+    {
+      "chartUrl": "v5lmDi",
+      "dashboardIdentifier": null,
+      "property": "grid.sort.columnName",
+      "value": "delivered"
+    },
+    {
+      "chartUrl": "v5lmDi",
+      "dashboardIdentifier": null,
+      "property": "grid.sort.type",
+      "value": "asc"
+    },
+    {
+      "chartUrl": "v5lmDi",
+      "dashboardIdentifier": null,
+      "property": "widget.footnote",
+      "value": ""
+    }
+  ],
+  "charts": [
+    {
+      "access": 1,
+      "category": null,
+      "chartName": "Copy of TEST CHART",
+      "datasetId": "${ref:dataset:isXdj8}",
+      "description": "",
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": 0,
+      "query": 0,
+      "type": 1,
+      "url": "v5lmDi",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": [
+        "select SUM('clicks') as 'Total clicks', 'message_type'",
+        "group by 'message_type'"
+      ],
+      "chartUrl": "v5lmDi",
+      "jsonConfig": [
+        {
+          "dimensions": [
+            {
+              "customized": false,
+              "fieldName": "message_type",
+              "fieldType": "java.lang.String",
+              "label": "message_type"
+            }
+          ],
+          "limit": 0,
+          "metrics": [
+            {
+              "customized": false,
+              "fieldName": "clicks",
+              "fieldType": "java.lang.Integer",
+              "label": "Total clicks",
+              "operation": "SUM",
+              "operationStr": "sum"
+            },
+            {
+              "customized": false,
+              "fieldName": "message_type",
+              "fieldType": "java.lang.String",
+              "label": "message_type"
+            }
+          ]
+        }
+      ],
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

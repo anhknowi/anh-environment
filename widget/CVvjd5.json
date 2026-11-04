@@ -1,0 +1,171 @@
+{
+  "chartAssociations": [
+    {
+      "chartUrl": "CVvjd5",
+      "jsonConfig": [
+        {
+          "id": "${ref:widget:1Nx9HA}",
+          "type": "widget"
+        }
+      ]
+    }
+  ],
+  "chartProperties": [
+    {
+      "chartUrl": "CVvjd5",
+      "dashboardIdentifier": null,
+      "property": "chart.column.ignore",
+      "value": ""
+    },
+    {
+      "chartUrl": "CVvjd5",
+      "dashboardIdentifier": null,
+      "property": "chart.dataset.limit",
+      "value": "2"
+    },
+    {
+      "chartUrl": "CVvjd5",
+      "dashboardIdentifier": null,
+      "property": "chart.display.theme",
+      "value": "dark"
+    },
+    {
+      "chartUrl": "CVvjd5",
+      "dashboardIdentifier": null,
+      "property": "chart.legend.column",
+      "value": ""
+    },
+    {
+      "chartUrl": "CVvjd5",
+      "dashboardIdentifier": null,
+      "property": "chart.primary.ylabel",
+      "value": "hits"
+    },
+    {
+      "chartUrl": "CVvjd5",
+      "dashboardIdentifier": null,
+      "property": "chart.secondary.type",
+      "value": ""
+    },
+    {
+      "chartUrl": "CVvjd5",
+      "dashboardIdentifier": null,
+      "property": "chart.secondary.y",
+      "value": ""
+    },
+    {
+      "chartUrl": "CVvjd5",
+      "dashboardIdentifier": null,
+      "property": "chart.secondary.ylabel",
+      "value": ""
+    },
+    {
+      "chartUrl": "CVvjd5",
+      "dashboardIdentifier": null,
+      "property": "chart.series.data",
+      "value": "hits"
+    },
+    {
+      "chartUrl": "CVvjd5",
+      "dashboardIdentifier": null,
+      "property": "chart.series.type",
+      "value": "time"
+    },
+    {
+      "chartUrl": "CVvjd5",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "stacked column"
+    },
+    {
+      "chartUrl": "CVvjd5",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.column",
+      "value": "lastAccessTime"
+    },
+    {
+      "chartUrl": "CVvjd5",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.order",
+      "value": "1"
+    },
+    {
+      "chartUrl": "CVvjd5",
+      "dashboardIdentifier": null,
+      "property": "chart.yAxis.max",
+      "value": ""
+    },
+    {
+      "chartUrl": "CVvjd5",
+      "dashboardIdentifier": null,
+      "property": "chart.yAxis.tickInterval",
+      "value": ""
+    },
+    {
+      "chartUrl": "CVvjd5",
+      "dashboardIdentifier": null,
+      "property": "container.name",
+      "value": "Chart"
+    },
+    {
+      "chartUrl": "CVvjd5",
+      "dashboardIdentifier": null,
+      "property": "custom.field",
+      "value": ""
+    },
+    {
+      "chartUrl": "CVvjd5",
+      "dashboardIdentifier": null,
+      "property": "evenbg.color",
+      "value": ""
+    },
+    {
+      "chartUrl": "CVvjd5",
+      "dashboardIdentifier": null,
+      "property": "font.color",
+      "value": ""
+    },
+    {
+      "chartUrl": "CVvjd5",
+      "dashboardIdentifier": null,
+      "property": "font.header.color",
+      "value": ""
+    },
+    {
+      "chartUrl": "CVvjd5",
+      "dashboardIdentifier": null,
+      "property": "headerbg.color",
+      "value": ""
+    },
+    {
+      "chartUrl": "CVvjd5",
+      "dashboardIdentifier": null,
+      "property": "oddbg.color",
+      "value": ""
+    },
+    {
+      "chartUrl": "CVvjd5",
+      "dashboardIdentifier": null,
+      "property": "widget.footnote",
+      "value": ""
+    }
+  ],
+  "charts": [
+    {
+      "access": 1,
+      "category": "All",
+      "chartName": "XXX Some Data",
+      "datasetId": "${ref:dataset:CVvjd5}",
+      "description": "",
+      "drilldown": 1,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 1,
+      "url": "CVvjd5",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

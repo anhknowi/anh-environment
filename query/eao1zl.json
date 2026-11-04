@@ -1,0 +1,58 @@
+{
+  "discoveryConfigs": [
+    {
+      "c9Query": "",
+      "chartUrl": "",
+      "jsonConfig": [],
+      "queryIdentifier": "UVyvv3",
+      "queryStrId": "eao1zl"
+    }
+  ],
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:B0HQ4VcGcG}",
+      "description": "",
+      "direct": true,
+      "directPush": true,
+      "entityName": "No Filter Test ID",
+      "identifier": "UVyvv3",
+      "inUse": true,
+      "jsonConfig": {
+        "datasourceId": "${ref:datasource:B0HQ4VcGcG}",
+        "direct": true,
+        "discovery": {
+          "filters": [
+            {
+              "field": {
+                "customized": false,
+                "fieldName": "date",
+                "fieldType": "java.util.Date",
+                "fullFieldName": "date",
+                "label": "date"
+              },
+              "label": "date Equals $c9_AAAA$",
+              "operator": "EQUALS",
+              "operatorStr": "=",
+              "or": false,
+              "value": "$c9_AAAA$[AAAA]${date|yyyy-MM-dd'T'HH:mm:ss.SSS'Z'}$"
+            }
+          ],
+          "limit": 100,
+          "tableName": "sendingActivity"
+        },
+        "entityName": "No Filter Test ID",
+        "queryStr": "db['sendingActivity'].find().limit(100)",
+        "triggered": false,
+        "visual": false
+      },
+      "op": 2,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "eao1zl",
+      "triggerDatasetId": 0
+    }
+  ]
+}

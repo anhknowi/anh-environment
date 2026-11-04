@@ -1,0 +1,136 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "8NPNpQ",
+      "dashboardIdentifier": null,
+      "property": "chart.quickpickers",
+      "value": "0"
+    },
+    {
+      "chartUrl": "8NPNpQ",
+      "dashboardIdentifier": null,
+      "property": "chart.series.data",
+      "value": "hits"
+    },
+    {
+      "chartUrl": "8NPNpQ",
+      "dashboardIdentifier": null,
+      "property": "chart.series.type",
+      "value": "time"
+    },
+    {
+      "chartUrl": "8NPNpQ",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "pivot"
+    },
+    {
+      "chartUrl": "8NPNpQ",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.column",
+      "value": "lastAccessTime"
+    },
+    {
+      "chartUrl": "8NPNpQ",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.order",
+      "value": "1"
+    },
+    {
+      "chartUrl": "8NPNpQ",
+      "dashboardIdentifier": null,
+      "property": "pivot.autoCollapseRows",
+      "value": "false"
+    },
+    {
+      "chartUrl": "8NPNpQ",
+      "dashboardIdentifier": null,
+      "property": "pivot.columnsSortOrder",
+      "value": "def"
+    },
+    {
+      "chartUrl": "8NPNpQ",
+      "dashboardIdentifier": null,
+      "property": "pivot.config.access.viewers",
+      "value": "true"
+    },
+    {
+      "chartUrl": "8NPNpQ",
+      "dashboardIdentifier": null,
+      "property": "pivot.fitWidgetWidth",
+      "value": "false"
+    },
+    {
+      "chartUrl": "8NPNpQ",
+      "dashboardIdentifier": null,
+      "property": "pivot.footer",
+      "value": "false"
+    },
+    {
+      "chartUrl": "8NPNpQ",
+      "dashboardIdentifier": null,
+      "property": "pivot.hideLastHeaderRow",
+      "value": "false"
+    },
+    {
+      "chartUrl": "8NPNpQ",
+      "dashboardIdentifier": null,
+      "property": "pivot.hideRatioSourceColumns",
+      "value": "false"
+    },
+    {
+      "chartUrl": "8NPNpQ",
+      "dashboardIdentifier": null,
+      "property": "pivot.resetStructure",
+      "value": "false"
+    },
+    {
+      "chartUrl": "8NPNpQ",
+      "dashboardIdentifier": null,
+      "property": "pivot.showOperation",
+      "value": "false"
+    },
+    {
+      "chartUrl": "8NPNpQ",
+      "dashboardIdentifier": null,
+      "property": "pivot.singleRow",
+      "value": "false"
+    },
+    {
+      "chartUrl": "8NPNpQ",
+      "dashboardIdentifier": null,
+      "property": "pivot.structure",
+      "value": "{\"rows\":[\"id \"],\"columns\":[\"page\",\"hits\",\"deviceId\"],\"values\":[{\"name\":\"lastAccessTime\",\"text\":\"lastAccessTime\",\"id\":1687305949317,\"operation\":[\"min\"]}],\"filters\":[]}"
+    },
+    {
+      "chartUrl": "8NPNpQ",
+      "dashboardIdentifier": null,
+      "property": "pivot.textWrap",
+      "value": "false"
+    },
+    {
+      "chartUrl": "8NPNpQ",
+      "dashboardIdentifier": null,
+      "property": "pivot.totalColumn",
+      "value": "false"
+    }
+  ],
+  "charts": [
+    {
+      "access": 1,
+      "category": null,
+      "chartName": "Page test",
+      "datasetId": "${ref:dataset:8NPNpQ}",
+      "description": "",
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 20,
+      "url": "8NPNpQ",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

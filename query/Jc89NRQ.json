@@ -1,0 +1,32 @@
+{
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:WSTfpd}",
+      "description": null,
+      "direct": false,
+      "directPush": true,
+      "entityName": "SOP-PHM-0107_Sterile_Compounding.pdf",
+      "identifier": "6RURCDl",
+      "inUse": true,
+      "jsonConfig": {
+        "datasourceId": "${ref:datasource:WSTfpd}",
+        "direct": false,
+        "entityName": "SOP-PHM-0107_Sterile_Compounding.pdf",
+        "identifier": "6RURCDl",
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "triggered": false,
+        "uploadedFileName": "SOP-PHM-0107_Sterile_Compounding.pdf"
+      },
+      "op": 1,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "Jc89NRQ",
+      "triggerDatasetId": 0
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "0e9EgT",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "datagrid"
+    },
+    {
+      "chartUrl": "0e9EgT",
+      "dashboardIdentifier": null,
+      "property": "columnFilters",
+      "value": "{}"
+    },
+    {
+      "chartUrl": "0e9EgT",
+      "dashboardIdentifier": null,
+      "property": "grid.sort.columnName",
+      "value": "lat"
+    },
+    {
+      "chartUrl": "0e9EgT",
+      "dashboardIdentifier": null,
+      "property": "grid.sort.type",
+      "value": "asc"
+    }
+  ],
+  "chartQueries": [
+    {
+      "chartUrl": "0e9EgT",
+      "queryStr": "select address.coord.[0] as lat, address.coord.[1] as long"
+    }
+  ],
+  "charts": [
+    {
+      "access": 1,
+      "category": "All",
+      "chartName": "Anh Test",
+      "datasetId": "${ref:dataset:0e9EgT}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": -1,
+      "query": 1,
+      "type": 2,
+      "url": "0e9EgT",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": [
+        "select 'lat', 'long';",
+        "select 'lat'"
+      ],
+      "chartUrl": "0e9EgT",
+      "jsonConfig": [
+        {
+          "limit": 0,
+          "metrics": [
+            {
+              "customized": false,
+              "fieldName": "lat",
+              "fieldType": "java.lang.Double",
+              "label": "lat"
+            },
+            {
+              "customized": false,
+              "fieldName": "long",
+              "fieldType": "java.lang.Double",
+              "label": "long"
+            }
+          ]
+        },
+        {
+          "limit": 0,
+          "metrics": [
+            {
+              "customized": false,
+              "fieldName": "lat",
+              "fieldType": "java.lang.Double",
+              "label": "lat"
+            }
+          ]
+        }
+      ],
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

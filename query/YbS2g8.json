@@ -1,0 +1,35 @@
+{
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:B0HQ4V}",
+      "description": null,
+      "direct": true,
+      "directPush": true,
+      "entityName": "Test Secondary",
+      "identifier": "HeKoMq",
+      "inUse": true,
+      "jsonConfig": {
+        "datasourceId": "${ref:datasource:B0HQ4V}",
+        "direct": true,
+        "discovery": {
+          "limit": 10000,
+          "tableName": "sendingActivity"
+        },
+        "entityName": "Test Secondary",
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "queryStr": "db['sendingActivity'].find().limit(10000)",
+        "triggered": false
+      },
+      "op": 1,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "YbS2g8",
+      "triggerDatasetId": 0
+    }
+  ]
+}

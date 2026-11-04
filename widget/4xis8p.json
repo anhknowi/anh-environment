@@ -1,0 +1,49 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "4xis8p",
+      "dashboardIdentifier": null,
+      "property": "chart.dataset.limit",
+      "value": "10"
+    },
+    {
+      "chartUrl": "4xis8p",
+      "dashboardIdentifier": null,
+      "property": "chart.quickpickers",
+      "value": "0"
+    },
+    {
+      "chartUrl": "4xis8p",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "geocluster"
+    }
+  ],
+  "charts": [
+    {
+      "access": 1,
+      "category": null,
+      "chartName": "restaurants.csv",
+      "datasetId": "${ref:dataset:4xis8p}",
+      "description": "",
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 13,
+      "url": "4xis8p",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": "",
+      "chartUrl": "4xis8p",
+      "jsonConfig": [],
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

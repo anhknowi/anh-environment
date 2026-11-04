@@ -1,0 +1,28 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "NmV28i",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "textBase"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "Multi",
+      "datasetId": "${ref:dataset:_pii09m}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 18,
+      "url": "NmV28i",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

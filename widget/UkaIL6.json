@@ -1,0 +1,28 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "UkaIL6",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "datagrid"
+    }
+  ],
+  "charts": [
+    {
+      "access": 1,
+      "category": null,
+      "chartName": "Test Perf MERGE",
+      "datasetId": "${ref:dataset:UkaIL6}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": 0,
+      "query": 0,
+      "type": 2,
+      "url": "UkaIL6",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

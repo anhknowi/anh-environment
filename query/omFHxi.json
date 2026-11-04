@@ -1,0 +1,46 @@
+{
+  "dataConfigs": [
+    {
+      "datasetIdentifier": "${ref:dataset:wiiFhZ}",
+      "queryIdentifier": "wiiFhZ",
+      "queryStrId": "omFHxi"
+    }
+  ],
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:OTS6vw}",
+      "description": null,
+      "direct": false,
+      "directPush": true,
+      "entityName": "Infosys Date Range",
+      "identifier": "wiiFhZ",
+      "inUse": true,
+      "jsonConfig": {
+        "c9ExportDataset": "${ref:dataset:wiiFhZ}",
+        "c9ExportEntityName": "Infosys Date Range",
+        "c9ExportIdentifier": "wiiFhZ",
+        "datasourceId": "${ref:datasource:OTS6vw}",
+        "direct": false,
+        "discovery": {
+          "limit": 10000,
+          "tableName": "${ref:dataset:wiiFhZ}"
+        },
+        "entityName": "Infosys Date Range",
+        "identifier": "wiiFhZ",
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "queryStr": "select *",
+        "triggered": false
+      },
+      "op": 1,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "omFHxi",
+      "triggerDatasetId": 0
+    }
+  ]
+}

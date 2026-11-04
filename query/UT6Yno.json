@@ -1,0 +1,44 @@
+{
+  "discoveryConfigs": [
+    {
+      "c9Query": "",
+      "chartUrl": "",
+      "jsonConfig": [],
+      "queryIdentifier": "lzbqPk",
+      "queryStrId": "UT6Yno"
+    }
+  ],
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:vUDg5S}",
+      "description": null,
+      "direct": false,
+      "directPush": true,
+      "entityName": "Test1",
+      "identifier": "lzbqPk",
+      "inUse": true,
+      "jsonConfig": {
+        "datasourceId": "${ref:datasource:vUDg5S}",
+        "direct": false,
+        "discovery": {
+          "limit": 10000,
+          "tableName": "creditcards"
+        },
+        "entityName": "Test1",
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "queryStr": "select `creditcards`.*\nfrom `creditcards`\nlimit 10000",
+        "triggered": false
+      },
+      "op": 4,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "UT6Yno",
+      "triggerDatasetId": 0
+    }
+  ]
+}

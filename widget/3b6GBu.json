@@ -1,0 +1,115 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "3b6GBu",
+      "dashboardIdentifier": null,
+      "property": "chart.legend.column",
+      "value": "Customer"
+    },
+    {
+      "chartUrl": "3b6GBu",
+      "dashboardIdentifier": null,
+      "property": "chart.series.type",
+      "value": "time"
+    },
+    {
+      "chartUrl": "3b6GBu",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "datagrid2"
+    },
+    {
+      "chartUrl": "3b6GBu",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.column",
+      "value": "Date"
+    },
+    {
+      "chartUrl": "3b6GBu",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.order",
+      "value": "1"
+    },
+    {
+      "chartUrl": "3b6GBu",
+      "dashboardIdentifier": null,
+      "property": "grid.column.Click.widthPerc",
+      "value": "0.25"
+    },
+    {
+      "chartUrl": "3b6GBu",
+      "dashboardIdentifier": null,
+      "property": "grid.column.Customer.widthPerc",
+      "value": "0.02891844997108155"
+    },
+    {
+      "chartUrl": "3b6GBu",
+      "dashboardIdentifier": null,
+      "property": "grid.column.Date.widthPerc",
+      "value": "0.29907278712509144"
+    },
+    {
+      "chartUrl": "3b6GBu",
+      "dashboardIdentifier": null,
+      "property": "grid.column.Name.widthPerc",
+      "value": "0.29907278712509144"
+    },
+    {
+      "chartUrl": "3b6GBu",
+      "dashboardIdentifier": null,
+      "property": "grid.column.Spend.widthPerc",
+      "value": "0.45107180512476397"
+    },
+    {
+      "chartUrl": "3b6GBu",
+      "dashboardIdentifier": null,
+      "property": "grid.column.Value.widthPerc",
+      "value": "0.7009272128749086"
+    },
+    {
+      "chartUrl": "3b6GBu",
+      "dashboardIdentifier": null,
+      "property": "grid.columnWidths",
+      "value": "[\"0.29907278712509144\",\"0.45107180512476397\",\"0.25\",\"0.02891844997108155\"]"
+    },
+    {
+      "chartUrl": "3b6GBu",
+      "dashboardIdentifier": null,
+      "property": "grid.sort.columnName",
+      "value": "id"
+    },
+    {
+      "chartUrl": "3b6GBu",
+      "dashboardIdentifier": null,
+      "property": "grid.sort.type",
+      "value": "asc"
+    }
+  ],
+  "charts": [
+    {
+      "access": 1,
+      "category": null,
+      "chartName": "Copy of Copy of Test NLG",
+      "datasetId": "${ref:dataset:Kj21bi}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 21,
+      "url": "3b6GBu",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": "",
+      "chartUrl": "3b6GBu",
+      "jsonConfig": [],
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

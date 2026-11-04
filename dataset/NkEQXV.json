@@ -1,0 +1,23 @@
+{
+  "datasets": [
+    {
+      "agenticDefault": false,
+      "bypassOverrideLimit": false,
+      "dataExpirationDate": null,
+      "datasetName": "Cixsoft Dummy Data",
+      "identifier": "NkEQXV",
+      "injectStreamTime": true,
+      "metaHash": 0,
+      "metadataConfig": "{\"fieldNames\":[\"ID1\",\"ID2\",\"V1\",\"V2\",\"V2\"],\"dataTypes\":{\"ID1\":\"java.lang.String\",\"ID2\":\"java.lang.String\",\"V1\":\"java.lang.Integer\",\"V2\":\"java.lang.Integer\"}}",
+      "mongoConnectUri": "provisioned",
+      "nlpBotEnabled": true,
+      "nlpConfig": null,
+      "nlpEnabled": false,
+      "nlpIndexInterval": 360,
+      "refreshMeta": false,
+      "synonymHash": 31,
+      "timeZone": null
+    }
+  ],
+  "format": 1
+}

@@ -1,0 +1,38 @@
+{
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:B0HQ4VcGcG}",
+      "description": null,
+      "direct": false,
+      "directPush": true,
+      "entityName": "afsdfdsfds",
+      "identifier": "nnqvvq",
+      "inUse": true,
+      "jsonConfig": {
+        "c9QLFilter": "select *",
+        "datasourceId": "${ref:datasource:B0HQ4VcGcG}",
+        "direct": false,
+        "discovery": {
+          "discoveryForSuggestions": false,
+          "limit": 10000,
+          "tableName": "restaurants"
+        },
+        "entityName": "afsdfdsfds",
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "queryStr": "db['restaurants'].find().limit(10000)",
+        "triggered": false,
+        "visual": true
+      },
+      "op": 4,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "ViprOg",
+      "triggerDatasetId": 0
+    }
+  ]
+}

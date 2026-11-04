@@ -1,0 +1,40 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "e4p8vH",
+      "dashboardIdentifier": null,
+      "property": "chart.legend.column",
+      "value": "_id"
+    },
+    {
+      "chartUrl": "e4p8vH",
+      "dashboardIdentifier": null,
+      "property": "chart.series.data",
+      "value": "hits"
+    },
+    {
+      "chartUrl": "e4p8vH",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "pie"
+    }
+  ],
+  "charts": [
+    {
+      "access": 1,
+      "category": null,
+      "chartName": "Test Copying Normal",
+      "datasetId": "${ref:dataset:e4p8vH}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 1,
+      "url": "e4p8vH",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

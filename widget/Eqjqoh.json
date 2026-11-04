@@ -1,0 +1,46 @@
+{
+  "chartAssociations": [
+    {
+      "chartUrl": "Eqjqoh",
+      "jsonConfig": [
+        {
+          "filters": [
+            {
+              "childField": "message_type",
+              "parentField": "ABC"
+            }
+          ],
+          "id": 136899,
+          "passingFilters": false,
+          "type": "dashboard_connected"
+        }
+      ]
+    }
+  ],
+  "chartProperties": [
+    {
+      "chartUrl": "Eqjqoh",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "datagrid2"
+    }
+  ],
+  "charts": [
+    {
+      "access": 1,
+      "category": null,
+      "chartName": "Copy of IndexList",
+      "datasetId": "${ref:dataset:9uW07S}",
+      "description": null,
+      "drilldown": 1,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 21,
+      "url": "Eqjqoh",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

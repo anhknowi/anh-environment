@@ -1,0 +1,23 @@
+{
+  "datasets": [
+    {
+      "agenticDefault": false,
+      "bypassOverrideLimit": false,
+      "dataExpirationDate": null,
+      "datasetName": "window_repro_410k.csv",
+      "identifier": "Jmwip0L",
+      "injectStreamTime": false,
+      "metaHash": -159073734,
+      "metadataConfig": "{\"fields\":[{\"fieldName\":\"appt_status\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"cancel_category\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"cancel_flag\",\"fieldType\":\"java.lang.Integer\",\"ntz\":false},{\"fieldName\":\"cancel_reason_clean\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"cancel_subreason\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"canvas_key\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"cohort_month\",\"fieldType\":\"java.lang.Integer\",\"ntz\":false},{\"fieldName\":\"core_member_id\",\"fieldType\":\"java.lang.Integer\",\"ntz\":false},{\"fieldName\":\"distinct_id\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"enrollment_status\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"event_dtm\",\"fieldType\":\"java.util.Date\",\"ntz\":false},{\"fieldName\":\"event_name\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"false_cancel_flg\",\"fieldType\":\"java.lang.Integer\",\"ntz\":false},{\"fieldName\":\"funnel_stage\",\"fieldType\":\"java.lang.Integer\",\"ntz\":false},{\"fieldName\":\"hear_about_us\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"hear_about_us_text\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"is_new_patient\",\"fieldType\":\"java.lang.Integer\",\"ntz\":false},{\"fieldName\":\"noshow_flag\",\"fieldType\":\"java.lang.Integer\",\"ntz\":false},{\"fieldName\":\"original_referring_org\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"person_key\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"referring_org\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"referring_site\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"referring_sub_org\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"secondary_hear_about_us\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"service_line\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"source_id\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"source_name\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"user_city\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"user_state\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"utm_campaign\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"utm_medium\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"utm_source\",\"fieldType\":\"java.lang.String\",\"ntz\":false}]}",
+      "mongoConnectUri": "provisioned",
+      "nlpBotEnabled": true,
+      "nlpConfig": null,
+      "nlpEnabled": true,
+      "nlpIndexInterval": 360,
+      "refreshMeta": false,
+      "synonymHash": 0,
+      "timeZone": null
+    }
+  ],
+  "format": 1
+}

@@ -1,0 +1,45 @@
+{
+  "discoveryConfigs": [
+    {
+      "c9Query": "",
+      "chartUrl": "",
+      "jsonConfig": [],
+      "queryIdentifier": "lw7iir",
+      "queryStrId": "nZBHtR"
+    }
+  ],
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:tJMx5d}",
+      "description": "",
+      "direct": false,
+      "directPush": true,
+      "entityName": "Test Athena 2",
+      "identifier": "lw7iir",
+      "inUse": true,
+      "jsonConfig": {
+        "datasetId": 121247,
+        "datasourceId": "${ref:datasource:tJMx5d}",
+        "direct": false,
+        "discovery": {
+          "limit": 10000,
+          "tableName": "cloudfront_logs"
+        },
+        "entityName": "Test Athena 2",
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "queryStr": "select *\nfrom cloudfront_logs\nlimit 1",
+        "triggered": false
+      },
+      "op": 2,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "nZBHtR",
+      "triggerDatasetId": 0
+    }
+  ]
+}

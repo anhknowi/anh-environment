@@ -1,0 +1,82 @@
+{
+  "discoveryConfigs": [
+    {
+      "c9Query": "",
+      "chartUrl": "",
+      "jsonConfig": [],
+      "queryIdentifier": "ZLLFtI",
+      "queryStrId": "Lp5bM0"
+    }
+  ],
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:1m0pip}",
+      "description": null,
+      "direct": false,
+      "directPush": true,
+      "entityName": "fasddfsdsf",
+      "identifier": "ZLLFtI",
+      "inUse": true,
+      "jsonConfig": {
+        "datasourceId": "${ref:datasource:1m0pip}",
+        "direct": false,
+        "discovery": {
+          "dimensions": [
+            {
+              "customized": false,
+              "fieldName": "borough",
+              "fieldType": "java.lang.String",
+              "label": "borough",
+              "properties": {
+                "keyword": true
+              }
+            }
+          ],
+          "limit": 10000,
+          "metrics": [
+            {
+              "customized": false,
+              "fieldName": "borough",
+              "fieldType": "java.lang.String",
+              "label": "borough",
+              "properties": {
+                "keyword": true
+              }
+            }
+          ],
+          "sort": [
+            {
+              "field": {
+                "customized": false,
+                "fieldName": "borough",
+                "fieldType": "java.lang.String",
+                "label": "borough",
+                "properties": {
+                  "keyword": true
+                }
+              },
+              "operation": "ASC",
+              "operationStr": null
+            }
+          ],
+          "tableName": "restaurant"
+        },
+        "entityName": "fasddfsdsf",
+        "indexes": "restaurant",
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "queryStr": "{\n  \"aggs\" : {\n    \"borough\" : {\n      \"terms\" : {\n        \"field\" : \"borough.keyword\",\n        \"size\" : 10000,\n        \"order\" : {\n          \"_term\" : \"asc\"\n        }\n      }\n    }\n  }\n}",
+        "triggered": false
+      },
+      "op": 5,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "Lp5bM0",
+      "triggerDatasetId": 0
+    }
+  ]
+}

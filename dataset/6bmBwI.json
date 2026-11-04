@@ -1,0 +1,23 @@
+{
+  "datasets": [
+    {
+      "agenticDefault": false,
+      "bypassOverrideLimit": false,
+      "dataExpirationDate": null,
+      "datasetName": "Test Mongo Derived",
+      "identifier": "6bmBwI",
+      "injectStreamTime": false,
+      "metaHash": 616845544,
+      "metadataConfig": "{\"fields\":[{\"fieldName\":\"customer\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"sourceNode\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"Sum of clicks\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"top_five\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"total clicks\",\"fieldType\":\"java.lang.Double\"}]}",
+      "mongoConnectUri": "c9Query/${ref:query:OJTisx}",
+      "nlpBotEnabled": true,
+      "nlpConfig": null,
+      "nlpEnabled": true,
+      "nlpIndexInterval": 360,
+      "refreshMeta": false,
+      "synonymHash": 31,
+      "timeZone": null
+    }
+  ],
+  "format": 1
+}

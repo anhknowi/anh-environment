@@ -1,0 +1,66 @@
+{
+  "discoveryConfigs": [
+    {
+      "c9Query": "",
+      "chartUrl": "",
+      "jsonConfig": [],
+      "queryIdentifier": "Dk4tRC",
+      "queryStrId": "V64P8g"
+    }
+  ],
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:B0HQ4VcGcG}",
+      "description": null,
+      "direct": true,
+      "directPush": true,
+      "entityName": "XXXX1234",
+      "identifier": "Dk4tRC",
+      "inUse": true,
+      "jsonConfig": {
+        "c9QLFilter": "select *",
+        "datasourceId": "${ref:datasource:B0HQ4VcGcG}",
+        "direct": true,
+        "discovery": {
+          "limit": 10,
+          "tableName": "sendingActivity"
+        },
+        "entityName": "XXXX1234",
+        "joinQueries": [
+          {
+            "c9QLFilter": "select *",
+            "datasourceId": "${ref:datasource:B0HQ4VcGcG}",
+            "discovery": {
+              "limit": 10000,
+              "tableName": "sendingActivity"
+            },
+            "joinTransform": "select * limit 10",
+            "queryStr": "db['sendingActivity'].find().limit(10000)",
+            "visual": true
+          },
+          {
+            "c9QLFilter": "select *",
+            "datasourceId": "${ref:datasource:B0HQ4VcGcG}",
+            "discovery": {
+              "limit": 10,
+              "tableName": "sendingActivity"
+            },
+            "queryStr": "db['sendingActivity'].find().limit(10)",
+            "visual": true
+          }
+        ],
+        "queryStr": "db['sendingActivity'].find().limit(10)",
+        "triggered": false,
+        "visual": true
+      },
+      "op": 1,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "V64P8g",
+      "triggerDatasetId": 0
+    }
+  ]
+}

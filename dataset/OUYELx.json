@@ -1,0 +1,23 @@
+{
+  "datasets": [
+    {
+      "agenticDefault": false,
+      "bypassOverrideLimit": false,
+      "dataExpirationDate": null,
+      "datasetName": "all",
+      "identifier": "OUYELx",
+      "injectStreamTime": false,
+      "metaHash": -944666004,
+      "metadataConfig": "{\"fields\":[{\"fieldName\":\"car_make\",\"fieldType\":\"java.lang.Boolean\"},{\"fieldName\":\"color\",\"fieldType\":\"java.lang.Boolean\"},{\"fieldName\":\"timestamp\",\"fieldType\":\"java.lang.Boolean\"},{\"fieldName\":\"top_speed\",\"fieldType\":\"java.lang.Boolean\"},{\"fieldName\":\"_stream_time\",\"fieldType\":\"java.util.Date\"}]}",
+      "mongoConnectUri": "provisioned",
+      "nlpBotEnabled": true,
+      "nlpConfig": null,
+      "nlpEnabled": false,
+      "nlpIndexInterval": 360,
+      "refreshMeta": false,
+      "synonymHash": 31,
+      "timeZone": null
+    }
+  ],
+  "format": 1
+}

@@ -1,0 +1,36 @@
+{
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:2sQoyR}",
+      "description": null,
+      "direct": false,
+      "directPush": true,
+      "entityName": "XYZ",
+      "identifier": "8hmEbG",
+      "inUse": true,
+      "jsonConfig": {
+        "datasourceId": "${ref:datasource:2sQoyR}",
+        "direct": false,
+        "discovery": {
+          "discoveryForSuggestions": false,
+          "limit": 10000
+        },
+        "entityName": "XYZ",
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "startTime": "undefined undefined",
+        "triggered": false,
+        "visual": true
+      },
+      "op": 5,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "ykRGPk",
+      "triggerDatasetId": 0
+    }
+  ]
+}

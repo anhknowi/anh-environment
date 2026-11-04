@@ -1,0 +1,23 @@
+{
+  "datasets": [
+    {
+      "agenticDefault": false,
+      "bypassOverrideLimit": false,
+      "dataExpirationDate": null,
+      "datasetName": "IndexList",
+      "identifier": "9uW07S",
+      "injectStreamTime": false,
+      "metaHash": -1284948755,
+      "metadataConfig": "{\"fields\":[{\"fieldName\":\"ABC\",\"fieldType\":\"java.lang.String\"}]}",
+      "mongoConnectUri": "c9Query/${ref:query:s7QzKl}",
+      "nlpBotEnabled": true,
+      "nlpConfig": null,
+      "nlpEnabled": false,
+      "nlpIndexInterval": 360,
+      "refreshMeta": false,
+      "synonymHash": 31,
+      "timeZone": null
+    }
+  ],
+  "format": 1
+}

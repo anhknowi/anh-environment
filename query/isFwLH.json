@@ -1,0 +1,44 @@
+{
+  "discoveryConfigs": [
+    {
+      "c9Query": "",
+      "chartUrl": "",
+      "jsonConfig": [],
+      "queryIdentifier": "xBjisX",
+      "queryStrId": "isFwLH"
+    }
+  ],
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:iiPisg}",
+      "description": null,
+      "direct": false,
+      "directPush": true,
+      "entityName": "TZ",
+      "identifier": "xBjisX",
+      "inUse": true,
+      "jsonConfig": {
+        "datasourceId": "${ref:datasource:iiPisg}",
+        "direct": false,
+        "discovery": {
+          "limit": 10000
+        },
+        "entityName": "TZ",
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "queryStr": "set timezone = 'UTC';\nselect GETDATE() from anhtest",
+        "triggered": false,
+        "visual": false
+      },
+      "op": 5,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "isFwLH",
+      "triggerDatasetId": 0
+    }
+  ]
+}

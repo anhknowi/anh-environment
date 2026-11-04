@@ -1,0 +1,28 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "4gmd6M",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "geocluster"
+    }
+  ],
+  "charts": [
+    {
+      "access": 1,
+      "category": null,
+      "chartName": "AnhTest",
+      "datasetId": "${ref:dataset:4gmd6M}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 13,
+      "url": "4gmd6M",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

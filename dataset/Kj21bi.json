@@ -1,0 +1,23 @@
+{
+  "datasets": [
+    {
+      "agenticDefault": false,
+      "bypassOverrideLimit": false,
+      "dataExpirationDate": null,
+      "datasetName": "Test NLG",
+      "identifier": "Kj21bi",
+      "injectStreamTime": false,
+      "metaHash": 1428023149,
+      "metadataConfig": "{\"fields\":[{\"fieldName\":\"Click\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"Customer\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"Date\",\"fieldType\":\"java.util.Date\"},{\"fieldName\":\"Spend\",\"fieldType\":\"java.lang.Integer\"}]}",
+      "mongoConnectUri": "provisioned",
+      "nlpBotEnabled": true,
+      "nlpConfig": null,
+      "nlpEnabled": true,
+      "nlpIndexInterval": 360,
+      "refreshMeta": false,
+      "synonymHash": 31,
+      "timeZone": null
+    }
+  ],
+  "format": 1
+}

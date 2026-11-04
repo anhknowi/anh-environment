@@ -1,0 +1,136 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "aRj59L",
+      "dashboardIdentifier": null,
+      "property": "chart.quickpickers",
+      "value": "0"
+    },
+    {
+      "chartUrl": "aRj59L",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "datagrid2"
+    },
+    {
+      "chartUrl": "aRj59L",
+      "dashboardIdentifier": null,
+      "property": "grid.collapsible",
+      "value": "false"
+    },
+    {
+      "chartUrl": "aRj59L",
+      "dashboardIdentifier": null,
+      "property": "grid.column.bounced.widthPerc",
+      "value": "50"
+    },
+    {
+      "chartUrl": "aRj59L",
+      "dashboardIdentifier": null,
+      "property": "grid.column.campaign_name.widthPerc",
+      "value": "50"
+    },
+    {
+      "chartUrl": "aRj59L",
+      "dashboardIdentifier": null,
+      "property": "grid.column.clicks.widthPerc",
+      "value": "50"
+    },
+    {
+      "chartUrl": "aRj59L",
+      "dashboardIdentifier": null,
+      "property": "grid.column.conversions.widthPerc",
+      "value": "50"
+    },
+    {
+      "chartUrl": "aRj59L",
+      "dashboardIdentifier": null,
+      "property": "grid.column.customer.widthPerc",
+      "value": "50"
+    },
+    {
+      "chartUrl": "aRj59L",
+      "dashboardIdentifier": null,
+      "property": "grid.column.date.widthPerc",
+      "value": "50"
+    },
+    {
+      "chartUrl": "aRj59L",
+      "dashboardIdentifier": null,
+      "property": "grid.column.delivered.widthPerc",
+      "value": "50"
+    },
+    {
+      "chartUrl": "aRj59L",
+      "dashboardIdentifier": null,
+      "property": "grid.column.id .widthPerc",
+      "value": "50"
+    },
+    {
+      "chartUrl": "aRj59L",
+      "dashboardIdentifier": null,
+      "property": "grid.column.message_type.widthPerc",
+      "value": "242"
+    },
+    {
+      "chartUrl": "aRj59L",
+      "dashboardIdentifier": null,
+      "property": "grid.column.opened.widthPerc",
+      "value": "50"
+    },
+    {
+      "chartUrl": "aRj59L",
+      "dashboardIdentifier": null,
+      "property": "grid.column.sent.widthPerc",
+      "value": "53"
+    },
+    {
+      "chartUrl": "aRj59L",
+      "dashboardIdentifier": null,
+      "property": "grid.column.spam.widthPerc",
+      "value": "50"
+    },
+    {
+      "chartUrl": "aRj59L",
+      "dashboardIdentifier": null,
+      "property": "grid.column.week.widthPerc",
+      "value": "50"
+    },
+    {
+      "chartUrl": "aRj59L",
+      "dashboardIdentifier": null,
+      "property": "grid.hideGroupingColumn",
+      "value": "false"
+    },
+    {
+      "chartUrl": "aRj59L",
+      "dashboardIdentifier": null,
+      "property": "pivot.columnWidths",
+      "value": "{\"name\":160}"
+    },
+    {
+      "chartUrl": "aRj59L",
+      "dashboardIdentifier": null,
+      "property": "pivot.structure",
+      "value": "{\"rows\":[\"customer\"],\"columns\":[\"campaign_name\"],\"values\":[{\"name\":\"clicks\",\"text\":\"clicks\",\"id\":1617230082843,\"operation\":[\"sum\"]}],\"filters\":[],\"columnSort\":{\"$default\":{\"dir\":\"asc\",\"_dir\":1}}}"
+    }
+  ],
+  "charts": [
+    {
+      "access": 1,
+      "category": null,
+      "chartName": "Copy of Copy of Copy of LINK2",
+      "datasetId": "${ref:dataset:xvX0ci}",
+      "description": "",
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 21,
+      "url": "aRj59L",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

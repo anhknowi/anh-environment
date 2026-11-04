@@ -1,0 +1,135 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "isRk5Q",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "datagrid"
+    }
+  ],
+  "charts": [
+    {
+      "access": 1,
+      "category": null,
+      "chartName": "TEST ML",
+      "datasetId": "${ref:dataset:isRk5Q}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": {
+        "fields": [
+          {
+            "fieldName": "AGE",
+            "fieldType": "java.lang.Integer"
+          },
+          {
+            "fieldName": "BILL_AMT1",
+            "fieldType": "java.lang.Integer"
+          },
+          {
+            "fieldName": "BILL_AMT2",
+            "fieldType": "java.lang.Integer"
+          },
+          {
+            "fieldName": "BILL_AMT3",
+            "fieldType": "java.lang.Integer"
+          },
+          {
+            "fieldName": "BILL_AMT4",
+            "fieldType": "java.lang.Integer"
+          },
+          {
+            "fieldName": "BILL_AMT5",
+            "fieldType": "java.lang.Integer"
+          },
+          {
+            "fieldName": "BILL_AMT6",
+            "fieldType": "java.lang.Integer"
+          },
+          {
+            "fieldName": "default payment next month",
+            "fieldType": "java.lang.Integer"
+          },
+          {
+            "fieldName": "EDUCATION",
+            "fieldType": "java.lang.Integer"
+          },
+          {
+            "fieldName": "ID",
+            "fieldType": "java.lang.Integer"
+          },
+          {
+            "fieldName": "id_0",
+            "fieldType": "java.lang.String"
+          },
+          {
+            "fieldName": "LIMIT_BAL",
+            "fieldType": "java.lang.Integer"
+          },
+          {
+            "fieldName": "MARRIAGE",
+            "fieldType": "java.lang.Integer"
+          },
+          {
+            "fieldName": "PAY_0",
+            "fieldType": "java.lang.Integer"
+          },
+          {
+            "fieldName": "PAY_2",
+            "fieldType": "java.lang.Integer"
+          },
+          {
+            "fieldName": "PAY_3",
+            "fieldType": "java.lang.Integer"
+          },
+          {
+            "fieldName": "PAY_4",
+            "fieldType": "java.lang.Integer"
+          },
+          {
+            "fieldName": "PAY_5",
+            "fieldType": "java.lang.Integer"
+          },
+          {
+            "fieldName": "PAY_6",
+            "fieldType": "java.lang.Integer"
+          },
+          {
+            "fieldName": "PAY_AMT1",
+            "fieldType": "java.lang.Integer"
+          },
+          {
+            "fieldName": "PAY_AMT2",
+            "fieldType": "java.lang.Integer"
+          },
+          {
+            "fieldName": "PAY_AMT3",
+            "fieldType": "java.lang.Integer"
+          },
+          {
+            "fieldName": "PAY_AMT4",
+            "fieldType": "java.lang.Integer"
+          },
+          {
+            "fieldName": "PAY_AMT5",
+            "fieldType": "java.lang.Integer"
+          },
+          {
+            "fieldName": "PAY_AMT6",
+            "fieldType": "java.lang.Integer"
+          },
+          {
+            "fieldName": "SEX",
+            "fieldType": "java.lang.Integer"
+          }
+        ]
+      },
+      "liveRefresh": 0,
+      "query": 0,
+      "type": 2,
+      "url": "isRk5Q",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

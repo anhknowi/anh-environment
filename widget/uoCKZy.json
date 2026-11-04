@@ -1,0 +1,190 @@
+{
+  "chartAssociations": [
+    {
+      "chartUrl": "uoCKZy",
+      "jsonConfig": [
+        {
+          "id": "${ref:dashboard:_000AP1}",
+          "passingFilters": false,
+          "type": "dashboard"
+        }
+      ]
+    }
+  ],
+  "chartProperties": [
+    {
+      "chartUrl": "uoCKZy",
+      "dashboardIdentifier": null,
+      "property": "bg.color",
+      "value": ""
+    },
+    {
+      "chartUrl": "uoCKZy",
+      "dashboardIdentifier": null,
+      "property": "chart.column.ignore",
+      "value": ""
+    },
+    {
+      "chartUrl": "uoCKZy",
+      "dashboardIdentifier": null,
+      "property": "chart.dataset.limit",
+      "value": ""
+    },
+    {
+      "chartUrl": "uoCKZy",
+      "dashboardIdentifier": null,
+      "property": "chart.display.theme",
+      "value": ""
+    },
+    {
+      "chartUrl": "uoCKZy",
+      "dashboardIdentifier": null,
+      "property": "chart.legend.column",
+      "value": ""
+    },
+    {
+      "chartUrl": "uoCKZy",
+      "dashboardIdentifier": null,
+      "property": "chart.primary.ylabel",
+      "value": ""
+    },
+    {
+      "chartUrl": "uoCKZy",
+      "dashboardIdentifier": null,
+      "property": "chart.secondary.stacking",
+      "value": ""
+    },
+    {
+      "chartUrl": "uoCKZy",
+      "dashboardIdentifier": null,
+      "property": "chart.secondary.type",
+      "value": ""
+    },
+    {
+      "chartUrl": "uoCKZy",
+      "dashboardIdentifier": null,
+      "property": "chart.secondary.y",
+      "value": ""
+    },
+    {
+      "chartUrl": "uoCKZy",
+      "dashboardIdentifier": null,
+      "property": "chart.secondary.ylabel",
+      "value": ""
+    },
+    {
+      "chartUrl": "uoCKZy",
+      "dashboardIdentifier": null,
+      "property": "chart.secondary.zIndex",
+      "value": ""
+    },
+    {
+      "chartUrl": "uoCKZy",
+      "dashboardIdentifier": null,
+      "property": "chart.series.data",
+      "value": ""
+    },
+    {
+      "chartUrl": "uoCKZy",
+      "dashboardIdentifier": null,
+      "property": "chart.series.type",
+      "value": ""
+    },
+    {
+      "chartUrl": "uoCKZy",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "text"
+    },
+    {
+      "chartUrl": "uoCKZy",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.column",
+      "value": ""
+    },
+    {
+      "chartUrl": "uoCKZy",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.order",
+      "value": ""
+    },
+    {
+      "chartUrl": "uoCKZy",
+      "dashboardIdentifier": null,
+      "property": "chart.yAxis.max",
+      "value": ""
+    },
+    {
+      "chartUrl": "uoCKZy",
+      "dashboardIdentifier": null,
+      "property": "chart.yAxis.tickInterval",
+      "value": ""
+    },
+    {
+      "chartUrl": "uoCKZy",
+      "dashboardIdentifier": null,
+      "property": "chartColor",
+      "value": ""
+    },
+    {
+      "chartUrl": "uoCKZy",
+      "dashboardIdentifier": null,
+      "property": "custom.field",
+      "value": ""
+    },
+    {
+      "chartUrl": "uoCKZy",
+      "dashboardIdentifier": null,
+      "property": "font.color",
+      "value": ""
+    },
+    {
+      "chartUrl": "uoCKZy",
+      "dashboardIdentifier": null,
+      "property": "font.size",
+      "value": "24"
+    },
+    {
+      "chartUrl": "uoCKZy",
+      "dashboardIdentifier": null,
+      "property": "formatOptions",
+      "value": ""
+    },
+    {
+      "chartUrl": "uoCKZy",
+      "dashboardIdentifier": null,
+      "property": "orientation.vertical",
+      "value": "false"
+    },
+    {
+      "chartUrl": "uoCKZy",
+      "dashboardIdentifier": null,
+      "property": "widget.footnote",
+      "value": ""
+    }
+  ],
+  "chartQueries": [
+    {
+      "chartUrl": "uoCKZy",
+      "queryStr": "select CURRENCY_FORMAT(amount) as amount"
+    }
+  ],
+  "charts": [
+    {
+      "access": 1,
+      "category": null,
+      "chartName": "Copy of Test Sort",
+      "datasetId": "${ref:dataset:wHEisZ}",
+      "description": "",
+      "drilldown": 1,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": 0,
+      "query": 1,
+      "type": 4,
+      "url": "uoCKZy",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

@@ -1,0 +1,32 @@
+{
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:WSTfpd}",
+      "description": null,
+      "direct": false,
+      "directPush": true,
+      "entityName": "08_Knowi_Enterprise_Agreement_Irongate_Manufacturing_Holdings.pdf",
+      "identifier": "YZ3p3r8",
+      "inUse": true,
+      "jsonConfig": {
+        "datasourceId": "${ref:datasource:WSTfpd}",
+        "direct": false,
+        "entityName": "08_Knowi_Enterprise_Agreement_Irongate_Manufacturing_Holdings.pdf",
+        "identifier": "YZ3p3r8",
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "triggered": false,
+        "uploadedFileName": "08_Knowi_Enterprise_Agreement_Irongate_Manufacturing_Holdings.pdf"
+      },
+      "op": 1,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "vbQlIyr",
+      "triggerDatasetId": 0
+    }
+  ]
+}

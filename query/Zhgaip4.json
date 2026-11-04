@@ -1,0 +1,32 @@
+{
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:WSTfpd}",
+      "description": null,
+      "direct": false,
+      "directPush": true,
+      "entityName": "SOP-CSPD-0509_Steam_Sterilization.pdf",
+      "identifier": "6uRP9vS",
+      "inUse": true,
+      "jsonConfig": {
+        "datasourceId": "${ref:datasource:WSTfpd}",
+        "direct": false,
+        "entityName": "SOP-CSPD-0509_Steam_Sterilization.pdf",
+        "identifier": "6uRP9vS",
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "triggered": false,
+        "uploadedFileName": "SOP-CSPD-0509_Steam_Sterilization.pdf"
+      },
+      "op": 1,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "Zhgaip4",
+      "triggerDatasetId": 0
+    }
+  ]
+}

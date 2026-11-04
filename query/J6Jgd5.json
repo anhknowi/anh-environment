@@ -1,0 +1,50 @@
+{
+  "dataConfigs": [
+    {
+      "datasetIdentifier": "${ref:dataset:Kj21bi}",
+      "queryIdentifier": "Ab7t2G",
+      "queryStrId": "J6Jgd5"
+    }
+  ],
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:OTS6vw}",
+      "description": "",
+      "direct": false,
+      "directPush": true,
+      "entityName": "afasdsdfsdf",
+      "identifier": "Ab7t2G",
+      "inUse": true,
+      "jsonConfig": {
+        "c9ExportDataset": "${ref:dataset:Kj21bi}",
+        "c9ExportEntityName": "Test NLG",
+        "c9ExportIdentifier": "Kj21bi",
+        "datasourceId": "${ref:datasource:OTS6vw}",
+        "direct": false,
+        "discovery": {
+          "discoveryForSuggestions": false,
+          "limit": 10000,
+          "tableName": "${ref:dataset:Kj21bi}"
+        },
+        "entityName": "afasdsdfsdf",
+        "frequency": "1",
+        "frequencyType": "days",
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "queryStr": "select *\nlimit 10000",
+        "startTime": "03/07/2029 11:22 ",
+        "triggered": false,
+        "visual": true
+      },
+      "op": 4,
+      "scheduled": 1,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "J6Jgd5",
+      "triggerDatasetId": 0
+    }
+  ]
+}

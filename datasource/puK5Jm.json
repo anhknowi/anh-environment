@@ -1,0 +1,27 @@
+{
+  "datasources": [
+    {
+      "acl": null,
+      "connectSchema": false,
+      "connectorId": 1,
+      "datasource": "hive",
+      "directQueryOnly": false,
+      "inUse": true,
+      "jsonConfig": {
+        "datasource": "hive",
+        "dbName": "default",
+        "host": "18.208.106.79:10000",
+        "name": "Hive Datasource 122",
+        "password": "${secret:datasource:puK5Jm:password}",
+        "userId": "hdoop"
+      },
+      "name": "Hive Datasource 122",
+      "op": 1,
+      "proxy": false,
+      "strId": "puK5Jm",
+      "tunnel": false,
+      "writable": false
+    }
+  ],
+  "format": 1
+}

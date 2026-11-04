@@ -1,0 +1,23 @@
+{
+  "datasets": [
+    {
+      "agenticDefault": false,
+      "bypassOverrideLimit": false,
+      "dataExpirationDate": null,
+      "datasetName": "afssaffsda",
+      "identifier": "3IRXZV",
+      "injectStreamTime": false,
+      "metaHash": 0,
+      "metadataConfig": "{\"fields\":[{\"fieldName\":\"es_id\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"message\",\"fieldType\":\"java.util.Map\",\"nestedFields\":[{\"fieldName\":\"tweet\",\"fieldType\":\"java.lang.String\"}]},{\"fieldName\":\"name\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"tweet\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"user\",\"fieldType\":\"java.util.Map\",\"nestedFields\":[{\"fieldName\":\"name\",\"fieldType\":\"java.lang.String\"}]}]}",
+      "mongoConnectUri": "provisioned",
+      "nlpBotEnabled": true,
+      "nlpConfig": null,
+      "nlpEnabled": false,
+      "nlpIndexInterval": 360,
+      "refreshMeta": false,
+      "synonymHash": 31,
+      "timeZone": null
+    }
+  ],
+  "format": 1
+}

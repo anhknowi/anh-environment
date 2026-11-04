@@ -1,0 +1,28 @@
+{
+  "datasources": [
+    {
+      "acl": null,
+      "connectSchema": false,
+      "connectorId": 1,
+      "datasource": "marklogic",
+      "directQueryOnly": false,
+      "inUse": true,
+      "jsonConfig": {
+        "datasource": "marklogic",
+        "dbName": "claimsdemo",
+        "host": "demo.knowi.com",
+        "name": "MarkLogic Database XXX",
+        "password": "${secret:datasource:CzTnFW:password}",
+        "port": "8010",
+        "userId": "cloud9"
+      },
+      "name": "MarkLogic Database XXX",
+      "op": 1,
+      "proxy": false,
+      "strId": "CzTnFW",
+      "tunnel": false,
+      "writable": false
+    }
+  ],
+  "format": 1
+}

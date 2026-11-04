@@ -1,0 +1,58 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "PipcZa",
+      "dashboardIdentifier": null,
+      "property": "chart.series.type",
+      "value": "time"
+    },
+    {
+      "chartUrl": "PipcZa",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "area"
+    },
+    {
+      "chartUrl": "PipcZa",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.column",
+      "value": "date"
+    },
+    {
+      "chartUrl": "PipcZa",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.order",
+      "value": "1"
+    }
+  ],
+  "charts": [
+    {
+      "access": 1,
+      "category": null,
+      "chartName": "XXX",
+      "datasetId": "${ref:dataset:PipcZa}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": {
+        "filters": [
+          {
+            "fieldName": "date",
+            "fieldType": "java.util.Date",
+            "operator": "Equals",
+            "type": "java.util.Date",
+            "values": [
+              "$c9_today"
+            ]
+          }
+        ]
+      },
+      "liveRefresh": 0,
+      "query": 0,
+      "type": 1,
+      "url": "PipcZa",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

@@ -1,0 +1,20 @@
+{
+  "datasources": [
+    {
+      "acl": null,
+      "connectSchema": false,
+      "connectorId": 1,
+      "datasource": "phoenixqueryserver",
+      "directQueryOnly": false,
+      "inUse": true,
+      "jsonConfig": "${secret:datasource:QNptuee:jsonConfig}",
+      "name": "HBase with Phoenix Query Server",
+      "op": 1,
+      "proxy": false,
+      "strId": "QNptuee",
+      "tunnel": false,
+      "writable": false
+    }
+  ],
+  "format": 1
+}

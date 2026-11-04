@@ -1,0 +1,94 @@
+{
+  "chartAssociations": [
+    {
+      "chartUrl": "ipc0uz",
+      "jsonConfig": [
+        {
+          "id": "${ref:widget:ns371n}",
+          "passingFilters": false,
+          "type": "widget"
+        }
+      ]
+    }
+  ],
+  "chartProperties": [
+    {
+      "chartUrl": "ipc0uz",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "datagrid2"
+    },
+    {
+      "chartUrl": "ipc0uz",
+      "dashboardIdentifier": null,
+      "property": "formatOptions",
+      "value": "{\"_stream_time\":[{\"mode\":\"date\",\"dateformat\":\"dd/mm/yy\"}]}"
+    },
+    {
+      "chartUrl": "ipc0uz",
+      "dashboardIdentifier": null,
+      "property": "grid.collapsible",
+      "value": "false"
+    },
+    {
+      "chartUrl": "ipc0uz",
+      "dashboardIdentifier": null,
+      "property": "grid.column._stream_time.widthPerc",
+      "value": "170"
+    },
+    {
+      "chartUrl": "ipc0uz",
+      "dashboardIdentifier": null,
+      "property": "grid.column.country.widthPerc",
+      "value": "111"
+    },
+    {
+      "chartUrl": "ipc0uz",
+      "dashboardIdentifier": null,
+      "property": "grid.column.currency.widthPerc",
+      "value": "111"
+    },
+    {
+      "chartUrl": "ipc0uz",
+      "dashboardIdentifier": null,
+      "property": "grid.column.customer.widthPerc",
+      "value": "111"
+    },
+    {
+      "chartUrl": "ipc0uz",
+      "dashboardIdentifier": null,
+      "property": "grid.column.state.widthPerc",
+      "value": "111"
+    },
+    {
+      "chartUrl": "ipc0uz",
+      "dashboardIdentifier": null,
+      "property": "grid.column.street.widthPerc",
+      "value": "111"
+    },
+    {
+      "chartUrl": "ipc0uz",
+      "dashboardIdentifier": null,
+      "property": "grid.resetColumnWidth",
+      "value": "false"
+    }
+  ],
+  "charts": [
+    {
+      "access": 1,
+      "category": "All",
+      "chartName": "Copy of TEST ANH 1",
+      "datasetId": "${ref:dataset:ns371n}",
+      "description": "",
+      "drilldown": 1,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 21,
+      "url": "ipc0uz",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

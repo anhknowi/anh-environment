@@ -1,0 +1,200 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "Jl6uSK",
+      "dashboardIdentifier": null,
+      "property": "chart.firstRow",
+      "value": "[\"Fri Mar 08 02:00:00 PST 2024\",1234,0,\"Facebook\"]"
+    },
+    {
+      "chartUrl": "Jl6uSK",
+      "dashboardIdentifier": null,
+      "property": "chart.labelPercentValue",
+      "value": "false"
+    },
+    {
+      "chartUrl": "Jl6uSK",
+      "dashboardIdentifier": null,
+      "property": "chart.labelValue",
+      "value": "false"
+    },
+    {
+      "chartUrl": "Jl6uSK",
+      "dashboardIdentifier": null,
+      "property": "chart.legend.column",
+      "value": "Customer"
+    },
+    {
+      "chartUrl": "Jl6uSK",
+      "dashboardIdentifier": null,
+      "property": "chart.percent",
+      "value": "false"
+    },
+    {
+      "chartUrl": "Jl6uSK",
+      "dashboardIdentifier": null,
+      "property": "chart.primary.ylabel",
+      "value": "Spend"
+    },
+    {
+      "chartUrl": "Jl6uSK",
+      "dashboardIdentifier": null,
+      "property": "chart.quickpickers",
+      "value": "0"
+    },
+    {
+      "chartUrl": "Jl6uSK",
+      "dashboardIdentifier": null,
+      "property": "chart.series.data",
+      "value": "Spend"
+    },
+    {
+      "chartUrl": "Jl6uSK",
+      "dashboardIdentifier": null,
+      "property": "chart.totalLabel",
+      "value": "false"
+    },
+    {
+      "chartUrl": "Jl6uSK",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "pie"
+    },
+    {
+      "chartUrl": "Jl6uSK",
+      "dashboardIdentifier": null,
+      "property": "chart.wBorderVisibility",
+      "value": "inherit_from_dash"
+    },
+    {
+      "chartUrl": "Jl6uSK",
+      "dashboardIdentifier": null,
+      "property": "chart.wTitleVisibility",
+      "value": "inherit_from_dash"
+    },
+    {
+      "chartUrl": "Jl6uSK",
+      "dashboardIdentifier": null,
+      "property": "grid.column.Click.widthPerc",
+      "value": "0.25"
+    },
+    {
+      "chartUrl": "Jl6uSK",
+      "dashboardIdentifier": null,
+      "property": "grid.column.Customer.widthPerc",
+      "value": "0.02891844997108155"
+    },
+    {
+      "chartUrl": "Jl6uSK",
+      "dashboardIdentifier": null,
+      "property": "grid.column.Date.widthPerc",
+      "value": "0.29907278712509144"
+    },
+    {
+      "chartUrl": "Jl6uSK",
+      "dashboardIdentifier": null,
+      "property": "grid.column.Name.widthPerc",
+      "value": "0.29907278712509144"
+    },
+    {
+      "chartUrl": "Jl6uSK",
+      "dashboardIdentifier": null,
+      "property": "grid.column.Spend.widthPerc",
+      "value": "0.45107180512476397"
+    },
+    {
+      "chartUrl": "Jl6uSK",
+      "dashboardIdentifier": null,
+      "property": "grid.column.Value.widthPerc",
+      "value": "0.7009272128749086"
+    },
+    {
+      "chartUrl": "Jl6uSK",
+      "dashboardIdentifier": null,
+      "property": "grid.columnWidths",
+      "value": "[\"0.29907278712509144\",\"0.45107180512476397\",\"0.25\",\"0.02891844997108155\"]"
+    },
+    {
+      "chartUrl": "Jl6uSK",
+      "dashboardIdentifier": null,
+      "property": "grid.sort.columnName",
+      "value": "id"
+    },
+    {
+      "chartUrl": "Jl6uSK",
+      "dashboardIdentifier": null,
+      "property": "grid.sort.type",
+      "value": "asc"
+    },
+    {
+      "chartUrl": "Jl6uSK",
+      "dashboardIdentifier": null,
+      "property": "legendAlias",
+      "value": "{}"
+    },
+    {
+      "chartUrl": "Jl6uSK",
+      "dashboardIdentifier": null,
+      "property": "loadUponPrompt",
+      "value": "false"
+    },
+    {
+      "chartUrl": "Jl6uSK",
+      "dashboardIdentifier": null,
+      "property": "repeatableWidget.showRepeatingPanel",
+      "value": "false"
+    },
+    {
+      "chartUrl": "Jl6uSK",
+      "dashboardIdentifier": null,
+      "property": "widgetDisplayOptions",
+      "value": "w-export-to-excel:true,highchart-context-menu:true"
+    }
+  ],
+  "charts": [
+    {
+      "access": 1,
+      "category": null,
+      "chartName": "Copy of Test NLG",
+      "datasetId": "${ref:dataset:Kj21bi}",
+      "description": "",
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": {
+        "fields": [
+          {
+            "fieldName": "Click",
+            "fieldType": "java.lang.Integer"
+          },
+          {
+            "fieldName": "Customer",
+            "fieldType": "java.lang.String"
+          },
+          {
+            "fieldName": "Date",
+            "fieldType": "java.util.Date"
+          },
+          {
+            "fieldName": "Spend",
+            "fieldType": "java.lang.Integer"
+          }
+        ]
+      },
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 1,
+      "url": "Jl6uSK",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": "",
+      "chartUrl": "Jl6uSK",
+      "jsonConfig": [],
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

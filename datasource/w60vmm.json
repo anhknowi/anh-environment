@@ -1,0 +1,30 @@
+{
+  "datasources": [
+    {
+      "acl": null,
+      "connectSchema": false,
+      "connectorId": 1,
+      "datasource": "mongo",
+      "directQueryOnly": false,
+      "inUse": true,
+      "jsonConfig": {
+        "datasource": "mongo",
+        "dbName": "cloud9",
+        "dbProperties": "${secret:datasource:w60vmm:dbProperties}",
+        "host": "docdb-2024-10-16-18-25-56.cluster-ccsixtg95k9d.us-east-1.docdb.amazonaws.com",
+        "name": "Document",
+        "password": "${secret:datasource:w60vmm:password}",
+        "port": "27017",
+        "proxy": false,
+        "userId": "knowi"
+      },
+      "name": "Document",
+      "op": 1,
+      "proxy": false,
+      "strId": "w60vmm",
+      "tunnel": false,
+      "writable": false
+    }
+  ],
+  "format": 1
+}

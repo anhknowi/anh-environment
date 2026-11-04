@@ -1,0 +1,28 @@
+{
+  "datasources": [
+    {
+      "acl": null,
+      "connectSchema": false,
+      "connectorId": 1,
+      "datasource": "snowflake",
+      "directQueryOnly": false,
+      "inUse": true,
+      "jsonConfig": {
+        "datasource": "snowflake",
+        "dbName": "SNOWFLAKE_SAMPLE_DATA",
+        "host": "pb76670.snowflakecomputing.com",
+        "name": "Snowflake Database",
+        "password": "${secret:datasource:ip6D8Z:password}",
+        "userId": "knowi",
+        "warehouse": "KNOWI"
+      },
+      "name": "Snowflake Database",
+      "op": 1,
+      "proxy": false,
+      "strId": "ip6D8Z",
+      "tunnel": false,
+      "writable": false
+    }
+  ],
+  "format": 1
+}

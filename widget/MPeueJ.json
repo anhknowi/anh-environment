@@ -1,0 +1,226 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "MPeueJ",
+      "dashboardIdentifier": null,
+      "property": "chart.column.ignore",
+      "value": ""
+    },
+    {
+      "chartUrl": "MPeueJ",
+      "dashboardIdentifier": null,
+      "property": "chart.dataset.limit",
+      "value": ""
+    },
+    {
+      "chartUrl": "MPeueJ",
+      "dashboardIdentifier": null,
+      "property": "chart.series.type",
+      "value": ""
+    },
+    {
+      "chartUrl": "MPeueJ",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "datagrid"
+    },
+    {
+      "chartUrl": "MPeueJ",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.column",
+      "value": ""
+    },
+    {
+      "chartUrl": "MPeueJ",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.order",
+      "value": ""
+    },
+    {
+      "chartUrl": "MPeueJ",
+      "dashboardIdentifier": null,
+      "property": "clickEvent",
+      "value": ""
+    },
+    {
+      "chartUrl": "MPeueJ",
+      "dashboardIdentifier": null,
+      "property": "evenbg.color",
+      "value": ""
+    },
+    {
+      "chartUrl": "MPeueJ",
+      "dashboardIdentifier": null,
+      "property": "font.color",
+      "value": ""
+    },
+    {
+      "chartUrl": "MPeueJ",
+      "dashboardIdentifier": null,
+      "property": "font.header.color",
+      "value": ""
+    },
+    {
+      "chartUrl": "MPeueJ",
+      "dashboardIdentifier": null,
+      "property": "formatOptions",
+      "value": "{}"
+    },
+    {
+      "chartUrl": "MPeueJ",
+      "dashboardIdentifier": null,
+      "property": "grid.aggregation",
+      "value": ""
+    },
+    {
+      "chartUrl": "MPeueJ",
+      "dashboardIdentifier": null,
+      "property": "grid.cells.padding",
+      "value": ""
+    },
+    {
+      "chartUrl": "MPeueJ",
+      "dashboardIdentifier": null,
+      "property": "grid.collapsible",
+      "value": "false"
+    },
+    {
+      "chartUrl": "MPeueJ",
+      "dashboardIdentifier": null,
+      "property": "grid.column._stream_time.widthPerc",
+      "value": "79"
+    },
+    {
+      "chartUrl": "MPeueJ",
+      "dashboardIdentifier": null,
+      "property": "grid.column.bounced.widthPerc",
+      "value": "50"
+    },
+    {
+      "chartUrl": "MPeueJ",
+      "dashboardIdentifier": null,
+      "property": "grid.column.campaign_name.widthPerc",
+      "value": "74"
+    },
+    {
+      "chartUrl": "MPeueJ",
+      "dashboardIdentifier": null,
+      "property": "grid.column.clicks.widthPerc",
+      "value": "50"
+    },
+    {
+      "chartUrl": "MPeueJ",
+      "dashboardIdentifier": null,
+      "property": "grid.column.conversions.widthPerc",
+      "value": "50"
+    },
+    {
+      "chartUrl": "MPeueJ",
+      "dashboardIdentifier": null,
+      "property": "grid.column.customer.widthPerc",
+      "value": "79"
+    },
+    {
+      "chartUrl": "MPeueJ",
+      "dashboardIdentifier": null,
+      "property": "grid.column.date.widthPerc",
+      "value": "293"
+    },
+    {
+      "chartUrl": "MPeueJ",
+      "dashboardIdentifier": null,
+      "property": "grid.column.delivered.widthPerc",
+      "value": "50"
+    },
+    {
+      "chartUrl": "MPeueJ",
+      "dashboardIdentifier": null,
+      "property": "grid.column.message_type.widthPerc",
+      "value": "79"
+    },
+    {
+      "chartUrl": "MPeueJ",
+      "dashboardIdentifier": null,
+      "property": "grid.column.opened.widthPerc",
+      "value": "50"
+    },
+    {
+      "chartUrl": "MPeueJ",
+      "dashboardIdentifier": null,
+      "property": "grid.column.sent.widthPerc",
+      "value": "78"
+    },
+    {
+      "chartUrl": "MPeueJ",
+      "dashboardIdentifier": null,
+      "property": "grid.column.spam.widthPerc",
+      "value": "50"
+    },
+    {
+      "chartUrl": "MPeueJ",
+      "dashboardIdentifier": null,
+      "property": "grid.column.week.widthPerc",
+      "value": "50"
+    },
+    {
+      "chartUrl": "MPeueJ",
+      "dashboardIdentifier": null,
+      "property": "grid.grouping",
+      "value": ""
+    },
+    {
+      "chartUrl": "MPeueJ",
+      "dashboardIdentifier": null,
+      "property": "grid.lineThickness",
+      "value": ""
+    },
+    {
+      "chartUrl": "MPeueJ",
+      "dashboardIdentifier": null,
+      "property": "grid.resetColumnWidth",
+      "value": ""
+    },
+    {
+      "chartUrl": "MPeueJ",
+      "dashboardIdentifier": null,
+      "property": "headerbg.color",
+      "value": ""
+    },
+    {
+      "chartUrl": "MPeueJ",
+      "dashboardIdentifier": null,
+      "property": "minColWidth",
+      "value": ""
+    },
+    {
+      "chartUrl": "MPeueJ",
+      "dashboardIdentifier": null,
+      "property": "oddbg.color",
+      "value": ""
+    },
+    {
+      "chartUrl": "MPeueJ",
+      "dashboardIdentifier": null,
+      "property": "widget.footnote",
+      "value": ""
+    }
+  ],
+  "charts": [
+    {
+      "access": 1,
+      "category": "All",
+      "chartName": "Stagging",
+      "datasetId": "${ref:dataset:MPeueJ}",
+      "description": "",
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 2,
+      "url": "MPeueJ",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

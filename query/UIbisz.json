@@ -1,0 +1,46 @@
+{
+  "dataConfigs": [
+    {
+      "datasetIdentifier": "${ref:dataset:OUYELx}",
+      "queryIdentifier": "OUYELx",
+      "queryStrId": "UIbisz"
+    }
+  ],
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:OTS6vw}",
+      "description": "",
+      "direct": false,
+      "directPush": true,
+      "entityName": "all",
+      "identifier": "OUYELx",
+      "inUse": true,
+      "jsonConfig": {
+        "c9ExportDataset": "${ref:dataset:OUYELx}",
+        "c9ExportEntityName": "anh.json",
+        "c9ExportIdentifier": "OUYELx",
+        "datasourceId": "${ref:datasource:OTS6vw}",
+        "direct": false,
+        "discovery": {
+          "limit": 10000,
+          "tableName": "${ref:dataset:OUYELx}"
+        },
+        "entityName": "all",
+        "identifier": "OUYELx",
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "queryStr": "select *",
+        "triggered": false
+      },
+      "op": 2,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "UIbisz",
+      "triggerDatasetId": 0
+    }
+  ]
+}

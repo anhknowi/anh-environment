@@ -1,0 +1,23 @@
+{
+  "datasets": [
+    {
+      "agenticDefault": false,
+      "bypassOverrideLimit": false,
+      "dataExpirationDate": null,
+      "datasetName": "Test Report Fail",
+      "identifier": "7sXnI7",
+      "injectStreamTime": false,
+      "metaHash": -1586915111,
+      "metadataConfig": "{\"fields\":[{\"fieldName\":\"AnotherId\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"AnotherStringWithOut\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"CommonName\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"CreatedOn\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"Description\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"es_id\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"FullName\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"Host\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"Id\",\"fieldType\":\"java.util.Map\",\"nestedFields\":[{\"fieldName\":\"FullId\",\"fieldType\":\"java.lang.String\"}]},{\"fieldName\":\"TestAgainSummary\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"TestSummary\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"Version\",\"fieldType\":\"java.util.Map\",\"nestedFields\":[{\"fieldName\":\"Major\",\"fieldType\":\"java.lang.Double\"},{\"fieldName\":\"Minor\",\"fieldType\":\"java.lang.Double\"}]},{\"fieldName\":\"_stream_time\",\"fieldType\":\"java.util.Date\"}]}",
+      "mongoConnectUri": "provisioned",
+      "nlpBotEnabled": true,
+      "nlpConfig": null,
+      "nlpEnabled": false,
+      "nlpIndexInterval": 360,
+      "refreshMeta": false,
+      "synonymHash": 31,
+      "timeZone": null
+    }
+  ],
+  "format": 1
+}

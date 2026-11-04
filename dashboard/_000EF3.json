@@ -1,0 +1,19 @@
+{
+  "dashboards": [
+    {
+      "dashAccessLevel": 0,
+      "displayOrder": 0,
+      "filterSettings": null,
+      "identifier": "_000EF3",
+      "jsonConfig": null,
+      "locked": 0,
+      "name": "hjhhhh",
+      "screenAdjust": 1,
+      "screenHeight": 1020,
+      "screenWidth": 1648,
+      "type": 1,
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

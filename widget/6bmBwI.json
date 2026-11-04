@@ -1,0 +1,51 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "6bmBwI",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "datagrid2"
+    }
+  ],
+  "charts": [
+    {
+      "access": 1,
+      "category": null,
+      "chartName": "Test Mongo Derived",
+      "datasetId": "${ref:dataset:6bmBwI}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": {
+        "fields": [
+          {
+            "fieldName": "customer",
+            "fieldType": "java.lang.String"
+          },
+          {
+            "fieldName": "sourceNode",
+            "fieldType": "java.lang.String"
+          },
+          {
+            "fieldName": "Sum of clicks",
+            "fieldType": "java.lang.Integer"
+          },
+          {
+            "fieldName": "top_five",
+            "fieldType": "java.lang.Integer"
+          },
+          {
+            "fieldName": "total clicks",
+            "fieldType": "java.lang.Double"
+          }
+        ]
+      },
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 21,
+      "url": "6bmBwI",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

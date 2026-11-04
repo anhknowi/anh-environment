@@ -1,0 +1,47 @@
+{
+  "dataConfigs": [
+    {
+      "datasetIdentifier": "${ref:dataset:ux8RIf}",
+      "queryIdentifier": "ux8RIf",
+      "queryStrId": "SdOpBZ"
+    }
+  ],
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:OTS6vw}",
+      "description": null,
+      "direct": false,
+      "directPush": true,
+      "entityName": "orderswithitemclass.csv",
+      "identifier": "ux8RIf",
+      "inUse": true,
+      "jsonConfig": {
+        "c9ExportDataset": "${ref:dataset:ux8RIf}",
+        "c9ExportEntityName": "orderswithitemclass.csv",
+        "c9ExportIdentifier": "ux8RIf",
+        "datasourceId": "${ref:datasource:OTS6vw}",
+        "direct": false,
+        "discovery": {
+          "discoveryForSuggestions": false,
+          "limit": 10000,
+          "tableName": "${ref:dataset:ux8RIf}"
+        },
+        "entityName": "orderswithitemclass.csv",
+        "identifier": "ux8RIf",
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "queryStr": "select *",
+        "triggered": false
+      },
+      "op": 1,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "SdOpBZ",
+      "triggerDatasetId": 0
+    }
+  ]
+}

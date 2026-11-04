@@ -1,0 +1,40 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "PG5hHS",
+      "dashboardIdentifier": null,
+      "property": "chart.legend.column",
+      "value": "id"
+    },
+    {
+      "chartUrl": "PG5hHS",
+      "dashboardIdentifier": null,
+      "property": "chart.series.data",
+      "value": "hits"
+    },
+    {
+      "chartUrl": "PG5hHS",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "pie"
+    }
+  ],
+  "charts": [
+    {
+      "access": 1,
+      "category": null,
+      "chartName": "AAAA",
+      "datasetId": "${ref:dataset:PG5hHS}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": 0,
+      "query": 0,
+      "type": 1,
+      "url": "PG5hHS",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

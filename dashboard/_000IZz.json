@@ -1,0 +1,54 @@
+{
+  "dashboards": [
+    {
+      "dashAccessLevel": 1,
+      "displayOrder": 0,
+      "filterSettings": "{\"state\":\"manual\",\"fields\":{\"access\":\"Forbid\",\"values\":[\"deviceId\"]},\"cascadingSuggestions\":\"disable\"}",
+      "identifier": "_000IZz",
+      "jsonConfig": {
+        "excludeGridWidgetsFromPdfExport": false,
+        "filters": [
+          {
+            "enabled": true,
+            "fieldName": "deviceId",
+            "fieldType": "java.lang.String",
+            "operator": "Equals",
+            "transientFilter": false,
+            "type": "java.lang.String",
+            "values": [
+              "00E0A9610C34"
+            ],
+            "visible": false
+          }
+        ],
+        "footer": "<b>footer1</b>",
+        "view": {
+          "actions": true,
+          "backgroundColor": "",
+          "border": true,
+          "dashTitle": true,
+          "dashTitleBg": "",
+          "dashTitleFont": "",
+          "dashTitleFontColor": "",
+          "drag": true,
+          "enableDashFilterIcon": true,
+          "enableHeaders": true,
+          "enablePdfExport": true,
+          "filter": true,
+          "resize": true,
+          "setting": true,
+          "title": true,
+          "widgetSpacing": 2
+        }
+      },
+      "locked": 0,
+      "name": "Copy Of Copier Test 1",
+      "screenAdjust": 1,
+      "screenHeight": 904,
+      "screenWidth": 1520,
+      "type": 1,
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

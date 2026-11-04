@@ -1,0 +1,27 @@
+{
+  "datasources": [
+    {
+      "acl": null,
+      "connectSchema": false,
+      "connectorId": 1,
+      "datasource": "bigquery",
+      "directQueryOnly": false,
+      "inUse": true,
+      "jsonConfig": {
+        "authRefreshToken": "${secret:datasource:O582hc:authRefreshToken}",
+        "authToken": "${secret:datasource:O582hc:authToken}",
+        "authVersion": "1",
+        "datasource": "bigquery",
+        "name": "Google BigQuery1",
+        "projectId": "knowi-ulad"
+      },
+      "name": "Google BigQuery1",
+      "op": 1,
+      "proxy": false,
+      "strId": "O582hc",
+      "tunnel": false,
+      "writable": false
+    }
+  ],
+  "format": 1
+}

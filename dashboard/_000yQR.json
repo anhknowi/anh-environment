@@ -1,0 +1,38 @@
+{
+  "dashboards": [
+    {
+      "dashAccessLevel": 0,
+      "displayOrder": 2,
+      "filterSettings": null,
+      "identifier": "_000yQR",
+      "jsonConfig": {
+        "description": "",
+        "footer": "",
+        "header": "",
+        "view": {
+          "actions": true,
+          "backgroundColor": "",
+          "border": true,
+          "dashTitle": true,
+          "drag": true,
+          "enableDashFilterIcon": true,
+          "enableHeaders": true,
+          "enablePdfExport": true,
+          "filter": true,
+          "resize": true,
+          "setting": true,
+          "title": true,
+          "widgetSpacing": 5
+        }
+      },
+      "locked": 0,
+      "name": "Lockheed Drilldown",
+      "screenAdjust": 0,
+      "screenHeight": 953,
+      "screenWidth": 1879,
+      "type": 1,
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

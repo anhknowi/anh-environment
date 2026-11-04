@@ -1,0 +1,187 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "7UpY7h",
+      "dashboardIdentifier": null,
+      "property": "chart.quickpickers",
+      "value": "0"
+    },
+    {
+      "chartUrl": "7UpY7h",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "datagrid2"
+    },
+    {
+      "chartUrl": "7UpY7h",
+      "dashboardIdentifier": null,
+      "property": "formatOptions",
+      "value": "{}"
+    },
+    {
+      "chartUrl": "7UpY7h",
+      "dashboardIdentifier": null,
+      "property": "grid.aggregation.header",
+      "value": "false"
+    },
+    {
+      "chartUrl": "7UpY7h",
+      "dashboardIdentifier": null,
+      "property": "grid.collapsible",
+      "value": "false"
+    },
+    {
+      "chartUrl": "7UpY7h",
+      "dashboardIdentifier": null,
+      "property": "grid.column.bounced.widthPerc",
+      "value": "91"
+    },
+    {
+      "chartUrl": "7UpY7h",
+      "dashboardIdentifier": null,
+      "property": "grid.column.campaign_name.widthPerc",
+      "value": "89"
+    },
+    {
+      "chartUrl": "7UpY7h",
+      "dashboardIdentifier": null,
+      "property": "grid.column.clicks.widthPerc",
+      "value": "86"
+    },
+    {
+      "chartUrl": "7UpY7h",
+      "dashboardIdentifier": null,
+      "property": "grid.column.conversions.widthPerc",
+      "value": "84"
+    },
+    {
+      "chartUrl": "7UpY7h",
+      "dashboardIdentifier": null,
+      "property": "grid.column.customer.widthPerc",
+      "value": "91"
+    },
+    {
+      "chartUrl": "7UpY7h",
+      "dashboardIdentifier": null,
+      "property": "grid.column.date.widthPerc",
+      "value": "60"
+    },
+    {
+      "chartUrl": "7UpY7h",
+      "dashboardIdentifier": null,
+      "property": "grid.column.delivered.widthPerc",
+      "value": "91"
+    },
+    {
+      "chartUrl": "7UpY7h",
+      "dashboardIdentifier": null,
+      "property": "grid.column.id .widthPerc",
+      "value": "81"
+    },
+    {
+      "chartUrl": "7UpY7h",
+      "dashboardIdentifier": null,
+      "property": "grid.column.message_type.widthPerc",
+      "value": "91"
+    },
+    {
+      "chartUrl": "7UpY7h",
+      "dashboardIdentifier": null,
+      "property": "grid.column.opened.widthPerc",
+      "value": "91"
+    },
+    {
+      "chartUrl": "7UpY7h",
+      "dashboardIdentifier": null,
+      "property": "grid.column.sent.widthPerc",
+      "value": "91"
+    },
+    {
+      "chartUrl": "7UpY7h",
+      "dashboardIdentifier": null,
+      "property": "grid.column.spam.widthPerc",
+      "value": "91"
+    },
+    {
+      "chartUrl": "7UpY7h",
+      "dashboardIdentifier": null,
+      "property": "grid.column.week.widthPerc",
+      "value": "122"
+    },
+    {
+      "chartUrl": "7UpY7h",
+      "dashboardIdentifier": null,
+      "property": "grid.hideGroupingColumn",
+      "value": "false"
+    },
+    {
+      "chartUrl": "7UpY7h",
+      "dashboardIdentifier": null,
+      "property": "grid.resetColumnWidth",
+      "value": "false"
+    },
+    {
+      "chartUrl": "7UpY7h",
+      "dashboardIdentifier": null,
+      "property": "widget.footnote",
+      "value": "Test Foot"
+    }
+  ],
+  "chartQueries": [
+    {
+      "chartUrl": "7UpY7h",
+      "queryStr": [
+        "select *, date_format(date, \"yyyy-MM-dd HH:mm:ss\") as date,",
+        " date_format(week, \"yyyy-MM-dd HH:mm:ss\") as week, id"
+      ]
+    }
+  ],
+  "charts": [
+    {
+      "access": 1,
+      "category": null,
+      "chartName": "sendingraw",
+      "datasetId": "${ref:dataset:7UpY7h}",
+      "description": "Test Note",
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": -1,
+      "query": 1,
+      "type": 21,
+      "url": "7UpY7h",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": [
+        "select 'campaign_name',",
+        "  <img style='width:100%;' src='https://thumbs.dreamstime.com/b/best-imag-my-editing-album-photo-albums-144808262.jpg'/> as 'picture'"
+      ],
+      "chartUrl": "7UpY7h",
+      "jsonConfig": [
+        {
+          "limit": 0,
+          "metrics": [
+            {
+              "customized": false,
+              "fieldName": "campaign_name",
+              "fieldType": "java.lang.String",
+              "label": "campaign_name"
+            },
+            {
+              "customized": true,
+              "fieldName": "<img style='width:100%;' src='https://thumbs.dreamstime.com/b/best-imag-my-editing-album-photo-albums-144808262.jpg'/>",
+              "fieldType": "java.lang.String",
+              "label": "picture"
+            }
+          ]
+        }
+      ],
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

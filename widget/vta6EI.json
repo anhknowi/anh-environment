@@ -1,0 +1,76 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "vta6EI",
+      "dashboardIdentifier": null,
+      "property": "chart.dataset.limit",
+      "value": "10"
+    },
+    {
+      "chartUrl": "vta6EI",
+      "dashboardIdentifier": null,
+      "property": "chart.quickpickers",
+      "value": "0"
+    },
+    {
+      "chartUrl": "vta6EI",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "text"
+    },
+    {
+      "chartUrl": "vta6EI",
+      "dashboardIdentifier": null,
+      "property": "orientation.vertical",
+      "value": "false"
+    },
+    {
+      "chartUrl": "vta6EI",
+      "dashboardIdentifier": null,
+      "property": "scale",
+      "value": "true"
+    },
+    {
+      "chartUrl": "vta6EI",
+      "dashboardIdentifier": null,
+      "property": "text.align.horizontal",
+      "value": "center"
+    },
+    {
+      "chartUrl": "vta6EI",
+      "dashboardIdentifier": null,
+      "property": "text.align.vertical",
+      "value": "middle"
+    },
+    {
+      "chartUrl": "vta6EI",
+      "dashboardIdentifier": null,
+      "property": "text.fieldname.hidden",
+      "value": "false"
+    },
+    {
+      "chartUrl": "vta6EI",
+      "dashboardIdentifier": null,
+      "property": "text.fieldname.strong",
+      "value": "false"
+    }
+  ],
+  "charts": [
+    {
+      "access": 1,
+      "category": null,
+      "chartName": "LLLLLLL",
+      "datasetId": "${ref:dataset:vta6EI}",
+      "description": "",
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 4,
+      "url": "vta6EI",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

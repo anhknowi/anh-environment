@@ -1,0 +1,47 @@
+{
+  "discoveryConfigs": [
+    {
+      "c9Query": "",
+      "chartUrl": "",
+      "jsonConfig": [],
+      "queryIdentifier": "7sXnI7",
+      "queryStrId": "HUkvKd"
+    }
+  ],
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:FaAmYg}",
+      "description": "",
+      "direct": false,
+      "directPush": true,
+      "entityName": "Test Report Fail",
+      "identifier": "7sXnI7",
+      "inUse": true,
+      "jsonConfig": {
+        "datasourceId": "${ref:datasource:FaAmYg}",
+        "direct": false,
+        "discovery": {
+          "dbName": "company",
+          "limit": 10000,
+          "tableName": "company"
+        },
+        "entityName": "Test Report Fail",
+        "indexes": "company",
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "queryStr": "{\n  \"size\" : 10000\n}",
+        "triggered": false,
+        "visual": true
+      },
+      "op": 4,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "HUkvKd",
+      "triggerDatasetId": 0
+    }
+  ]
+}

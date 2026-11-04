@@ -1,0 +1,210 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "FipG9l",
+      "dashboardIdentifier": null,
+      "property": "chart.quickpickers",
+      "value": "0"
+    },
+    {
+      "chartUrl": "FipG9l",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "datagrid2"
+    },
+    {
+      "chartUrl": "FipG9l",
+      "dashboardIdentifier": null,
+      "property": "grid.aggregation.header",
+      "value": "false"
+    },
+    {
+      "chartUrl": "FipG9l",
+      "dashboardIdentifier": null,
+      "property": "grid.collapsible",
+      "value": "false"
+    },
+    {
+      "chartUrl": "FipG9l",
+      "dashboardIdentifier": null,
+      "property": "grid.column.bounced.widthPerc",
+      "value": "104"
+    },
+    {
+      "chartUrl": "FipG9l",
+      "dashboardIdentifier": null,
+      "property": "grid.column.campaign_name.widthPerc",
+      "value": "50"
+    },
+    {
+      "chartUrl": "FipG9l",
+      "dashboardIdentifier": null,
+      "property": "grid.column.clicks.widthPerc",
+      "value": "103"
+    },
+    {
+      "chartUrl": "FipG9l",
+      "dashboardIdentifier": null,
+      "property": "grid.column.conversions.widthPerc",
+      "value": "50"
+    },
+    {
+      "chartUrl": "FipG9l",
+      "dashboardIdentifier": null,
+      "property": "grid.column.customer.widthPerc",
+      "value": "123"
+    },
+    {
+      "chartUrl": "FipG9l",
+      "dashboardIdentifier": null,
+      "property": "grid.column.date.widthPerc",
+      "value": "123"
+    },
+    {
+      "chartUrl": "FipG9l",
+      "dashboardIdentifier": null,
+      "property": "grid.column.delivered.widthPerc",
+      "value": "117"
+    },
+    {
+      "chartUrl": "FipG9l",
+      "dashboardIdentifier": null,
+      "property": "grid.column.id .widthPerc",
+      "value": "134"
+    },
+    {
+      "chartUrl": "FipG9l",
+      "dashboardIdentifier": null,
+      "property": "grid.column.lkajsflkj afdslkjasd lkjsdafl alkfjas lfkjlsakfj lakjdf lkasjflkasdjflk asflksjadfl jaslfkj sdf afjklksaj aslfkj asdlfkjsa f.widthPerc",
+      "value": "289"
+    },
+    {
+      "chartUrl": "FipG9l",
+      "dashboardIdentifier": null,
+      "property": "grid.column.message_type.widthPerc",
+      "value": "123"
+    },
+    {
+      "chartUrl": "FipG9l",
+      "dashboardIdentifier": null,
+      "property": "grid.column.opened.widthPerc",
+      "value": "123"
+    },
+    {
+      "chartUrl": "FipG9l",
+      "dashboardIdentifier": null,
+      "property": "grid.column.sent.widthPerc",
+      "value": "123"
+    },
+    {
+      "chartUrl": "FipG9l",
+      "dashboardIdentifier": null,
+      "property": "grid.column.spam.widthPerc",
+      "value": "122"
+    },
+    {
+      "chartUrl": "FipG9l",
+      "dashboardIdentifier": null,
+      "property": "grid.column.week.widthPerc",
+      "value": "123"
+    },
+    {
+      "chartUrl": "FipG9l",
+      "dashboardIdentifier": null,
+      "property": "grid.hideGroupingColumn",
+      "value": "false"
+    },
+    {
+      "chartUrl": "FipG9l",
+      "dashboardIdentifier": null,
+      "property": "grid.resetColumnWidth",
+      "value": "false"
+    }
+  ],
+  "charts": [
+    {
+      "access": 1,
+      "category": null,
+      "chartName": "Copy of Test Mongo",
+      "datasetId": "${ref:dataset:FipG9l}",
+      "description": "",
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": {
+        "fields": [
+          {
+            "fieldName": "bounced",
+            "fieldType": "java.lang.Integer"
+          },
+          {
+            "fieldName": "campaign_name",
+            "fieldType": "java.lang.String"
+          },
+          {
+            "fieldName": "clicks",
+            "fieldType": "java.lang.Integer"
+          },
+          {
+            "fieldName": "conversions",
+            "fieldType": "java.lang.Integer"
+          },
+          {
+            "fieldName": "customer",
+            "fieldType": "java.lang.String"
+          },
+          {
+            "fieldName": "date",
+            "fieldType": "java.util.Date"
+          },
+          {
+            "fieldName": "delivered",
+            "fieldType": "java.lang.Integer"
+          },
+          {
+            "fieldName": "id",
+            "fieldType": "java.lang.String"
+          },
+          {
+            "fieldName": "lkajsflkj afdslkjasd lkjsdafl alkfjas lfkjlsakfj lakjdf lkasjflkasdjflk asflksjadfl jaslfkj sdf afjklksaj aslfkj asdlfkjsa f",
+            "fieldType": "java.lang.Integer"
+          },
+          {
+            "fieldName": "message_type",
+            "fieldType": "java.lang.String"
+          },
+          {
+            "fieldName": "opened",
+            "fieldType": "java.lang.Integer"
+          },
+          {
+            "fieldName": "sent",
+            "fieldType": "java.lang.Integer"
+          },
+          {
+            "fieldName": "spam",
+            "fieldType": "java.lang.Integer"
+          },
+          {
+            "fieldName": "week",
+            "fieldType": "java.util.Date"
+          }
+        ]
+      },
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 21,
+      "url": "FipG9l",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": "",
+      "chartUrl": "FipG9l",
+      "jsonConfig": [],
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

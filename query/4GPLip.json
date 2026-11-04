@@ -1,0 +1,51 @@
+{
+  "discoveryConfigs": [
+    {
+      "c9Query": "",
+      "chartUrl": "",
+      "jsonConfig": [],
+      "queryIdentifier": "cXmV0i",
+      "queryStrId": "4GPLip"
+    }
+  ],
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:mADa85}",
+      "description": "",
+      "direct": false,
+      "directPush": true,
+      "entityName": "Test Private",
+      "identifier": "cXmV0i",
+      "inUse": true,
+      "jsonConfig": {
+        "c9QLFilter": "select 'ᵖ POSITIVE' as anh",
+        "datasourceId": "${ref:datasource:mADa85}",
+        "direct": false,
+        "discovery": {
+          "limit": 10000,
+          "tableName": [
+            "anhtest"
+          ]
+        },
+        "entityName": "Test Private",
+        "frequency": "100",
+        "frequencyType": "months",
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "queryStr": "select *\nfrom \"anhtest\"\nlimit 1",
+        "startTime": "10/20/2022 11:52",
+        "triggered": false,
+        "visual": false
+      },
+      "op": 6,
+      "scheduled": 1,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "4GPLip",
+      "triggerDatasetId": 0
+    }
+  ]
+}

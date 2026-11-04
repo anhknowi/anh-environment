@@ -1,0 +1,23 @@
+{
+  "datasets": [
+    {
+      "agenticDefault": false,
+      "bypassOverrideLimit": false,
+      "dataExpirationDate": null,
+      "datasetName": "AFFDAFASDF",
+      "identifier": "QvRzaE",
+      "injectStreamTime": false,
+      "metaHash": -1814437539,
+      "metadataConfig": "{\"macroFields\":[{\"fieldName\":\"CUSTNAME\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"MYNUM\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"$c9_CUSTNAME$\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"$c9_MYNUM$\",\"fieldType\":\"java.lang.String\"}],\"fields\":[{\"fieldName\":\"cli:ID-CIE\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"sent\",\"fieldType\":\"java.lang.Integer\",\"displayType\":{\"type\":\"java.lang.String\"}}]}",
+      "mongoConnectUri": "c9Query/${ref:query:lUTt3M}",
+      "nlpBotEnabled": true,
+      "nlpConfig": null,
+      "nlpEnabled": true,
+      "nlpIndexInterval": 360,
+      "refreshMeta": true,
+      "synonymHash": 31,
+      "timeZone": null
+    }
+  ],
+  "format": 1
+}

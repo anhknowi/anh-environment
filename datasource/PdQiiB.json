@@ -1,0 +1,25 @@
+{
+  "datasources": [
+    {
+      "acl": null,
+      "connectSchema": false,
+      "connectorId": 1,
+      "datasource": "hive",
+      "directQueryOnly": false,
+      "inUse": true,
+      "jsonConfig": {
+        "datasource": "hive",
+        "dbName": "default",
+        "host": "demo.knowi.com:10000",
+        "name": "Hive Datasource"
+      },
+      "name": "Hive Datasource",
+      "op": 1,
+      "proxy": false,
+      "strId": "PdQiiB",
+      "tunnel": false,
+      "writable": false
+    }
+  ],
+  "format": 1
+}

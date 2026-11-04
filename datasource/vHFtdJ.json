@@ -1,0 +1,29 @@
+{
+  "datasources": [
+    {
+      "acl": null,
+      "connectSchema": false,
+      "connectorId": 1,
+      "datasource": "datastax",
+      "directQueryOnly": false,
+      "inUse": true,
+      "jsonConfig": {
+        "datasource": "datastax",
+        "dbName": "cloud9demo",
+        "host": "52.32.165.149",
+        "name": "Cassandra Database",
+        "password": "${secret:datasource:vHFtdJ:password}",
+        "port": "9042",
+        "proxy": false,
+        "userId": "iccassandra"
+      },
+      "name": "Cassandra Database",
+      "op": 1,
+      "proxy": false,
+      "strId": "vHFtdJ",
+      "tunnel": false,
+      "writable": false
+    }
+  ],
+  "format": 1
+}

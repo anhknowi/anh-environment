@@ -1,0 +1,30 @@
+{
+  "datasources": [
+    {
+      "acl": null,
+      "connectSchema": false,
+      "connectorId": 1,
+      "datasource": "redshift",
+      "directQueryOnly": false,
+      "inUse": true,
+      "jsonConfig": {
+        "connectSchema": false,
+        "datasource": "redshift",
+        "dbName": "datatesting",
+        "host": "redshift-cluster-1.cvzwd9zgavth.us-east-1.redshift.amazonaws.com",
+        "name": "Redshift Database 1",
+        "password": "${secret:datasource:y1Htip:password}",
+        "port": "5439",
+        "userId": "cloud9",
+        "writable": true
+      },
+      "name": "Redshift Database 1",
+      "op": 1,
+      "proxy": false,
+      "strId": "y1Htip",
+      "tunnel": false,
+      "writable": true
+    }
+  ],
+  "format": 1
+}

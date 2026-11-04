@@ -1,0 +1,23 @@
+{
+  "datasets": [
+    {
+      "agenticDefault": false,
+      "bypassOverrideLimit": false,
+      "dataExpirationDate": null,
+      "datasetName": "Test1",
+      "identifier": "lzbqPk",
+      "injectStreamTime": false,
+      "metaHash": 0,
+      "metadataConfig": "{\"fields\":[{\"fieldName\":\"AGE\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"BILL_AMT1\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"BILL_AMT2\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"BILL_AMT3\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"BILL_AMT4\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"BILL_AMT5\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"BILL_AMT6\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"EDUCATION\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"ID\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"id_0\",\"fieldType\":\"java.util.Map\",\"nestedFields\":[{\"fieldName\":\"$oid\",\"fieldType\":\"java.lang.String\"}]},{\"fieldName\":\"LIMIT_BAL\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"MARRIAGE\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"PAY_0\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"PAY_2\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"PAY_3\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"PAY_4\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"PAY_5\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"PAY_6\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"PAY_AMT1\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"PAY_AMT2\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"PAY_AMT3\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"PAY_AMT4\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"PAY_AMT5\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"PAY_AMT6\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"SEX\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"_stream_time\",\"fieldType\":\"java.util.Date\"}]}",
+      "mongoConnectUri": "provisioned",
+      "nlpBotEnabled": true,
+      "nlpConfig": null,
+      "nlpEnabled": false,
+      "nlpIndexInterval": 360,
+      "refreshMeta": false,
+      "synonymHash": 31,
+      "timeZone": null
+    }
+  ],
+  "format": 1
+}

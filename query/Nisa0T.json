@@ -1,0 +1,46 @@
+{
+  "dataConfigs": [
+    {
+      "datasetIdentifier": "${ref:dataset:x5Kl9I}",
+      "queryIdentifier": "x5Kl9I",
+      "queryStrId": "Nisa0T"
+    }
+  ],
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:OTS6vw}",
+      "description": null,
+      "direct": false,
+      "directPush": true,
+      "entityName": "Curexa - Rx Info (VRN).xlsx",
+      "identifier": "x5Kl9I",
+      "inUse": true,
+      "jsonConfig": {
+        "c9ExportDataset": "${ref:dataset:x5Kl9I}",
+        "c9ExportEntityName": "Curexa - Rx Info (VRN).xlsx",
+        "c9ExportIdentifier": "x5Kl9I",
+        "datasourceId": "${ref:datasource:OTS6vw}",
+        "direct": false,
+        "discovery": {
+          "limit": 10000,
+          "tableName": "${ref:dataset:x5Kl9I}"
+        },
+        "entityName": "Curexa - Rx Info (VRN).xlsx",
+        "identifier": "x5Kl9I",
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "queryStr": "select *",
+        "triggered": false
+      },
+      "op": 1,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "Nisa0T",
+      "triggerDatasetId": 0
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  "chartAssociations": [
+    {
+      "chartUrl": "83Rw21",
+      "jsonConfig": [
+        {
+          "id": "${ref:dashboard:_000wws}",
+          "passingFilters": true,
+          "type": "dashboard"
+        }
+      ]
+    }
+  ],
+  "chartProperties": [
+    {
+      "chartUrl": "83Rw21",
+      "dashboardIdentifier": null,
+      "property": "chart.changeDataset",
+      "value": "145764"
+    },
+    {
+      "chartUrl": "83Rw21",
+      "dashboardIdentifier": null,
+      "property": "chart.column.ignore",
+      "value": "conversions"
+    },
+    {
+      "chartUrl": "83Rw21",
+      "dashboardIdentifier": null,
+      "property": "chart.quickpickers",
+      "value": "0"
+    },
+    {
+      "chartUrl": "83Rw21",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "datagrid2"
+    },
+    {
+      "chartUrl": "83Rw21",
+      "dashboardIdentifier": null,
+      "property": "grid.aggregation.header",
+      "value": "false"
+    },
+    {
+      "chartUrl": "83Rw21",
+      "dashboardIdentifier": null,
+      "property": "grid.collapsible",
+      "value": "false"
+    },
+    {
+      "chartUrl": "83Rw21",
+      "dashboardIdentifier": null,
+      "property": "grid.column.anh.widthPerc",
+      "value": "0.12755102040816327"
+    },
+    {
+      "chartUrl": "83Rw21",
+      "dashboardIdentifier": null,
+      "property": "grid.column.bounced.widthPerc",
+      "value": "0.12755102040816327"
+    },
+    {
+      "chartUrl": "83Rw21",
+      "dashboardIdentifier": null,
+      "property": "grid.column.campaign_name.widthPerc",
+      "value": "0.12755102040816327"
+    },
+    {
+      "chartUrl": "83Rw21",
+      "dashboardIdentifier": null,
+      "property": "grid.column.clicks.widthPerc",
+      "value": "0.12755102040816327"
+    },
+    {
+      "chartUrl": "83Rw21",
+      "dashboardIdentifier": null,
+      "property": "grid.column.conversions.widthPerc",
+      "value": "0.07692307692307693"
+    },
+    {
+      "chartUrl": "83Rw21",
+      "dashboardIdentifier": null,
+      "property": "grid.column.customer.widthPerc",
+      "value": "0.12755102040816327"
+    },
+    {
+      "chartUrl": "83Rw21",
+      "dashboardIdentifier": null,
+      "property": "grid.column.date.widthPerc",
+      "value": "0.12755102040816327"
+    },
+    {
+      "chartUrl": "83Rw21",
+      "dashboardIdentifier": null,
+      "property": "grid.column.delivered.widthPerc",
+      "value": "0.12755102040816327"
+    },
+    {
+      "chartUrl": "83Rw21",
+      "dashboardIdentifier": null,
+      "property": "grid.column.id .widthPerc",
+      "value": "0.12755102040816327"
+    },
+    {
+      "chartUrl": "83Rw21",
+      "dashboardIdentifier": null,
+      "property": "grid.column.message_type.widthPerc",
+      "value": "0.12755102040816327"
+    },
+    {
+      "chartUrl": "83Rw21",
+      "dashboardIdentifier": null,
+      "property": "grid.column.opened.widthPerc",
+      "value": "0.12755102040816327"
+    },
+    {
+      "chartUrl": "83Rw21",
+      "dashboardIdentifier": null,
+      "property": "grid.column.sent.widthPerc",
+      "value": "0.12755102040816327"
+    },
+    {
+      "chartUrl": "83Rw21",
+      "dashboardIdentifier": null,
+      "property": "grid.column.spam.widthPerc",
+      "value": "0.12755102040816327"
+    },
+    {
+      "chartUrl": "83Rw21",
+      "dashboardIdentifier": null,
+      "property": "grid.column.week.widthPerc",
+      "value": "0.12755102040816327"
+    },
+    {
+      "chartUrl": "83Rw21",
+      "dashboardIdentifier": null,
+      "property": "grid.columnWidths",
+      "value": "[0.08333333333333336,0.08333333333333336,0.08333333333333336,0.08333333333333336,0.08333333333333336,0.08333333333333336,0.08333333333333336,0.08333333333333336,0.08333333333333336,0.08333333333333336,0.08333333333333336,0.08333333333333336]"
+    },
+    {
+      "chartUrl": "83Rw21",
+      "dashboardIdentifier": null,
+      "property": "grid.hideGroupingColumn",
+      "value": "false"
+    },
+    {
+      "chartUrl": "83Rw21",
+      "dashboardIdentifier": null,
+      "property": "grid.resetColumnWidth",
+      "value": "false"
+    },
+    {
+      "chartUrl": "83Rw21",
+      "dashboardIdentifier": null,
+      "property": "grid.sort.columnName",
+      "value": "bounced"
+    },
+    {
+      "chartUrl": "83Rw21",
+      "dashboardIdentifier": null,
+      "property": "grid.sort.type",
+      "value": "asc"
+    },
+    {
+      "chartUrl": "83Rw21",
+      "dashboardIdentifier": null,
+      "property": "scale",
+      "value": "false"
+    }
+  ],
+  "charts": [
+    {
+      "access": 1,
+      "category": null,
+      "chartName": "C",
+      "datasetId": "${ref:dataset:VWQcJi}",
+      "description": "",
+      "drilldown": 1,
+      "filterSettings": null,
+      "jsonConfig": {
+        "filters": [
+          {
+            "enabled": true,
+            "fieldName": "bounced",
+            "fieldType": "java.lang.Integer",
+            "operator": "Greater than",
+            "plainControlType": "multiple",
+            "transientFilter": false,
+            "type": "java.lang.Integer",
+            "values": [
+              "1"
+            ],
+            "visible": true
+          }
+        ]
+      },
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 21,
+      "url": "83Rw21",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": "",
+      "chartUrl": "83Rw21",
+      "jsonConfig": [],
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

@@ -1,0 +1,35 @@
+{
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:7isRRI}",
+      "description": null,
+      "direct": true,
+      "directPush": true,
+      "entityName": "SHARED Q",
+      "identifier": "dVdnlu",
+      "inUse": true,
+      "jsonConfig": {
+        "c9QLFilter": "select *",
+        "datasourceId": "${ref:datasource:7isRRI}",
+        "direct": true,
+        "discovery": {
+          "discoveryForSuggestions": false,
+          "limit": 10,
+          "tableName": "standings"
+        },
+        "entityName": "SHARED Q",
+        "queryStr": "db['standings'].find().limit(10)",
+        "triggered": false,
+        "visual": true
+      },
+      "op": 1,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "y06Taf",
+      "triggerDatasetId": 0
+    }
+  ]
+}

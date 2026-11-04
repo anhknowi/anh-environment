@@ -1,0 +1,25 @@
+{
+  "datasources": [
+    {
+      "acl": null,
+      "connectSchema": false,
+      "connectorId": 1,
+      "datasource": "mongoatlas",
+      "directQueryOnly": false,
+      "inUse": true,
+      "jsonConfig": {
+        "datasource": "mongoatlas",
+        "name": "Mongo Atlas Database",
+        "password": "${secret:datasource:CYvBRE:password}",
+        "url": "${secret:datasource:CYvBRE:url}"
+      },
+      "name": "Mongo Atlas Database",
+      "op": 2,
+      "proxy": false,
+      "strId": "CYvBRE",
+      "tunnel": false,
+      "writable": false
+    }
+  ],
+  "format": 1
+}

@@ -1,0 +1,23 @@
+{
+  "datasets": [
+    {
+      "agenticDefault": false,
+      "bypassOverrideLimit": false,
+      "dataExpirationDate": null,
+      "datasetName": "Test unql clone",
+      "identifier": "zQmbFk",
+      "injectStreamTime": true,
+      "metaHash": 0,
+      "metadataConfig": "{\"fieldNames\":[\"id\",\"Sent\",\"message_type\",\"Customer\",\"Week\",\"Date\",\"Opened\",\"Spam\",\"Bounced\",\"Delivered\",\"Clicks\",\"Conversions\",\"Campaign_name\"],\"dataTypes\":{\"Opened\":\"java.lang.Integer\",\"Customer\":\"java.lang.String\",\"Week\":\"java.util.Date\",\"Conversions\":\"java.lang.Integer\",\"Clicks\":\"java.lang.Integer\",\"id\":\"java.lang.Long\",\"Sent\":\"java.lang.Integer\",\"Date\":\"java.util.Date\",\"Campaign_name\":\"java.lang.String\",\"Bounced\":\"java.lang.Integer\",\"message_type\":\"java.lang.String\",\"Delivered\":\"java.lang.Integer\",\"Spam\":\"java.lang.Integer\"},\"macros\":[]}",
+      "mongoConnectUri": "provisioned",
+      "nlpBotEnabled": true,
+      "nlpConfig": null,
+      "nlpEnabled": false,
+      "nlpIndexInterval": 360,
+      "refreshMeta": false,
+      "synonymHash": 31,
+      "timeZone": null
+    }
+  ],
+  "format": 1
+}

@@ -1,0 +1,194 @@
+{
+  "chartAssociations": [
+    {
+      "chartUrl": "qAR6l6",
+      "jsonConfig": [
+        {
+          "field": "bounced",
+          "filters": [
+            {
+              "childField": "bounced",
+              "parentField": "bounced"
+            }
+          ],
+          "id": "${ref:widget:UVyvv3}",
+          "passingFilters": false,
+          "type": "widget"
+        }
+      ]
+    }
+  ],
+  "chartProperties": [
+    {
+      "chartUrl": "qAR6l6",
+      "dashboardIdentifier": null,
+      "property": "chart.quickpickers",
+      "value": "0"
+    },
+    {
+      "chartUrl": "qAR6l6",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "datagrid2"
+    },
+    {
+      "chartUrl": "qAR6l6",
+      "dashboardIdentifier": null,
+      "property": "custom.field",
+      "value": "yAxis.0.min:5000000"
+    },
+    {
+      "chartUrl": "qAR6l6",
+      "dashboardIdentifier": null,
+      "property": "formatOptions",
+      "value": "{}"
+    },
+    {
+      "chartUrl": "qAR6l6",
+      "dashboardIdentifier": null,
+      "property": "grid.aggregation.header",
+      "value": "false"
+    },
+    {
+      "chartUrl": "qAR6l6",
+      "dashboardIdentifier": null,
+      "property": "grid.collapsible",
+      "value": "false"
+    },
+    {
+      "chartUrl": "qAR6l6",
+      "dashboardIdentifier": null,
+      "property": "grid.column.bounced.widthPerc",
+      "value": "106"
+    },
+    {
+      "chartUrl": "qAR6l6",
+      "dashboardIdentifier": null,
+      "property": "grid.column.campaign_name.widthPerc",
+      "value": "130"
+    },
+    {
+      "chartUrl": "qAR6l6",
+      "dashboardIdentifier": null,
+      "property": "grid.column.clicks.widthPerc",
+      "value": "85"
+    },
+    {
+      "chartUrl": "qAR6l6",
+      "dashboardIdentifier": null,
+      "property": "grid.column.conversions.widthPerc",
+      "value": "110"
+    },
+    {
+      "chartUrl": "qAR6l6",
+      "dashboardIdentifier": null,
+      "property": "grid.column.customer.widthPerc",
+      "value": "153"
+    },
+    {
+      "chartUrl": "qAR6l6",
+      "dashboardIdentifier": null,
+      "property": "grid.column.date.widthPerc",
+      "value": "153"
+    },
+    {
+      "chartUrl": "qAR6l6",
+      "dashboardIdentifier": null,
+      "property": "grid.column.delivered.widthPerc",
+      "value": "116"
+    },
+    {
+      "chartUrl": "qAR6l6",
+      "dashboardIdentifier": null,
+      "property": "grid.column.message_type.widthPerc",
+      "value": "153"
+    },
+    {
+      "chartUrl": "qAR6l6",
+      "dashboardIdentifier": null,
+      "property": "grid.column.opened.widthPerc",
+      "value": "87"
+    },
+    {
+      "chartUrl": "qAR6l6",
+      "dashboardIdentifier": null,
+      "property": "grid.column.sent.widthPerc",
+      "value": "153"
+    },
+    {
+      "chartUrl": "qAR6l6",
+      "dashboardIdentifier": null,
+      "property": "grid.column.spam.widthPerc",
+      "value": "92"
+    },
+    {
+      "chartUrl": "qAR6l6",
+      "dashboardIdentifier": null,
+      "property": "grid.column.week.widthPerc",
+      "value": "153"
+    },
+    {
+      "chartUrl": "qAR6l6",
+      "dashboardIdentifier": null,
+      "property": "grid.hideGroupingColumn",
+      "value": "false"
+    },
+    {
+      "chartUrl": "qAR6l6",
+      "dashboardIdentifier": null,
+      "property": "grid.resetColumnWidth",
+      "value": "false"
+    },
+    {
+      "chartUrl": "qAR6l6",
+      "dashboardIdentifier": null,
+      "property": "grid.sort.columnName",
+      "value": "opened"
+    },
+    {
+      "chartUrl": "qAR6l6",
+      "dashboardIdentifier": null,
+      "property": "grid.sort.type",
+      "value": "asc"
+    },
+    {
+      "chartUrl": "qAR6l6",
+      "dashboardIdentifier": null,
+      "property": "pivot.sort",
+      "value": "{\"id\":\"name\",\"dir\":\"desc\"}"
+    },
+    {
+      "chartUrl": "qAR6l6",
+      "dashboardIdentifier": null,
+      "property": "pivot.structure",
+      "value": "{\"rows\":[\"campaign_name\"],\"columns\":[],\"values\":[],\"filters\":[],\"columnSort\":{\"$default\":{\"dir\":\"asc\",\"_dir\":1}}}"
+    }
+  ],
+  "charts": [
+    {
+      "access": 1,
+      "category": null,
+      "chartName": "Test Mongo",
+      "datasetId": "${ref:dataset:qAR6l6}",
+      "description": "",
+      "drilldown": 1,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 21,
+      "url": "qAR6l6",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": "",
+      "chartUrl": "qAR6l6",
+      "jsonConfig": [],
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

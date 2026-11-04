@@ -1,0 +1,26 @@
+{
+  "datasources": [
+    {
+      "acl": null,
+      "connectSchema": false,
+      "connectorId": 1,
+      "datasource": "sheets",
+      "directQueryOnly": false,
+      "inUse": true,
+      "jsonConfig": {
+        "authRefreshToken": "${secret:datasource:EX7dlt:authRefreshToken}",
+        "authToken": "${secret:datasource:EX7dlt:authToken}",
+        "authVersion": "1",
+        "datasource": "sheets",
+        "name": "My Google Sheet 123"
+      },
+      "name": "My Google Sheet 123",
+      "op": 1,
+      "proxy": false,
+      "strId": "EX7dlt",
+      "tunnel": false,
+      "writable": false
+    }
+  ],
+  "format": 1
+}

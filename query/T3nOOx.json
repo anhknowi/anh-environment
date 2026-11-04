@@ -1,0 +1,54 @@
+{
+  "discoveryConfigs": [
+    {
+      "c9Query": "",
+      "chartUrl": "",
+      "jsonConfig": [],
+      "queryIdentifier": "OYlv2Q",
+      "queryStrId": "T3nOOx"
+    }
+  ],
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:9z7waK}",
+      "description": null,
+      "direct": true,
+      "directPush": true,
+      "entityName": "Stephan ML test",
+      "identifier": "OYlv2Q",
+      "inUse": true,
+      "jsonConfig": {
+        "datasourceId": "${ref:datasource:9z7waK}",
+        "direct": true,
+        "discovery": {
+          "limit": 10000,
+          "metrics": [
+            {
+              "customized": false,
+              "fieldName": "customer",
+              "fieldType": "java.lang.String",
+              "fullFieldName": "customer",
+              "label": "customer",
+              "tableName": "customer"
+            }
+          ],
+          "tableName": [
+            "customer"
+          ]
+        },
+        "entityName": "Stephan ML test",
+        "queryStr": "select `customer`\nfrom `customer`\nlimit 10000",
+        "triggered": false,
+        "visual": true
+      },
+      "op": 1,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "T3nOOx",
+      "triggerDatasetId": 0
+    }
+  ]
+}

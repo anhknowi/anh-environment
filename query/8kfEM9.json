@@ -1,0 +1,55 @@
+{
+  "dataConfigs": [
+    {
+      "datasetIdentifier": "${ref:dataset:4xis8p}",
+      "queryIdentifier": "G4XJO3",
+      "queryStrId": "8kfEM9"
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": "",
+      "chartUrl": "",
+      "jsonConfig": [],
+      "queryIdentifier": "G4XJO3",
+      "queryStrId": "8kfEM9"
+    }
+  ],
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:OTS6vw}",
+      "description": "",
+      "direct": true,
+      "directPush": true,
+      "entityName": "afssdfsadfsdf sdfsdf",
+      "identifier": "G4XJO3",
+      "inUse": true,
+      "jsonConfig": {
+        "c9ExportDataset": "${ref:dataset:4xis8p}",
+        "c9ExportEntityName": "restaurants.csv",
+        "c9ExportIdentifier": "4xis8p",
+        "datasetId": 123736,
+        "datasourceId": "${ref:datasource:OTS6vw}",
+        "direct": true,
+        "discovery": {
+          "limit": 10000,
+          "tableName": "${ref:dataset:4xis8p}"
+        },
+        "entityName": "afssdfsadfsdf sdfsdf",
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "queryStr": "select Borough as 'ABC (XYZ)',\n cuisine as 'NNN (AAA)'\nlimit 10000",
+        "triggered": false
+      },
+      "op": 2,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "8kfEM9",
+      "triggerDatasetId": 0
+    }
+  ]
+}

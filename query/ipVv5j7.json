@@ -1,0 +1,59 @@
+{
+  "discoveryConfigs": [
+    {
+      "c9Query": "",
+      "chartUrl": "",
+      "jsonConfig": [],
+      "queryIdentifier": "esfwj3M",
+      "queryStrId": "ipVv5j7"
+    }
+  ],
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:B0HQ4VcGcG}",
+      "description": "",
+      "direct": true,
+      "directPush": true,
+      "entityName": "Rest",
+      "identifier": "esfwj3M",
+      "inUse": true,
+      "jsonConfig": {
+        "c9QLFilter": "select *",
+        "datasourceId": "${ref:datasource:B0HQ4VcGcG}",
+        "direct": true,
+        "discovery": {
+          "filters": [
+            {
+              "field": {
+                "customized": false,
+                "fieldName": "customer",
+                "fieldType": "java.lang.String",
+                "fullFieldName": "customer",
+                "label": "customer"
+              },
+              "label": "customer Equals $c9_mycust$",
+              "operator": "EQUALS",
+              "operatorStr": "=",
+              "value": "$c9_mycust$"
+            }
+          ],
+          "limit": 10000,
+          "tableName": "sendingActivity"
+        },
+        "entityName": "Rest",
+        "queryStr": "db['sendingActivity'].find(\n  {\n  \"customer\" : \"$c9_mycust$\"\n}\n).limit(10000)",
+        "triggerOnAny": false,
+        "triggered": false,
+        "visual": true
+      },
+      "op": 2,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "ipVv5j7",
+      "triggerDatasetId": 0
+    }
+  ]
+}

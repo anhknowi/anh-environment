@@ -1,0 +1,125 @@
+{
+  "chartAssociations": [
+    {
+      "chartUrl": "1xsOOe",
+      "jsonConfig": [
+        {
+          "id": 141547,
+          "passingDrilldownFilters": false,
+          "passingFilters": false,
+          "type": "dashboard_connected"
+        }
+      ]
+    }
+  ],
+  "chartProperties": [
+    {
+      "chartUrl": "1xsOOe",
+      "dashboardIdentifier": null,
+      "property": "chart.quickpickers",
+      "value": "0"
+    },
+    {
+      "chartUrl": "1xsOOe",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "datagrid2"
+    },
+    {
+      "chartUrl": "1xsOOe",
+      "dashboardIdentifier": null,
+      "property": "grid.aggregation.header",
+      "value": "false"
+    },
+    {
+      "chartUrl": "1xsOOe",
+      "dashboardIdentifier": null,
+      "property": "grid.collapsible",
+      "value": "false"
+    },
+    {
+      "chartUrl": "1xsOOe",
+      "dashboardIdentifier": null,
+      "property": "grid.column.Campaign Name.widthPerc",
+      "value": "0.3333333333333333"
+    },
+    {
+      "chartUrl": "1xsOOe",
+      "dashboardIdentifier": null,
+      "property": "grid.column.Message Type.widthPerc",
+      "value": "0.3333333333333333"
+    },
+    {
+      "chartUrl": "1xsOOe",
+      "dashboardIdentifier": null,
+      "property": "grid.column.Purchase Amount.widthPerc",
+      "value": "0.3333333333333333"
+    },
+    {
+      "chartUrl": "1xsOOe",
+      "dashboardIdentifier": null,
+      "property": "grid.columnWidths",
+      "value": "[]"
+    },
+    {
+      "chartUrl": "1xsOOe",
+      "dashboardIdentifier": null,
+      "property": "grid.hideGroupingColumn",
+      "value": "false"
+    },
+    {
+      "chartUrl": "1xsOOe",
+      "dashboardIdentifier": null,
+      "property": "grid.resetColumnWidth",
+      "value": "false"
+    },
+    {
+      "chartUrl": "1xsOOe",
+      "dashboardIdentifier": null,
+      "property": "scale",
+      "value": "false"
+    }
+  ],
+  "charts": [
+    {
+      "access": 1,
+      "category": null,
+      "chartName": "Connected Drilldown",
+      "datasetId": "${ref:dataset:1xsOOe}",
+      "description": "",
+      "drilldown": 1,
+      "filterSettings": null,
+      "jsonConfig": {
+        "fields": [
+          {
+            "fieldName": "Campaign Name",
+            "fieldType": "java.lang.String"
+          },
+          {
+            "fieldName": "Message Type",
+            "fieldType": "java.lang.String"
+          },
+          {
+            "fieldName": "Purchase Amount",
+            "fieldType": "java.lang.Integer"
+          }
+        ]
+      },
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 21,
+      "url": "1xsOOe",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": "",
+      "chartUrl": "1xsOOe",
+      "jsonConfig": [],
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

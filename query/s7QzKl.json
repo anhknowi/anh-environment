@@ -1,0 +1,45 @@
+{
+  "discoveryConfigs": [
+    {
+      "c9Query": "",
+      "chartUrl": "",
+      "jsonConfig": [],
+      "queryIdentifier": "9uW07S",
+      "queryStrId": "s7QzKl"
+    }
+  ],
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:B0HQ4V}",
+      "description": "",
+      "direct": true,
+      "directPush": true,
+      "entityName": "IndexList",
+      "identifier": "9uW07S",
+      "inUse": true,
+      "jsonConfig": {
+        "c9QLFilter": "select distinct message_type as ABC",
+        "datasourceId": "${ref:datasource:B0HQ4V}",
+        "direct": true,
+        "discovery": {
+          "limit": 10000,
+          "tableName": "sendingActivity"
+        },
+        "entityName": "IndexList",
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "queryStr": "db['sendingActivity'].find().limit(10000)",
+        "triggered": false
+      },
+      "op": 2,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "s7QzKl",
+      "triggerDatasetId": 0
+    }
+  ]
+}

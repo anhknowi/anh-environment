@@ -1,0 +1,32 @@
+{
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:WSTfpd}",
+      "description": null,
+      "direct": false,
+      "directPush": true,
+      "entityName": "10_Knowi_Enterprise_Agreement_Quantex_Telecom_Services.pdf",
+      "identifier": "9C575Dk",
+      "inUse": true,
+      "jsonConfig": {
+        "datasourceId": "${ref:datasource:WSTfpd}",
+        "direct": false,
+        "entityName": "10_Knowi_Enterprise_Agreement_Quantex_Telecom_Services.pdf",
+        "identifier": "9C575Dk",
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "triggered": false,
+        "uploadedFileName": "10_Knowi_Enterprise_Agreement_Quantex_Telecom_Services.pdf"
+      },
+      "op": 1,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "1OIFFf4",
+      "triggerDatasetId": 0
+    }
+  ]
+}

@@ -1,0 +1,265 @@
+{
+  "chartAssociations": [
+    {
+      "chartUrl": "iiYN5Y",
+      "jsonConfig": [
+        {
+          "field": "message_type",
+          "filters": [
+            {
+              "childField": "message_type",
+              "parentField": "message_type"
+            }
+          ],
+          "id": "${ref:widget:83Rw21}",
+          "passingFilters": true,
+          "type": "widget"
+        }
+      ]
+    }
+  ],
+  "chartProperties": [
+    {
+      "chartUrl": "iiYN5Y",
+      "dashboardIdentifier": null,
+      "property": "chart.changeDataset",
+      "value": "145764"
+    },
+    {
+      "chartUrl": "iiYN5Y",
+      "dashboardIdentifier": null,
+      "property": "chart.column.ignore",
+      "value": "conversions"
+    },
+    {
+      "chartUrl": "iiYN5Y",
+      "dashboardIdentifier": null,
+      "property": "chart.quickpickers",
+      "value": "0"
+    },
+    {
+      "chartUrl": "iiYN5Y",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "datagrid2"
+    },
+    {
+      "chartUrl": "iiYN5Y",
+      "dashboardIdentifier": null,
+      "property": "grid.aggregation.header",
+      "value": "false"
+    },
+    {
+      "chartUrl": "iiYN5Y",
+      "dashboardIdentifier": null,
+      "property": "grid.collapsible",
+      "value": "false"
+    },
+    {
+      "chartUrl": "iiYN5Y",
+      "dashboardIdentifier": null,
+      "property": "grid.column.anh.widthPerc",
+      "value": "0.12755102040816327"
+    },
+    {
+      "chartUrl": "iiYN5Y",
+      "dashboardIdentifier": null,
+      "property": "grid.column.bounced.widthPerc",
+      "value": "0.12755102040816327"
+    },
+    {
+      "chartUrl": "iiYN5Y",
+      "dashboardIdentifier": null,
+      "property": "grid.column.campaign_name.widthPerc",
+      "value": "0.12755102040816327"
+    },
+    {
+      "chartUrl": "iiYN5Y",
+      "dashboardIdentifier": null,
+      "property": "grid.column.clicks.widthPerc",
+      "value": "0.12755102040816327"
+    },
+    {
+      "chartUrl": "iiYN5Y",
+      "dashboardIdentifier": null,
+      "property": "grid.column.conversions.widthPerc",
+      "value": "0.07692307692307693"
+    },
+    {
+      "chartUrl": "iiYN5Y",
+      "dashboardIdentifier": null,
+      "property": "grid.column.customer.widthPerc",
+      "value": "0.12755102040816327"
+    },
+    {
+      "chartUrl": "iiYN5Y",
+      "dashboardIdentifier": null,
+      "property": "grid.column.date.widthPerc",
+      "value": "0.12755102040816327"
+    },
+    {
+      "chartUrl": "iiYN5Y",
+      "dashboardIdentifier": null,
+      "property": "grid.column.delivered.widthPerc",
+      "value": "0.12755102040816327"
+    },
+    {
+      "chartUrl": "iiYN5Y",
+      "dashboardIdentifier": null,
+      "property": "grid.column.id .widthPerc",
+      "value": "0.12755102040816327"
+    },
+    {
+      "chartUrl": "iiYN5Y",
+      "dashboardIdentifier": null,
+      "property": "grid.column.message_type.widthPerc",
+      "value": "0.12755102040816327"
+    },
+    {
+      "chartUrl": "iiYN5Y",
+      "dashboardIdentifier": null,
+      "property": "grid.column.opened.widthPerc",
+      "value": "0.12755102040816327"
+    },
+    {
+      "chartUrl": "iiYN5Y",
+      "dashboardIdentifier": null,
+      "property": "grid.column.sent.widthPerc",
+      "value": "0.12755102040816327"
+    },
+    {
+      "chartUrl": "iiYN5Y",
+      "dashboardIdentifier": null,
+      "property": "grid.column.spam.widthPerc",
+      "value": "0.12755102040816327"
+    },
+    {
+      "chartUrl": "iiYN5Y",
+      "dashboardIdentifier": null,
+      "property": "grid.column.week.widthPerc",
+      "value": "0.12755102040816327"
+    },
+    {
+      "chartUrl": "iiYN5Y",
+      "dashboardIdentifier": null,
+      "property": "grid.columnWidths",
+      "value": "[0.08333333333333336,0.08333333333333336,0.08333333333333336,0.08333333333333336,0.08333333333333336,0.08333333333333336,0.08333333333333336,0.08333333333333336,0.08333333333333336,0.08333333333333336,0.08333333333333336,0.08333333333333336]"
+    },
+    {
+      "chartUrl": "iiYN5Y",
+      "dashboardIdentifier": null,
+      "property": "grid.hideGroupingColumn",
+      "value": "false"
+    },
+    {
+      "chartUrl": "iiYN5Y",
+      "dashboardIdentifier": null,
+      "property": "grid.resetColumnWidth",
+      "value": "false"
+    },
+    {
+      "chartUrl": "iiYN5Y",
+      "dashboardIdentifier": null,
+      "property": "grid.sort.columnName",
+      "value": "bounced"
+    },
+    {
+      "chartUrl": "iiYN5Y",
+      "dashboardIdentifier": null,
+      "property": "grid.sort.type",
+      "value": "asc"
+    },
+    {
+      "chartUrl": "iiYN5Y",
+      "dashboardIdentifier": null,
+      "property": "scale",
+      "value": "false"
+    }
+  ],
+  "charts": [
+    {
+      "access": 1,
+      "category": null,
+      "chartName": "B",
+      "datasetId": "${ref:dataset:VWQcJi}",
+      "description": "",
+      "drilldown": 1,
+      "filterSettings": null,
+      "jsonConfig": {
+        "fields": [
+          {
+            "fieldName": "bounced",
+            "fieldType": "java.lang.Integer"
+          },
+          {
+            "fieldName": "campaign_name",
+            "fieldType": "java.lang.String"
+          },
+          {
+            "fieldName": "clicks",
+            "fieldType": "java.lang.Integer"
+          },
+          {
+            "fieldName": "conversions",
+            "fieldType": "java.lang.Integer"
+          },
+          {
+            "fieldName": "customer",
+            "fieldType": "java.lang.String"
+          },
+          {
+            "fieldName": "date",
+            "fieldType": "java.util.Date"
+          },
+          {
+            "fieldName": "delivered",
+            "fieldType": "java.lang.Integer"
+          },
+          {
+            "fieldName": "id",
+            "fieldType": "java.lang.String"
+          },
+          {
+            "fieldName": "message_type",
+            "fieldType": "java.lang.String"
+          },
+          {
+            "fieldName": "newdate",
+            "fieldType": "java.lang.Double"
+          },
+          {
+            "fieldName": "opened",
+            "fieldType": "java.lang.Integer"
+          },
+          {
+            "fieldName": "sent",
+            "fieldType": "java.lang.Integer"
+          },
+          {
+            "fieldName": "spam",
+            "fieldType": "java.lang.Integer"
+          },
+          {
+            "fieldName": "week",
+            "fieldType": "java.util.Date"
+          }
+        ]
+      },
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 21,
+      "url": "iiYN5Y",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": "",
+      "chartUrl": "iiYN5Y",
+      "jsonConfig": [],
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

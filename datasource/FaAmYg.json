@@ -1,0 +1,28 @@
+{
+  "datasources": [
+    {
+      "acl": null,
+      "connectSchema": false,
+      "connectorId": 1,
+      "datasource": "elasticsearch",
+      "directQueryOnly": false,
+      "inUse": true,
+      "jsonConfig": {
+        "datasource": "elasticsearch",
+        "name": "Elasticsearch Cluster sdsadfasdfsdf",
+        "password": "${secret:datasource:FaAmYg:password}",
+        "proxy": false,
+        "url": "https://es-3ff05923-jay-f961.aivencloud.com:14020",
+        "userId": "avnadmin",
+        "version": "7.X.X"
+      },
+      "name": "Elasticsearch Cluster sdsadfasdfsdf",
+      "op": 2,
+      "proxy": false,
+      "strId": "FaAmYg",
+      "tunnel": false,
+      "writable": false
+    }
+  ],
+  "format": 1
+}

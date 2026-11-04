@@ -1,0 +1,23 @@
+{
+  "datasources": [
+    {
+      "acl": null,
+      "connectSchema": false,
+      "connectorId": 1,
+      "datasource": "cloud9charts",
+      "directQueryOnly": false,
+      "inUse": true,
+      "jsonConfig": {
+        "datasource": "cloud9charts",
+        "name": "Knowi Data Warehouse"
+      },
+      "name": "Knowi Data Warehouse",
+      "op": 1,
+      "proxy": false,
+      "strId": "OTS6vw",
+      "tunnel": false,
+      "writable": false
+    }
+  ],
+  "format": 1
+}

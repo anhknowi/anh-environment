@@ -1,0 +1,23 @@
+{
+  "datasets": [
+    {
+      "agenticDefault": false,
+      "bypassOverrideLimit": false,
+      "dataExpirationDate": null,
+      "datasetName": "Nested",
+      "identifier": "LgAHfu",
+      "injectStreamTime": false,
+      "metaHash": -1788990658,
+      "metadataConfig": "{\"fields\":[{\"fieldName\":\"address\",\"fieldType\":\"java.util.Map\",\"nestedFields\":[{\"fieldName\":\"building\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"coord\",\"fieldType\":\"java.util.List\",\"nestedFields\":[{\"fieldName\":\"[*]\",\"fieldType\":\"java.lang.Double\"}]},{\"fieldName\":\"street\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"zipcode\",\"fieldType\":\"java.lang.String\"}]},{\"fieldName\":\"borough\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"cuisine\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"grades\",\"fieldType\":\"java.util.List\",\"nestedFields\":[{\"fieldName\":\"[*]\",\"fieldType\":\"java.util.Map\",\"nestedFields\":[{\"fieldName\":\"date\",\"fieldType\":\"java.util.Date\"},{\"fieldName\":\"grade\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"score\",\"fieldType\":\"java.lang.Integer\"}]}]},{\"fieldName\":\"id\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"name\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"restaurant_id\",\"fieldType\":\"java.lang.String\"}]}",
+      "mongoConnectUri": "c9Query/${ref:query:Ccf1Mi}",
+      "nlpBotEnabled": true,
+      "nlpConfig": null,
+      "nlpEnabled": true,
+      "nlpIndexInterval": 360,
+      "refreshMeta": false,
+      "synonymHash": 31,
+      "timeZone": null
+    }
+  ],
+  "format": 1
+}
