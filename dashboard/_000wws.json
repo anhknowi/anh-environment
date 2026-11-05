@@ -15,22 +15,6 @@
       "sizeY": 14,
       "sizeYOriginal": 0,
       "width": 0
-    },
-    {
-      "chartUrl": "${ref:widget:zm12gH}",
-      "col": 1,
-      "dashboardIdentifier": "_000wws",
-      "grain": 1,
-      "height": 0,
-      "origScreenHeight": 0,
-      "origScreenWidth": 0,
-      "row": 15,
-      "screenposX": 0,
-      "screenposY": 0,
-      "sizeX": 12,
-      "sizeY": 12,
-      "sizeYOriginal": 0,
-      "width": 0
     }
   ],
   "dashboards": [
@@ -44,6 +28,9 @@
         "excludeGridWidgetsFromPdfExport": false,
         "filters": [
           {
+            "dashboardDisplayValues": [
+              "Costco"
+            ],
             "dateLimit": "",
             "dateLimitOptions": "",
             "dynamic": false,
@@ -65,7 +52,6 @@
           "actions": true,
           "backgroundColor": "",
           "border": true,
-          "dashFiltersPinToTop": false,
           "dashFreeWidget": false,
           "dashGrain": 1,
           "dashGrouping": false,
@@ -87,7 +73,7 @@
         }
       },
       "locked": 0,
-      "name": "FROM PRODUCTION",
+      "name": "FROM PRODUCTION Test",
       "screenAdjust": 0,
       "screenHeight": 951,
       "screenWidth": 1365,
