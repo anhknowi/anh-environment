@@ -12,7 +12,7 @@
       "access": 1,
       "category": null,
       "chartName": "TEST M/S 002",
-      "datasetId": 0,
+      "datasetId": "${ref:dataset:opO1Gs}",
       "description": null,
       "drilldown": 0,
       "filterSettings": null,
