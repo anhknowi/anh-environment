@@ -1,0 +1,23 @@
+{
+  "datasets": [
+    {
+      "agenticDefault": false,
+      "bypassOverrideLimit": false,
+      "dataExpirationDate": null,
+      "datasetName": "Test Copying Direct",
+      "identifier": "4JisgC",
+      "injectStreamTime": true,
+      "metaHash": 0,
+      "metadataConfig": "{\"fieldNames\":[\"id\",\"channelName\",\"count\",\"deviceId\",\"lastAccessTime\"],\"dataTypes\":{\"id\":\"java.lang.String\",\"channelName\":\"java.lang.String\",\"count\":\"java.lang.Integer\",\"deviceId\":\"java.lang.String\",\"lastAccessTime\":\"java.util.Date\"}}",
+      "mongoConnectUri": "c9Query/",
+      "nlpBotEnabled": true,
+      "nlpConfig": null,
+      "nlpEnabled": false,
+      "nlpIndexInterval": 360,
+      "refreshMeta": false,
+      "synonymHash": 31,
+      "timeZone": null
+    }
+  ],
+  "format": 1
+}

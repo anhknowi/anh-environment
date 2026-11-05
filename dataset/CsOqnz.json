@@ -1,0 +1,23 @@
+{
+  "datasets": [
+    {
+      "agenticDefault": false,
+      "bypassOverrideLimit": false,
+      "dataExpirationDate": null,
+      "datasetName": "Test Dataset ID Export",
+      "identifier": "CsOqnz",
+      "injectStreamTime": true,
+      "metaHash": 0,
+      "metadataConfig": "{\"fieldNames\":[\"id\",\"message_type\",\"customer\",\"Sum of sent\"],\"dataTypes\":{\"id\":\"org.bson.types.ObjectId\",\"message_type\":\"java.lang.String\",\"customer\":\"java.lang.String\",\"Sum of sent\":\"java.lang.Integer\"}}",
+      "mongoConnectUri": "c9Query/",
+      "nlpBotEnabled": true,
+      "nlpConfig": null,
+      "nlpEnabled": false,
+      "nlpIndexInterval": 360,
+      "refreshMeta": false,
+      "synonymHash": 31,
+      "timeZone": null
+    }
+  ],
+  "format": 1
+}

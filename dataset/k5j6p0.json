@@ -1,0 +1,23 @@
+{
+  "datasets": [
+    {
+      "agenticDefault": false,
+      "bypassOverrideLimit": false,
+      "dataExpirationDate": null,
+      "datasetName": "Lockheed Query 2",
+      "identifier": "k5j6p0",
+      "injectStreamTime": true,
+      "metaHash": 0,
+      "metadataConfig": "{\"fieldNames\":[\"id_0\",\"id\",\"channelName\",\"count\",\"deviceId\",\"lastAccessTime\"],\"dataTypes\":{\"id_0\":\"org.bson.types.ObjectId\",\"id\":\"java.lang.String\",\"channelName\":\"java.lang.String\",\"count\":\"java.lang.Integer\",\"deviceId\":\"java.lang.String\",\"lastAccessTime\":\"java.util.Date\"}}",
+      "mongoConnectUri": "c9Query/",
+      "nlpBotEnabled": true,
+      "nlpConfig": null,
+      "nlpEnabled": false,
+      "nlpIndexInterval": 360,
+      "refreshMeta": false,
+      "synonymHash": 31,
+      "timeZone": null
+    }
+  ],
+  "format": 1
+}

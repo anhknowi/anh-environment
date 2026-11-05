@@ -1,0 +1,28 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "opO1Gs",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "datagrid"
+    }
+  ],
+  "charts": [
+    {
+      "access": 1,
+      "category": null,
+      "chartName": "TEST M/S 002",
+      "datasetId": "${ref:dataset:opO1Gs}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": 0,
+      "query": 0,
+      "type": 2,
+      "url": "opO1Gs",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}
