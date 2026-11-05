@@ -3,7 +3,7 @@
     {
       "acl": null,
       "connectSchema": false,
-      "connectorId": 1,
+      "connectorId": 562,
       "datasource": "postgresql",
       "directQueryOnly": false,
       "inUse": true,

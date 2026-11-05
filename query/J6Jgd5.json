@@ -40,7 +40,7 @@
         "triggered": false,
         "visual": true
       },
-      "op": 6,
+      "op": 4,
       "scheduled": 1,
       "storeConfig": null,
       "storeDatasourceId": 0,

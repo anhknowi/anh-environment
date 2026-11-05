@@ -46,7 +46,7 @@
         "triggered": true,
         "visual": false
       },
-      "op": 6,
+      "op": 4,
       "scheduled": 0,
       "storeConfig": null,
       "storeDatasourceId": 0,
