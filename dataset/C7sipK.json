@@ -1,0 +1,23 @@
+{
+  "datasets": [
+    {
+      "agenticDefault": false,
+      "bypassOverrideLimit": false,
+      "dataExpirationDate": null,
+      "datasetName": "Drilldown Lockheed",
+      "identifier": "C7sipK",
+      "injectStreamTime": true,
+      "metaHash": 0,
+      "metadataConfig": "{\"fieldNames\":[\"id\",\"item\",\"qty\"],\"dataTypes\":{\"id\":\"java.lang.Double\",\"item\":\"java.lang.String\",\"qty\":\"java.lang.Double\"}}",
+      "mongoConnectUri": "c9Query/",
+      "nlpBotEnabled": true,
+      "nlpConfig": null,
+      "nlpEnabled": false,
+      "nlpIndexInterval": 360,
+      "refreshMeta": false,
+      "synonymHash": 31,
+      "timeZone": null
+    }
+  ],
+  "format": 1
+}

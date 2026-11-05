@@ -1,0 +1,23 @@
+{
+  "datasets": [
+    {
+      "agenticDefault": false,
+      "bypassOverrideLimit": false,
+      "dataExpirationDate": null,
+      "datasetName": "dfgdsfggfsd",
+      "identifier": "8stAUw",
+      "injectStreamTime": true,
+      "metaHash": 0,
+      "metadataConfig": "{\"fieldNames\":[\"Opened\",\"Delivered\",\"Customer\",\"message_type\",\"Date\",\"Spam\",\"tags\",\"Campaign_name\",\"Conversions\",\"Bounced\",\"Clicks\",\"Week\",\"Sent\",\"es_id\"],\"dataTypes\":{\"Opened\":\"java.lang.Double\",\"Delivered\":\"java.lang.Double\",\"Customer\":\"java.lang.String\",\"message_type\":\"java.lang.String\",\"Date\":\"java.util.Date\",\"Spam\":\"java.lang.Double\",\"tags\":\"java.util.List\",\"Campaign_name\":\"java.lang.String\",\"Conversions\":\"java.lang.Double\",\"Bounced\":\"java.lang.Double\",\"Clicks\":\"java.lang.Double\",\"Week\":\"java.util.Date\",\"Sent\":\"java.lang.Double\",\"es_id\":\"java.lang.String\"}}",
+      "mongoConnectUri": "c9Query/",
+      "nlpBotEnabled": true,
+      "nlpConfig": null,
+      "nlpEnabled": false,
+      "nlpIndexInterval": 360,
+      "refreshMeta": false,
+      "synonymHash": 31,
+      "timeZone": null
+    }
+  ],
+  "format": 1
+}

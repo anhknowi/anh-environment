@@ -1,0 +1,23 @@
+{
+  "datasets": [
+    {
+      "agenticDefault": false,
+      "bypassOverrideLimit": false,
+      "dataExpirationDate": null,
+      "datasetName": "TEST MACRO",
+      "identifier": "RmSTaj",
+      "injectStreamTime": true,
+      "metaHash": 0,
+      "metadataConfig": "{\"fieldNames\":[\"id\",\"customer\",\"currency\",\"street\",\"state\",\"country\"],\"dataTypes\":{\"id\":\"java.lang.Long\",\"customer\":\"java.lang.String\",\"currency\":\"java.lang.String\",\"street\":\"java.lang.String\",\"state\":\"java.lang.String\",\"country\":\"java.lang.String\"},\"macros\":[\"Customer Name\"]}",
+      "mongoConnectUri": "c9Query/",
+      "nlpBotEnabled": true,
+      "nlpConfig": null,
+      "nlpEnabled": false,
+      "nlpIndexInterval": 360,
+      "refreshMeta": false,
+      "synonymHash": 31,
+      "timeZone": null
+    }
+  ],
+  "format": 1
+}
