@@ -56,7 +56,7 @@
           "dashGrain": 1,
           "dashGrouping": false,
           "dashLoadUponPrompt": false,
-          "dashTheme": "light",
+          "dashTheme": "${ref:theme:light}",
           "dashTitle": true,
           "drag": true,
           "enableDashFilterIcon": true,
