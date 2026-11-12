@@ -1,0 +1,11 @@
+{
+  "categoryTrees": [
+    {
+      "identifier": "_0001Mo",
+      "name": "AnhFirst",
+      "objectType": 2,
+      "parentIdentifier": "${ref:category:_0001Mn}"
+    }
+  ],
+  "format": 1
+}
